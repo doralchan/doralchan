@@ -10,9 +10,10 @@ div{
 	font-family: Helvetica;
 	display: inline-block;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 div p{
 	position: relative;
-	margin-top: 20px;
-	font-size: 20px;
+	margin-top: 50px;
+	font-size: 40px;
 }
