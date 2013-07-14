@@ -1,4 +1,9 @@
-body div{ 
+body{ 
 	font-family: Helvetica;
 	font-size: 12px;
+}
+.header{
+	width:600px;
+	height:200px;
+	float: center;
 }
