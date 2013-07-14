@@ -2,8 +2,9 @@ div{
 	display: inline-block;
 	width:100px;
 	height:100px;
-	background: black;
+	background: #CFF09E;
 	border-radius: 100%;
 	border: 1 px solid black;
 	position: relative;
+	font-size: 15px;
 }
