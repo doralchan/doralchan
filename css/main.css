@@ -8,15 +8,18 @@ html {
 div {
 	position: relative;
 	display: inline-block;
-	width: 80%;
-	height: 5%;
+	width: 85%;
+	height: 25px;
 	margin-top: 100px;
 	margin-left: 70px;
 	background-color: white;
-	opacity: 0.6;
+	opacity: 0.5;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 2px;
 }
 div p{ 
-	font-size: 25px;
+	font-size: 15px;
+	position: fixed;
+	margin-top:5px;
+	margin-left:5px;
 }
