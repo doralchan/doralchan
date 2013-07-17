@@ -9,7 +9,7 @@ div {
 	position: relative;
 	display: inline-block;
 	width: 80%;
-	height: 80%;
+	height: 10%;
 	margin-top: 100px;
 	margin-left: 80px;
 	background-color: white;
@@ -18,5 +18,5 @@ div {
 	border-radius: 10px;
 }
 div p{ 
-	font-size: 50px;
+	font-size: 25px;
 }
