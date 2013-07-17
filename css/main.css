@@ -8,8 +8,8 @@ html {
 div {
 	position: relative;
 	display: inline-block;
-	width: 200px;
-	height: 600px;
+	margin: 20px;
+	padding: 20px;
 	background: white;
 	opacity: 0.5;
 	text-align: center;
