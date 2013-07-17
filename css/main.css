@@ -10,11 +10,12 @@ div {
 	display: inline-block;
 	width: 80%;
 	height: 100%;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 80px;
+	margin-left: 80px;
 	background: white;
 	opacity: 0.3;
 	text-align: center;
+	border-radius: 100%;
 }
 div p{ 
 	font-size: 50px;
