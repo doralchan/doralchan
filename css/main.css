@@ -6,8 +6,11 @@ html {
 	background-size: cover;
 }
 div {
+	position: relative;
+	display: inline-block;
 	width: 200px;
 	height: 600px;
-	color: white;
+	background: white;
 	opacity: 0.5;
+	text-align: center;
 }
