@@ -4,7 +4,7 @@ div{
 	height:100px;
 	background: #CFF09E;
 	border-radius: 100%;
-	border: 1 px solid black;
+	border: 1px solid black;
 	position: relative;
 	text-align: center;
 	font-family: Helvetica;
@@ -16,4 +16,12 @@ div p{
 	position: relative;
 	margin-top: 25px;
 	font-size: 40px;
+}
+
+html {
+	background: (https://lh4.googleusercontent.com/-WVPskmwQ1Ac/UePKJxc9Z1I/AAAAAAAABns/V3YIiuEcJAE/w689-h918-no/photo.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
