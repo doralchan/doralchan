@@ -2,6 +2,10 @@ body {
 	margin: 0;
 	padding: 0;
 }
+#container{
+	height: 1400px;
+	width: 100%;
+}
 .title{
 	width: 999px;
 	margin: 0 auto;
@@ -12,25 +16,27 @@ body {
 }
 .title h1 span{
 	color: #E4CF67;
-	font: 40px "Carrois Gothic";
+	font: 48px "Carrois Gothic";
 }
 .links{
 	width: 999px;
-	height: 90px;
+	height: 85px;
 	margin: 0 auto;
 	text-align: right;
 }
-.basecontent{
+.topcontent{
 	height: 145px;
+	width: 999px;
+	margin: 0 auto;
 }
-.basecontent img{
+.topcontent img{
 	width: 25px;
 	margin-top: 15px;
 }
 .header{
-	background-color: #D4D5D0;
 	width: 100%;
 	height: 400px;
+	background-color: #E3E5E5;
 }
 .content{
 	width: 999px;
@@ -42,21 +48,22 @@ body {
 	background: url("bordercircle.svg"), url("clearcircle1.svg"), url("extendedcircle.svg");
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 412px;
+	padding-top: 20px;
+	height: 400px;
 	width: 906px;
 }
 .greeting{
-	height: 60px;
-	width: 400px;
+	display: none;
+	height: 40px;
+	width: 330px;
 	float: left;
-	margin-top: 250px;
-	padding: 25px 22px 0px 0px;
-	text-align: center;
-	font: 29px "Marvel";
-	background-color: #E4CF67;
+	padding: 0px 0px 0px 18px;
+	margin-top: 146px;
+	text-align: right;
+	font: 14px "Carrois Gothic";
 }
 .navbar {
-	font: 18px "Carrois Gothic";
+	font: 16px "Arial Narrow";
 	position: absolute;
 }
 .menu{
@@ -65,46 +72,112 @@ body {
 	width: 999px;
 	text-align: center;
 }
+.menu li:first-child{
+	opacity: 1;
+}
 .menu li{
 	background-color: black;
 	display: inline-block;
 	opacity: 0.7;
 	text-align: center;
-	width: 245px;
+	width: 246px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
 }
 .menu li:hover{
 	background-color: black;
 	display: inline-block;
-	opacity: 0.5;
+	opacity: 1;
 	text-align: center;
-	width: 245px;
+	width: 246px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
 }
 .navbar ul li a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
 	list-style: none;
-	height: 30px;
-	text-align: center;
-	padding: 10px 0px 0px 0px;
-	width:100%;
+	width: 100%;
+	height: 100%;
+	padding: 8px 0px 8px 0px;
 }
 .middle{
-	background-color: #AEDBE1;
 	width: 100%;
-	height: 150px;
-	margin-top: 30px;
-	font: 14px "Carrois Gothic";
-	color: #437CB4;
+	font: 8px "Oxygen";
+	background-color: #E3E5E5;
+}
+.middlecontent{
+	width: 999px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #AEDBE1;
+}
+.middlecontent div{
+	width: 210px;
+	display: inline-block;
+	background-color: #c2e9ec;
+	margin: 28px 12px 28px 12px;
+	border-radius: 6px
+}
+.middlecontent img{
+	width: 80px;
+	padding-top: 15px;
+}
+.middlecontent h1{
+	margin-top: 2px;
+}
+.middlecontent p{
+	display: none;
+	height: 200px;
+	font: 11px "Carrois Gothic";
+	text-align: justify;
+	padding: 0px 18px 0px 18px;
+	margin: 0;
+}
+.more{
+	margin: 0 auto;
+	width: 999px;
+	height: 22px;
+	text-align: center;
+	opacity: 0.85;
+}
+.bottom{
+	width: 100%;
+	height: 396px;
+	background-color:#E3E5E5;
+}
+.bottomcontent{
+	width: 999px;
+	height: 100%;
+	margin: 0 auto;
+	background: url("rock.jpg") no-repeat center;
 }
 .description{
-	min-width: 999px;
-	margin: 0 auto;
+	float: right;
 }
-.description p{
-	width: 484px;
-	height: 100px;
-	padding-top: 45px;
-	margin: 0 auto;
+.agenda{
+	margin: 115px 0px 5px 194px;
+}
+.statement{
+	width: 575px;
+	height: 90px;
+	background-color: #E4CF67;
+	font: 12px "Carrois Gothic";
+}
+.statement p{
+	width: 345px;
 	text-align: justify;
+	float: right;
+	margin: 0;
+	padding: 8px 18px 0px 8px;
+	font-size: 100%
+}
+.rights{
+	margin: 0 auto;
+	width: 999px;
+	text-align: center;
+	font: 12px "Arial Narrow";
 }

@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.lightbox{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	display: none;
+}
+.lightbox-navleft img{
+	width: 30px;
+	padding-bottom: 180px;
+	padding-right: 20px;
+}
+.lightbox-navright img{
+	width: 30px;
+	padding-bottom: 180px;
+	padding-left: 20px;
+}
+.lightbox-showing{
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+}
+.lightbox-image{
+	width: 200px;
+}
