@@ -23,11 +23,11 @@ body {
 .title{
 	width: 1000px;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 20px;
 	font: 20px "Carrois Gothic";
 }
 .title span{
-	font: 60px "Carrois Gothic";
+	font: 70px "Carrois Gothic";
 	color: #CCDD59;
 }
 .title p{
@@ -88,7 +88,7 @@ body {
 .content{
 	width: 1000px;
 	margin: 0 auto;
-	background: url("bw.jpg")no-repeat center;
+	background: url("header.jpg")no-repeat center;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
@@ -115,15 +115,15 @@ body {
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
 }
-.greeting{
+.greeting p{
 	display: none;
 	position: absolute;
 	height: 40px;
-	width: 406px;
+	width: 550px;
 	float: left;
-	margin-top: 145px;
-	text-align: right;
-	font: 20px "Carrois Gothic";
+	margin-top: 150px;
+	text-align: center;
+	font: 22px "Neucha";
 	color: #508F7C;
 }
 .middle{
@@ -136,26 +136,28 @@ body {
 	background-color: #AAD5C4;
 }
 .middlecontent div{
-	width: 25%;
-	min-width: 210px;
+	vertical-align: top;
+	width: 24%;
+	min-width: 150px;
 	display: inline-block;
-	padding-bottom: 9px;
+	padding-bottom: 18px;
 	background-color: #AAD5C4;
 }
 .middlecontent img{
 	width: 75px;
-	padding-top: 12px;
+	padding-top: 15px;
 }
 .middlecontent h1{
-	margin-top: 2px;
+	margin: 4px 0px 8px 0px;
 }
 .middlecontent p{
 	display: none;
-	height: 200px;
 	font: 11px "Carrois Gothic";
 	text-align: justify;
-	padding: 0px 18px 0px 18px;
+	padding: 5px;
 	margin: 0;
+	width: 90%;
+	background-color: rgba(255,255,255,0.3);
 }
 .moreMiddle{
 	margin: 0 auto;
@@ -170,36 +172,6 @@ body {
 	text-align: center;
 	opacity: 0.85;
 }
-.bottom{
-	width: 100%;
-}
-.bottomcontent{
-	margin: 0 auto;
-	max-width: 1000px;
-	background-color: #CBCACE;
-}
-.aboutme {
-	padding: 0px;
-}
-.description{
-	width: 60%;
-	text-align: center;
-	padding: 10px 0px 40px 0px;
-	margin: 0 auto;
-}
-.aboutme h1{
-	font: 18px "Oxygen";
-	text-align: center;
-	padding-top: 40px;
-	margin: 0;
-}
-.description p{
-	text-indent: 30px;
-	font: 12px "Carrois Gothic";
-	margin: 0;
-	text-align: justify;
-	padding: 6px 100px 6px 100px;
-}
 .info{
 	margin: 0 auto;
 	max-width: 1000px;
@@ -208,18 +180,34 @@ body {
 }
 .info div{
 	display: inline-block;
+	vertical-align: top;
 	background-color: #CCDD59;
-	width: 45%;
-	min-width: 320px;
-	font: 8px "Oxygen";
+	width: 47%;
+	min-width: 220px;
 	text-align: center;
-	padding: 8px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
 }
 .info h1{
 	margin: 0;
+	padding: 10px;
+	font: 18px "Oxygen";
 }
 .info img{
-	height: 90px;
+	width: 130px;
+	padding-top: 10px;
+}
+.info ul{
+	display: none;
+	list-style: none;
+	font: 11px "Carrois Gothic";
+	text-align: center;
+	margin: 10px auto;
+	padding: 5px;
+	width: 90%;
+	background-color: rgba(255,255,255,0.3);
+}
+.info ul span{
+	font: 14px "Carrois Gothic";
 }
 .moreBottom{
 	margin: 0 auto;
@@ -227,43 +215,86 @@ body {
 	text-align: center;
 	opacity: 0.85;
 }
+.bottomcontent{
+	margin: 0 auto;
+	max-width: 1000px;
+	background-color: #CBCACE;
+}
+.description{
+	width: 65%;
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+	margin: 0 auto;
+}
+.aboutme h1{
+	font: 18px "Oxygen";
+	text-align: center;
+	padding-top: 50px;
+	margin: 0;
+}
+.description p{
+	text-indent: 30px;
+	font: 12px "Carrois Gothic";
+	margin: 0;
+	text-align: justify;
+	padding: 6px 20px 6px 20px;
+}
 .maincontact{
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	background: url("rock.jpg")no-repeat center;
+	font: 14px "Carrois Gothic";
 }
-.maincontact ul{
-	list-style: none;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0;
-	font: 13px "Oxygen";
-	color: white;
+.maincontact div{
+	width: 30%;
+}
+.maincontact p{
+	display: none;
+	margin: 0;
+	padding: 5px;
+	color: #CCDD59;
 }
 .me{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.me ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font: 12px "Oxygen";
+	color: white;
+}
+.me img{
 	width: 140px;
 	height: 140px;
 	border-radius: 70px;
-	margin: 40px 40px 10px 40px;
 }
 .mail{
-	padding-bottom: 26px;
+	text-align: center;
+	float: left;
+	padding: 45px 0px 0px 60px;
 }
 .cell{
-	padding-bottom: 13px;
+	text-align: center;
+	float: right;
+	padding: 45px 60px 0px 0px;
 }
 .links{
+	margin: 0 auto;
     text-align: center;
+    min-width: 300px;
     padding: 12px;
 }
 .links img{
 	width: 30px;
 	text-align: center;
-	padding: 3px 3px 30px 3px;
+	padding: 10px 3px 10px 3px;
 }
 .rights{
 	text-align: center;
-	font: 12px "Arial Narrow";
+	font: 12px "Carrois Gothic";
 	clear: both;
 	bottom: 0;
 }
