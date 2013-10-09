@@ -1,15 +1,28 @@
 $(document).ready(function(){
-	$(".content").mouseenter(function(){
-		$(".greeting").fadeIn(2000);
-		$(".greeting").delay(8000).fadeOut(2000);
+	$(".container").mouseenter(function(){
+		$(".greeting").one().slideDown(2000);
+		$(".greeting").delay(8000).fadeOut(1000);
 	});
-	$(".more").click(function(){
+	$(".moreMiddle").click(function(){
 		$(".middlecontent p").slideToggle("slow");
 		$(this).fadeOut("fast");
 	});
 
-});
 
+	var fixed = false;
+	$(document).scroll(function(){
+		if( $(this).scrollTop() > 70){
+			if(! fixed) {
+				fixed = true;
+				$(".scrollup").fadeIn({position: "fixed", display: "block"});
+			}
+		} else { if (fixed){
+			fixed = false;
+			$(".scrollup").fadeOut({display: "none"});
+		}}
+	});
+
+});
 
 // '.image-thumbnails' - project thumbnails
 // 'lightbox-img' - project featured image

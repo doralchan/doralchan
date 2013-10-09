@@ -2,129 +2,149 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#container{
-	height: 1400px;
+#wrapper{
+	height: 2000px;
 	width: 100%;
 }
-.title{
-	width: 999px;
-	margin: 0 auto;
+.scrollup{
+	display: none;
+	position: fixed;
+	margin: 20px;
+	opacity: 0.8;
+	right: 0;
+	bottom: 0;
 }
-.title h1{
-	font: 20px "Carrois Gothic";
-	margin: 0;
-}
-.title h1 span{
-	color: #E4CF67;
-	font: 48px "Carrois Gothic";
-}
-.links{
-	width: 999px;
-	height: 85px;
-	margin: 0 auto;
-	text-align: right;
-}
-.topcontent{
-	height: 145px;
-	width: 999px;
-	margin: 0 auto;
-}
-.topcontent img{
-	width: 25px;
-	margin-top: 15px;
-}
-.header{
+.container{
 	width: 100%;
-	height: 400px;
-	background-color: #E3E5E5;
-}
-.content{
-	width: 999px;
 	height: 100%;
 	margin: 0 auto;
-	background: url("darkblur.jpg")no-repeat center;
+	background-color: #E3E5E5;
 }
-.logo {
-	background: url("bordercircle.svg"), url("clearcircle1.svg"), url("extendedcircle.svg");
-	background-repeat: no-repeat;
-	background-position: right;
-	padding-top: 20px;
-	height: 400px;
-	width: 906px;
-}
-.greeting{
-	display: none;
-	height: 40px;
-	width: 330px;
-	float: left;
-	padding: 0px 0px 0px 18px;
-	margin-top: 146px;
-	text-align: right;
-	font: 14px "Carrois Gothic";
-}
-.navbar {
-	font: 16px "Arial Narrow";
-	position: absolute;
-}
-.menu{
-	padding: 0;
+.title{
+	width: 1000px;
 	margin: 0 auto;
-	width: 999px;
-	text-align: center;
+	padding-top: 30px;
+	font: 20px "Carrois Gothic";
+}
+.title span{
+	font: 60px "Carrois Gothic";
+	color: #CCDD59;
+}
+.title p{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+.navbar{
+	max-width: 1000px;
+	height: 60px;
+	margin: 0px auto;
+}
+.navbar ul{
+	font: 13px "Carrois Gothic";
+	padding: 0;
+	margin: 0;
+	float: right;
 }
 .menu li:first-child{
 	opacity: 1;
+	background-color: black;
+	color: white;
+	border-left: none;
 }
 .menu li{
-	background-color: black;
-	display: inline-block;
-	opacity: 0.7;
 	text-align: center;
-	width: 246px;
 	text-decoration: none;
+	width: 90px;
+	height: 60px;
 	list-style: none;
-	text-align: center;
+	display: inline-block;
+	color: black;
+	border-left: 1px solid gray;
 }
 .menu li:hover{
-	background-color: black;
-	display: inline-block;
-	opacity: 1;
+	background-color: #508F7C;
 	text-align: center;
-	width: 246px;
 	text-decoration: none;
+	width: 90px;
+	height: 60px;
 	list-style: none;
-	text-align: center;
+	display: inline-block;
+	color: white;
+	border-left: 1px solid gray;
 }
-.navbar ul li a{
+.menu li a{
 	display: inline-block;
 	text-decoration: none;
-	color: white;
 	list-style: none;
 	width: 100%;
 	height: 100%;
-	padding: 8px 0px 8px 0px;
+	padding-top: 25px;
+	color: inherit;
+}
+.header{
+	width: 100%;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+	background: url("bw.jpg")no-repeat center;
+}
+.logo {
+	background: url("bordercircle.svg"), url("clearcircle1.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 380px;
+	width: 910px;
+}
+.spin img{
+	float: right;
+	margin-right: 44px;
+	width: 380px;
+    -webkit-transition-duration: 50s;
+    -moz-transition-duration: 50s;
+    -o-transition-duration: 50s;
+    transition-duration: 50s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    }
+.spin img:hover{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+.greeting{
+	display: none;
+	position: absolute;
+	height: 40px;
+	width: 406px;
+	float: left;
+	margin-top: 145px;
+	text-align: right;
+	font: 20px "Carrois Gothic";
+	color: #508F7C;
 }
 .middle{
-	width: 100%;
 	font: 8px "Oxygen";
-	background-color: #E3E5E5;
 }
 .middlecontent{
-	width: 999px;
 	margin: 0 auto;
+	max-width: 1000px;
 	text-align: center;
-	background-color: #AEDBE1;
+	background-color: #AAD5C4;
 }
 .middlecontent div{
-	width: 210px;
+	width: 25%;
+	min-width: 210px;
 	display: inline-block;
-	background-color: #c2e9ec;
-	margin: 28px 12px 28px 12px;
-	border-radius: 6px
+	padding-bottom: 9px;
+	background-color: #AAD5C4;
 }
 .middlecontent img{
-	width: 80px;
-	padding-top: 15px;
+	width: 75px;
+	padding-top: 12px;
 }
 .middlecontent h1{
 	margin-top: 2px;
@@ -137,47 +157,113 @@ body {
 	padding: 0px 18px 0px 18px;
 	margin: 0;
 }
-.more{
+.moreMiddle{
 	margin: 0 auto;
-	width: 999px;
+	height: 22px;
+	text-align: center;
+	opacity: 0.85;
+}
+.lessMiddle{
+	display: none;
+	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 	opacity: 0.85;
 }
 .bottom{
 	width: 100%;
-	height: 396px;
-	background-color:#E3E5E5;
 }
 .bottomcontent{
-	width: 999px;
-	height: 100%;
 	margin: 0 auto;
-	background: url("rock.jpg") no-repeat center;
+	max-width: 1000px;
+	background-color: #CBCACE;
+}
+.aboutme {
+	padding: 0px;
 }
 .description{
-	float: right;
+	width: 60%;
+	text-align: center;
+	padding: 10px 0px 40px 0px;
+	margin: 0 auto;
 }
-.agenda{
-	margin: 115px 0px 5px 194px;
-}
-.statement{
-	width: 575px;
-	height: 90px;
-	background-color: #E4CF67;
-	font: 12px "Carrois Gothic";
-}
-.statement p{
-	width: 345px;
-	text-align: justify;
-	float: right;
+.aboutme h1{
+	font: 18px "Oxygen";
+	text-align: center;
+	padding-top: 40px;
 	margin: 0;
-	padding: 8px 18px 0px 8px;
-	font-size: 100%
+}
+.description p{
+	text-indent: 30px;
+	font: 12px "Carrois Gothic";
+	margin: 0;
+	text-align: justify;
+	padding: 6px 100px 6px 100px;
+}
+.info{
+	margin: 0 auto;
+	max-width: 1000px;
+	text-align: center;
+	background-color: #CCDD59;
+}
+.info div{
+	display: inline-block;
+	background-color: #CCDD59;
+	width: 45%;
+	min-width: 320px;
+	font: 8px "Oxygen";
+	text-align: center;
+	padding: 8px 0px 10px 0px;
+}
+.info h1{
+	margin: 0;
+}
+.info img{
+	height: 90px;
+}
+.moreBottom{
+	margin: 0 auto;
+	height: 22px;
+	text-align: center;
+	opacity: 0.85;
+}
+.maincontact{
+	width: 1000px;
+	margin: 0 auto;
+	background: url("rock.jpg")no-repeat center;
+}
+.maincontact ul{
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	font: 13px "Oxygen";
+	color: white;
+}
+.me{
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	margin: 40px 40px 10px 40px;
+}
+.mail{
+	padding-bottom: 26px;
+}
+.cell{
+	padding-bottom: 13px;
+}
+.links{
+    text-align: center;
+    padding: 12px;
+}
+.links img{
+	width: 30px;
+	text-align: center;
+	padding: 3px 3px 30px 3px;
 }
 .rights{
-	margin: 0 auto;
-	width: 999px;
 	text-align: center;
 	font: 12px "Arial Narrow";
+	clear: both;
+	bottom: 0;
 }
