@@ -101,10 +101,10 @@ body {
 	float: right;
 	margin-right: 44px;
 	width: 380px;
-    -webkit-transition-duration: 50s;
-    -moz-transition-duration: 50s;
-    -o-transition-duration: 50s;
-    transition-duration: 50s;
+    -webkit-transition-duration: 20s;
+    -moz-transition-duration: 20s;
+    -o-transition-duration: 20s;
+    transition-duration: 20s;
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
@@ -154,23 +154,23 @@ body {
 	display: none;
 	font: 11px "Carrois Gothic";
 	text-align: justify;
-	padding: 5px;
-	margin: 0;
+	padding: 15px 10px 15px 10px;
+	margin: 0 auto;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
 .moreMiddle{
+	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	opacity: 0.85;
 }
-.lessMiddle{
-	display: none;
+.moreMiddle:hover{
+	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	opacity: 0.85;
+	background-color: white;
 }
 .info{
 	margin: 0 auto;
@@ -199,7 +199,7 @@ body {
 .info ul{
 	display: none;
 	list-style: none;
-	font: 11px "Carrois Gothic";
+	font: 12px "Carrois Gothic";
 	text-align: center;
 	margin: 10px auto;
 	padding: 5px;
@@ -210,20 +210,33 @@ body {
 	font: 14px "Carrois Gothic";
 }
 .moreBottom{
+	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	opacity: 0.85;
+}
+.moreBottom:hover{
+	width: 100%;
+	margin: 0 auto;
+	height: 22px;
+	text-align: center;
+	background-color: white;
+}
+.pathbackground{
+	position: absolute;
+	display: none;
 }
 .bottomcontent{
+	height: 400px;
 	margin: 0 auto;
 	max-width: 1000px;
 	background-color: #CBCACE;
+	background: url("diagram.svg")no-repeat;
 }
 .description{
-	width: 65%;
+	width: 50%;
 	text-align: center;
-	padding: 10px 0px 30px 0px;
+	padding: 18px 0px 20px 0px;
 	margin: 0 auto;
 }
 .aboutme h1{
@@ -257,29 +270,29 @@ body {
 .me{
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 .me ul{
 	list-style: none;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 	font: 12px "Oxygen";
-	color: white;
+	color: #CCDD59;
 }
 .me img{
-	width: 140px;
-	height: 140px;
-	border-radius: 70px;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
 }
 .mail{
 	text-align: center;
 	float: left;
-	padding: 45px 0px 0px 60px;
+	padding: 70px 0px 0px 60px;
 }
 .cell{
 	text-align: center;
 	float: right;
-	padding: 45px 60px 0px 0px;
+	padding: 70px 60px 0px 0px;
 }
 .links{
 	margin: 0 auto;
@@ -290,7 +303,7 @@ body {
 .links img{
 	width: 30px;
 	text-align: center;
-	padding: 10px 3px 10px 3px;
+	padding: 10px 3px 20px 3px;
 }
 .rights{
 	text-align: center;
