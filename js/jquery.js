@@ -46,6 +46,17 @@ $(document).ready(function(){
 		$(".cell p").fadeIn();
 	});
 
+    $(window).scroll( function(){
+        $('.pathbackground').each( function(i){
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if( bottom_of_window > bottom_of_object ){
+                $(this).one().animate({'opacity':'0.3'},1000).one().animate({'opacity':'0.1'},2000);
+                $(".description p").delay(2000).fadeIn(2000);
+            }
+        });
+    });
+
 });
 
 // '.image-thumbnails' - project thumbnails

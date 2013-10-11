@@ -225,9 +225,10 @@ body {
 }
 .pathbackground{
 	position: absolute;
-	display: none;
+	opacity: 0;
 }
 .bottomcontent{
+	height: 400px;
 	margin: 0 auto;
 	max-width: 1000px;
 	background-color: #CBCACE;
@@ -251,6 +252,7 @@ body {
 	margin: 0;
 	text-align: justify;
 	padding: 5px 20px 6px 20px;
+	display: none;
 }
 .maincontact{
 	max-width: 1000px;
