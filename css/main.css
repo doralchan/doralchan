@@ -126,9 +126,6 @@ body {
 	font: 22px "Neucha";
 	color: #508F7C;
 }
-.middle{
-	font: 8px "Oxygen";
-}
 .middlecontent{
 	margin: 0 auto;
 	max-width: 1000px;
@@ -137,25 +134,29 @@ body {
 }
 .middlecontent div{
 	vertical-align: top;
-	width: 24%;
+	width: 23%;
 	min-width: 150px;
 	display: inline-block;
-	padding-bottom: 18px;
+	padding: 2px 5px 12px 5px;
 	background-color: #AAD5C4;
 }
-.middlecontent img{
+.click{
 	width: 75px;
-	padding-top: 15px;
+	padding-top: 10px;
 }
-.middlecontent h1{
-	margin: 4px 0px 8px 0px;
+.middleimg{
+	width: 150px;
+}
+.middlecontent h3{
+	margin: 4px 0px 0px 0px;
+	font: 18px "Oxygen";
 }
 .middlecontent p{
 	display: none;
 	font: 11px "Carrois Gothic";
-	text-align: justify;
-	padding: 15px 10px 15px 10px;
-	margin: 0 auto;
+	text-align: center;
+	padding: 15px 10px 0px 10px;
+	margin:5px auto;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
@@ -182,26 +183,26 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	background-color: #CCDD59;
-	width: 47%;
+	width: 45%;
 	min-width: 220px;
 	text-align: center;
-	padding: 10px 0px 10px 0px;
+	padding: 6px 0px 10px 0px;
 }
 .info h1{
 	margin: 0;
-	padding: 10px;
+	padding: 5px;
 	font: 18px "Oxygen";
 }
 .info img{
-	width: 130px;
-	padding-top: 10px;
+	width: 136px;
+	padding-top: 5px;
 }
 .info ul{
 	display: none;
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
-	margin: 10px auto;
+	margin: 5px auto;
 	padding: 5px;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
@@ -227,7 +228,6 @@ body {
 	display: none;
 }
 .bottomcontent{
-	height: 400px;
 	margin: 0 auto;
 	max-width: 1000px;
 	background-color: #CBCACE;
@@ -236,13 +236,13 @@ body {
 .description{
 	width: 50%;
 	text-align: center;
-	padding: 18px 0px 20px 0px;
+	padding: 10px 0px 26px 0px;
 	margin: 0 auto;
 }
 .aboutme h1{
 	font: 18px "Oxygen";
 	text-align: center;
-	padding-top: 50px;
+	padding: 50px 0px 10px 0px;
 	margin: 0;
 }
 .description p{
@@ -250,7 +250,7 @@ body {
 	font: 12px "Carrois Gothic";
 	margin: 0;
 	text-align: justify;
-	padding: 6px 20px 6px 20px;
+	padding: 5px 20px 6px 20px;
 }
 .maincontact{
 	max-width: 1000px;
