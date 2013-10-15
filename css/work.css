@@ -51,7 +51,6 @@ body{
 	opacity: 1;
 	background-color: black;
 	color: white;
-	border-left: none;
 }
 .menu li:first-child{
 	border-left: none;

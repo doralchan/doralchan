@@ -59,9 +59,9 @@ $(document).ready(function(){
         });
     });
 
-    $(".image-thumbnails").click(function(){
-    	var lightbox = $(".lightbox-showing")
-    	$(".lightbox-image").attr
+    $(".image-thumbnails img").click(function(){
+    	$(this).removeClass("lightbox-img");
+
     });
 
 });
