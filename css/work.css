@@ -1,6 +1,98 @@
 body{
 	margin: 0;
 	padding: 0;
+}
+#wrapper{
+	height: 1000px;
+	width: 100%;
+}
+.scrollup{
+	display: none;
+	position: fixed;
+	margin: 20px;
+	opacity: 0.8;
+	right: 0;
+	bottom: 0;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #E3E5E5;
+}
+.title{
+	width: 1000px;
+	margin: 0 auto;
+	font: 18px "Carrois Gothic";
+	background-color: white;
+	height: 90px;
+}
+.title img{
+	padding: 8px;
+	width: 100px;
+	margin: 0;
+	vertical-align: middle;
+}
+.title p{
+	margin-top: 30px;
+}
+.navbar{
+	max-width: 1000px;
+	height: 60px;
+	margin: 0px auto;
+}
+.navbar ul{
+	font: 13px "Carrois Gothic";
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.menu li:nth-child(2){
+	opacity: 1;
+	background-color: black;
+	color: white;
+	border-left: none;
+}
+.menu li:first-child{
+	border-left: none;
+}
+.menu li{
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+	height: 60px;
+	list-style: none;
+	display: inline-block;
+	color: black;
+	border-left: 1px solid gray;
+}
+.menu li:hover{
+	background-color: #508F7C;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+	height: 60px;
+	list-style: none;
+	display: inline-block;
+	color: white;
+	border-left: 1px solid gray;
+}
+.menu li a{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+	color: inherit;
+}
+.gallery{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+.image-thumbnails{
+	margin-top: 0;
 	text-align: center;
 }
 .lightbox{
