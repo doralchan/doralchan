@@ -88,12 +88,12 @@ body{
 }
 .resume{
 	background-color: white;
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 20px 0px 100px 0px;
+	padding: 20px 0px 90px 0px;
 }
 .resume img{
-	border: 1px solid gray;
-	width: 80%;
+	border: 2px solid gray;
+	width: 82%;
 }

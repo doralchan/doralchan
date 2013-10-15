@@ -51,7 +51,7 @@ $(document).ready(function(){
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_object ){
-                $(this).animate({'opacity':'1'},2000).fadeTo(1400, 0.2, function(){});
+                $(this).animate({'opacity':'1'},1500).fadeTo(1500, 0.1, function(){});
                 $(window).off("scroll");
                 $(".description p").delay(1800).fadeIn(2000);
                 $(".aboutme h1").delay(1800).fadeIn(2000);
