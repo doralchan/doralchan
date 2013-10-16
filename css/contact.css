@@ -96,11 +96,13 @@ body{
 	text-align: center;
 }
 .form{
-	padding-top: 40px;
+	padding: 10px;
+	width: 50%;
+	margin: 20px auto;
 }
 input[type=text]{
-	width: 240px;
-	height: 25px;
+	width: 260px;
+	height: 32px;
 	display: block;
 	margin: 0 auto;
 	border: 0 none;
@@ -111,10 +113,10 @@ input[type=text]{
 input::-webkit-input-placeholder {
    color: black;
    text-align: center;
-   font: 13px "Carrois Gothic";
+   font: 13px "Oxygen";
 }
 textarea{
-	width: 240px;
+	width: 260px;
 	height: 60px;
 	display: block;
 	margin: 0 auto;
@@ -127,15 +129,15 @@ textarea::-webkit-input-placeholder {
    color: black;
    text-align: center;
    padding-top: 5px;
-   font: 13px "Carrois Gothic";
+   font: 13px "Oxygen";
 }
 input[type=submit]{
-    font: 13px "Carrois Gothic";
+    font: 13px "Oxygen";
 	background-color: #CCDD59;
 	border: 0 none;
 	cursor: pointer;
 	width: 100px;
-	height: 30px;
+	height: 32px;
 	margin: 0;
 }
 .medium{
@@ -152,7 +154,6 @@ input[type=submit]{
 	height: 130px;
 	vertical-align: top;
 	margin: 10px auto;
-	padding-top: 25px;
 }
 .medium img{
 	width: 71px;
@@ -166,7 +167,7 @@ input[type=submit]{
 	min-width: 300px;
 	margin: 0 auto;
     text-align: center;
-    padding: 10px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
     height: 40px;
 	background: url("contact.jpg")no-repeat bottom;
 }

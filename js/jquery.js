@@ -63,7 +63,7 @@ $(document).ready(function(){
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_object ){
                 $(this).animate({opacity:1},1500);
-                $(".bottomcontent img:nth-child(1)").animate({opacity:0.2},1600);
+                $(".bottomcontent img:nth-child(1)").animate({opacity:0.3},1600);
                 $(window).off("scroll");
             }
         });

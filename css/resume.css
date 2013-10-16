@@ -97,9 +97,20 @@ body{
 	width: 100%;
 	min-width: 400px;
 }
+.download{
+	position: absolute;
+	width: 116px;
+	text-align: center;
+	padding: 8px 0px 8px 0px;
+	font: 13px "Oxygen";
+	margin: 124px 0px 0px 0px;
+	color: black;
+	background-color: #CCDD59;
+	text-decoration: none;
+}
 .rights{
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 	font: 12px "Carrois Gothic";
 	clear: both;
 	bottom: 0;
