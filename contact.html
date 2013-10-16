@@ -20,14 +20,11 @@
 					<div class = "logo"><img src = "img/logo.svg"></div>
 					<div class = "maincontact">
 						<h5>Let's connect.</h5>
-						<form class = "form" action = "entries.asp" method = "get">
-							<label for = "name">Name</label>
-							<input type = "text" name = "name" id = "name"><br/>
-							<label for = "email">Email</label>
-							<input type = "text" name = "email" id = "email"><br/>
-							<label for = "message">Message</label>
-							<input type = "text" name = "message" id = "message"><br/>
-							<input type = "submit" value = "Send">
+						<form class = "form" action = "mail.php" method = "post" enctype = "text/plain">
+							<input type = "text" name = "name" placeholder = "NAME"><br/>
+							<input type = "text" name = "email" placeholder = "EMAIL"><br/>
+							<textarea name = "text" rows = "5" cols = "30" id = "message" placeholder = "MESSAGE"></textarea><br/>
+							<input type = "submit" value = "SEND">
 						</form>
 						<div class = "medium">
 							<div class = "mail"><img src = "img/mail.svg"><img src = "img/more.svg" class = "moremail"><p>dora.l.chan@gmail.com</p></div>
@@ -44,7 +41,24 @@
 					</div>
 				</div>
 			</div>
+			<div class = "rights">
+				<p>Website crafted by Dora Chan</p>
+			</div>
 		</div>
 	</div>
+<?php $name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$formcontent="From: $name \n Message: $message";
+$recipient = "dora.l.chan@gmail.com<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script>";
+$subject = "Contact Form";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You!";
+?>
 </body>
 </html>

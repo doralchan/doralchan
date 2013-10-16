@@ -114,6 +114,7 @@ body {
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
+    cursor: pointer;
 }
 .greeting p{
 	display: none;
@@ -166,6 +167,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
+	cursor: pointer;
 }
 .moreStep:hover{
 	width: 100%;
@@ -173,6 +175,7 @@ body {
 	height: 22px;
 	text-align: center;
 	background-color: white;
+	cursor: pointer;
 }
 .info{
 	margin: 0 auto;
@@ -216,6 +219,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
+	cursor: pointer;
 }
 .moreAbility:hover{
 	width: 100%;
@@ -223,6 +227,7 @@ body {
 	height: 22px;
 	text-align: center;
 	background-color: white;
+	cursor: pointer;
 }
 .aboutme{
 	margin: 0 auto;
@@ -259,6 +264,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
+	cursor: pointer;
 }
 .moreBackground:hover{
 	width: 100%;
@@ -266,15 +272,17 @@ body {
 	height: 22px;
 	text-align: center;
 	background-color: white;
+	cursor: pointer;
 }
-.bottomcontent{
-	height: 420px;
+.bottom{
+	height: 470px;
 	margin: 0 auto;
-	max-width: 1000px;
-	background: url("rock.jpg") no-repeat bottom;
+	width: 1000px;
+	background: url("rock.jpg")no-repeat bottom;
 }
 .pathbackground{
 	position: absolute;
+	margin: 0 auto;
 	opacity: 0;
 }
 .rights{

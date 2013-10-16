@@ -97,3 +97,10 @@ body{
 	width: 100%;
 	min-width: 400px;
 }
+.rights{
+	text-align: center;
+	padding: 20px;
+	font: 12px "Carrois Gothic";
+	clear: both;
+	bottom: 0;
+}
