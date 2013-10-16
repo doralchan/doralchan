@@ -4,7 +4,7 @@ body{
 	background: rgba(0,0,0,0.7);
 }
 #wrapper{
-	height: 1450px;
+	height: 1200px;
 	width: 100%;
 }
 .scrollup{
@@ -21,21 +21,23 @@ body{
 	margin: 0 auto;
 	background-color: #E3E5E5;
 }
-.title{
-	width: 1000px;
-	margin: 0 auto;
-	font: 18px "Carrois Gothic";
-	background-color: white;
-	height: 90px;
+.header{
+	margin-top: 30px;
 }
-.title img{
+.title{
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 600px;
+	font: 18px "Carrois Gothic";
+	text-align: top;
+}
+.logo img{
 	padding: 8px;
 	width: 100px;
 	margin: 0;
-	vertical-align: middle;
-}
-.title p{
-	margin-top: 30px;
+	vertical-align: top;
+	background-color: white;
+	position: absolute;
 }
 .navbar{
 	max-width: 1000px;
@@ -87,13 +89,11 @@ body{
 	color: inherit;
 }
 .resume{
-	background-color: white;
-	max-width: 1000px;
-	margin: 0 auto;
 	text-align: center;
-	padding: 20px 0px 90px 0px;
+	margin: 0px 125px 0px 125px;
 }
 .resume img{
-	border: 2px solid gray;
-	width: 82%;
+	background-color: white;
+	width: 100%;
+	min-width: 400px;
 }

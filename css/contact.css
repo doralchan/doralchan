@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E3E5E5;
+}
+#wrapper{
+	height: 1000px;
+	width: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.header{
+	margin-top: 30px;
+}
+.title{
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 600px;
+	font: 18px "Carrois Gothic";
+	text-align: top;
+}
+.logo img{
+	padding: 8px;
+	width: 100px;
+	margin: 0;
+	vertical-align: top;
+	background-color: white;
+	position: absolute;
+}
+.navbar{
+	max-width: 1000px;
+	height: 60px;
+	margin: 0px auto;
+}
+.navbar ul{
+	font: 13px "Carrois Gothic";
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.menu li:nth-child(4){
+	opacity: 1;
+	background-color: black;
+	color: white;
+}
+.menu li:first-child{
+	border-left: none;
+}
+.menu li{
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+	height: 60px;
+	list-style: none;
+	display: inline-block;
+	color: black;
+	border-left: 1px solid gray;
+}
+.menu li:hover{
+	background-color: #508F7C;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+	height: 60px;
+	list-style: none;
+	display: inline-block;
+	color: white;
+	border-left: 1px solid gray;
+}
+.menu li a{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+	color: inherit;
+}
+.maincontact{
+	max-width: 750px;
+	min-width: 450px;
+	font: 14px "Carrois Gothic";
+	margin: 0px 125px 0px 125px;
+	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+}
+.maincontact h5{
+	font: 30px "Neucha";
+	color: #508F7C;
+	padding: 0;
+	margin: 50px 0px 30px 0px;
+}
+.form{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+input[type=text],label{
+	width: 250px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+}
+label {
+	text-align: center;
+}
+input[type=submit]{
+	background-color: #CCDD59;
+	border: 0 none;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+.medium{
+	max-width: 750px;
+	min-width: 450px;
+	font: 14px "Carrois Gothic";
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+.medium div{
+	display: inline-block;
+	width: 22%;
+	max-width: 200px;
+	height: 130px;
+	vertical-align: top;
+	margin: 10px auto;
+	padding-top: 25px;
+}
+.medium div:hover{
+	display: inline-block;
+	width: 22%;
+	max-width: 200px;
+	height: 130px;
+	vertical-align: top;
+	margin: 10px auto;
+	padding-top: 25px;
+	background-color: #BFBFBF;
+}
+.medium img{
+	width: 71px;
+	padding: 0px 20px 0px 20px;
+}
+.medium p{
+	display: none;
+	margin: 2px auto;
+}
+#links{
+	min-width: 300px;
+	margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    height: 40px;
+    background: url("contact.jpg")no-repeat bottom;
+}
+#links img{
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+}

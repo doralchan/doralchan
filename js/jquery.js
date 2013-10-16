@@ -11,13 +11,18 @@ $(document).ready(function(){
 
 	$(".greeting p").showdelay();
 
-	$(".moreMiddle").click(function(){
-		$(".middlecontent p").slideDown("slow");
+	$(".moreStep").click(function(){
+		$(".stepcontent p").slideDown("slow");
 		$(this).slideUp("slow");
 	});
 
-	$(".moreBottom").click(function(){
+	$(".moreAbility").click(function(){
 		$(".info ul").slideDown("slow");
+		$(this).slideUp("slow");
+	});
+
+	$(".moreBackground").click(function(){
+		$(".background p").slideDown("slow");
 		$(this).slideUp("slow");
 	});
 
@@ -39,28 +44,33 @@ $(document).ready(function(){
 	return false;
 	});
 
-	$(".mail img").click(function(){
-		$(".mail p").fadeIn();
+	$(".moremail").click(function(){
+		$(this).slideUp(50);
+		$(".mail p").slideDown("fast");
 	});
-	$(".cell img").click(function(){
-		$(".cell p").fadeIn();
+	$(".morelocation").click(function(){
+		$(this).slideUp(50);
+		$(".location p").slideDown("fast");
+	});
+	$(".morecell").click(function(){
+		$(this).slideUp(50);
+		$(".cell p").slideDown("fast");
 	});
 
     $(window).scroll( function(){
         $('.pathbackground').each(function(){
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if( bottom_of_window > bottom_of_object ){
-                $(this).animate({'opacity':'1'},1500).fadeTo(1500, 0.1, function(){});
+            if( bottom_of_window = bottom_of_object ){
+                $(this).animate({opacity:1},1500);
                 $(window).off("scroll");
-                $(".description p").delay(1800).fadeIn(2000);
-                $(".aboutme h1").delay(1800).fadeIn(2000);
             }
         });
     });
 
     $(".image-thumbnails img").click(function(){
-    	$(this).removeClass("lightbox-img");
+    	$('.lightbox').addClass("lightbox-showing");
+    	$('.lightbox-img').attr('src', $(this).data('large'));
 
     });
 

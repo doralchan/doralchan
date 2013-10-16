@@ -101,10 +101,10 @@ body {
 	float: right;
 	margin-right: 44px;
 	width: 380px;
-    -webkit-transition-duration: 20s;
-    -moz-transition-duration: 20s;
-    -o-transition-duration: 20s;
-    transition-duration: 20s;
+    -webkit-transition-duration: 30s;
+    -moz-transition-duration: 30s;
+    -o-transition-duration: 30s;
+    transition-duration: 30s;
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
@@ -126,13 +126,13 @@ body {
 	font: 22px "Neucha";
 	color: #508F7C;
 }
-.middlecontent{
+.stepcontent{
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
 	background-color: #AAD5C4;
 }
-.middlecontent div{
+.stepcontent div{
 	vertical-align: top;
 	width: 23%;
 	min-width: 150px;
@@ -144,29 +144,30 @@ body {
 	width: 75px;
 	padding-top: 10px;
 }
-.middleimg{
-	width: 150px;
+.stepimg{
+	width: 100%
 }
-.middlecontent h3{
+.stepcontent h3{
 	margin: 4px 0px 0px 0px;
 	font: 18px "Oxygen";
 }
-.middlecontent p{
+.stepcontent p{
 	display: none;
 	font: 11px "Carrois Gothic";
-	text-align: center;
-	padding: 15px 10px 0px 10px;
-	margin:5px auto;
+	text-align: justify;
+	text-indent: 10px;
+	padding: 14px 12px 0px 12px;
+	margin: 5px auto;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
-.moreMiddle{
+.moreStep{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 }
-.moreMiddle:hover{
+.moreStep:hover{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
@@ -182,7 +183,6 @@ body {
 .info div{
 	display: inline-block;
 	vertical-align: top;
-	background-color: #CCDD59;
 	width: 45%;
 	min-width: 220px;
 	text-align: center;
@@ -205,108 +205,77 @@ body {
 	margin: 5px auto;
 	padding: 10px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.5);
 }
 .info ul span{
 	font: 14px "Carrois Gothic";
+	color: #508F7C
 }
-.moreBottom{
+.moreAbility{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 }
-.moreBottom:hover{
+.moreAbility:hover{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 	background-color: white;
 }
-.pathbackground{
-	position: absolute;
-	opacity: 0;
+.aboutme{
+	margin: 0 auto;
+	max-width: 1000px;
+	text-align: center;
+	background-color: #CBCACE;
+}
+.aboutme div{
+	vertical-align: top;
+	width: 23%;
+	min-width: 150px;
+	display: inline-block;
+}
+.background h1{
+	padding: 4px 0px 14px 0px;
+	margin: 0;
+	font: 18px "Oxygen";
+}
+.background p{
+	display: none;
+	font: 12px "Carrois Gothic";
+	text-align: justify;
+	text-indent: 30px;
+	padding: 4px;
+	margin: 0px auto;
+	width: 50%;
+	min-width: 400px;
+}
+.background p:nth-child(5){
+	padding-bottom: 30px;
+}
+.moreBackground{
+	width: 100%;
+	margin: 0 auto;
+	height: 22px;
+	text-align: center;
+}
+.moreBackground:hover{
+	width: 100%;
+	margin: 0 auto;
+	height: 22px;
+	text-align: center;
+	background-color: white;
 }
 .bottomcontent{
 	height: 420px;
 	margin: 0 auto;
 	max-width: 1000px;
-	background-color: #CBCACE;
-	background: url("diagram.svg")no-repeat;
+	background: url("rock.jpg") no-repeat bottom;
 }
-.description{
-	width: 55%;
-	min-width: 300px;
-	padding: 5px 0px 26px 0px;
-	margin: 0 auto;
-}
-.aboutme h1{
-	display: none;
-	font: 18px "Oxygen";
-	text-align: center;
-	padding: 95px 0px 10px 0px;
-	margin: 0;
-}
-.description p{
-	text-indent: 30px;
-	font: 12px "Carrois Gothic";
-	margin: 0;
-	text-align: justify;
-	padding: 5px 20px 6px 20px;
-	display: none;
-}
-.maincontact{
-	max-width: 1000px;
-	margin: 0 auto;
-	background: url("rock.jpg")no-repeat center;
-	font: 14px "Carrois Gothic";
-}
-.maincontact div{
-	width: 30%;
-}
-.maincontact p{
-	display: none;
-	margin: 0;
-	padding: 5px;
-	color: #CCDD59;
-}
-.me{
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 65px;
-}
-.me ul{
-	list-style: none;
-	padding: 10px;
-	margin: 0;
-	font: 12px "Oxygen";
-	color: #CCDD59;
-}
-.me img{
-	width: 150px;
-	height: 150px;
-	border-radius: 75px;
-}
-.mail{
-	text-align: center;
-	float: left;
-	padding: 100px 0px 0px 60px;
-}
-.cell{
-	text-align: center;
-	float: right;
-	padding: 100px 60px 0px 0px;
-}
-.links{
-	margin: 0 auto;
-    text-align: center;
-    min-width: 300px;
-    padding: 12px;
-}
-.links img{
-	width: 30px;
-	text-align: center;
-	padding: 10px 3px 50px 3px;
+.pathbackground{
+	position: absolute;
+	opacity: 0;
 }
 .rights{
 	text-align: center;
