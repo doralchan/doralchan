@@ -3,8 +3,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="86.4px" height="86.4px" viewBox="0 0 86.4 86.4" enable-background="new 0 0 86.4 86.4" xml:space="preserve">
-<line fill="none" stroke="#7C7C7C" stroke-width="8" stroke-linecap="round" x1="16.376" y1="29.525" x2="70.026" y2="29.525"/>
-<line fill="none" stroke="#7C7C7C" stroke-width="8" stroke-linecap="round" x1="16.376" y1="56.877" x2="70.026" y2="56.877"/>
-<line fill="none" stroke="#7C7C7C" stroke-width="8" stroke-linecap="round" x1="29.521" y1="70.026" x2="29.521" y2="16.375"/>
-<line fill="none" stroke="#7C7C7C" stroke-width="8" stroke-linecap="round" x1="56.872" y1="70.026" x2="56.872" y2="16.375"/>
+<line fill="none" stroke="#CCDD59" stroke-width="9" stroke-linecap="round" x1="16.376" y1="29.525" x2="70.026" y2="29.525"/>
+<line fill="none" stroke="#CCDD59" stroke-width="9" stroke-linecap="round" x1="16.376" y1="56.877" x2="70.026" y2="56.877"/>
+<line fill="none" stroke="#CCDD59" stroke-width="9" stroke-linecap="round" x1="29.521" y1="70.026" x2="29.521" y2="16.375"/>
+<line fill="none" stroke="#CCDD59" stroke-width="9" stroke-linecap="round" x1="56.872" y1="70.026" x2="56.872" y2="16.375"/>
 </svg>

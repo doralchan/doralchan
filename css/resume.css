@@ -1,7 +1,6 @@
 body{
 	margin:0;
 	padding:0;
-	background: rgba(0,0,0,0.7);
 }
 #wrapper{
 	height: 1200px;
@@ -38,6 +37,7 @@ body{
 	vertical-align: top;
 	background-color: white;
 	position: absolute;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .navbar{
 	max-width: 1000px;
@@ -91,9 +91,10 @@ body{
 .resume{
 	text-align: center;
 	margin: 0px 125px 0px 125px;
+	background-color: white;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .resume img{
-	background-color: white;
 	width: 100%;
 	min-width: 400px;
 }
@@ -107,6 +108,7 @@ body{
 	color: black;
 	background-color: #CCDD59;
 	text-decoration: none;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .rights{
 	text-align: center;

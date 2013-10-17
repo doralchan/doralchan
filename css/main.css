@@ -21,14 +21,14 @@ body {
 }
 .title{
 	width: 1000px;
+	height: 40px;
 	margin: 0 auto;
 	font: 18px "Carrois Gothic";
 	background-color: white;
-	height: 90px;
 }
 .title img{
 	padding: 4px;
-	width: 200px;
+	width: 180px;
 	margin: 0;
 	vertical-align: middle;
 }
@@ -88,19 +88,21 @@ body {
 .content{
 	width: 1000px;
 	margin: 0 auto;
-	background: url("header.jpg")no-repeat center;
+	background-color: white;
+	background: url("header.jpg")no-repeat bottom;
+	box-shadow: 0px 0px 10px #b8b8b8;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 380px;
+	height: 400px;
 	width: 910px;
 }
 .spin img{
 	float: right;
-	margin-right: 44px;
-	width: 380px;
+	margin-right: 34px;
+	width: 400px;
     -webkit-transition-duration: 30s;
     -moz-transition-duration: 30s;
     -o-transition-duration: 30s;
@@ -120,11 +122,11 @@ body {
 	display: none;
 	position: absolute;
 	height: 40px;
-	width: 560px;
+	width: 535px;
 	float: left;
-	margin-top: 150px;
+	margin-top: 160px;
 	text-align: center;
-	font: 22px "Neucha";
+	font: 20px "Neucha";
 	color: #508F7C;
 }
 .stepcontent{
@@ -132,6 +134,7 @@ body {
 	max-width: 1000px;
 	text-align: center;
 	background-color: #AAD5C4;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .stepcontent div{
 	vertical-align: top;
@@ -174,7 +177,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255,255,255,0.5);
 	cursor: pointer;
 }
 .info{
@@ -182,6 +185,7 @@ body {
 	max-width: 1000px;
 	text-align: center;
 	background-color: #CCDD59;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .info div{
 	display: inline-block;
@@ -208,11 +212,11 @@ body {
 	margin: 5px auto;
 	padding: 10px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.4);
 }
 .info ul span{
-	font: 14px "Carrois Gothic";
-	color: #508F7C
+	font: 15px "Carrois Gothic";
+	color: #508F7C;
 }
 .moreAbility{
 	width: 100%;
@@ -226,14 +230,15 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255,255,255,0.5);
 	cursor: pointer;
 }
 .aboutme{
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
-	background-color: #CBCACE;
+	background-color: #D1D1D1;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .aboutme div{
 	vertical-align: top;
@@ -256,7 +261,7 @@ body {
 	width: 50%;
 	min-width: 400px;
 }
-.background p:nth-child(5){
+.background p:nth-child(7){
 	padding-bottom: 30px;
 }
 .moreBackground{
@@ -271,7 +276,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255,255,255,0.5);
 	cursor: pointer;
 }
 .bottom{
@@ -279,6 +284,7 @@ body {
 	margin: 0 auto;
 	width: 1000px;
 	background: url("rock.jpg")no-repeat bottom;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .pathbackground{
 	position: absolute;
