@@ -91,51 +91,51 @@ body{
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .maincontact h5{
-	font: 35px "Neucha";
+	font: 22px "Neucha";
 	color: #508F7C;
-	padding-top: 50px;
+	padding-top: 10px;
 	margin: 0;
 	text-align: center;
 }
+.contact{
+	width: 100%;
+	padding-top: 60px;
+}
 .form{
-	padding: 70px;
-	width: 50%;
+	padding: 40px 0px 50px 0px;
+	width: 100%;
 	margin: 10px auto;
-	background: url("me.jpg") no-repeat center;
+	font: 12px "Oxygen";
 }
 input[type=text]{
-	width: 260px;
+	width: 280px;
 	height: 32px;
 	display: block;
 	margin: 0 auto;
 	border: 0 none;
-	opacity: 0.8;
-	background-color: #AAD5C4;
+	background-color: #bfbfbf;
 	text-align: left;
 }
-input::-webkit-input-placeholder {
-   color: black;
-   text-align: center;
-   font: 13px "Oxygen";
+input::-webkit-input-placeholder{
+	text-align: center;
+	font: 12px "Oxygen";
+	color: black;
 }
 textarea{
-	width: 260px;
+	width: 280px;
 	height: 60px;
 	display: block;
 	margin: 0 auto;
 	border: 0 none;
-	opacity: 0.8;
-	background-color: #AAD5C4;
+	background-color: #bfbfbf;
 	text-align: left;
 }
 textarea::-webkit-input-placeholder {
-   color: black;
-   text-align: center;
-   padding-top: 5px;
-   font: 13px "Oxygen";
+	color: black;
+	text-align: center;
+	padding-top: 5px;
 }
 input[type=submit]{
-    font: 13px "Oxygen";
 	background-color: #CCDD59;
 	border: 0 none;
 	cursor: pointer;
@@ -154,12 +154,11 @@ input[type=submit]{
 	display: inline-block;
 	width: 22%;
 	max-width: 200px;
-	height: 150px;
 	vertical-align: top;
-	margin: 10px auto;
+	margin-bottom: 60px;
 }
 .medium img{
-	width: 71px;
+	width: 60px;
 	padding: 0px 20px 0px 20px;
 }
 .medium p{
@@ -169,9 +168,9 @@ input[type=submit]{
 #links{
 	min-width: 300px;
 	margin: 0 auto;
-    text-align: center;
-    padding: 10px 0px 20px 0px;
-    height: 40px;
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+	height: 40px;
 }
 #links img{
 	width: 30px;

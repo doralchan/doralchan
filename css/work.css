@@ -94,6 +94,7 @@ body{
 .image-thumbnails{
 	margin-top: 0;
 	text-align: center;
+	cursor: pointer;
 }
 .lightbox{
 	position: fixed;
@@ -107,28 +108,28 @@ body{
 	display: none;
 }
 .box{
-	background-color: black;
 	min-width: 300px;
 	max-width: 700px;
-	margin: 10% auto;
+	margin: 5% auto;
 }
 .lightbox-navleft img{
 	width: 30px;
-	padding-bottom: 40%;
+	padding-bottom: 35%;
 }
 .lightbox-navright img{
 	width: 30px;
-	padding-bottom: 40%;
+	padding-bottom: 35%;
 }
 .lightbox-exit img{
 	width: 30px;
+	cursor: pointer;
 }
 .lightbox-showing{
 	display: block;
 	text-align: center;
 }
 .lightbox-img{
-	width: 45%;
+	width: 40%;
 	margin: 20px;
 }
 .rights{

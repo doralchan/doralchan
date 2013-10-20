@@ -12,6 +12,7 @@ body {
 	opacity: 0.8;
 	right: 0;
 	bottom: 0;
+	z-index:1;
 }
 .container{
 	width: 100%;
@@ -103,19 +104,19 @@ body {
 	float: right;
 	margin-right: 34px;
 	width: 400px;
-    -webkit-transition-duration: 30s;
-    -moz-transition-duration: 30s;
-    -o-transition-duration: 30s;
-    transition-duration: 30s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    }
+	-webkit-transition-duration: 30s;
+	-moz-transition-duration: 30s;
+	-o-transition-duration: 30s;
+	transition-duration: 30s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+}
 .spin img:hover{
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
     cursor: pointer;
 }
 .greeting p{
@@ -215,7 +216,7 @@ body {
 	background-color: rgba(255,255,255,0.4);
 }
 .info ul span{
-	font: 15px "Carrois Gothic";
+	font: 14px "Carrois Gothic";
 	color: #508F7C;
 }
 .moreAbility{
