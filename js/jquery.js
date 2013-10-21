@@ -73,6 +73,11 @@ $(document).ready(function(){
 			});
 		});
 
+	$(".bottomcontent").click(function(){
+		$(".labels").animate({ width:'toggle'}, "fast");
+		$(".pathlabel").fadeToggle();
+	});
+
 	$(".image-thumbnails img").click(function(){
 		$(".lightbox").addClass("lightbox-showing");
 		$(".lightbox-img").attr("src", $(this).data('large'));

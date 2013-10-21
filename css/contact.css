@@ -90,17 +90,12 @@ body{
 	padding-top: 10px;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
-.maincontact h5{
-	font: 24px "Neucha";
-	color: #CCDD59;
-	padding-top: 10px;
-	margin: 0;
-	text-align: center;
+.connect{
+	width: 18%;
 }
 .contact{
 	width: 100%;
-	padding: 200px 0px 80px 0px;
-	background: url("me.jpg")no-repeat right;
+	padding: 113px 0px 30px 0px;
 }
 .form{
 	position: absolute;

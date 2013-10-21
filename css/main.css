@@ -291,6 +291,27 @@ body {
 	position: absolute;
 	margin: 0 auto;
 	opacity: 0;
+	cursor: pointer;
+}
+.pathlabel{
+	position: absolute;
+	display: none;
+}
+.labels{
+	position: absolute;
+	display: none;
+	width: 100px;
+	height: 400px;
+	padding-top: 80px;
+	cursor: pointer;
+}
+.extends{
+	position: absolute;
+	display: none;
+	width: 100px;
+	height: 400px;
+	padding-top: 80px;
+	cursor: pointer;
 }
 .rights{
 	text-align: center;
