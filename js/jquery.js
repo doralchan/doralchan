@@ -73,9 +73,13 @@ $(document).ready(function(){
 			});
 		});
 
-	$(".bottomcontent").click(function(){
-		$(".labels").animate({ width:'toggle'}, "fast");
-		$(".pathlabel").fadeToggle();
+	$(".click").click(function(){
+		$(this).next(".label").slideToggle("fast");
+		$(this).css({opacity:0.2});
+	});
+
+	$(".bottom").hover(function(){
+		$(".pathlabel").fadeToggle(500);
 	});
 
 	$(".image-thumbnails img").click(function(){

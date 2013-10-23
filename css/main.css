@@ -287,31 +287,25 @@ body {
 	background: url("rock.jpg")no-repeat bottom;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
+.tags{
+	position: absolute;
+	z-index: 1;
+	padding-top: 40px;
+}
+.click{
+	width: 70px;
+	cursor: pointer;
+}
+.label{
+	display: none;
+}
 .pathbackground{
 	position: absolute;
 	margin: 0 auto;
 	opacity: 0;
-	cursor: pointer;
 }
 .pathlabel{
-	position: absolute;
 	display: none;
-}
-.labels{
-	position: absolute;
-	display: none;
-	width: 100px;
-	height: 400px;
-	padding-top: 80px;
-	cursor: pointer;
-}
-.extends{
-	position: absolute;
-	display: none;
-	width: 100px;
-	height: 400px;
-	padding-top: 80px;
-	cursor: pointer;
 }
 .rights{
 	text-align: center;

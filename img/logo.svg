@@ -3,10 +3,24 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="206.417px" height="178.5px" viewBox="0 0 206.417 178.5" enable-background="new 0 0 206.417 178.5" xml:space="preserve">
-<text transform="matrix(1 0 0 1 28.4429 153.752)" fill="#CCDD59" font-family="'PTSans-Narrow'" font-size="174.4846">U</text>
-<text transform="matrix(1 0 0 1 -1.1523 129.3643)" fill="#CCDD59" font-family="'PTSans-Narrow'" font-size="173.1335">[</text>
-<text transform="matrix(1 0 0 1 164.5464 129.3643)" fill="#CCDD59" font-family="'PTSans-Narrow'" font-size="173.1335">]</text>
-<text transform="matrix(1 0 0 1 124.3403 84.5762)" fill="#CCDD59" font-family="'PTSans-Narrow'" font-size="75.5491">X</text>
-<text transform="matrix(1 0 0 1 134.4272 154.9268)" fill="#CCDD59" font-family="'PTSans-Narrow'" font-size="75.5491">I</text>
-<line fill="none" stroke="#CCDD59" stroke-width="2" x1="117.226" y1="93.721" x2="169.225" y2="93.721"/>
+<g enable-background="new    ">
+	<path fill="#CCDD59" d="M99.62,31.613h12.563v81.833c0,14.775-2.879,25.449-8.637,32.02c-5.758,6.573-13.932,9.858-24.516,9.858
+		c-12.331,0-21.316-3.198-26.958-9.597c-5.644-6.396-8.462-16.229-8.462-29.488V31.613h13.086v77.821
+		c0,6.281,0.406,11.575,1.221,15.877c0.812,4.306,2.151,7.795,4.013,10.471c1.859,2.677,4.188,4.597,6.979,5.758
+		c2.792,1.164,6.221,1.745,10.294,1.745c7.678,0,12.999-2.675,15.966-8.027c2.966-5.348,4.449-13.958,4.449-25.823V31.613H99.62z"/>
+</g>
+<g enable-background="new    ">
+	<path fill="#CCDD59" d="M9.928,8.171h27.009v11.253H22.394v138.507h14.543v11.253H9.928V8.171z"/>
+</g>
+<g enable-background="new    ">
+	<path fill="#CCDD59" d="M196.577,169.185h-27.009v-11.253h14.543V19.424h-14.543V8.171h27.009V169.185z"/>
+</g>
+<g enable-background="new    ">
+	<path fill="#CCDD59" d="M143.675,57.681l-12.691-25.989h6.801l8.234,17.905l1.51,4.457l1.512-4.457l8.688-17.905H164l-13.146,25.46
+		l13.601,27.424h-6.498l-9.142-18.963l-1.737-4.684l-1.586,4.684l-9.369,18.963h-6.496L143.675,57.681z"/>
+</g>
+<g enable-background="new    ">
+	<path fill="#CCDD59" d="M144.395,102.043h5.667v52.884h-5.667V102.043L144.395,102.043z"/>
+</g>
+<line fill="none" stroke="#CCDD59" stroke-width="2" x1="121.226" y1="93.721" x2="173.225" y2="93.721"/>
 </svg>
