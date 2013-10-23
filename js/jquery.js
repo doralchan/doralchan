@@ -74,8 +74,8 @@ $(document).ready(function(){
 		});
 
 	$(".click").click(function(){
-		$(this).next(".label").slideToggle("fast");
-		$(this).css({opacity:0.2});
+		$(this).next(".label").slideToggle(function(){});
+		$(this).animate({opacity:0.4});
 	});
 
 	$(".bottom").hover(function(){
