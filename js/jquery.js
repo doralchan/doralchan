@@ -73,15 +73,6 @@ $(document).ready(function(){
 			});
 		});
 
-	$(".click").click(function(){
-		$(this).next(".label").slideToggle(function(){});
-		$(this).animate({opacity:0.4});
-	});
-
-	$(".bottom").hover(function(){
-		$(".pathlabel").fadeToggle(500);
-	});
-
 	$(".image-thumbnails img").click(function(){
 		$(".lightbox").addClass("lightbox-showing");
 		$(".lightbox-img").attr("src", $(this).data('large'));
@@ -94,6 +85,12 @@ $(document).ready(function(){
 
 });
 
-//var images = [
-//	{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 0 },
-//	{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 1 }];
+var images = [
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 0 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 1 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 2 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 3 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 4 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 5 },
+{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 6 }
+];

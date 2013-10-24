@@ -97,13 +97,13 @@ body {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 400px;
+	height: 406px;
 	width: 910px;
 }
 .spin img{
 	float: right;
-	margin-right: 34px;
-	width: 400px;
+	margin-right: 31px;
+	width: 406px;
 	-webkit-transition-duration: 30s;
 	-moz-transition-duration: 30s;
 	-o-transition-duration: 30s;
@@ -125,7 +125,7 @@ body {
 	height: 40px;
 	width: 535px;
 	float: left;
-	margin-top: 160px;
+	margin-top: 170px;
 	text-align: center;
 	font: 20px "Neucha";
 	color: #508F7C;
@@ -139,10 +139,10 @@ body {
 }
 .stepcontent div{
 	vertical-align: top;
-	width: 23%;
+	width: 24%;
 	min-width: 150px;
 	display: inline-block;
-	padding: 2px 5px 12px 5px;
+	padding: 2px 2px 12px 2px;
 	background-color: #AAD5C4;
 }
 .click{
@@ -154,17 +154,18 @@ body {
 }
 .stepcontent h3{
 	margin: 4px 0px 0px 0px;
-	font: 18px "Oxygen";
+	font: 18px "Cabin";
 }
 .stepcontent p{
 	display: none;
-	font: 11px "Carrois Gothic";
+	font: 12px "Carrois Gothic";
 	text-align: justify;
-	text-indent: 10px;
 	padding: 14px 12px 0px 12px;
 	margin: 5px auto;
 	width: 90%;
+	height: 470px;
 	background-color: rgba(255,255,255,0.3);
+	color: #383838
 }
 .moreStep{
 	width: 100%;
@@ -194,15 +195,15 @@ body {
 	width: 45%;
 	min-width: 220px;
 	text-align: center;
-	padding: 6px 0px 10px 0px;
+	padding: 10px 0px 14px 0px;
 }
 .info h1{
 	margin: 0;
-	padding: 5px;
-	font: 18px "Oxygen";
+	padding: ;
+	font: 18px "Cabin";
 }
 .info img{
-	width: 136px;
+	width: 140px;
 	padding-top: 5px;
 }
 .info ul{
@@ -210,10 +211,11 @@ body {
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
+	color: #383838;
 	margin: 5px auto;
 	padding: 10px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(255,255,255,0.3);
 }
 .info ul span{
 	font: 14px "Carrois Gothic";
@@ -250,7 +252,7 @@ body {
 .background h1{
 	padding: 4px 0px 14px 0px;
 	margin: 0;
-	font: 18px "Oxygen";
+	font: 18px "Cabin";
 }
 .background p{
 	display: none;
@@ -261,6 +263,7 @@ body {
 	margin: 0px auto;
 	width: 50%;
 	min-width: 400px;
+	color: #383838;
 }
 .background p:nth-child(7){
 	padding-bottom: 30px;
@@ -287,25 +290,10 @@ body {
 	background: url("rock.jpg")no-repeat bottom;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
-.tags{
-	position: absolute;
-	z-index: 1;
-	padding-top: 40px;
-}
-.click{
-	width: 70px;
-	cursor: pointer;
-}
-.label{
-	display: none;
-}
 .pathbackground{
 	position: absolute;
 	margin: 0 auto;
 	opacity: 0;
-}
-.pathlabel{
-	display: none;
 }
 .rights{
 	text-align: center;
