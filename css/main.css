@@ -32,7 +32,7 @@ body {
 	width: 220px;
 }
 .title img{
-	padding: 20px 5px 0px 5px;
+	padding: 25px 5px 0px 5px;
 	width: 170px;
 }
 .title div{
@@ -146,7 +146,7 @@ body {
 }
 .positions li{
 	list-style: none;
-	font: 13px "Carrois Gothic";
+	font: 14px "Carrois Gothic";
 	color: #508F7C;
 }
 .stepcontent{
@@ -179,7 +179,7 @@ body {
 	display: none;
 	font: 12px "Carrois Gothic";
 	text-align: justify;
-	padding: 14px 12px 0px 12px;
+	padding: 0px 12px 10px 12px;
 	margin: 5px auto;
 	width: 90%;
 	height: 470px;
@@ -211,7 +211,7 @@ body {
 .info div{
 	display: inline-block;
 	vertical-align: top;
-	width: 45%;
+	width: 48%;
 	min-width: 220px;
 	text-align: center;
 	padding: 10px 0px 14px 0px;
@@ -259,7 +259,7 @@ body {
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
-	background: url("rockandme.jpg") no-repeat center;
+	background: url("about.jpg") no-repeat center;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .aboutme div{

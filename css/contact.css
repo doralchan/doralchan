@@ -95,7 +95,7 @@ body{
 	width: 100%;
 }
 .connect img{
-	width: 180px;
+	width: 150px;
 	padding-top: 20px;
 	margin: 0;
 }
@@ -117,7 +117,6 @@ input[type=submit]{
 .medium{
 	max-width: 750px;
 	min-width: 450px;
-	height: 150px;
 	font: 14px "Carrois Gothic";
 	margin: 0 auto;
 	text-align: center;
@@ -127,7 +126,7 @@ input[type=submit]{
 	width: 22%;
 	max-width: 200px;
 	vertical-align: top;
-	margin-bottom: 60px;
+	height: 110px;
 }
 .medium img{
 	width: 60px;
@@ -148,6 +147,12 @@ input[type=submit]{
 	width: 30px;
 	text-align: center;
 	padding: 5px;
+}
+.map{
+	display: none;
+	height: 220px;
+	width: 100%;
+	background: url("map.jpg") no-repeat center;
 }
 .rights{
 	text-align: center;
