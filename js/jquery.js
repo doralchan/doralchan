@@ -8,8 +8,9 @@ $(document).ready(function(){
 		delay += 4200;
 		});
 	};
-
 	$(".greeting p").showdelay();
+
+	$(".positions").delay(9200).slideDown("slow");
 
 	$(".moreStep").click(function(){
 		$(".stepcontent p").slideDown("slow");

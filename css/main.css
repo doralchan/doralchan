@@ -22,19 +22,24 @@ body {
 }
 .title{
 	width: 1000px;
-	height: 40px;
+	height: 0px;
 	margin: 0 auto;
 	font: 18px "Carrois Gothic";
 	background-color: white;
 }
+.block{
+	text-align: center;
+	width: 220px;
+}
 .title img{
-	padding: 4px;
-	width: 180px;
-	margin: 0;
-	vertical-align: middle;
+	padding: 20px 5px 0px 5px;
+	width: 170px;
+}
+.title div{
+	margin-top: 30px;
 }
 .title p{
-	margin-top: 30px;
+	margin: 0;
 }
 .navbar{
 	max-width: 1000px;
@@ -99,6 +104,7 @@ body {
 	background-position: right;
 	height: 406px;
 	width: 910px;
+	margin-top: 40px;
 }
 .spin img{
 	float: right;
@@ -123,11 +129,24 @@ body {
 	display: none;
 	position: absolute;
 	height: 40px;
-	width: 535px;
+	width: 680px;
 	float: left;
-	margin-top: 170px;
+	margin-top: 120px;
 	text-align: center;
-	font: 20px "Neucha";
+}
+.greeting img{
+	width: 220px;
+}
+.positions{
+	position: absolute;
+	width: 180px;
+	margin: 170px 0px 0px 30px;
+	padding: 0;
+	display: none;
+}
+.positions li{
+	list-style: none;
+	font: 13px "Carrois Gothic";
 	color: #508F7C;
 }
 .stepcontent{
@@ -240,7 +259,7 @@ body {
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
-	background-color: #D1D1D1;
+	background: url("rockandme.jpg") no-repeat center;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .aboutme div{
@@ -263,7 +282,10 @@ body {
 	margin: 0px auto;
 	width: 50%;
 	min-width: 400px;
-	color: #383838;
+}
+.background span{
+	font: 16px "Carrois Gothic";
+	color: black;
 }
 .background p:nth-child(7){
 	padding-bottom: 30px;
