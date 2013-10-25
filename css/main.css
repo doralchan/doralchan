@@ -9,7 +9,6 @@ body {
 	display: none;
 	position: fixed;
 	margin: 20px;
-	opacity: 0.8;
 	right: 0;
 	bottom: 0;
 	z-index:1;
@@ -219,7 +218,7 @@ body {
 .resume a{
 	width: 116px;
 	text-align: center;
-	padding: 8px 16px 8px 16px;
+	padding: 8px 10px 8px 10px;
 	font: 13px "Cabin";
 	color: black;
 	background-color: #508F7C;
@@ -278,7 +277,7 @@ body {
 	display: inline-block;
 }
 .background h1{
-	padding: 4px 0px 14px 0px;
+	padding: 6px 0px 12px 0px;
 	margin: 0;
 	font: 18px "Cabin";
 }
@@ -297,7 +296,7 @@ body {
 	color: black;
 }
 .background p:nth-child(7){
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 .moreBackground{
 	width: 100%;
@@ -334,9 +333,13 @@ body {
 }
 .maincontact{
 	width: 100%;
-	font: 14px "Carrois Gothic";
 	text-align: center;
-	padding-top: 10px;
+}
+.maincontact p{
+	padding: 45px 0px 0px 0px;
+	margin: 0;
+	color: #508F7C;
+	font: 22px "Carrois Gothic";
 }
 .form{
 	margin: 0px auto;
@@ -353,7 +356,6 @@ input[type=submit]{
 .medium{
 	max-width: 750px;
 	min-width: 450px;
-	font: 14px "Carrois Gothic";
 	margin: 16px auto;
 	text-align: center;
 }
@@ -370,13 +372,16 @@ input[type=submit]{
 }
 .medium p{
 	display: none;
+	font: 14px "Carrois Gothic";
+	color: black;
 	margin: 2px auto;
+	padding: 0;
 }
 #links{
 	min-width: 300px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 12px 0px 30px 0px;
+	padding: 0px 0px 30px 0px;
 	height: 40px;
 }
 #links img{

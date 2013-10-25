@@ -59,7 +59,7 @@ $(document).ready(function(){
 	$(".morelocation").click(function(){
 		$(this).slideUp(50);
 		$(".location p").slideDown("fast");
-		$(".map").slideDown("fast");
+		$(".map").slideDown("slow");
 	});
 	$(".morecell").click(function(){
 		$(this).slideUp(50);
