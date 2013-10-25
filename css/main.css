@@ -172,7 +172,7 @@ body {
 }
 .stepcontent p{
 	display: none;
-	font: 12px "Carrois Gothic";
+	font: 11.5px "Carrois Gothic";
 	text-align: justify;
 	padding: 0px 14px 10px 14px;
 	margin: 0 auto;
@@ -324,6 +324,22 @@ body {
 	position: absolute;
 	margin: 0 auto;
 	opacity: 0;
+}
+.tags{
+	position: absolute;
+	width: 100%;
+	max-width: 1000px;
+	padding-top: 120px;
+	text-align: center;
+	z-index: 1;
+}
+.simplify{
+	cursor: pointer;
+}
+.label{
+	display: none;
+	position: absolute;
+	text-align: center;
 }
 .contact{
 	max-width: 1000px;
