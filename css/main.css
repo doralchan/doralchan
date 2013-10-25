@@ -20,27 +20,6 @@ body {
 	margin: 0 auto;
 	background-color: #E3E5E5;
 }
-.title{
-	width: 1000px;
-	height: 0px;
-	margin: 0 auto;
-	font: 18px "Carrois Gothic";
-	background-color: white;
-}
-.block{
-	text-align: center;
-	width: 220px;
-}
-.title img{
-	padding: 25px 5px 0px 5px;
-	width: 170px;
-}
-.title div{
-	margin-top: 30px;
-}
-.title p{
-	margin: 0;
-}
 .navbar{
 	max-width: 1000px;
 	height: 60px;
@@ -91,20 +70,37 @@ body {
 .header{
 	width: 100%;
 }
-.content{
+.title{
 	width: 1000px;
+	height: 0px;
+	margin-top: 30px;
+	font: 18px "Carrois Gothic";
+}
+.title img{
+	padding: 18px 5px 0px 5px;
+	width: 170px;
+}
+.title p{
+	margin: 0;
+}
+.block{
+	text-align: center;
+	width: 210px;
+}
+.content{
+	max-width: 1000px;
+	min-width: 730px;
 	margin: 0 auto;
-	background-color: white;
-	background: url("header.jpg")no-repeat bottom;
+	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
+	background-color: white;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
 	height: 406px;
-	width: 910px;
-	margin-top: 40px;
+	margin: 50px 90px 0px 0px;
 }
 .spin img{
 	float: right;
@@ -131,7 +127,7 @@ body {
 	height: 40px;
 	width: 680px;
 	float: left;
-	margin-top: 120px;
+	margin-top: 185px;
 	text-align: center;
 }
 .greeting img{
@@ -139,15 +135,15 @@ body {
 }
 .positions{
 	position: absolute;
-	width: 180px;
-	margin: 170px 0px 0px 30px;
+	width: 300px;
+	margin: 200px 0px 0px 25px;
 	padding: 0;
 	display: none;
+	font: 14px "Carrois Gothic";
+	color: #508F7C;
 }
 .positions li{
 	list-style: none;
-	font: 14px "Carrois Gothic";
-	color: #508F7C;
 }
 .stepcontent{
 	margin: 0 auto;
@@ -161,28 +157,27 @@ body {
 	width: 24%;
 	min-width: 150px;
 	display: inline-block;
-	padding: 2px 2px 12px 2px;
+	padding: 0px 2px 12px 2px;
 	background-color: #AAD5C4;
 }
 .click{
 	width: 75px;
 	padding-top: 10px;
 }
-.stepimg{
-	width: 100%
-}
 .stepcontent h3{
-	margin: 4px 0px 0px 0px;
+	margin: 4px 0px 2px 0px;
 	font: 18px "Cabin";
+}
+.stepimg{
+	width: 100%;
 }
 .stepcontent p{
 	display: none;
 	font: 12px "Carrois Gothic";
 	text-align: justify;
-	padding: 0px 12px 10px 12px;
-	margin: 5px auto;
-	width: 90%;
-	height: 470px;
+	padding: 0px 14px 10px 14px;
+	margin: 0 auto;
+	width: 85%;
 	background-color: rgba(255,255,255,0.3);
 	color: #383838
 }
@@ -214,16 +209,30 @@ body {
 	width: 48%;
 	min-width: 220px;
 	text-align: center;
-	padding: 10px 0px 14px 0px;
+	padding: 10px 0px 10px 0px;
 }
-.info h1{
-	margin: 0;
-	padding: ;
-	font: 18px "Cabin";
+.info div:nth-child(3){
+	display: none;
+	height: 36px;
+	margin: 0 auto;
+}
+.resume a{
+	width: 116px;
+	text-align: center;
+	padding: 8px 16px 8px 16px;
+	font: 13px "Cabin";
+	color: black;
+	background-color: #508F7C;
+	text-decoration: none;
+	margin: 20px;
 }
 .info img{
-	width: 140px;
+	width: 144px;
 	padding-top: 5px;
+}
+.info h1{
+	margin: 1px;
+	font: 18px "Cabin";
 }
 .info ul{
 	display: none;
@@ -232,7 +241,7 @@ body {
 	text-align: center;
 	color: #383838;
 	margin: 5px auto;
-	padding: 10px;
+	padding: 5px;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
@@ -316,6 +325,70 @@ body {
 	position: absolute;
 	margin: 0 auto;
 	opacity: 0;
+}
+.contact{
+	max-width: 1000px;
+	background-color: white;
+	margin: 22px auto;
+	box-shadow: 0px 2px 10px #b8b8b8;
+}
+.maincontact{
+	width: 100%;
+	font: 14px "Carrois Gothic";
+	text-align: center;
+	padding-top: 10px;
+}
+.form{
+	margin: 0px auto;
+	font: 12px "Cabin";
+}
+input[type=submit]{
+	background-color: #CCDD59;
+	border: 0 none;
+	cursor: pointer;
+	width: 116px;
+	padding: 8px 0px 8px 0px;
+	font: 13px "Cabin";
+}
+.medium{
+	max-width: 750px;
+	min-width: 450px;
+	font: 14px "Carrois Gothic";
+	margin: 16px auto;
+	text-align: center;
+}
+.medium div{
+	display: inline-block;
+	width: 22%;
+	max-width: 200px;
+	vertical-align: top;
+	height: 100px;
+}
+.medium img{
+	width: 50px;
+	padding: 0px 20px 0px 20px;
+}
+.medium p{
+	display: none;
+	margin: 2px auto;
+}
+#links{
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 12px 0px 30px 0px;
+	height: 40px;
+}
+#links img{
+	width: 30px;
+	text-align: center;
+	padding: 15px;
+}
+.map{
+	display: none;
+	height: 220px;
+	width: 100%;
+	background: url("map.jpg") no-repeat center;
 }
 .rights{
 	text-align: center;

@@ -13,13 +13,20 @@ $(document).ready(function(){
 	$(".positions").delay(9200).slideDown("slow");
 
 	$(".moreStep").click(function(){
-		$(".stepcontent p").slideDown("slow");
 		$(this).slideUp("slow");
+		$(".stepcontent p").slideDown("slow");
 	});
 
 	$(".moreAbility").click(function(){
 		$(".info ul").slideDown("slow");
+		$(".info div:nth-child(3)").slideDown("slow");
 		$(this).slideUp("slow");
+	});
+
+	$(".menu li:nth-child(3)").click(function(){
+		$(".info ul").slideDown("slow");
+		$(".moreAbility").slideUp("slow");
+		$(".info div:nth-child(3)").slideDown("slow");
 	});
 
 	$(".moreBackground").click(function(){
