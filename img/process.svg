@@ -2,22 +2,22 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="180px" height="244.8px" viewBox="-18 0 180 244.8" enable-background="new -18 0 180 244.8" xml:space="preserve">
-<rect x="76.823" y="135.626" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" width="17.576" height="90.854"/>
-<rect x="22.524" y="155.101" fill="#BCBCBC" width="17.575" height="71.381"/>
-<rect x="49.6" y="178.376" fill="#BCBCBC" width="17.574" height="48.104"/>
-<rect x="103.899" y="164.126" fill="#BCBCBC" width="17.575" height="62.354"/>
-<text transform="matrix(1 0 0 1 24.0488 155.1011)" fill="#BCBCBC" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
-<text transform="matrix(1 0 0 1 51.125 178.3765)" fill="#BCBCBC" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
-<text transform="matrix(1 0 0 1 78.3506 135.7222)" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
-<text transform="matrix(1 0 0 1 105.4248 164.1284)" fill="#BCBCBC" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
-<path fill="#BCBCBC" d="M117.883,64.201c0,25.34-20.541,45.883-45.884,45.883c-25.341,0-45.885-20.543-45.885-45.883
-	c0-25.344,20.544-45.883,45.885-45.883C97.342,18.318,117.883,38.857,117.883,64.201z M49.483,64.345
-	c0,12.367,10.025,22.393,22.391,22.393c12.368,0,22.392-10.025,22.392-22.393c0-12.363-10.022-22.391-22.392-22.391
-	C59.509,41.955,49.483,51.982,49.483,64.345z"/>
-<path fill="none" stroke="#000000" stroke-width="0.5" d="M71.998,167.634"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="0.75" d="M56.315,48.263c-4.047,4.047-6.551,9.637-6.551,15.809
-	c0,12.352,10.012,22.363,22.361,22.363c3.76,0,7.303-0.928,10.412-2.566c2-1.051,3.82-2.402,5.402-3.984l16.717,0.613l0.01,16.109
+	 width="180px" height="244.8px" viewBox="0 0 180 244.8" enable-background="new 0 0 180 244.8" xml:space="preserve">
+<rect x="94.824" y="135.626" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" width="17.575" height="90.854"/>
+<rect x="40.525" y="155.101" fill="#434F5B" width="17.575" height="71.381"/>
+<rect x="67.601" y="178.376" fill="#434F5B" width="17.574" height="48.104"/>
+<rect x="121.899" y="164.126" fill="#434F5B" width="17.576" height="62.354"/>
+<text transform="matrix(1 0 0 1 42.0498 155.1011)" fill="#434F5B" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
+<text transform="matrix(1 0 0 1 69.126 178.3765)" fill="#434F5B" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
+<text transform="matrix(1 0 0 1 96.3516 135.7222)" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
+<text transform="matrix(1 0 0 1 123.4258 164.1284)" fill="#434F5B" font-family="'PTSans-Narrow'" font-size="22.8">%</text>
+<path fill="#434F5B" d="M135.884,64.201c0,25.34-20.541,45.883-45.884,45.883c-25.341,0-45.885-20.543-45.885-45.883
+	c0-25.344,20.544-45.883,45.885-45.883C115.343,18.318,135.884,38.857,135.884,64.201z M67.484,64.345
+	c0,12.367,10.025,22.393,22.391,22.393c12.368,0,22.392-10.025,22.392-22.393c0-12.363-10.021-22.391-22.392-22.391
+	C77.51,41.955,67.484,51.982,67.484,64.345z"/>
+<path fill="none" stroke="#000000" stroke-width="0.5" d="M89.999,167.634"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="0.75" d="M74.316,48.263c-4.047,4.047-6.551,9.637-6.551,15.809
+	c0,12.352,10.012,22.363,22.361,22.363c3.76,0,7.304-0.928,10.412-2.566c2-1.051,3.819-2.402,5.401-3.984l16.718,0.613l0.01,16.109
 	c-3.26,3.258-7.004,6.031-11.115,8.197c-6.396,3.373-13.688,5.279-21.425,5.279c-25.411,0-46.013-20.598-46.013-46.012
-	c0-12.621,5.08-24.055,13.309-32.367l-0.163,15.942L56.315,48.263z"/>
+	c0-12.621,5.08-24.055,13.309-32.367L57.26,47.646L74.316,48.263z"/>
 </svg>

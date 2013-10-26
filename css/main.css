@@ -172,13 +172,17 @@ body {
 }
 .stepcontent p{
 	display: none;
-	font: 11.5px "Carrois Gothic";
+	font: 12px "Carrois Gothic";
 	text-align: justify;
 	padding: 0px 14px 10px 14px;
 	margin: 0 auto;
 	width: 85%;
 	background-color: rgba(255,255,255,0.3);
 	color: #383838
+}
+.stepcontent span{
+	font: 18px "Carrois Gothic";
+	color: #434F5B;
 }
 .moreStep{
 	width: 100%;
@@ -192,7 +196,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.4);
 	cursor: pointer;
 }
 .info{
@@ -240,9 +244,9 @@ body {
 	text-align: center;
 	color: #383838;
 	margin: 5px auto;
-	padding: 5px;
+	padding: 8px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.4);
 }
 .info ul span{
 	font: 14px "Carrois Gothic";
@@ -260,7 +264,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.4);
 	cursor: pointer;
 }
 .aboutme{
@@ -293,7 +297,7 @@ body {
 }
 .background span{
 	font: 16px "Carrois Gothic";
-	color: black;
+	color: #434F5B;
 }
 .background p:nth-child(7){
 	padding-bottom: 40px;
@@ -310,7 +314,7 @@ body {
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.4);
 	cursor: pointer;
 }
 .bottom{
