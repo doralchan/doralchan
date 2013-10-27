@@ -13,8 +13,8 @@ $(document).ready(function(){
 	$(".positions").delay(9200).slideDown("slow");
 
 	$(".moreStep").click(function(){
-		$(this).slideUp("slow");
 		$(".stepcontent p").slideDown("slow");
+		$(this).slideUp("slow");
 	});
 
 	$(".moreAbility").click(function(){
@@ -89,22 +89,26 @@ $(document).ready(function(){
 
 	$(".image-thumbnails img").click(function(){
 		$(".lightbox").addClass("lightbox-showing");
-		$(".lightbox-img").attr("src", $(this).data('jpg/large'));
+		$(".lightbox-img").attr("src", $(this).data('large'));
 		$(".container").hide();
 		$(".lightbox-exit img").click(function(){
 			$(".lightbox").removeClass("lightbox-showing");
 			$(".container").show();
+		});
+		$(".lightbox-navright img").click(function(){
+			$(".lightbox-img").attr("src", $(this).next().data('large'));
+		});
+		$(".lightbox-navleft img").click(function(){
+			$(".lightbox-img").attr("src", $(this).previous().data('large'));
 		});
 	});
 
 });
 
 var images = [
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 0 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 1 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 2 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 3 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 4 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 5 },
-{ src: 'css/darkblur.jpg', thumb: 'css/darkblur-small.jpg', index: 6 }
+{ src: 'jpg/large1.jpg', thumb: 'jpg/thumb1.jpg', index: 0 },
+{ src: 'jpg/large2.jpg', thumb: 'jpg/thumb2.jpg', index: 1 },
+{ src: 'jpg/large3.jpg', thumb: 'jpg/thumb1.jpg', index: 2 },
+{ src: 'jpg/large4.jpg', thumb: 'jpg/thumb2.jpg', index: 3 },
+{ src: 'jpg/large4.jpg', thumb: 'jpg/thumb2.jpg', index: 4 },
 ];

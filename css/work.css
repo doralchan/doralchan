@@ -74,6 +74,7 @@ body{
 .gallery{
 	display: inline-block;
 	width: 100%;
+	max-width: 1000px;
 	font: 14px "Carrois Gothic";
 }
 .image-thumbnails{
