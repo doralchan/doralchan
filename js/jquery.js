@@ -90,7 +90,6 @@ $(document).ready(function(){
 	$(".image-thumbnails img").click(function(){
 		$(".lightbox").addClass("lightbox-showing");
 		$(".lightbox-img").attr("src", $(this).data('large'));
-		$(".container").hide();
 		$(".lightbox-exit img").click(function(){
 			$(".lightbox").removeClass("lightbox-showing");
 			$(".container").show();
