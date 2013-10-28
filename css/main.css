@@ -158,10 +158,12 @@ body {
 .lightbox-navleft img{
 	width: 30px;
 	padding-bottom: 20%;
+	cursor: pointer;
 }
 .lightbox-navright img{
 	width: 30px;
 	padding-bottom: 20%;
+	cursor: pointer;
 }
 .lightbox-exit img{
 	width: 30px;
@@ -298,7 +300,7 @@ body {
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
-	background: url("aboutback.jpg") no-repeat center;
+	background: url("aboutback.jpg") no-repeat bottom;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .aboutme div{

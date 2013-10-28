@@ -104,10 +104,12 @@ body{
 .lightbox-navleft img{
 	width: 30px;
 	padding-bottom: 20%;
+	cursor: pointer;
 }
 .lightbox-navright img{
 	width: 30px;
 	padding-bottom: 20%;
+	cursor: pointer;
 }
 .lightbox-exit img{
 	width: 30px;
