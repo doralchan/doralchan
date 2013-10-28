@@ -3,14 +3,13 @@ $(document).ready(function(){
 	$.fn.showdelay = function(){
 		var delay = 800;
 		return this.each(function(){
-			$(this).delay(delay).fadeIn(1500);
-			$(this).delay(1500).fadeOut(1000);
-		delay += 4200;
+			$(this).delay(delay).fadeIn(1000);
+			$(this).delay(1300).fadeOut(1000);
+		delay += 6100;
 		});
 	};
 	$(".greeting p").showdelay();
-
-	$(".positions").delay(9200).slideDown("slow");
+	$(".block img:nth-child(2)").delay(4100).fadeIn(600);
 
 	$(".moreStep").click(function(){
 		$(".stepcontent p").slideDown("slow");
@@ -85,6 +84,7 @@ $(document).ready(function(){
 	$(".simplify").click(function(){
 		$(this).fadeOut("slow");
 		$(".label").fadeIn("slow");
+		$(".key").fadeIn("slow");
 	});
 
 	$(".image-thumbnails img").click(function(){

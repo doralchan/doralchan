@@ -47,7 +47,7 @@ body {
 	border-left: 1px solid gray;
 }
 .menu li:hover{
-	background-color: #508F7C;
+	background-color: #659099;
 	text-align: center;
 	text-decoration: none;
 	width: 90px;
@@ -75,20 +75,17 @@ body {
 	margin-top: 30px;
 	font: 18px "Carrois Gothic";
 }
-.title img{
-	padding: 18px 5px 0px 5px;
-	width: 170px;
-}
-.title p{
-	margin: 0;
-}
 .block{
+	padding-top: 50px;
 	text-align: center;
-	width: 210px;
+	width: 500px;
+}
+.block img:nth-child(2){
+	display: none;
 }
 .content{
 	max-width: 1000px;
-	min-width: 730px;
+	min-width: 920px;
 	margin: 0 auto;
 	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
@@ -124,25 +121,10 @@ body {
 	display: none;
 	position: absolute;
 	height: 40px;
-	width: 680px;
+	width: 500px;
 	float: left;
-	margin-top: 185px;
+	margin-top: 195px;
 	text-align: center;
-}
-.greeting img{
-	width: 220px;
-}
-.positions{
-	position: absolute;
-	width: 300px;
-	margin: 200px 0px 0px 25px;
-	padding: 0;
-	display: none;
-	font: 14px "Carrois Gothic";
-	color: #508F7C;
-}
-.positions li{
-	list-style: none;
 }
 .gallery{
 	margin: 0 auto;
@@ -194,6 +176,10 @@ body {
 	width: 40%;
 	margin: 20px;
 }
+.click{
+	width: 75px;
+	padding-top: 10px;
+}
 .stepcontent{
 	margin: 0 auto;
 	max-width: 1000px;
@@ -206,12 +192,7 @@ body {
 	width: 24%;
 	min-width: 150px;
 	display: inline-block;
-	padding: 0px 2px 12px 2px;
-	background-color: #AAD5C4;
-}
-.click{
-	width: 75px;
-	padding-top: 10px;
+	padding: 0px 0px 12px 0px;
 }
 .stepcontent h3{
 	margin: 4px 0px 2px 0px;
@@ -224,15 +205,13 @@ body {
 	display: none;
 	font: 12px "Carrois Gothic";
 	text-align: justify;
-	padding: 0px 14px 10px 14px;
+	padding: 0px 0px 10px 0px;
 	margin: 0 auto;
 	width: 85%;
-	background-color: rgba(255,255,255,0.3);
-	color: #383838
 }
 .stepcontent span{
 	font: 18px "Carrois Gothic";
-	color: #434F5B;
+	color: #20324A;
 }
 .moreStep{
 	width: 100%;
@@ -275,7 +254,7 @@ body {
 	padding: 8px 10px 8px 10px;
 	font: 13px "Cabin";
 	color: black;
-	background-color: #508F7C;
+	background-color: #659099;
 	text-decoration: none;
 	margin: 20px;
 }
@@ -292,15 +271,14 @@ body {
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
-	color: #383838;
-	margin: 5px auto;
+	margin: 10px auto;
 	padding: 8px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(255,255,255,0.3);
 }
 .info ul span{
-	font: 14px "Carrois Gothic";
-	color: #508F7C;
+	font: 16px "Carrois Gothic";
+	color: #659099;
 }
 .moreAbility{
 	width: 100%;
@@ -321,7 +299,7 @@ body {
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
-	background: url("about.jpg") no-repeat center;
+	background: url("aboutback.jpg") no-repeat center;
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .aboutme div{
@@ -347,10 +325,10 @@ body {
 }
 .background span{
 	font: 16px "Carrois Gothic";
-	color: #434F5B;
+	color: #20324A;
 }
 .background p:nth-child(7){
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 .moreBackground{
 	width: 100%;
@@ -414,7 +392,7 @@ body {
 .maincontact p{
 	padding: 45px 0px 0px 0px;
 	margin: 0;
-	color: #508F7C;
+	color: #20324A;
 	font: 22px "Carrois Gothic";
 }
 .form{
