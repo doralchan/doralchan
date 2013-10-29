@@ -76,7 +76,7 @@ body {
 	font: 18px "Carrois Gothic";
 }
 .block{
-	padding-top: 50px;
+	padding-top: 40px;
 	text-align: center;
 	width: 550px;
 }
@@ -96,26 +96,17 @@ body {
 	background-repeat: no-repeat;
 	background-position: right;
 	height: 406px;
-	margin: 50px 90px 0px 0px;
+	margin: 40px 90px 0px 0px;
 }
 .spin img{
 	float: right;
 	margin-right: 31px;
 	width: 406px;
-	-webkit-transition-duration: 30s;
-	-moz-transition-duration: 30s;
-	-o-transition-duration: 30s;
-	transition-duration: 30s;
-	-webkit-transition-property: -webkit-transform;
-	-moz-transition-property: -moz-transform;
-	-o-transition-property: -o-transform;
-	transition-property: transform;
+    -webkit-animation: rotation 80s infinite linear;
 }
-.spin img:hover{
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-    cursor: pointer;
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
 }
 .greeting p{
 	display: none;
@@ -123,60 +114,8 @@ body {
 	height: 40px;
 	width: 550px;
 	float: left;
-	margin-top: 195px;
+	margin-top: 285px;
 	text-align: center;
-}
-.gallery{
-	margin: 0 auto;
-	max-width: 1000px;
-	font: 14px "Carrois Gothic";
-	box-shadow: 0px 2px 10px #b8b8b8;
-}
-.image-thumbnails{
-	text-align: center;
-	cursor: pointer;
-}
-.image-thumbnails img{
-	width: 25%;
-	height: 140px;
-}
-.lightbox{
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: rgba(0,0,0,0.7);
-	display: none;
-	margin: 0 auto;
-	overflow: scroll;
-}
-.box{
-	min-width: 300px;
-	width: 100%;
-	margin: 10% 0px 10% 0px;
-}
-.lightbox-navleft img{
-	width: 30px;
-	padding-bottom: 20%;
-	cursor: pointer;
-}
-.lightbox-navright img{
-	width: 30px;
-	padding-bottom: 20%;
-	cursor: pointer;
-}
-.lightbox-exit img{
-	width: 30px;
-	cursor: pointer;
-}
-.lightbox-showing{
-	display: block;
-	text-align: center;
-}
-.lightbox-img{
-	width: 40%;
-	margin: 20px;
 }
 .click{
 	width: 75px;
@@ -273,7 +212,7 @@ body {
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
-	margin: 10px auto;
+	margin: 5px auto;
 	padding: 8px;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
@@ -352,7 +291,7 @@ body {
 	margin: 0 auto;
 	width: 1000px;
 	background: url("rock.jpg")no-repeat bottom;
-	box-shadow: 0px 2px 10px #b8b8b8;
+	box-shadow: 0px 5px 10px #b8b8b8;
 }
 .pathbackground{
 	position: absolute;
@@ -395,7 +334,7 @@ body {
 	padding: 45px 0px 0px 0px;
 	margin: 0;
 	color: #659099;
-	font: 22px "Carrois Gothic";
+	font: 24px "Carrois Gothic";
 }
 .form{
 	margin: 0px auto;

@@ -1,15 +1,14 @@
 $(document).ready(function(){
 
 	$.fn.showdelay = function(){
-		var delay = 800;
+		var delay = 1000;
 		return this.each(function(){
-			$(this).delay(delay).fadeIn(1000);
-			$(this).delay(1300).fadeOut(1000);
-		delay += 6100;
+			$(this).delay(delay).fadeIn(1200);
+			$(this).delay(delay).fadeOut(1200);
+		delay += 3800;
 		});
 	};
 	$(".greeting p").showdelay();
-	$(".block img:nth-child(2)").delay(4100).fadeIn(800);
 
 	$(".moreStep").click(function(){
 		$(".stepcontent p").slideDown("slow");
