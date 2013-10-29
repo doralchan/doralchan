@@ -3,7 +3,6 @@ body{
 	padding: 0;
 }
 #wrapper{
-	height: 900px;
 	width: 100%;
 }
 .container{
@@ -11,9 +10,6 @@ body{
 	height: 100%;
 	margin: 0 auto;
 	background-color: #D3D5D5;
-}
-.header{
-	margin-top: 30px;
 }
 .navbar{
 	max-width: 1000px;
@@ -64,7 +60,11 @@ body{
 	padding-top: 25px;
 	color: inherit;
 }
-.title{
+.header{
+	width: 100%;
+	margin-top: 40px;
+}
+.content{
 	margin: 0 auto;
 	max-width: 1000px;
 	min-width: 600px;

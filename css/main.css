@@ -68,35 +68,43 @@ body {
 }
 .header{
 	width: 100%;
-}
-.title{
-	max-width: 1000px;
-	height: 0px;
-	margin-top: 30px;
-	font: 18px "Carrois Gothic";
-}
-.block{
-	padding-top: 40px;
-	text-align: center;
-	width: 550px;
-}
-.block img:nth-child(2){
-	display: none;
+	margin-top: 40px;
 }
 .content{
 	max-width: 1000px;
 	min-width: 900px;
-	margin: 0 auto;
+	margin: 0px auto;
+	padding-top: 30px;
 	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
 	background-color: white;
+}
+.block{
+	position: absolute;
+	padding-top: 20px;
+	text-align: center;
+	width: 550px;
+}
+.portfolio{
+	display: none;
+	cursor: pointer;
+	padding-top: 50px;
+}
+.greeting p{
+	display: none;
+	position: absolute;
+	height: 40px;
+	width: 550px;
+	float: left;
+	margin-top: 255px;
+	text-align: center;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
 	height: 406px;
-	margin: 40px 90px 0px 0px;
+	margin: 0px 90px 0px 0px;
 }
 .spin img{
 	float: right;
@@ -108,15 +116,6 @@ body {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(359deg);}
 }
-.greeting p{
-	display: none;
-	position: absolute;
-	height: 40px;
-	width: 550px;
-	float: left;
-	margin-top: 285px;
-	text-align: center;
-}
 .click{
 	width: 75px;
 	padding-top: 10px;
@@ -126,11 +125,11 @@ body {
 	max-width: 1000px;
 	text-align: center;
 	background-color: #AAD5C4;
-	box-shadow: 0px 2px 10px #b8b8b8;
+	box-shadow: 0px 5px 10px #b8b8b8;
 }
 .stepcontent div{
 	vertical-align: top;
-	width: 24%;
+	width: 25%;
 	min-width: 150px;
 	display: inline-block;
 	padding: 0px 0px 12px 0px;
@@ -148,7 +147,7 @@ body {
 	text-align: justify;
 	padding: 0px 0px 10px 0px;
 	margin: 0 auto;
-	width: 85%;
+	width: 88%;
 }
 .stepcontent span{
 	font: 18px "Carrois Gothic";
@@ -192,7 +191,7 @@ body {
 .resume a{
 	width: 116px;
 	text-align: center;
-	padding: 8px 10px 8px 10px;
+	padding: 5px 12px 5px 12px;
 	font: 13px "Cabin";
 	color: black;
 	border: 2px solid black;
@@ -213,7 +212,7 @@ body {
 	font: 12px "Carrois Gothic";
 	text-align: center;
 	margin: 5px auto;
-	padding: 8px;
+	padding: 5px;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
@@ -269,7 +268,7 @@ body {
 	color: #AAD5C4;
 }
 .background p:nth-child(6){
-	padding-bottom: 45px;
+	padding-bottom: 40px;
 }
 .moreBackground{
 	width: 100%;
@@ -344,8 +343,7 @@ input[type=submit]{
 	background-color: #CCDD59;
 	border: 0 none;
 	cursor: pointer;
-	width: 116px;
-	padding: 8px 0px 8px 0px;
+	padding: 5px 12px 5px 12px;
 	font: 13px "Cabin";
 }
 .medium{

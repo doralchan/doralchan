@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8"/>
-  <title>About Me</title>
-  <style>
-#listitem{
-	color: red;
+<head>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+</head>
+
+<body>
+  <div class = "canvas">
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+  </div>
+  <div class = "point">
+  </div>
+
+<style>
+.canvas{
+  width: 1000px;
+  height: 470px;
+  border: 1px solid black;
+  background-color: gray;
+  margin: 100px auto;
+}
+.canvas li{
+  list-style: none;
+  height: 100px;
 }
 </style>
-</head>
-<body>
-  <h1>About Me</h1>
-
-  <ul>
-    <li>Nickname: <span id="nickname"></span>
-    <li>Favorites:  <span id="favorites"></span>
-    <li>Hometown: <span id="hometown"></span>
-   </ul>
-
-<h1>Book List</h1>
-
- <h1>Mad Libs</h1>
-
- <ul>
-  <li>Noun: <input type="text" id="noun">
-  <li>Adjective: <input type="text" id="adjective">
-  <li>Someone's Name: <input type="text" id="person">
- </ul>
-
- <button id="lib-button">Lib it!</button>
-
-<div id="story"></div>
-
 <script type="text/javascript" src ="js/test.js">
 </script>
 </body>

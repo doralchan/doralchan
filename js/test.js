@@ -1,9 +1,3 @@
-// document.body.style.fontFamily = "helvetica";
-
-// document.getElementById("nickname").innerHTML = "Dora";
-// document.getElementById("favorites").innerHTML = "Stuff";
-// document.getElementById("hometown").innerHTML = "California";
-
 // var items = document.getElementsByTagName("li");
 // for (var i = 0; i<items.length; i++) {
 // items[i].id = "listitem";
@@ -39,3 +33,9 @@
 //var profile = document.createElement("img");
 //profile.src = "http://eofdreams.com/data_images/dreams/cat/cat-06.jpg";
 //document.body.appendChild(profile);
+
+$(".canvas").mousemove(function(event){
+	var x = event.clientX - this.offsetLeft;
+	var y = event.clientY - this.offsetTop;
+	$(".point").text("your x position is " + x + "and your y position is " + y);
+});
