@@ -67,37 +67,42 @@ body {
 	color: inherit;
 }
 .header{
-	width: 100%;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 .content{
 	max-width: 1000px;
-	min-width: 900px;
+	min-width: 850px;
 	margin: 0px auto;
-	padding-top: 30px;
+	padding-top: 20px;
 	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
 	background-color: white;
 }
+.title{
+	position: absolute;
+	width: 60%;
+	max-width: 600px;
+	min-width: 330px;
+	text-align: center;
+	z-index: 1;
+}
 .block{
 	position: absolute;
-	padding-top: 20px;
-	text-align: center;
-	width: 550px;
+	padding-top: 25px;
+	width: 100%
 }
 .portfolio{
 	display: none;
 	cursor: pointer;
-	padding-top: 50px;
+	padding-top: 62px;
 }
 .greeting p{
 	display: none;
 	position: absolute;
 	height: 40px;
-	width: 550px;
+	width: 100%;
 	float: left;
-	margin-top: 255px;
-	text-align: center;
+	margin-top: 265px;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
@@ -188,16 +193,6 @@ body {
 	height: 36px;
 	margin: 0 auto;
 }
-.resume a{
-	width: 116px;
-	text-align: center;
-	padding: 5px 12px 5px 12px;
-	font: 13px "Cabin";
-	color: black;
-	border: 2px solid black;
-	text-decoration: none;
-	margin: 20px;
-}
 .info img{
 	width: 144px;
 	padding-top: 5px;
@@ -219,6 +214,16 @@ body {
 .info ul span{
 	font: 16px "Carrois Gothic";
 	color: #659099;
+}
+.resume a{
+	width: 116px;
+	text-align: center;
+	padding: 5px 12px 5px 12px;
+	font: 13px "Cabin";
+	color: black;
+	border: 2px solid black;
+	text-decoration: none;
+	margin: 20px;
 }
 .moreAbility{
 	width: 100%;
@@ -330,20 +335,21 @@ body {
 	text-align: center;
 }
 .maincontact p{
-	padding: 45px 0px 0px 0px;
+	padding: 48px 0px 0px 0px;
 	margin: 0;
 	color: #659099;
-	font: 24px "Carrois Gothic";
+	font: 28px "Carrois Gothic";
 }
 .form{
 	margin: 0px auto;
 	font: 12px "Cabin";
 }
 input[type=submit]{
-	background-color: #CCDD59;
-	border: 0 none;
+	background-color: white;
+	border: 2px solid #659099;
 	cursor: pointer;
-	padding: 5px 12px 5px 12px;
+	color: #659099;
+	padding: 5px 15px 5px 15px;
 	font: 13px "Cabin";
 }
 .medium{
@@ -374,7 +380,7 @@ input[type=submit]{
 	min-width: 300px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 25px 0px;
 	height: 40px;
 }
 #links img{

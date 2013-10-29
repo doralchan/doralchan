@@ -3,13 +3,13 @@ $(document).ready(function(){
 	$.fn.showdelay = function(){
 		var delay = 800;
 		return this.each(function(){
-			$(this).delay(delay).fadeIn(1200);
-			$(this).delay(2000).fadeOut(1400);
+			$(this).delay(delay).fadeIn(1400);
+			$(this).delay(1000).fadeOut(1600);
 		delay += 3500;
 		});
 	};
 	$(".greeting p").showdelay();
-	$(".portfolio").delay(8000).slideDown(1000);
+	$(".portfolio").delay(8400).slideDown(1000);
 
 	$(".moreStep").click(function(){
 		$(".stepcontent p").slideDown("slow");
