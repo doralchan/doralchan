@@ -9,7 +9,7 @@ $(document).ready(function(){
 		});
 	};
 	$(".greeting p").showdelay();
-	$(".block img:nth-child(2)").delay(4100).fadeIn(600);
+	$(".block img:nth-child(2)").delay(4100).fadeIn(800);
 
 	$(".moreStep").click(function(){
 		$(".stepcontent p").slideDown("slow");
@@ -84,14 +84,15 @@ $(document).ready(function(){
 	$(".simplify").click(function(){
 		$(this).fadeOut("slow");
 		$(".label").fadeIn("slow");
-		$(".key").fadeIn("slow");
 	});
 
 	$(".image-thumbnails img").click(function(){
 		$(".lightbox").addClass("lightbox-showing");
 		$(".lightbox-img").attr("src", $(this).data('large'));
+		$("body").css("overflow", "hidden");
 		$(".lightbox-exit img").click(function(){
 			$(".lightbox").removeClass("lightbox-showing");
+			$("body").css("overflow", "auto");
 			$(".container").show();
 		});
 		$(".lightbox-navright img").click(function(){
