@@ -34,18 +34,24 @@
 //profile.src = "http://eofdreams.com/data_images/dreams/cat/cat-06.jpg";
 //document.body.appendChild(profile);
 
-$(".canvas").mousemove(function(event){
-	var x = event.clientX - this.offsetLeft;
-	var y = event.clientY - this.offsetTop;
-	$(".point").text("your x position is " + x + "and your y position is " + y);
-});
+// $(".moreStep").click(function(){
+// 	$(".stepcontent p").slideDown("slow");
+// 	$(this).slideUp("slow");
+// });
 
-$(".canvas").mousemove(function(event){
-	var x = event.clientX - this.offsetLeft;
-	var y = event.clientY - this.offsetTop;
-	if (130 <= x && x <=150 && 430 <= y && y <=450){
-		$(".canvas li:nth-child(2)").show();
-	}else{
-		$(".canvas li:nth-child(2)").hide();
-	};
-});
+// $(".moreAbility").click(function(){
+// 	$(".info ul").slideDown("slow");
+// 	$(".info div:nth-child(3)").slideDown("slow");
+// 	$(this).slideUp("slow");
+// });
+
+// $(".moreBackground").click(function(){
+// 	$(".background p").slideDown("slow");
+// 	$(this).slideUp("slow");
+// });
+
+// $(".menu li:nth-child(3)").click(function(){
+// 	$(".info ul").slideDown("slow");
+// 	$(".more").slideUp("slow");
+// 	$(".info div:nth-child(3)").slideDown("slow");
+// });

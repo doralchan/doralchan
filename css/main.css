@@ -73,37 +73,23 @@ body {
 	max-width: 1000px;
 	min-width: 850px;
 	margin: 0px auto;
-	padding-top: 20px;
+	padding-top: 40px;
 	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
 	background-color: white;
 }
 .title{
 	position: absolute;
-	width: 60%;
-	max-width: 600px;
+	width: 100%;
+	max-width: 1000px;
 	min-width: 330px;
-	text-align: center;
 	z-index: 1;
 }
 .block{
 	position: absolute;
-	padding-top: 20px;
-	width: 100%;
-	height: 300px;
-}
-.portfolio{
-	display: none;
-	cursor: pointer;
-	padding-top: 70px;
-}
-.greeting p{
-	display: none;
-	position: absolute;
-	height: 40px;
-	width: 100%;
-	float: left;
-	margin-top: 265px;
+	width: 400px;
+	height: 250px;
+	margin-left: 40px;
 }
 .logo {
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
@@ -142,31 +128,31 @@ body {
 }
 .stepcontent h3{
 	margin: 4px 0px 2px 0px;
-	font: 18px "Cabin";
+	font: 16px "Quicksand";
 }
 .stepimg{
 	width: 100%;
 }
 .stepcontent p{
 	display: none;
-	font: 12px "Carrois Gothic";
+	font: 11px "Carrois Gothic";
 	text-align: justify;
 	padding: 0px 0px 10px 0px;
 	margin: 0 auto;
 	width: 88%;
 }
 .stepcontent span{
-	font: 18px "Carrois Gothic";
+	font: 16px "Quicksand";
 	color: #20324A;
 }
-.moreStep{
+.more{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 	cursor: pointer;
 }
-.moreStep:hover{
+.more:hover{
 	width: 100%;
 	margin: 0 auto;
 	height: 22px;
@@ -187,59 +173,40 @@ body {
 	width: 48%;
 	min-width: 220px;
 	text-align: center;
-	padding: 10px 0px 10px 0px;
+	padding: 2px 0px 10px 0px;
 }
 .info div:nth-child(3){
 	display: none;
 	height: 36px;
 	margin: 0 auto;
 }
-.info img{
-	width: 144px;
-	padding-top: 5px;
-}
 .info h1{
-	margin: 1px;
-	font: 18px "Cabin";
+	margin: 3px;
+	font: 16px "Quicksand";
 }
 .info ul{
 	display: none;
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
-	margin: 5px auto;
-	padding: 5px;
+	margin: 0px auto;
+	padding: 6px;
 	width: 90%;
 	background-color: rgba(255,255,255,0.3);
 }
 .info ul span{
-	font: 16px "Carrois Gothic";
+	font: 14px "Quicksand";
 	color: #659099;
 }
 .resume a{
 	width: 116px;
 	text-align: center;
 	padding: 5px 12px 5px 12px;
-	font: 13px "Cabin";
+	font: 12px "Quicksand";
+	font-weight: 700;
 	color: black;
 	border: 2px solid black;
 	text-decoration: none;
-	margin: 20px;
-}
-.moreAbility{
-	width: 100%;
-	margin: 0 auto;
-	height: 22px;
-	text-align: center;
-	cursor: pointer;
-}
-.moreAbility:hover{
-	width: 100%;
-	margin: 0 auto;
-	height: 22px;
-	text-align: center;
-	background-color: rgba(255,255,255,0.6);
-	cursor: pointer;
 }
 .aboutme{
 	margin: 0 auto;
@@ -257,7 +224,7 @@ body {
 .background h1{
 	padding: 6px 0px 12px 0px;
 	margin: 0;
-	font: 18px "Cabin";
+	font: 16px "Quicksand";
 }
 .background p{
 	display: none;
@@ -275,21 +242,6 @@ body {
 }
 .background p:nth-child(6){
 	padding-bottom: 40px;
-}
-.moreBackground{
-	width: 100%;
-	margin: 0 auto;
-	height: 22px;
-	text-align: center;
-	cursor: pointer;
-}
-.moreBackground:hover{
-	width: 100%;
-	margin: 0 auto;
-	height: 22px;
-	text-align: center;
-	background-color: rgba(255,255,255,0.6);
-	cursor: pointer;
 }
 .bottom{
 	height: 470px;
@@ -332,29 +284,25 @@ body {
 	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .maincontact{
-	width: 100%;
+	width: 50%;
 	text-align: center;
 }
 .maincontact p{
-	padding: 48px 0px 0px 0px;
+	padding: 48px 0px 15px 0px;
 	margin: 0;
 	color: #659099;
 	font: 28px "Carrois Gothic";
 }
-.form{
-	margin: 0px auto;
-	font: 12px "Cabin";
-}
 input[type=submit]{
 	background-color: white;
-	border: 2px solid #659099;
+	border: 2px solid black;
 	cursor: pointer;
-	color: #659099;
 	padding: 5px 15px 5px 15px;
-	font: 13px "Cabin";
+	font: 12px "Quicksand";
+	font-weight: 700;
 }
 .medium{
-	max-width: 750px;
+	max-width: 650px;
 	min-width: 450px;
 	margin: 16px auto;
 	text-align: center;
@@ -364,7 +312,7 @@ input[type=submit]{
 	width: 22%;
 	max-width: 200px;
 	vertical-align: top;
-	height: 100px;
+	height: 120px;
 }
 .medium img{
 	width: 50px;
@@ -372,7 +320,7 @@ input[type=submit]{
 }
 .medium p{
 	display: none;
-	font: 14px "Carrois Gothic";
+	font: 12px "Carrois Gothic";
 	color: black;
 	margin: 2px auto;
 	padding: 0;
@@ -381,19 +329,13 @@ input[type=submit]{
 	min-width: 300px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 0px 0px 25px 0px;
-	height: 40px;
+	padding: 0px 0px 0px 0px;
+	height: 50px;
 }
 #links img{
 	width: 30px;
 	text-align: center;
-	padding: 15px;
-}
-.map{
-	display: none;
-	height: 220px;
-	width: 100%;
-	background: url("map.jpg") no-repeat bottom;
+	padding: 22px;
 }
 .rights{
 	text-align: center;

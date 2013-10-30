@@ -1,36 +1,10 @@
 $(document).ready(function(){
 
-	$.fn.showdelay = function(){
-		var delay = 800;
-		return this.each(function(){
-			$(this).delay(delay).fadeIn(1400);
-			$(this).delay(1000).fadeOut(1600);
-		delay += 3500;
-		});
-	};
-	$(".greeting p").showdelay();
-	$(".portfolio").delay(8400).slideDown(1000);
+	$(".portfolio").slideDown(1000);
 
-	$(".moreStep").click(function(){
-		$(".stepcontent p").slideDown("slow");
-		$(this).slideUp("slow");
-	});
-
-	$(".moreAbility").click(function(){
-		$(".info ul").slideDown("slow");
-		$(".info div:nth-child(3)").slideDown("slow");
-		$(this).slideUp("slow");
-	});
-
-	$(".menu li:nth-child(3)").click(function(){
-		$(".info ul").slideDown("slow");
-		$(".moreAbility").slideUp("slow");
-		$(".info div:nth-child(3)").slideDown("slow");
-	});
-
-	$(".moreBackground").click(function(){
-		$(".background p").slideDown("slow");
-		$(this).slideUp("slow");
+	$(".more").click(function(){
+		$(".more img").attr("src","img/less.svg");
+		$(".hide").slideToggle("slow");
 	});
 
 	var fixed = false;
@@ -58,7 +32,6 @@ $(document).ready(function(){
 	$(".morelocation").click(function(){
 		$(this).slideUp(50);
 		$(".location p").slideDown("fast");
-		$(".map").slideDown("slow");
 	});
 	$(".morecell").click(function(){
 		$(this).slideUp(50);
@@ -77,7 +50,7 @@ $(document).ready(function(){
 			$(".bottomcontent img:nth-child(4)").delay(3100).animate({opacity:1},850);
 			$(".bottomcontent img:nth-child(2)").delay(800).animate({opacity:0.1},850);
 			$(window).off("scroll");
-			};
+			}
 		});
 	});
 
