@@ -88,13 +88,14 @@ body {
 }
 .block{
 	position: absolute;
-	padding-top: 25px;
-	width: 100%
+	padding-top: 20px;
+	width: 100%;
+	height: 300px;
 }
 .portfolio{
 	display: none;
 	cursor: pointer;
-	padding-top: 62px;
+	padding-top: 70px;
 }
 .greeting p{
 	display: none;

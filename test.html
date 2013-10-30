@@ -14,24 +14,30 @@
       <li>5</li>
     </ul>
   </div>
-  <div class = "point">
-  </div>
-
+  <div class = "point"></div>
 <style>
 .canvas{
   width: 1000px;
   height: 470px;
-  background-color: gray;
-  margin: 100px auto;
+  background: url("img/coordinates.jpg")center;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+.canvas ul{
+  margin: 0 auto;
+  padding: 0;
 }
 .canvas li{
   list-style: none;
-  height: 92px;
+  height: 80px;
   margin: 2px;
   width: 50px;
   text-align: right;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
+}
+.canvas li:nth-child(2){
+  display: none;
 }
 </style>
 <script type="text/javascript" src ="js/test.js">
