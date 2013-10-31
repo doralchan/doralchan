@@ -71,7 +71,7 @@ body {
 }
 .content{
 	max-width: 1000px;
-	min-width: 723px;
+	min-width: 600px;
 	margin: 0px auto;
 	padding-top: 30px;
 	background: url("header.jpg")no-repeat bottom right;
@@ -82,10 +82,11 @@ body {
 	position: absolute;
 	width: 100%;
 	max-width: 1000px;
-	min-width: 723px;
+	min-width: 640px;
 	z-index: 1;
 }
 .block{
+	position: absolute;
 	float; left;
 	margin-left: 30px;
 }
