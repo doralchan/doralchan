@@ -67,13 +67,13 @@ body {
 	color: inherit;
 }
 .header{
-	margin-top: 50px;
+	margin-top: 60px;
 }
 .content{
 	max-width: 1000px;
-	min-width: 850px;
+	min-width: 723px;
 	margin: 0px auto;
-	padding-top: 40px;
+	padding-top: 30px;
 	background: url("header.jpg")no-repeat bottom right;
 	box-shadow: 0px 0px 10px #b8b8b8;
 	background-color: white;
@@ -82,16 +82,19 @@ body {
 	position: absolute;
 	width: 100%;
 	max-width: 1000px;
-	min-width: 330px;
+	min-width: 723px;
 	z-index: 1;
 }
 .block{
-	position: absolute;
-	width: 400px;
-	height: 250px;
-	margin-left: 40px;
+	float; left;
+	margin-left: 30px;
 }
-.logo {
+.seeDora{
+	width: 174px;
+	float: right;
+	margin: 180px 414px 0px 0px;
+}
+.logo{
 	background: url("bordercircle.svg"), url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
@@ -108,16 +111,29 @@ body {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(359deg);}
 }
+.intro{
+	max-width: 1000px;
+	margin: 0px auto;
+	padding: 12px 0px 12px 0px;
+	background-color: black;
+	box-shadow: 0px 6px 10px #b8b8b8;
+	color: #AAD5C4;
+	font: 11px "Quicksand";
+	text-align: center;
+}
 .click{
 	width: 75px;
 	padding-top: 10px;
+}
+.step{
+	margin-top: 22px;
 }
 .stepcontent{
 	margin: 0 auto;
 	max-width: 1000px;
 	text-align: center;
 	background-color: #AAD5C4;
-	box-shadow: 0px 5px 10px #b8b8b8;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .stepcontent div{
 	vertical-align: top;
@@ -146,14 +162,12 @@ body {
 	color: #20324A;
 }
 .more{
-	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
 	cursor: pointer;
 }
 .more:hover{
-	width: 100%;
 	margin: 0 auto;
 	height: 22px;
 	text-align: center;
@@ -189,10 +203,10 @@ body {
 	list-style: none;
 	font: 12px "Carrois Gothic";
 	text-align: center;
-	margin: 0px auto;
+	margin: 4px auto;
 	padding: 6px;
 	width: 90%;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.4);
 }
 .info ul span{
 	font: 14px "Quicksand";
@@ -248,7 +262,7 @@ body {
 	margin: 0 auto;
 	width: 1000px;
 	background: url("rock.jpg")no-repeat bottom;
-	box-shadow: 0px 5px 10px #b8b8b8;
+	box-shadow: 0px 2px 10px #b8b8b8;
 }
 .pathbackground{
 	position: absolute;
@@ -309,7 +323,7 @@ input[type=submit]{
 }
 .medium div{
 	display: inline-block;
-	width: 22%;
+	width: 25%;
 	max-width: 200px;
 	vertical-align: top;
 	height: 120px;
@@ -339,7 +353,7 @@ input[type=submit]{
 }
 .rights{
 	text-align: center;
-	padding: 20px;
+	padding-bottom: 20px;
 	font: 12px "Carrois Gothic";
 	clear: both;
 	bottom: 0;

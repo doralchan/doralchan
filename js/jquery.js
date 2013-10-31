@@ -2,9 +2,16 @@ $(document).ready(function(){
 
 	$(".portfolio").slideDown(1000);
 
-	$(".more").click(function(){
-		$(".more img").attr("src","img/less.svg");
+	$(".more").on("click", function(){
+		var src = $(".more img");
 		$(".hide").slideToggle("slow");
+		if (src.data("active")){
+			src.attr("src","img/more.svg");
+			src.data("active", false);
+		}else{
+			src.attr("src","img/less.svg");
+			src.data("active", true);
+		}
 	});
 
 	var fixed = false;
