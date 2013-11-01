@@ -96,7 +96,7 @@ body {
 	margin: 180px 414px 0px 0px;
 }
 .logo{
-	background: url("bordercircle.svg"), url("clearcircle1.svg");
+	background: url("clearcircle1.svg");
 	background-repeat: no-repeat;
 	background-position: right;
 	height: 406px;

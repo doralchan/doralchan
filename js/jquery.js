@@ -14,18 +14,17 @@ $(document).ready(function(){
 		}
 	});
 
-var circleArray = new Array();
-circleArray[0] = "img/clearcircle1.svg"
-circleArray[1] = "img/clearcircle2.svg"
-circleArray[2] = "img/clearcircle3.svg"
+var i = 0;
+var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
 
-var swapCircle = function(){
-	$(".logo").css("backgroundImage", "url(img/clearcircle2.svg)");
+function circleSwap(){
+       if ( i > circleArray.length - 1){i = 0;}
+       $(".logo").css("backgroundImage", "url(img/"+circleArray[i]+")");
+       i++;
 }
+window.setInterval(circleSwap, 3000);
 
-window.setInterval(swapCircle, 2000);
-
-	var fixed = false;
+var fixed = false;
 	$(document).scroll(function(){
 		if( $(this).scrollTop() > 70){
 			if(! fixed) {
