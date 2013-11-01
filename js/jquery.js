@@ -14,6 +14,17 @@ $(document).ready(function(){
 		}
 	});
 
+var circleArray = new Array();
+circleArray[0] = "img/clearcircle1.svg"
+circleArray[1] = "img/clearcircle2.svg"
+circleArray[2] = "img/clearcircle3.svg"
+
+var swapCircle = function(){
+	$(".logo").css("backgroundImage", "url(img/clearcircle2.svg)");
+}
+
+window.setInterval(swapCircle, 2000);
+
 	var fixed = false;
 	$(document).scroll(function(){
 		if( $(this).scrollTop() > 70){
