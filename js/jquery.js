@@ -42,19 +42,6 @@ var fixed = false;
 		return false;
 	});
 
-	$(".moremail").click(function(){
-		$(this).slideUp(50);
-		$(".mail p").slideDown("fast");
-	});
-	$(".morelocation").click(function(){
-		$(this).slideUp(50);
-		$(".location p").slideDown("fast");
-	});
-	$(".morecell").click(function(){
-		$(this).slideUp(50);
-		$(".cell p").slideDown("fast");
-	});
-
 	$(window).scroll( function(){
 		$(".bottomcontent img:nth-child(1)").each(function(){
 		var bottom_of_object = $(this).position().top + $(this).outerHeight();
