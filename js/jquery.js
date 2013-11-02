@@ -14,12 +14,16 @@ $(document).ready(function(){
 		}
 	});
 
+	$(".menu li:nth-child(3)").click(function(){
+		$(".hide").show();
+	});
+
 var i = 0;
 var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
 
 function circleSwap(){
        if ( i > circleArray.length - 1){i = 0;}
-       $(".logo").css("backgroundImage", "url(img/"+circleArray[i]+")");
+       $(".logo").fadeIn(1000).css("backgroundImage", "url(img/"+circleArray[i]+")");
        i++;
 }
 window.setInterval(circleSwap, 3000);
