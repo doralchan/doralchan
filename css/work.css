@@ -4,6 +4,7 @@ body{
 }
 #wrapper{
 	width: 100%;
+	bottom: 0;
 }
 .container{
 	width: 100%;

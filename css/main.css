@@ -209,6 +209,10 @@ body {
 	width: 90%;
 	background-color: rgba(255,255,255,0.4);
 }
+.info ul img:first-child{
+	width: 100%;
+	max-width: 220px;
+}
 .info ul span{
 	font: 14px "Quicksand";
 	color: #659099;

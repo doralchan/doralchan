@@ -23,7 +23,7 @@ var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
 
 function circleSwap(){
        if ( i > circleArray.length - 1){i = 0;}
-       $(".logo").fadeIn(1000).css("backgroundImage", "url(img/"+circleArray[i]+")");
+       $(".logo").css("backgroundImage", "url(img/"+circleArray[i]+")");
        i++;
 }
 window.setInterval(circleSwap, 3000);
@@ -65,6 +65,7 @@ var fixed = false;
 	$(".simplify").click(function(){
 		$(this).fadeOut("slow");
 		$(".label").fadeIn("slow");
+		$(".key").fadeIn("slow");
 	});
 
 	$(".image-thumbnails img").click(function(){
