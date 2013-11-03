@@ -20,7 +20,6 @@ $(document).ready(function(){
 
 var i = 0;
 var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
-
 function circleSwap(){
        if ( i > circleArray.length - 1){i = 0;}
        $(".logo").css("backgroundImage", "url(img/"+circleArray[i]+")");
@@ -68,29 +67,11 @@ var fixed = false;
 		$(".key").fadeIn("slow");
 	});
 
-	$(".image-thumbnails img").click(function(){
-		$(".lightbox").addClass("lightbox-showing");
-		$(".lightbox-img").attr("src", $(this).data('large'));
-		$("body").css("overflow", "hidden");
-		$(".lightbox-exit img").click(function(){
-			$(".lightbox").removeClass("lightbox-showing");
-			$("body").css("overflow", "auto");
-			$(".container").show();
-		});
-		$(".lightbox-navright img").click(function(){
-			$(".lightbox-img").attr("src", $(this).next().data('large'));
-		});
-		$(".lightbox-navleft img").click(function(){
-			$(".lightbox-img").attr("src", $(this).previous().data('large'));
-		});
-	});
-
 });
 
-var images = [
-{ src: 'jpg/large1.jpg', thumb: 'jpg/thumb1.jpg', index: 0 },
-{ src: 'jpg/large2.jpg', thumb: 'jpg/thumb2.jpg', index: 1 },
-{ src: 'jpg/large3.jpg', thumb: 'jpg/thumb1.jpg', index: 2 },
-{ src: 'jpg/large4.jpg', thumb: 'jpg/thumb2.jpg', index: 3 },
-{ src: 'jpg/large4.jpg', thumb: 'jpg/thumb2.jpg', index: 4 },
-];
+
+
+
+
+
+
