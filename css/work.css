@@ -100,16 +100,17 @@ body{
 	width: 80%;
 	min-width: 340px;
 	max-width: 860px;
-	margin: 5% auto;
+	margin: 6% auto;
+	background-color: red;
 }
-#lightbox-navleft img{
+#lightbox-navleft{
+	height: 100%;
 	width: 25px;
-	margin-bottom: 35%;
 	cursor: pointer;
 }
-#lightbox-navright img{
+#lightbox-navright{
+	height: 100%;
 	width: 25px;
-	margin-bottom: 35%;
 	cursor: pointer;
 }
 .lightbox-exit img{
@@ -124,7 +125,7 @@ body{
 	width: 80%;
 	max-width: 700px;
 	max-height: 700px;
-	margin: 5px;
+	margin: 0px auto;
 }
 .rights{
 	text-align: center;
