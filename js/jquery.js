@@ -18,27 +18,27 @@ $(document).ready(function(){
 		$(".hide").show();
 	});
 
-var i = 0;
-var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
-function circleSwap(){
+	var i = 0;
+	var circleArray = ["clearcircle1.svg", "clearcircle2.svg", "clearcircle3.svg"];
+	function circleSwap(){
        if ( i > circleArray.length - 1){i = 0;}
        $(".logo").css("backgroundImage", "url(img/"+circleArray[i]+")");
        i++;
-}
-window.setInterval(circleSwap, 3000);
+	}
+	window.setInterval(circleSwap, 3000);
 
-var fixed = false;
-	$(document).scroll(function(){
-		if( $(this).scrollTop() > 70){
-			if(! fixed) {
-				fixed = true;
-				$(".scrollup").fadeIn({position: "fixed", display: "block"});
-			}
-		} else {if (fixed){
-			fixed = false;
-			$(".scrollup").fadeOut({display: "none"});
-		}}
-	});
+	var fixed = false;
+		$(document).scroll(function(){
+			if( $(this).scrollTop() > 70){
+				if(! fixed) {
+					fixed = true;
+					$(".scrollup").fadeIn({position: "fixed", display: "block"});
+				}
+			} else {if (fixed){
+				fixed = false;
+				$(".scrollup").fadeOut({display: "none"});
+			}}
+		});
 
 	$("a[href='#navbar']").click(function() {
 		$("html, body").animate({ scrollTop: 0 });

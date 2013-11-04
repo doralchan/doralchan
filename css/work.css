@@ -97,24 +97,26 @@ body{
 	overflow: scroll;
 }
 .box{
-	width: 80%;
-	min-width: 340px;
-	max-width: 860px;
-	margin: 6% auto;
-	background-color: red;
+	min-width: 400px;
+	max-width: 800px;
+	margin: 10% auto;
 }
 #lightbox-navleft{
-	height: 100%;
-	width: 25px;
+	width: 40px;
+	float: left;
 	cursor: pointer;
+	margin-top: 38%;
 }
 #lightbox-navright{
-	height: 100%;
-	width: 25px;
+	width: 40px;
+	float: right;
 	cursor: pointer;
+	margin-top: 38%;
 }
-.lightbox-exit img{
-	width: 25px;
+.lightbox-exit{
+	height: 50px;
+	width: 30px;
+	margin: 2% auto;
 	cursor: pointer;
 }
 .lightbox-showing{
