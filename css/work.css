@@ -102,12 +102,12 @@ body{
 	max-width: 860px;
 	margin: 5% auto;
 }
-.lightbox-navleft img{
+#lightbox-navleft img{
 	width: 25px;
 	margin-bottom: 35%;
 	cursor: pointer;
 }
-.lightbox-navright img{
+#lightbox-navright img{
 	width: 25px;
 	margin-bottom: 35%;
 	cursor: pointer;

@@ -9,27 +9,22 @@ $(document).ready(function(){
 			$("body").css("overflow", "auto");
 			$(".container").show();
 		});
-		$(".lightbox-navright img").click(function(){
-			$(".lightbox-img").attr("src", "(jpg/"+projectArray[i]+")");
-		});
-		$(".lightbox-navleft img").click(function(){
-			$(".lightbox-img").attr("src", "(jpg/"+projectArray[i]+")");
-		});
-	});
 
 		var i = 0;
-		var projectArray = [
-		{src: "jpg/project1-A.jpg", thumb: "jpg/thumb1.jpg"},
-		{src: "jpg/project1-B.jpg", thumb: "jpg/thumb1.jpg"},
-		{src: "jpg/project2-A.jpg", thumb: "jpg/thumb2.jpg"},
-		{src: "jpg/project2-B.jpg", thumb: "jpg/thumb2.jpg"},
-		];
+		var projectArray = {
+			1: ["jpg/project1-A.jpg", "jpg/project1-B.jpg"],
+			2: ["jpg/project2-A.jpg", "jpg/project2-B.jpg"],
+			3: ["jpg/project3-A.jpg", "jpg/project3-B.jpg"],
+			4: ["jpg/project4-A.jpg", "jpg/project4-B.jpg"],
+		};
 
+		function imageChange(){
+			if(i % projectArray.length)
+			{i = 0;}
+			$(".lightbox-img").attr("src", projectArray[1][i]);
+			i++;
+		}
+		$("#lightbox-navright img").click(imageChange);
+
+	});
 });
-
-
-
-
-
-
-
