@@ -36,16 +36,20 @@ $(document).ready(function(){
 	});
 
 	var src;
-	var title;
 	$(".image-thumbnails img").hover(
-		function(){
-			src = $(this).attr("src");
-			title = $(this).data("title");
-			$(this).attr("src", "img/hover.svg");
-		},
-		function(){
+	function(){
+		src = $(this).attr("src");
+		$(this).attr("src", "img/hover.svg");
+	},
+	function(){
 			$(this).attr("src", src);
 		});
+
+	$(".image-thumbnails img").each(function(){
+		var caption = $("<h1>");
+		caption.attr("h1", title);
+		var title = $(this).data('title');
+	});
 
 	function showLightbox() {
 		$(".lightbox").addClass("lightbox-showing");
