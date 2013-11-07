@@ -35,9 +35,17 @@ $(document).ready(function(){
 		showLightbox();
 	});
 
-	$(".image-thumbnails img").hover(function(){
-
-	});
+	var src;
+	var title;
+	$(".image-thumbnails img").hover(
+		function(){
+			src = $(this).attr("src");
+			title = $(this).data("title");
+			$(this).attr("src", "img/hover.svg");
+		},
+		function(){
+			$(this).attr("src", src);
+		});
 
 	function showLightbox() {
 		$(".lightbox").addClass("lightbox-showing");
