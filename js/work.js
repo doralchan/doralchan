@@ -10,7 +10,7 @@ $(document).ready(function(){
 		7: ["jpg/project7-A.jpg", "jpg/project7-B.jpg"],
 		8: ["jpg/project8-A.jpg", "jpg/project8-B.jpg"],
 		9: ["jpg/project9-A.jpg", "jpg/project9-B.jpg"],
-		10: ["jpg/project10-A.jpg", "jpg/project10-B.jpg"],
+		10: ["jpg/project10-A.jpg", "jpg/project10-B.jpg", "jpg/project10-C.jpg", "jpg/project10-D.jpg", "jpg/project10-E.jpg", "jpg/project10-F.jpg"],
 		11: ["jpg/project11-A.jpg", "jpg/project11-B.jpg"],
 		12: ["jpg/project12-A.jpg", "jpg/project12-B.jpg", "jpg/project12-C.jpg", "jpg/project12-D.jpg", "jpg/project12-E.jpg", "jpg/project12-F.jpg"],
 		13: ["jpg/project13-A.jpg", "jpg/project13-B.jpg"],
