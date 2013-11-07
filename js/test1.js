@@ -4,6 +4,20 @@ $(".canvas").mousemove(function(event){
 	$(".point").text("your x position is " + x + "and your y position is " + y);
 });
 
+//D
+$(".canvas").mousemove(function(event){
+	var x = event.clientX - this.offsetLeft;
+	var y = event.clientY - this.offsetTop;
+	if (182 <= x && x <= 203 &&
+		)
+	{
+	$(".canvas li:nth-child(2)").show();
+	}else{
+	$(".canvas li:nth-child(2)").hide();
+	}
+});
+
+//E
 $(".canvas").mousemove(function(event){
 	var x = event.clientX - this.offsetLeft;
 	var y = event.clientY - this.offsetTop;

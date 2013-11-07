@@ -40,15 +40,12 @@ $(document).ready(function(){
 	function(){
 		src = $(this).attr("src");
 		$(this).attr("src", "img/hover.svg");
+		var title = $(this).data('title');
+		$(this).parent().find(".caption").text(title).show();
 	},
 	function(){
-			$(this).attr("src", src);
-		});
-
-	$(".image-thumbnails img").each(function(){
-		var caption = $("<h1>");
-		caption.attr("h1", title);
-		var title = $(this).data('title');
+		$(this).attr("src", src);
+		$(".caption").hide();
 	});
 
 	function showLightbox() {
@@ -57,7 +54,6 @@ $(document).ready(function(){
 		$(".lightbox-exit img").on('click', hideLightbox);
 		$("#lightbox-navright img").on('click', showNext);
 		$("#lightbox-navleft img").on('click', showPrev);
-
 		showImage(0);
 	}
 
