@@ -5,7 +5,7 @@ $(document).ready(function(){
 		2: ["jpg/project2-A.jpg", "jpg/project2-B.jpg"],
 		3: ["jpg/project3-A.jpg", "jpg/project3-B.jpg"],
 		4: ["jpg/project4-A.jpg", "jpg/project4-B.jpg"],
-		5: ["jpg/project5-A.jpg", "jpg/project5-B.jpg"],
+		5: ["jpg/project5-A.jpg", "jpg/project5-B.jpg", "jpg/project5-C.jpg", "jpg/project5-D.jpg", "jpg/project5-E.jpg", "jpg/project5-F.jpg"],
 		6: ["jpg/project6-A.jpg", "jpg/project6-B.jpg"],
 		7: ["jpg/project7-A.jpg", "jpg/project7-B.jpg"],
 		8: ["jpg/project8-A.jpg", "jpg/project8-B.jpg"],
