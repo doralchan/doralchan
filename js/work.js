@@ -8,7 +8,7 @@ $(document).ready(function(){
 		5: ["jpg/project5-A.jpg", "jpg/project5-B.jpg", "jpg/project5-C.jpg", "jpg/project5-D.jpg", "jpg/project5-E.jpg", "jpg/project5-F.jpg"],
 		6: ["jpg/project6-A.jpg", "jpg/project6-B.jpg"],
 		7: ["jpg/project7-A.jpg", "jpg/project7-B.jpg"],
-		8: ["jpg/project8-A.jpg", "jpg/project8-B.jpg"],
+		8: ["jpg/project8-A.jpg", "jpg/project8-B.jpg", "jpg/project8-C.jpg", "jpg/project8-D.jpg", "jpg/project8-E.jpg", "jpg/project8-F.jpg", "jpg/project8-G.jpg"],
 		9: ["jpg/project9-A.jpg", "jpg/project9-B.jpg"],
 		10: ["jpg/project10-A.jpg", "jpg/project10-B.jpg", "jpg/project10-C.jpg", "jpg/project10-D.jpg", "jpg/project10-E.jpg", "jpg/project10-F.jpg"],
 		11: ["jpg/project11-A.jpg", "jpg/project11-B.jpg"],
