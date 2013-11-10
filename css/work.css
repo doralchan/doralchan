@@ -110,24 +110,29 @@ body{
 	overflow: scroll;
 }
 .box{
-	min-width: 535px;
+	min-width: 300px;
 	max-width: 800px;
+	width: 80%;
 	margin: 8% auto;
 }
 #lightbox-navleft{
-	width: 40px;
+	width: 5%;
 	float: left;
 	cursor: pointer;
-	margin-top: 40%;
+	margin-top: 42%;
+}
+#lightbox-navleft img{
+	float: right;
 }
 #lightbox-navright{
-	width: 40px;
+	width: 5%;
+	min-width:;
 	float: right;
 	cursor: pointer;
-	margin-top: 40%;
+	margin-top: 42%;
 }
 .lightbox-exit{
-	height: 50px;
+	height: 40px;
 	width: 50px;
 	margin: 1% auto;
 	cursor: pointer;
@@ -137,9 +142,7 @@ body{
 	text-align: center;
 }
 .lightbox-img{
-	width: 85%;
-	max-width: 750px;
-	max-height: 750px;
+	width: 88%;
 	margin: 0px auto;
 }
 .rights{
