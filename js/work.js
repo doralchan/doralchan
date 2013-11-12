@@ -20,7 +20,7 @@ $(document).ready(function(){
 		17: ["jpg/project17-A.jpg", "jpg/project17-B.jpg"],
 		18: ["jpg/project18-A.jpg"],
 		19: ["jpg/project19-A.jpg"],
-		20: ["jpg/project20-A.jpg", "jpg/project20-B.jpg"],
+		20: ["jpg/project20-A.jpg", "jpg/project20-B.jpg", "jpg/project20-C.jpg", "jpg/project20-D.jpg"],
 	};
 
 	var currentIndex = 0;
