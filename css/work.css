@@ -111,9 +111,9 @@ body{
 }
 .box{
 	min-width: 300px;
-	max-width: 800px;
+	max-width: 750px;
 	width: 80%;
-	margin: 8% auto;
+	margin: 6% auto;
 }
 #lightbox-navleft{
 	width: 5%;
