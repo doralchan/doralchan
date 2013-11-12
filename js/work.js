@@ -4,7 +4,7 @@ $(document).ready(function(){
 		1: ["jpg/project1-A.jpg"],
 		2: ["jpg/project2-A.jpg", "jpg/project2-B.jpg", "jpg/project2-C.jpg", "jpg/project2-D.jpg", "jpg/project2-E.jpg"],
 		3: ["jpg/project3-A.jpg", "jpg/project3-B.jpg"],
-		4: ["jpg/project4-A.jpg", "jpg/project4-B.jpg", "jpg/project4-C.jpg", "jpg/project4-D.jpg", "jpg/project4-E.jpg", "jpg/project4-F.jpg", "jpg/project4-G.jpg"],
+		4: ["jpg/project4-A.jpg", "jpg/project4-B.jpg", "jpg/project4-C.jpg", "jpg/project4-D.jpg", "jpg/project4-E.jpg"],
 		5: ["jpg/project5-A.jpg", "jpg/project5-B.jpg", "jpg/project5-C.jpg", "jpg/project5-D.jpg", "jpg/project5-E.jpg", "jpg/project5-F.jpg", "jpg/project5-G.jpg"],
 		6: ["jpg/project6-A.jpg", "jpg/project6-B.jpg", "jpg/project6-C.jpg", "jpg/project6-D.jpg", "jpg/project6-E.jpg", "jpg/project6-F.jpg"],
 		7: ["jpg/project7-A.jpg", "jpg/project7-B.jpg", "jpg/project7-C.jpg", "jpg/project7-D.jpg", "jpg/project7-E.jpg", "jpg/project7-F.jpg", "jpg/project7-G.jpg", "jpg/project7-H.jpg", "jpg/project7-I.jpg", "jpg/project7-J.jpg", "jpg/project7-K.jpg"],
