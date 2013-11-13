@@ -26,8 +26,8 @@ $(document).ready(function(){
 	var currentIndex = 0;
 	var currentProject;
 
-	$(".image-thumbnails img").click(function () {
-		var projectName = $(this).data('project');
+	$(".image-block").click(function () {
+		var projectName = $(this).children(".image-thumbnails img").data('project');
 		currentProject = projectsArray[projectName];
 		if (!currentProject) {
 			return;
@@ -36,15 +36,15 @@ $(document).ready(function(){
 	});
 
 	var src;
-	$(".image-thumbnails img").hover(
+	$(".image-block").hover(
 	function(){
-		src = $(this).attr("src");
-		$(this).attr("src", "img/hover.svg");
-		var title = $(this).data('title');
-		$(this).parent().find(".caption").text(title).show();
+		src = $(this).children(".image-thumbnails img").attr("src");
+		$(this).children(".image-thumbnails img").attr("src", "img/hover.svg");
+		var title = $(this).children(".image-thumbnails img").data('title');
+		$(this).find(".caption").text(title).show();
 	},
 	function(){
-		$(this).attr("src", src);
+		$(this).children(".image-thumbnails img").attr("src", src);
 		$(".caption").hide();
 	});
 
