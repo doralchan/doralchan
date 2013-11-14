@@ -26,7 +26,8 @@ $(document).ready(function(){
 	function preloadImages(){
 		var projectArrayData = new Array(projectsArray.length);
 		for(i = 0; i < projectArrayData.length; i++){
-			projectArrayData[i] = new Image();
+			var imageLoad = new Image();
+			imageLoad.src = projectArrayData[i];
 		}
 	}
 
