@@ -30,7 +30,6 @@ $(document).ready(function(){
 			imageLoad.src = projectArrayData[i];
 		}
 	}
-	preloadImages();
 
 	var currentIndex = 0;
 	var currentProject;
