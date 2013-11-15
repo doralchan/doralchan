@@ -21,7 +21,6 @@ var projectsArray = {
 	20: ["jpg/project20-A.jpg", "jpg/project20-B.jpg", "jpg/project20-C.jpg", "jpg/project20-D.jpg"],
 };
 
-var i = 0;
 function preloadImages(){
 	var projectArrayData = new Array(projectsArray.length);
 	for(i = 0; i < projectArrayData.length; i++){
@@ -29,6 +28,7 @@ function preloadImages(){
 		imageLoad.src = projectArrayData[i];
 	}
 }
+preloadImages();
 
 $(document).ready(function(){
 
