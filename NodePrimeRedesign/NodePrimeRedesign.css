@@ -24,6 +24,7 @@ body{
 .name{
 	float: left;
 	padding: 4px 0px 0px 20px;
+	vertical-align: top;
 }
 .section1{
 	padding-top: 80px;
@@ -139,7 +140,7 @@ body{
 .keyWords{
 	min-width: 681px;
 	max-width: 760px;
-	height: 150px;
+	height: 180px;
 	background: url("NodePrimeFeatures.jpg")no-repeat top center;
 	text-align: center;
 	margin: 0 auto;
@@ -171,11 +172,21 @@ body{
 	margin: 0 auto;
 	background: url("darkSkin.png");
 }
+.features h1{
+	max-width: 1000px;
+	width: 95%;
+	margin: 0 auto;
+	padding: 60px 0px 0px 0px;
+	font: 30px "Yanone Kaffeesatz";
+	font-weight: 200;
+	color: #BADA55;
+	text-align: left;
+}
 .features ul{
 	max-width: 1200px;
 	list-style: none;
 	margin: 0 auto;
-	padding: 0px 0px 50px 0px;
+	padding: 0px 0px 80px 0px;
 }
 .features li{
 	display: inline-block;
@@ -183,7 +194,7 @@ body{
 	text-align: justify;
 	font: 14px "Dosis";
 	font-weight: 200;
-	margin: 30px 15px 0px 15px;
+	margin: 20px 15px 0px 15px;
 	color: white;
 }
 .features h3{
@@ -265,19 +276,37 @@ body{
 	width: 100%;
 	background-color: #BADA55;
 	text-align: center;
-	padding-bottom: 60px;
 	box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+	padding-bottom: 40px;
 }
 .team{
 	max-width: 1200px;
 	margin: 0 auto;
 }
 .team h1{
-	padding-top: 80px;
+	padding-top: 50px;
 	text-align: center;
 	margin: 0;
 	font: 30px "Yanone Kaffeesatz";
 	font-weight: 300;
+}
+.team div:nth-child(10){
+	background-color: #3A3A3A;
+	color: #BADA55;
+	text-align: left;
+	padding-top: 150px;
+	height: 230px;
+	font: 35px "Yanone Kaffeesatz";
+	font-weight: 200;
+}
+.team div:nth-child(11){
+	background-color: #3A3A3A;
+	color: #BADA55;
+	text-align: left;
+	padding-top: 150px;
+	height: 230px;
+	font: 35px "Yanone Kaffeesatz";
+	font-weight: 200;
 }
 .profile{
 	display: inline-block;
@@ -291,10 +320,6 @@ body{
 	font: 13px "Dosis";
 	background-color: rgba(255,255,255,0.2);
 }
-.profile:nth-child(10){
-	width: 61%;
-	max-width: 725px;
-}
 .row-fluid h4{
 	font: 16px "Dosis";
 	margin: 0;
@@ -305,7 +330,33 @@ body{
 }
 .section8{
 	width: 100%;
-	height: 500px;
+	height: 350px;
 	background: url("darkSkin.png");
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.contact{
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 60px;
+	text-align: right;
+}
+.info{
+	margin-top: 20px;
+}
+.address{
+	float: left;
+	width: 30%;
+	font: 14px "Dosis";
+	font-weight: 200;
+	color: white;
+}
+.contact span{
+	font: 30px "Yanone Kaffeesatz";
+	font-weight: 200;
+	color: #BADA55;
+}
+.address img{
+	width: 30px;
+	margin: 20px 0px 0px 20px;
 }
