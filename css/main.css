@@ -5,3 +5,19 @@ body {
 #wrapper{
 	width: 100%;
 }
+.main{
+	padding-top: 15%;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo{
+	background: url("Squiddle.svg") center center;
+	text-align: center;
+	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+}
+.message{
+	font-family: 'Josefin Sans' sans-serif;
+	font-size: 30px;
+}
