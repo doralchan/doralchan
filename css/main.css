@@ -18,6 +18,7 @@ body {
 	width: 300px;
 }
 .message{
+	padding-top: 20px;
 	font-family: 'Josefin Sans' sans-serif;
 	font-size: 30px;
 }
