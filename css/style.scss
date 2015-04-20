@@ -60,7 +60,7 @@
 			}
 		}
 		.heartheal img {
-			@include duration(0.6s);
+			@include duration(1s);
 			@include iteration-count(infinite);
 			@include timing-function(linear);
 			@include animation(pulse);
