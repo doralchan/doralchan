@@ -50,8 +50,8 @@ h1, h2, h3, h4, h5 {
   .sidebar:hover .heart img {
     -webkit-animation-name: pulse;
     animation-name: pulse;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite; }
 @-webkit-keyframes pulse {
