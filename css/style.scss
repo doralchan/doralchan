@@ -27,6 +27,7 @@
 		img {
 			width: 80px;
 			height: 80px;
+			-webkit-transition: all .2s ease-in-out;
 			transition: all .2s ease-in-out;
 		}
 	}
@@ -40,10 +41,8 @@
 		.heart img {
 			-webkit-animation-name: pulse;
 			animation-name: pulse;
-			-webkit-animation-duration: 0.8s;
-			animation-duration: 0.8s;
-			-webkit-animation-timing-function: linear;
-			animation-timing-function: linear;
+			-webkit-animation-duration: 1s;
+			animation-duration: 1s;
 			-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
 		}
@@ -56,10 +55,6 @@
 				-webkit-transform: scale(1.1);
 				transform: scale(1.1);
 			}
-			100% {
-				-webkit-transform: scale(1);
-				transform: scale(1);
-			}
 		}
 		@keyframes pulse {
 			25% {
@@ -69,10 +64,6 @@
 			75% {
 				-webkit-transform: scale(1.1);
 				transform: scale(1.1);
-			}
-			100% {
-				-webkit-transform: scale(1);
-				transform: scale(1);
 			}
 		}
 	}
