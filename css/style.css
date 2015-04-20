@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic);
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: center; }
+
+.text-right {
+  text-align: center; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 100; }
+
+.sidebar {
+  -webkit-border: 2px solid #9d9d9d;
+  -moz-border: 2px solid #9d9d9d;
+  -ms-border: 2px solid #9d9d9d;
+  border: 2px solid #9d9d9d;
+  width: 40%;
+  min-width: 360px;
+  background: #f4f5f5;
+  margin: 2em auto; }
+  .sidebar .container {
+    margin: 50px; }
+    .sidebar .container h1 {
+      color: #9d9d9d;
+      margin: 0;
+      font-size: 4em; }
+    .sidebar .container h2 {
+      color: #9d9d9d;
+      margin-top: 0;
+      margin-bottom: 0.5em; }
+    .sidebar .container a {
+      margin-bottom: 60px;
+      color: #0d8c8f;
+      text-decoration: none; }
+    .sidebar .container img {
+      width: 80px;
+      height: 80px;
+      transition: all .2s ease-in-out; }
+  .sidebar:hover .plane img {
+    transform: scale(1.5);
+    transform: translateY(0%) scaleY(0.5); }
+  .sidebar:hover .heart img {
+    transform: scale(1.1); }
+
+/*# sourceMappingURL=style.css.map */

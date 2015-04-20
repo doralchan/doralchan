@@ -1,0 +1,42 @@
+@import 'modules/mixins.scss';
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic);
+
+.sidebar {
+	@include border(2px solid $border-color);
+	width: $sidebarWidth;
+	min-width: 360px;
+	background: $background-color;
+	margin: 2em auto;
+	.container {
+		margin: 50px;
+		h1 {
+			color: $border-color;
+			margin: 0;
+			font-size: 4em;
+		}
+		h2 {
+			color: $border-color;
+			margin-top: 0;
+			margin-bottom: 0.5em;
+		}
+		a {
+			margin-bottom: 60px;
+			color: $link-color;
+			text-decoration: none;
+		}
+		img {
+			width: 80px;
+			height: 80px;
+			transition: all .2s ease-in-out;
+		}
+	}
+	&:hover {
+		.plane img {
+			transform: scale(1.5);
+			transform: translateY(0%) scaleY(0.5);
+		}
+		.heart img {
+			transform: scale(1.1);
+		}
+	}
+}

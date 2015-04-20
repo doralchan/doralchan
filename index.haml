@@ -3,8 +3,27 @@
 	%head
 		%meta{:charset => "utf-8"}
 		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}/
-	%body
+		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
 
+	%body
+		%div{:class => "sidebar text-center"}
+			%div{:class => "container plane"}
+				%img{:src => "css/assets/plane.svg"}
+				%h1
+					23.34
+				%h2
+					more vacation hours
+				%a{:href => ""}
+					(2 hours pending)
+		%div{:class => "sidebar text-center"}
+			%div{:class => "container heart"}
+				%img{:src => "css/assets/heart.svg"}
+				%h1
+					2.52
+				%h2
+					more healing hours
+				%a{:href => ""}
+					(2 hours pending)
 		%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
 		%script{:src => "js/effects.js"}
+

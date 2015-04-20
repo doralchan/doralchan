@@ -1,0 +1,48 @@
+// Colors
+
+$primary-color: green;
+$background-color: #f4f5f5;
+$border-color: #9d9d9d;
+$link-color: #0d8c8f;
+$white: #ffffff;
+$black: #000000;
+
+// Font Variables
+
+$font-lato: 'Lato', sans-serif;
+
+// Sizes
+
+$sidebarWidth: 40%;
+$font-weight: 100;
+
+// Alignment
+
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: center;
+}
+.text-right {
+	text-align: center;
+}
+
+// Styles
+
+body {
+	font-family: $font-lato;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: $font-weight;
+}
+
+@mixin border($border) {
+	-webkit-border: $border;
+	-moz-border: $border;
+	-ms-border: $border;
+	border: $border;
+}
+
+
