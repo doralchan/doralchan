@@ -45,6 +45,8 @@
 			animation-duration: 0.8s;
 			-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
+			-webkit-transition-timing-function: linear;
+			transition-timing-function: linear;
 		}
 		@-webkit-keyframes pulse {
 			25% {
