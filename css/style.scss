@@ -56,5 +56,8 @@
 				@include scale(0.9);
 			}
 		}
+		.suitecase img {
+			@include transform(translateY(-15px));
+		}
 	}
 }
