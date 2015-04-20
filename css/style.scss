@@ -58,5 +58,27 @@
 		.suitecase img {
 			@include transform(translateY(-15px));
 		}
+		.firstaid img {
+			@include duration(1s);
+			@include iteration-count(infinite);
+			@include timing-function(linear);
+			@include animation(pulse);
+		}
+		@-webkit-keyframes pulse {
+			25% {
+				@include scale(1);
+			}
+			75% {
+				@include scale(1.1);
+			}
+		}
+		@keyframes pulse {
+			25% {
+				@include scale(1);
+			}
+			75% {
+				@include scale(1.1);
+			}
+		}
 	}
 }
