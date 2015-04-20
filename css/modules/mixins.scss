@@ -4,6 +4,7 @@ $primary-color: green;
 $background-color: #f4f5f5;
 $border-color: #9d9d9d;
 $link-color: #0d8c8f;
+$header-color: #848484;
 $white: #ffffff;
 $black: #000000;
 
@@ -14,7 +15,7 @@ $font-lato: 'Lato', sans-serif;
 // Sizes
 
 $sidebarWidth: 40%;
-$font-weight: 100;
+$font-weight: 300;
 
 // Alignment
 
@@ -36,6 +37,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-weight: $font-weight;
+	color: $header-color;
 }
 
 @mixin border($border) {
