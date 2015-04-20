@@ -5,6 +5,7 @@
 	@include border(2px solid $border-color);
 	width: $sidebarWidth;
 	min-width: 360px;
+	max-width: 500px;
 	background: $background-color;
 	margin: 2em auto;
 	.container {
