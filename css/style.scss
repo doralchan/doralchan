@@ -34,6 +34,9 @@
 		.plane img {
  			@include transform(translateY(0%) scaleY(0.5));
 		}
+		.suitecase img {
+			@include transform(translateY(-15px));
+		}
 		.heart img {
 			@include duration(0.6s);
 			@include iteration-count(infinite);
@@ -55,9 +58,6 @@
 			75% {
 				@include scale(0.9);
 			}
-		}
-		.suitecase img {
-			@include transform(translateY(-15px));
 		}
 		.heartheal img {
 			@include duration(0.6s);
