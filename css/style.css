@@ -94,11 +94,11 @@ h1, h2, h3, h4, h5 {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
     transform: translateY(-15px); }
-  .sidebar:hover .firstaid img {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    animation-duration: 1s;
+  .sidebar:hover .heartheal img {
+    -webkit-animation-duration: 0.6s;
+    -moz-animation-duration: 0.6s;
+    -ms-animation-duration: 0.6s;
+    animation-duration: 0.6s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-animation-iteration-count: infinite;

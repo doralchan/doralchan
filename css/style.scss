@@ -59,8 +59,8 @@
 		.suitecase img {
 			@include transform(translateY(-15px));
 		}
-		.firstaid img {
-			@include duration(1s);
+		.heartheal img {
+			@include duration(0.6s);
 			@include iteration-count(infinite);
 			@include timing-function(linear);
 			@include animation(pulse);
