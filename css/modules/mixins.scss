@@ -45,4 +45,11 @@ h1, h2, h3, h4, h5 {
 	border: $border;
 }
 
+@mixin scale($scale) {
+	-webkit-transform: scale($scale);
+	-moz-transform: scale($scale);
+	-ms-border: ($scale);
+	transform: scale($scale);
+}
+
 
