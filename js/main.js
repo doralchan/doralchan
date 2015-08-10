@@ -5,7 +5,7 @@ $(document).ready(function(){
 		function(){
 			$(".animation-name").text($(this).attr('title'))},
 		function(){
-			$(".animation-name").text('');});	
+			$(".animation-name").text('animations');});	
 
 });
 

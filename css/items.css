@@ -1573,6 +1573,22 @@
   margin-left: 15%;
   margin-bottom: 50%; }
 
+.item-bonfire {
+  width: 3%;
+  margin-right: 16%;
+  margin-bottom: 14%;
+  right: 0; }
+
+.item-flame {
+  -webkit-animation: fade-in-out 5s linear 0.25s infinite;
+  -moz-animation: fade-in-out 5s linear 0.25s infinite;
+  -ms-animation: fade-in-out 5s linear 0.25s infinite;
+  animation: fade-in-out 5s linear 0.25s infinite;
+  width: 3%;
+  margin-right: 16%;
+  margin-bottom: 14.6%;
+  right: 0; }
+
 .item-tent {
   width: 10%;
   margin-right: 5%;
