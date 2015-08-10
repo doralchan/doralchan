@@ -2,7 +2,6 @@
 
 body {
 	margin: 0;
-	background-color: #E6EFF3;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -14,6 +13,7 @@ h1, h2, h3, h4, h5, p {
 	bottom: 55%;
 	width: 100%;
 	text-align: center;
+	z-index: -1;
 	.welcome-message {
 		color: #3A3A3A;
 		font-weight: 400;
@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 .background-sky {
+	background: rgba(185,216,237,1);
+	background: linear-gradient(to bottom, rgba(185,216,237,1) 0%, white 100%);
 	position: fixed;
 	top: 0;
 	bottom: 0;

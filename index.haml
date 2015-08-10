@@ -8,12 +8,6 @@
 		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}		
 		%link{:href => "css/items.css", :rel => "stylesheet", :type => "text/css"}		
 	%body
-		%div.header
-			%h1.welcome-message 
-				my testing ground
-			%p.animation-name
-				animations
-			#animation-name
 		%div{:class => "background-sky"}
 			%div{:class => "foreground"}
 
@@ -28,9 +22,16 @@
 					%img{:src => "css/assets/item-tent.svg", :class => "item-tent", :title => "@include animation (tbd);"}	
 					%img{:src => "css/assets/item-sun.svg", :class => "item-sun", :title => "@include animation (tbd);"}			
 
+				%div.header
+					%h1.welcome-message 
+						my testing ground
+					%p.animation-name
+						animations		
+
 				%div{:class => "foreground-hills-container"}		
 					%img{:src => "css/assets/foreground-hills.svg", :class => "foreground-hills"}							
 
 	%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
 	%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}
 	%script{:src => "js/main.js"}
+	%script{:src => "js/gradient.js"}
