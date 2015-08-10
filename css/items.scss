@@ -8,7 +8,6 @@
 	width: 2%;
 	margin-left: 18.2%;
 	margin-bottom: 29%;
-	z-index: 2;	
 }	
 
 .item-goat2 {
@@ -17,7 +16,6 @@
 	margin-right: 9.8%;
 	margin-bottom: 27.2%;
 	right: 0;
-	z-index: 2;	
 }	
 
 .item-cloud1 {
@@ -25,16 +23,21 @@
 	width: 10%;
 	margin-left: 5%;
 	margin-bottom: 30%;
-	z-index: 2;	
 }	
 
 .item-cloud2 {
 	@include animation(fade-in-out-slide-right-left 12s linear infinite);
-	width: 10%;
+	width: 8%;
 	margin-right: 5%;
 	margin-bottom: 40%;	
 	right: 0;
-	z-index: 2;	
+}	
+
+.item-cloud3 {
+	@include animation(fade-in-out-slide-left-right 10s linear infinite);
+	width: 12%;
+	margin-left: 15%;
+	margin-bottom: 50%;
 }	
 
 .item-tent {
@@ -42,11 +45,11 @@
 	margin-right: 5%;
 	margin-bottom: 13%;
 	right: 0;	
-	z-index: 1;
 }	
 
 .item-sun {
 	width: 10%;
 	margin-left: 20%;
 	margin-bottom: 15%;
+	z-index: -2;
 }		

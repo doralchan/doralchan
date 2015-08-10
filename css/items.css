@@ -1533,8 +1533,7 @@
   animation: bounce-slow 4s linear infinite;
   width: 2%;
   margin-left: 18.2%;
-  margin-bottom: 29%;
-  z-index: 2; }
+  margin-bottom: 29%; }
 
 .item-goat2 {
   -webkit-animation: wiggle 2s linear infinite;
@@ -1544,8 +1543,7 @@
   width: 2%;
   margin-right: 9.8%;
   margin-bottom: 27.2%;
-  right: 0;
-  z-index: 2; }
+  right: 0; }
 
 .item-cloud1 {
   -webkit-animation: fade-in-out-slide-left-right 8s linear infinite;
@@ -1554,30 +1552,37 @@
   animation: fade-in-out-slide-left-right 8s linear infinite;
   width: 10%;
   margin-left: 5%;
-  margin-bottom: 30%;
-  z-index: 2; }
+  margin-bottom: 30%; }
 
 .item-cloud2 {
   -webkit-animation: fade-in-out-slide-right-left 12s linear infinite;
   -moz-animation: fade-in-out-slide-right-left 12s linear infinite;
   -ms-animation: fade-in-out-slide-right-left 12s linear infinite;
   animation: fade-in-out-slide-right-left 12s linear infinite;
-  width: 10%;
+  width: 8%;
   margin-right: 5%;
   margin-bottom: 40%;
-  right: 0;
-  z-index: 2; }
+  right: 0; }
+
+.item-cloud3 {
+  -webkit-animation: fade-in-out-slide-left-right 10s linear infinite;
+  -moz-animation: fade-in-out-slide-left-right 10s linear infinite;
+  -ms-animation: fade-in-out-slide-left-right 10s linear infinite;
+  animation: fade-in-out-slide-left-right 10s linear infinite;
+  width: 12%;
+  margin-left: 15%;
+  margin-bottom: 50%; }
 
 .item-tent {
   width: 10%;
   margin-right: 5%;
   margin-bottom: 13%;
-  right: 0;
-  z-index: 1; }
+  right: 0; }
 
 .item-sun {
   width: 10%;
   margin-left: 20%;
-  margin-bottom: 15%; }
+  margin-bottom: 15%;
+  z-index: -2; }
 
 /*# sourceMappingURL=items.css.map */
