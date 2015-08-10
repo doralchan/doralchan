@@ -35,9 +35,18 @@
 
 .item-cloud3 {
 	@include animation(fade-in-out-slide-left-right 10s linear infinite);
+	@include delay(3s);
+	opacity: 0;
 	width: 12%;
 	margin-left: 15%;
 	margin-bottom: 50%;
+}	
+
+.item-bush {
+	@include animation(grow 7s linear 0.25s infinite);
+	width: 3%;
+	margin-left: 17%;
+	margin-bottom: 10%;	
 }	
 
 .item-bonfire {

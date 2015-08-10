@@ -1569,9 +1569,23 @@
   -moz-animation: fade-in-out-slide-left-right 10s linear infinite;
   -ms-animation: fade-in-out-slide-left-right 10s linear infinite;
   animation: fade-in-out-slide-left-right 10s linear infinite;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  opacity: 0;
   width: 12%;
   margin-left: 15%;
   margin-bottom: 50%; }
+
+.item-bush {
+  -webkit-animation: grow 7s linear 0.25s infinite;
+  -moz-animation: grow 7s linear 0.25s infinite;
+  -ms-animation: grow 7s linear 0.25s infinite;
+  animation: grow 7s linear 0.25s infinite;
+  width: 3%;
+  margin-left: 17%;
+  margin-bottom: 10%; }
 
 .item-bonfire {
   width: 3%;
