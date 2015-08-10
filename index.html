@@ -3,13 +3,36 @@
   <head>
     <meta charset='utf-8'>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Kreon:400,300' rel='stylesheet' type='text/css'>
     <link href='css/style.css' rel='stylesheet' type='text/css'>
-    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <link href='css/items.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class=''></div>
-    <script src='http://code.jquery.com/jquery-1.11.2.min.js'></script>
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
-    <script src='js/effects.js'></script>
+    <div class='header'>
+      <h1 class='welcome-message'>
+        testing grounds for dora
+      </h1>
+      <p class='animation-name'></p>
+      <div id='animation-name'></div>
+    </div>
+    <div class='background-sky'>
+      <div class='foreground'>
+        <div class='foreground-items-container'>
+          <img class='item-goat1' src='css/assets/item-goat-right.svg' title='@include animation(bounce-slow);'>
+          <img class='item-goat2' src='css/assets/item-goat-left.svg' title='@include animation(wiggle);'>
+          <img class='item-cloud1' src='css/assets/item-cloud.svg' title='@include animation(fade-in-out-slide-left-right);'>
+          <img class='item-cloud2' src='css/assets/item-cloud.svg' title='@include animation(fade-in-out-slide-right-left);'>
+          <img class='item-tent' src='css/assets/item-tent.svg' title='@include animation(tbd);'>
+          <img class='item-sun' src='css/assets/item-sun.svg' title='@include animation(tbd);'>
+        </div>
+        <div class='foreground-hills-container'>
+          <img class='foreground-hills' src='css/assets/foreground-hills.svg'>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src='http://code.jquery.com/jquery-1.11.2.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+  <script src='js/main.js'></script>
 </html>

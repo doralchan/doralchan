@@ -3,12 +3,30 @@
 	%head
 		%meta{:charset => "utf-8"}
 		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
-		%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"}
+		%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :rel => "stylesheet"}
+		%link{:href => "http://fonts.googleapis.com/css?family=Kreon:400,300", :rel => "stylesheet", :type => "text/css"}	
+		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}		
+		%link{:href => "css/items.css", :rel => "stylesheet", :type => "text/css"}		
 	%body
-		%div{:class => ""}
-				
-		%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
-		%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}
-		%script{:src => "js/effects.js"}
+		%div.header
+			%h1.welcome-message 
+				testing grounds for dora
+			%p.animation-name
+			#animation-name
+		%div{:class => "background-sky"}
+			%div{:class => "foreground"}
 
+				%div{:class => "foreground-items-container"}
+					%img{:src => "css/assets/item-goat-right.svg", :class => "item-goat1", :title => "@include animation(bounce-slow);"}	
+					%img{:src => "css/assets/item-goat-left.svg", :class => "item-goat2", :title => "@include animation(wiggle);"}	
+					%img{:src => "css/assets/item-cloud.svg", :class => "item-cloud1", :title => "@include animation(fade-in-out-slide-left-right);"}	
+					%img{:src => "css/assets/item-cloud.svg", :class => "item-cloud2", :title => "@include animation(fade-in-out-slide-right-left);"}	
+					%img{:src => "css/assets/item-tent.svg", :class => "item-tent", :title => "@include animation(tbd);"}	
+					%img{:src => "css/assets/item-sun.svg", :class => "item-sun", :title => "@include animation(tbd);"}			
+
+				%div{:class => "foreground-hills-container"}		
+					%img{:src => "css/assets/foreground-hills.svg", :class => "foreground-hills"}							
+
+	%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
+	%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}
+	%script{:src => "js/main.js"}

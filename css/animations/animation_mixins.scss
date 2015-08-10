@@ -1,0 +1,197 @@
+//Vendor Prefix Mixin Import
+@import "vendor_prefix_mixins";
+
+
+// ROTATING ----------------------------------
+
+@include keyframes(rotating) {
+  0%     {@include transform(scale(1,1));
+          @include transition(ease-in-out);}
+
+  50%    {@include transform(scale(0,1));
+          @include transition(ease-in-out);}
+
+  100%   {@include transform(scale(1,1));
+          @include transition(ease-in-out);}
+}
+
+// FADEIN ----------------------------------
+
+@include keyframes(fade-in) {
+  0%    {opacity: 0;
+         @include transition(ease-in-out);}
+  100%  {opacity: 1;
+         @include transition(ease-in-out);}
+}
+
+// GROW & SHRINK ----------------------------------
+
+@include keyframes(grow-shrink) {
+  0%    {@include transform(scale(0.65, 0.65));
+         @include transition(ease-in-out);}
+
+  50%   {@include transform(scale(1, 1));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(scale(0.65, 0.65));
+         @include transition(ease-in-out);}
+}
+
+// FLOATING ----------------------------------
+
+@include keyframes(floating) {
+  0%    {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+
+  50%   {@include transform(translate(0,25px));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+}
+
+// SUBTLE FLOATING ----------------------------------
+
+@include keyframes(floating-subtle) {
+  0%    {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+
+  50%   {@include transform(translate(0,10px));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+}
+
+// SPINNING ----------------------------------
+
+@include keyframes(spinning) {
+  0%    {@include transform(rotate(0deg));}
+  50%   {@include transform(rotate(180deg));}
+  100%  {@include transform(rotate(360deg));}
+}
+
+// FLOAT UP ----------------------------------
+
+@include keyframes(float-up) {
+  0%    {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(translate(0,-190px));
+         @include transition(ease-in-out);}
+}
+
+// GROW ----------------------------------
+
+@include keyframes(grow) {
+  0%    {@include transform(scale(0.15, 0.15));
+         @include transition(ease-in-out);}
+
+  70%   {@include transform(scale(1, 1));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(scale(1, 1));
+         @include transition(ease-in-out);}
+}
+
+// FADE IN & OUT ----------------------------------
+
+@include keyframes(fade-in-out) {
+  0%      {opacity: 0;}
+  10%     {opacity: 1;}
+  50%     {opacity: 1;}
+  60%     {opacity: 0;}
+  100%    {opacity: 0;}
+}
+
+// INITIAL APPEAR 3 SEC DELAY ----------------------------------
+
+@include keyframes(appear-3sec-delay) {
+  0%    {@include transform(scale(0,0));}
+  78%   {@include transform(scale(0,0));}
+  80%   {@include transform(scale(1,1));}
+  100%  {@include transform(scale(1,1));}
+}
+
+// INITIAL APPEAR 5 SEC DELAY ----------------------------------
+
+@include keyframes(appear-5sec-delay) {
+  0%    {@include transform(scale(0,0));}
+  85%   {@include transform(scale(0,0));}
+  87%   {@include transform(scale(1,1));}
+  100%  {@include transform(scale(1,1));}
+}
+
+// WIGGLE ----------------------------------
+
+@include keyframes(wiggle) {
+  0%    {@include transform(rotate(0deg));
+         @include transition(ease-in);}
+
+  5%    {@include transform(rotate(5deg));}
+  10%   {@include transform(rotate(-5deg));}
+  15%   {@include transform(rotate(5deg));}
+  20%   {@include transform(rotate(-5deg));}
+  25%   {@include transform(rotate(5deg));}
+  33%   {@include transform(rotate(0deg));}
+
+  100%  {@include transform(rotate(0deg));
+         @include transition(ease-in-out);}
+}
+
+// BOUNCE SLOW ----------------------------------
+
+@include keyframes(bounce-slow) {
+  0%    {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+
+  6.25% {@include transform(translate(0,-7px));
+         @include transition(ease-in-out);}
+
+  12.5% {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+
+  100%  {@include transform(translate(0,0));
+         @include transition(ease-in-out);}
+}
+
+// FADE SLIDE RIGHT TO LEFT ----------------------------------
+
+@include keyframes(fade-in-out-slide-right-left) {
+  0%    {@include transform(translateX(0));
+         opacity: 0;}
+
+  10%   {opacity: 0;}
+  20%   {opacity: 1;}
+  80%   {opacity: 1;}
+  90%   {opacity: 0;}
+
+  100%  {@include transform(translateX(-350px));
+         opacity: 0;}
+}
+
+// FADE SLIDE LEFT TO RIGHT ----------------------------------
+
+@include keyframes(fade-in-out-slide-left-right) {
+  0%    {@include transform(translateX(-50px));
+         opacity: 0;}
+
+  10%   {opacity: 1;}
+  90%   {opacity: 1;}
+
+  100%  {@include transform(translateX(50px));
+         opacity: 0;}
+}
+
+// ARC LEFT TO RIGHT ----------------------------------
+
+@include keyframes(arc-left-right) {
+  0%    {@include transform(translate(-70px, 0) rotate(5deg));
+         opacity: 0;}
+
+  10%   {opacity: 1;}
+  90%   {opacity: 1;}
+
+  100%  {@include transform(translate(70px, 0px) rotate(20deg));
+         opacity: 0;}
+}

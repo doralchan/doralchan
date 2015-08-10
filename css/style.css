@@ -1,3 +1,47 @@
+body {
+  margin: 0;
+  background-color: #E6EFF3; }
 
+h1, h2, h3, h4, h5, p {
+  font-family: 'Kreon', serif; }
+
+.header {
+  position: absolute;
+  bottom: 55%;
+  width: 100%;
+  text-align: center;
+  z-index: 2; }
+  .header .welcome-message {
+    color: #3A3A3A;
+    font-weight: 400; }
+  .header .animation-name {
+    height: 20px;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #949A9B; }
+
+.background-sky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+.foreground {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  .foreground .foreground-hills-container {
+    bottom: 0;
+    position: absolute;
+    width: 100%; }
+  .foreground .foreground-items-container {
+    bottom: 0;
+    position: absolute;
+    width: 100%; }
+    .foreground .foreground-items-container img {
+      position: absolute;
+      cursor: pointer;
+      bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
