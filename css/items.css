@@ -1531,18 +1531,18 @@
   -moz-animation: bounce-slow 4s linear infinite;
   -ms-animation: bounce-slow 4s linear infinite;
   animation: bounce-slow 4s linear infinite;
-  width: 2%;
-  margin-left: 18.2%;
-  margin-bottom: 23%; }
+  width: 1%;
+  margin-left: 18%;
+  margin-bottom: 15%; }
 
 .item-goat2 {
   -webkit-animation: wiggle 2s linear infinite;
   -moz-animation: wiggle 2s linear infinite;
   -ms-animation: wiggle 2s linear infinite;
   animation: wiggle 2s linear infinite;
-  width: 1.5%;
-  margin-right: 32%;
-  margin-bottom: 15.5%;
+  width: 1.2%;
+  margin-right: 39.5%;
+  margin-bottom: 13.5%;
   right: 0; }
 
 .item-cloud1 {
@@ -1550,7 +1550,7 @@
   -moz-animation: fade-in-out-slide-left-right 8s linear infinite;
   -ms-animation: fade-in-out-slide-left-right 8s linear infinite;
   animation: fade-in-out-slide-left-right 8s linear infinite;
-  width: 10%;
+  width: 8%;
   margin-left: 5%;
   margin-bottom: 30%; }
 
@@ -1559,7 +1559,7 @@
   -moz-animation: fade-in-out-slide-right-left 12s linear infinite;
   -ms-animation: fade-in-out-slide-right-left 12s linear infinite;
   animation: fade-in-out-slide-right-left 12s linear infinite;
-  width: 8%;
+  width: 5%;
   margin-right: 5%;
   margin-bottom: 45%;
   right: 0; }
@@ -1574,14 +1574,14 @@
   -ms-animation-delay: 3s;
   animation-delay: 3s;
   opacity: 0;
-  width: 12%;
+  width: 4%;
   margin-left: 15%;
   margin-bottom: 50%; }
 
 .item-bonfire {
-  width: 3%;
-  margin-right: 16%;
-  margin-bottom: 8%;
+  width: 2%;
+  margin-right: 20%;
+  margin-bottom: 4%;
   right: 0; }
 
 .item-flame {
@@ -1589,9 +1589,9 @@
   -moz-animation: fade-in-out 4s linear 0.25s infinite;
   -ms-animation: fade-in-out 4s linear 0.25s infinite;
   animation: fade-in-out 4s linear 0.25s infinite;
-  width: 3%;
-  margin-right: 16%;
-  margin-bottom: 8.5%;
+  width: 2%;
+  margin-right: 20%;
+  margin-bottom: 4.5%;
   right: 0; }
 
 .item-tent {
@@ -1599,23 +1599,9 @@
   -moz-animation: bounce-slow 3s linear infinite;
   -ms-animation: bounce-slow 3s linear infinite;
   animation: bounce-slow 3s linear infinite;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  animation-delay: 1s;
-  width: 10%;
-  margin-right: 5%;
-  margin-bottom: 7%;
+  width: 5%;
+  margin-right: 14%;
+  margin-bottom: 3%;
   right: 0; }
-
-.item-sun {
-  -webkit-animation: floating 7s linear infinite;
-  -moz-animation: floating 7s linear infinite;
-  -ms-animation: floating 7s linear infinite;
-  animation: floating 7s linear infinite;
-  width: 10%;
-  margin-left: 20%;
-  margin-bottom: 12%;
-  z-index: -2; }
 
 /*# sourceMappingURL=items.css.map */
