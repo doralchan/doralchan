@@ -9,20 +9,22 @@ h1, h2, h3, h4, h5, p {
 }
 
 .header {
-	position: absolute;
-	bottom: 55%;
-	width: 100%;
+	margin: 0 auto;
+	padding-top: 20%;
 	text-align: center;
+	width: 170px;
 	z-index: -1;
 	.welcome-message {
 		color: #3A3A3A;
+		border-bottom: 1px dotted #3A3A3A;
 		font-weight: 400;
+		font-size: 3em;
 	}
 	.animation-name {
+		color: #949A9B;
 		height: 20px;
 		font-size: 1.5em;
 		font-weight: 300;
-		color: #949A9B;
 	}
 }
 
