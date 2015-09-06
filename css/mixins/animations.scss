@@ -1,0 +1,31 @@
+@mixin slide-detail($distance, $time) {
+
+	h1, h2, h3, h4, h5, p {
+		position: absolute;
+		margin: 0;
+	}
+	p {
+		top: ($distance);
+		transform: translate3d(0, 100%, 0);
+	}
+	&:hover {
+		transform: translate3d(0, 0, 0);
+	}
+	&::after {
+		position: absolute;
+		top: 100%;
+		content: '';
+		transform: translate3d(0, $distance, 0)
+	}
+	&::after,
+	p {
+		opacity: 0;
+		transition: opacity 0.1s, transform $time;
+	}
+	&:hover::after,
+	&:hover p {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+}

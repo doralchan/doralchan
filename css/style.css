@@ -1,30 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);
-body {
-  top: 0;
-  left: 0;
-  font-family: arial;
-  height: 100%; }
-
-.container {
-  margin-right: auto;
-  margin-left: auto; }
-
-.wrapper {
-  margin-top: 10%; }
-
-.header {
-  margin-top: 10%;
-  text-align: center; }
-  .header p {
-    margin: 0 0.5em; }
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .header {
-    margin-top: 25%;
-    text-align: left; } }
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300|Arbutus+Slab);
 .navbar {
   background: white;
   border: none; }
@@ -48,11 +22,72 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 3em; }
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 10px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1 {
-    font-size: 5em; } }
+    font-size: 5em; }
+
+  p {
+    font-size: 20px;
+    padding: 0 0.2em; } }
 /* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+body {
+  top: 0;
+  left: 0;
+  font-family: arial;
+  height: 100%; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.wrapper {
+  margin-top: 10%; }
+
+.header-wrapper {
+  margin-top: 0; }
+
+.header {
+  text-align: center; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header-wrapper {
+    margin-top: 10%; }
+
+  .header {
+    text-align: left; }
+    .header h1, .header h2, .header h3, .header h4, .header h5, .header p {
+      position: absolute;
+      margin: 0; }
+    .header p {
+      top: 4em;
+      transform: translate3d(0, 100%, 0); }
+    .header:hover {
+      transform: translate3d(0, 0, 0); }
+    .header::after {
+      position: absolute;
+      top: 100%;
+      content: '';
+      transform: translate3d(0, 4em, 0); }
+    .header::after,
+    .header p {
+      opacity: 0;
+      transition: opacity 0.1s, transform 0.3s; }
+    .header:hover::after, .header:hover p {
+      opacity: 1;
+      transform: translate3d(0, 0, 0); } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    text-align: center; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,54 @@
-@import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);
+@import "import_all";
 
-@import "pages/layout";
+body {
+  top: 0;
+  left: 0;
+  font-family: arial;
+  height: 100%;
+}
 
-@import "components/navigation";
-@import "components/typography";
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper {
+	margin-top: 10%;
+}
+
+.header-wrapper {
+	margin-top: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.header-wrapper {
+		margin-top: 10%;
+	}
+
+	.header {
+		@include slide-detail(4em, 0.3s);
+		text-align: left;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.header {
+		text-align: center;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

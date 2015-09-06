@@ -6,11 +6,24 @@ h1 {
 	font-size: 3em;
 }
 
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 10px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 	h1 {
 		font-size: 5em;
 	}
+	p {
+		font-size: 20px;
+		padding: 0 0.2em;
+	}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
