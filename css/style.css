@@ -54,7 +54,7 @@ body {
 .header-wrapper {
   margin-top: 0; }
 
-.header {
+.header-text {
   text-align: center; }
 
 /* Small devices (tablets, 768px and up) */
@@ -62,32 +62,29 @@ body {
   .header-wrapper {
     margin-top: 10%; }
 
-  .header {
+  .header-text {
     text-align: left; }
-    .header h1, .header h2, .header h3, .header h4, .header h5, .header p {
+    .header-text h1, .header-text h2, .header-text h3, .header-text h4, .header-text h5, .header-text p {
       position: absolute;
       margin: 0; }
-    .header p {
-      top: 4em;
+    .header-text p {
+      top: 4.2em;
       transform: translate3d(0, 100%, 0); }
-    .header:hover {
+    .header-text:hover {
       transform: translate3d(0, 0, 0); }
-    .header::after {
+    .header-text::after {
       position: absolute;
       top: 100%;
       content: '';
-      transform: translate3d(0, 4em, 0); }
-    .header::after,
-    .header p {
+      transform: translate3d(0, 4.2em, 0); }
+    .header-text::after,
+    .header-text p {
       opacity: 0;
       transition: opacity 0.1s, transform 0.3s; }
-    .header:hover::after, .header:hover p {
+    .header-text:hover::after, .header-text:hover p {
       opacity: 1;
       transform: translate3d(0, 0, 0); } }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .header {
-    text-align: center; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

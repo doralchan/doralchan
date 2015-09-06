@@ -20,7 +20,7 @@ body {
 	margin-top: 0;
 }
 
-.header {
+.header-text {
 	text-align: center;
 }
 
@@ -31,8 +31,8 @@ body {
 		margin-top: 10%;
 	}
 
-	.header {
-		@include slide-detail(4em, 0.3s);
+	.header-text {
+		@include slide-detail(4.2em, 0.3s);
 		text-align: left;
 	}
 
@@ -41,14 +41,9 @@ body {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-	.header {
-		text-align: center;
-	}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 
 }
