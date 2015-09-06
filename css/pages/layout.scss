@@ -1,0 +1,39 @@
+body {
+  top: 0;
+  left: 0;
+  font-family: arial;
+  height: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper {
+	margin-top: 10%;
+}
+
+.header {
+	margin-top: 10%;
+	text-align: center;
+	p {
+		margin: 0 0.5em;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.header {
+		margin-top: 25%;
+		text-align: left;
+	}		
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

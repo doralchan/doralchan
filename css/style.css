@@ -1,53 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);
 body {
-  margin: 0; }
+  top: 0;
+  left: 0;
+  font-family: arial;
+  height: 100%; }
 
-h1, h2, h3, h4, h5, p {
-  font-family: 'Kreon', serif; }
+.container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.wrapper {
+  margin-top: 10%; }
 
 .header {
-  position: absolute;
-  top: 40%;
-  text-align: center;
-  width: 100%;
-  z-index: -1; }
-  .header .welcome-message {
-    color: #3A3A3A;
-    border: 4px solid #3A3A3A;
-    padding: 10px;
-    margin: 0 auto;
-    font-weight: 400;
-    width: 330px; }
-  .header .animation-name {
-    color: #2A87A8;
-    height: 20px;
-    margin-top: 5px;
-    font-size: 1.5em;
-    font-weight: 300; }
+  margin-top: 10%;
+  text-align: center; }
+  .header p {
+    margin: 0 0.5em; }
 
-.background-sky {
-  background: #E6EFF3;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0; }
-
-.foreground {
-  position: relative;
-  height: 100%;
-  width: 100%; }
-  .foreground .foreground-hills-container {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    z-index: -1; }
-  .foreground .foreground-items-container {
-    bottom: 0;
-    position: absolute;
-    width: 100%; }
-    .foreground .foreground-items-container img {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header {
+    margin-top: 25%;
+    text-align: left; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+.navbar {
+  background: white;
+  border: none; }
+  .navbar .navbar-name {
+    padding-top: 2em;
+    text-align: center; }
+    .navbar .navbar-name button {
       position: absolute;
-      cursor: pointer;
-      bottom: 0; }
+      top: 0;
+      right: 0; }
+  .navbar .navbar-list {
+    text-align: center; }
+    .navbar .navbar-list > li {
+      display: inline-block; }
+    .navbar .navbar-list > li:hover {
+      background: none; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arbutus Slab', serif; }
+
+h1 {
+  font-size: 3em; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5em; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
