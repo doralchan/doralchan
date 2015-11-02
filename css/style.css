@@ -769,8 +769,8 @@ section {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .header {
-    padding-top: 120px;
-    padding-bottom: 70px; }
+    padding-top: 100px;
+    padding-bottom: 60px; }
     .header .wrapper-text {
       margin-top: 11%; }
     .header .header-text h1, .header .header-text h2, .header .header-text h3, .header .header-text h4, .header .header-text h5, .header .header-text p {

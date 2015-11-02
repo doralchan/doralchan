@@ -5,7 +5,7 @@
 		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
 		%link{:href => "css/assets/favicon.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/
 		%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :rel => "stylesheet"}
-		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}		
+		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
 	%body
 
 		%nav.navbar.navbar-fixed-top
@@ -23,14 +23,14 @@
 				.col-sm-5.col-xs-12.wrapper-content
 					.header-content
 						%img{:src => "css/assets/succulent.svg", :class => "succulent"}
-			%section.row.border-bottom-solid.text-center
+			%section.row.border-bottom-solid.text-center{"data-sr" => "enter bottom"}
 				.col-sm-12
 					%p.text-small-caps
 						About
 				.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
 					%p 
 						Hello! I'm Dora, a generalist in design. Located in San Francisco, I thrive in startups and tech meetups. I'm a strong believer in thinking outside of the box and offering modern solutions. My interests are pretty broad, ranging from product design to data visualization. I've been known to tinker around with arduinos, 3D printing, game design and parametric modeling.
-			%section.row.border-bottom-solid.text-center			
+			%section.row.border-bottom-solid.text-center{"data-sr" => "enter bottom"}			
 				.col-sm-12
 					%p.text-small-caps
 						Toolbox			
@@ -49,9 +49,9 @@
 						%img{:src => "css/assets/skill-3.svg", :class => "glove"}
 						%h4 Front-End
 						%p HTML/HAML, CSS/Sass, JS/Coffeescript , Git
-			%section.row.text-center.margin-bottom-100px
+			%section.row.text-center.margin-bottom-100px{"data-sr" => "enter bottom"}
 				.col-sm-12
-					%p.text-small-caps
+					%p.text-small-caps.test
 						Say Hello
 				.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
 					%p Interested in grabbing a cup of joe with me? 
@@ -59,7 +59,9 @@
 						Contact Me
 
 
-	%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
-	%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}
+		%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
+		%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}
+		%script{:src => "js/scrollReveal.js"}
+		%script{:src => "js/main.js"}
 
 	
