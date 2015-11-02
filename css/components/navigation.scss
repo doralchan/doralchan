@@ -1,22 +1,11 @@
 .navbar {
 	background: white;
 	border: none;
-	.navbar-name {
-		padding-top: 2em;
-		text-align: center;	
-		button {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
+	.navbar-header {
+		margin-top: 10px;
+		margin-bottom: 15px;		
 	}
-	.navbar-list {
-		text-align: center;
-		& > li {
-			display: inline-block;
-		}
-		& > li:hover {
-			background: none;
-		}
+	.logo {
+		width: 100px;		
 	}
 }

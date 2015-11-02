@@ -1,0 +1,14 @@
+$side-set: (top, left, bottom, right);
+$style-set: (solid, dotted, dashed);
+
+@each $side in $side-set {
+
+  @each $style in $style-set {
+
+    .border-#{$side}-#{$style} {
+      border-#{$side}: 1px #{$style} #E4E4E4;
+    }
+
+  }
+
+}

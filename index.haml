@@ -3,35 +3,61 @@
 	%head
 		%meta{:charset => "utf-8"}
 		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+		%link{:href => "css/assets/favicon.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/
 		%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :rel => "stylesheet"}
 		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}		
 	%body
 
-		-# %nav.navbar
-			-# .navbar-name
-			-# 	%a{:href => "", :class => ""} Dora Chan			
-			-# 	%button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
-			-# 		%span.sr-only Toggle navigation
-			-# 		%span.icon-bar
-			-# 		%span.icon-bar
-			-# 		%span.icon-bar
-			-# #navbar.collapse.navbar-collapse
-			-# 	%ul.nav.navbar-list
-			-# 		%li.active
-			-# 			%a{:href => ""} Thoughts
-			-# 		%li
-			-# 			%a{:href => ""} Projects
-			-# 		%li
-			-# 			%a{:href => ""} Contact	
+		%nav.navbar.navbar-fixed-top
+			.container
+				.navbar-header
+					.navbar-brand.logo
+						%img{:src => "css/assets/logo.svg"}
 
 		.container
-			.row.wrapper
-				.col-sm-7.col-xs-12.header-wrapper
+			.row.header.border-bottom-solid
+				.col-sm-7.col-xs-12.wrapper-text
 					.header-text
 						%h1 This + That
 						%p I'm a designer who likes to build.
-				.col-sm-5.col-xs-12
-					%img{:src => "css/assets/succulent.svg", :class => "succulent"}
+				.col-sm-5.col-xs-12.wrapper-content
+					.header-content
+						%img{:src => "css/assets/succulent.svg", :class => "succulent"}
+			%section.row.border-bottom-solid.text-center
+				.col-sm-12
+					%p.text-small-caps
+						About
+				.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
+					%p 
+						Hello! I'm Dora, a generalist in design. Located in San Francisco, I thrive in startups and tech meetups. I'm a strong believer in thinking outside of the box and offering modern solutions. My interests are pretty broad, ranging from product design to data visualization. I've been known to tinker around with arduinos, 3D printing, game design and parametric modeling.
+			%section.row.border-bottom-solid.text-center			
+				.col-sm-12
+					%p.text-small-caps
+						Toolbox			
+				.col-sm-4.col-xs-12
+					.feature-skill
+						%img{:src => "css/assets/skill-1.svg", :class => "shovel"}
+						%h4 Visual
+						%p Adobe Creative Suite, Hand-Drawing, Rhino
+				.col-sm-4.col-xs-12
+					.feature-skill
+						%img{:src => "css/assets/skill-2.svg", :class => "watercan"}
+						%h4 User Experience
+						%p Sketch, Balsamic, UXPin, Whiteboarding
+				.col-sm-4.col-xs-12
+					.feature-skill
+						%img{:src => "css/assets/skill-3.svg", :class => "glove"}
+						%h4 Front-End
+						%p HTML/HAML, CSS/Sass, JS/Coffeescript , Git
+			%section.row.text-center.margin-bottom-100px
+				.col-sm-12
+					%p.text-small-caps
+						Say Hello
+				.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
+					%p Interested in grabbing a cup of joe with me? 
+					%a.contact{:href => "https://twitter.com/doralchan"}
+						Contact Me
+
 
 	%script{:src => "http://code.jquery.com/jquery-1.11.2.min.js"}
 	%script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"}

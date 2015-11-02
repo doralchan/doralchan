@@ -3,22 +3,87 @@
   <head>
     <meta charset='utf-8'>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href='css/assets/favicon.png' rel='icon' sizes='32x32' type='image/png'>
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
     <link href='css/style.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <nav class='navbar navbar-fixed-top'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <div class='navbar-brand logo'>
+            <img src='css/assets/logo.svg'>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class='container'>
-      <div class='row wrapper'>
-        <div class='col-sm-7 col-xs-12 header-wrapper'>
+      <div class='row header border-bottom-solid'>
+        <div class='col-sm-7 col-xs-12 wrapper-text'>
           <div class='header-text'>
             <h1>This + That</h1>
             <p>I'm a designer who likes to build.</p>
           </div>
         </div>
-        <div class='col-sm-5 col-xs-12'>
-          <img class='succulent' src='css/assets/succulent.svg'>
+        <div class='col-sm-5 col-xs-12 wrapper-content'>
+          <div class='header-content'>
+            <img class='succulent' src='css/assets/succulent.svg'>
+          </div>
         </div>
       </div>
+      <section class='row border-bottom-solid text-center'>
+        <div class='col-sm-12'>
+          <p class='text-small-caps'>
+            About
+          </p>
+        </div>
+        <div class='col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1'>
+          <p>
+            Hello! I'm Dora, a generalist in design. Located in San Francisco, I thrive in startups and tech meetups. I'm a strong believer in thinking outside of the box and offering modern solutions. My interests are pretty broad, ranging from product design to data visualization. I've been known to tinker around with arduinos, 3D printing, game design and parametric modeling.
+          </p>
+        </div>
+      </section>
+      <section class='row border-bottom-solid text-center'>
+        <div class='col-sm-12'>
+          <p class='text-small-caps'>
+            Toolbox
+          </p>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+          <div class='feature-skill'>
+            <img class='shovel' src='css/assets/skill-1.svg'>
+            <h4>Visual</h4>
+            <p>Adobe Creative Suite, Hand-Drawing, Rhino</p>
+          </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+          <div class='feature-skill'>
+            <img class='watercan' src='css/assets/skill-2.svg'>
+            <h4>User Experience</h4>
+            <p>Sketch, Balsamic, UXPin, Whiteboarding</p>
+          </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+          <div class='feature-skill'>
+            <img class='glove' src='css/assets/skill-3.svg'>
+            <h4>Front-End</h4>
+            <p>HTML/HAML, CSS/Sass, JS/Coffeescript , Git</p>
+          </div>
+        </div>
+      </section>
+      <section class='row text-center margin-bottom-100px'>
+        <div class='col-sm-12'>
+          <p class='text-small-caps'>
+            Say Hello
+          </p>
+        </div>
+        <div class='col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1'>
+          <p>Interested in grabbing a cup of joe with me?</p>
+          <a class='contact' href='https://twitter.com/doralchan'>
+            Contact Me
+          </a>
+        </div>
+      </section>
     </div>
   </body>
   <script src='http://code.jquery.com/jquery-1.11.2.min.js'></script>

@@ -1,0 +1,44 @@
+@for $i from 1 through 20 {
+
+  $size-increment: 5;
+  $size: $i*$size-increment;
+
+  .padding-#{$size}px {
+    padding: #{$size}px;
+  }
+  .padding-top-#{$size}px {
+    padding-top: #{$size}px;
+  }
+  .padding-bottom-#{$size}px {
+    padding-bottom: #{$size}px;
+  }
+  .padding-left-#{$size}px {
+    padding-left: #{$size}px;
+  }
+  .padding-right-#{$size}px {
+    padding-right: #{$size}px;
+  }
+
+  .margin-#{$size}px {
+    margin: #{$size}px;
+  }
+  .margin-top-#{$size}px {
+    margin-top: #{$size}px;
+  }
+  .margin-bottom-#{$size}px {
+    margin-bottom: #{$size}px;
+  }
+  .margin-left-#{$size}px {
+    margin-left: #{$size}px;
+  }
+  .margin-right-#{$size}px {
+    margin-right: #{$size}px;
+  }
+}
+
+.text-small-caps {
+	font-size: 1em;
+	font-weight: 800;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+}
