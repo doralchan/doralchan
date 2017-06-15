@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
@@ -7,31 +8,26 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject: 'body'
 })
 
-
 module.exports = {
-  entry: './client/index.js',
+  entry: './client/components/index.js',
   output: {
     path: path.resolve('dist'),
     filename: 'index_bundle.js'
   },
+
   module: {
     loaders: [
       {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      {
         test: /\.jsx$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /(node_modules)/
       },
       {
         test: /\.(ttf|eot|woff|woff|png|svg)$/,
         loader: 'url-loader'
       },
       {
-        test: /\.scss$/,
+        test: /(\.scss|\.css)$/,
         use: [{
           loader: 'style-loader'
         }, {
@@ -42,5 +38,7 @@ module.exports = {
       }
     ]
   },
+
   plugins: [HtmlWebpackPluginConfig]
+
 }
