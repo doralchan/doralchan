@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import Router from './router.jsx';
+import Router from './router';
 
 ReactDOM.render (
   Router,
