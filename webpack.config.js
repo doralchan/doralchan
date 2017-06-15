@@ -29,6 +29,16 @@ module.exports = {
       {
         test: /\.(ttf|eot|woff|woff|png|svg)$/,
         loader: 'url-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader'
+        }, {
+          loader: 'css-loader'
+        }, {
+          loader: 'sass-loader'
+        }]
       }
     ]
   },
