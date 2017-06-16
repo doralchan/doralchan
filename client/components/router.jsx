@@ -2,15 +2,15 @@ import React from 'react';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 
 import App from './app';
-
-import Home from './templates/home';
-import Projects from './templates/projects';
+import Home from './exercises'
+import Project from './exercises/project';
 
 export default (
   <Router history={browserHistory}>
+    <Route path='/exercises' component={ Home } />
     <Route path='/' component={ App }>
-      <Route path='projects' component={ Projects } />
+      <Route path='exercises' component={ Home } />
+      <Route path='project' component={ Project } />
     </Route>
-    <Route path='home' component={ Home } />
   </Router>
 )

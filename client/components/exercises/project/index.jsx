@@ -1,14 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './styles.scss';
 
-class Projects extends React.Component {
+class Project extends React.Component {
   render() {
     return (
       <div>
-        Projects
+        Project
       </div>
     );
   }
 }
 
-export default Projects
+export default Project
