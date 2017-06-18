@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class App extends React.Component {
   static propTypes = {
-    children: React.PropTypes.node
+    children: PropTypes.node
   };
 
   render() {
@@ -10,7 +11,7 @@ class App extends React.Component {
       <div>
         {this.props.children}
       </div>
-   );
+    );
   }
 }
 

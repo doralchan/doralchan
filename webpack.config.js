@@ -9,23 +9,24 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-  entry: './client/components/index.js',
+  entry: './client/index.js',
 
   output: {
     path: path.resolve('dist'),
     filename: 'index_bundle.js'
   },
 
-  resolve: {
-    extensions: ['.js', '.jsx']
-  },
-
   module: {
     loaders: [
       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      },
+      {
         test: /\.jsx$/,
         loader: 'babel-loader',
-        exclude: /(node_modules)/
+        exclude: /node_modules/
       },
       {
         test: /\.(ttf|eot|woff|woff|png|svg)$/,
