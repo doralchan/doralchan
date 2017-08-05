@@ -7,35 +7,33 @@ import Header from '../../shared/header/index.jsx';
 
 import './styles.scss';
 
-class Projects extends React.Component {
+class Processes extends React.Component {
   renderButtons() {
-    return (
+    return(
       <div>
-        <Button toLink='link-processes' className='btn-primary'>Processes</Button>
+        <Button toLink='link-projects' className='btn-primary'>Thought In Action</Button>
         <Button toLink='link-contact' className='btn-secondary'>Let's Chat</Button>
       </div>
     )
   }
 
   renderHeader() {
-    return (
-      <Header title='Projects'>
-        These are some select projects I’ve worked on over the past
-        few years.
+    return(
+      <Header title='Process'>
+        TBD
       </Header>
     )
   }
-
   render() {
     return (
-      <Container idName='projects'>
+      <Container idName='processes'>
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }
         </Panel>
       </Container>
-    );
+   );
   }
 }
 
-export default Projects
+export default Processes

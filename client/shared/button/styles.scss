@@ -1,0 +1,50 @@
+@import '../../stylesheets/variables.scss';
+
+// Button Style
+
+.btn {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 14px;
+  user-select: none;
+  border: 2px solid $primary-color;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 8px 15px;
+  margin-right: 15px;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    padding: 12px 35px;
+  }
+
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: $white;
+
+  &:hover,
+  &:focus,
+  &:active {
+    transition: all 0.2s ease-in-out;
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+
+}
+
+.btn-secondary {
+  color: $primary-color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    transition: all 0.2s ease-in-out;
+    background-color: darken($background, 2%);
+  }
+
+}

@@ -1,0 +1,20 @@
+@import '../../stylesheets/variables.scss';
+
+// Header Style
+
+.header {
+  display: block;
+  @media (min-width: 768px) {
+    max-width: 500px;
+  }
+}
+
+.header-title {
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.header-description {
+  height: 100px;
+  padding: 5px;
+}
