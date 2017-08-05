@@ -11,8 +11,8 @@ class Processes extends React.Component {
   renderButtons() {
     return(
       <div>
-        <Button toLink='link-projects' className='btn-primary'>Thought In Action</Button>
-        <Button toLink='link-contact' className='btn-secondary'>Let's Chat</Button>
+        <Button toLink='link-projects' className='btn-primary'>In Action</Button>
+        <Button toLink='link-contact' className='btn-secondary'>Meet Me</Button>
       </div>
     )
   }

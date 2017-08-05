@@ -20,9 +20,8 @@ class Skillset extends React.Component {
   renderHeader() {
     return(
       <Header title='Skillset'>
-        With a broad background in design, I’ve amassed a good list of
-        hard and soft skills. This will forever be a work in progress
-        since I never stop learning.
+        I’ve built up some pretty decent experience from my broad design
+        background. It's neat to use test out new mediums
       </Header>
     )
   }

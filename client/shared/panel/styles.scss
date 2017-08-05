@@ -11,8 +11,13 @@
   padding: 30px;
 
   @media (min-width: 768px) {
+    justify-content: center;
+    padding: 40px;
+  }
+
+  @media (min-width: 992px) {
     justify-content: flex-end;
-    padding: 70px;
+    padding: 50px;
   }
 
 }

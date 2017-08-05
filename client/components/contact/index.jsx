@@ -20,7 +20,8 @@ class Contact extends React.Component {
   renderHeader() {
     return(
       <Header title='Contact'>
-        TBD
+        If you'd like to chat over a cup o' Philz, let me know. I'm always ready
+        for caffeine @doralchan
       </Header>
     )
   }
