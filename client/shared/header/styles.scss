@@ -4,10 +4,13 @@
 
 .header {
   display: block;
-  z-index: 1;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     max-width: 500px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 550px;
   }
 
 }
@@ -17,13 +20,5 @@
 }
 
 .header-description {
-
-  @media (min-width: 768px) {
-    height: 80px;
-  }
-
-  @media (min-width: 992px) {
-    height: 150px;
-  }
-
+  margin-bottom: 50px;
 }

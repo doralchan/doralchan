@@ -1,55 +1,101 @@
 // Home Style
 
-.illustration-ferry {
-  position: absolute;
-  right: 0;
-
-  @media (min-width: 768px) {
-    bottom: 40px;
-  }
+.illo-group {
 
   @media (min-width: 992px) {
-    bottom: 50px;
-    width: 70vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 
 }
 
-.illustration-cloud {
-  position: absolute;
+.illo-ferry {
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
+    position: absolute;
+    right: 30px;
+    width: 55vw;
+    bottom: 100px;
+  }
+
+  @media (min-width: 1200px) {
+    bottom: 160px;
+  }
+
+}
+
+.illo-cloud {
+
+
+
+  @media (min-width: 992px) {
+    position: absolute;
+    width: 6vw;
+
+    &.cloud-1 {
+      bottom: 200px;
+      right: 600px;
+      width: 4vw;
+    }
+
+    &.cloud-2 {
+      top: 400px;
+      right: 100px;
+      width: 6vw;
+    }
 
   }
 
+  @media (min-width: 1200px) {
+
+    &.cloud-1 {
+      bottom: 300px;
+    }
+
+    &.cloud-2 {
+      right: 300px;
+    }
+
+  }
+
+}
+
+.illo-plane {
+
   @media (min-width: 992px) {
+    position: absolute;
+    top: 120px;
+    left: 140px;
     width: 6vw;
   }
 
-}
-
-.illustration-plane {
-  position: absolute;
-
-  @media (min-width: 768px) {
-
+  @media (min-width: 1200px) {
+    top: 200px;
   }
 
-  @media (min-width: 992px) {
-    width: 8vw;
-  }
 
 }
 
-.illustration-bird {
-  position: absolute;
-
-  @media (min-width: 768px) {
-
-  }
+.illo-bird {
 
   @media (min-width: 992px) {
-    width: 2vw;
+    position: absolute;
+
+    &.bird-1 {
+      top: 200px;
+      right: 100px;
+      width: 1vw;
+    }
+
+    &.bird-2 {
+      top: 180px;
+      right: 80px;
+      width: 2vw;
+    }
+
   }
 
 }

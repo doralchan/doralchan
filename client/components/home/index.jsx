@@ -24,11 +24,13 @@ class Home extends React.Component {
 
   renderIllo() {
     return(
-      <div>
-        <img src={ Ferry } className='illustration-ferry' />
-        <img src={ Cloud } className='illustration-cloud' />
-        <img src={ Plane } className='illustration-plane' />
-        <img src={ Bird } className='illustration-bird' />
+      <div className='illo-group'>
+        <img src={ Ferry } className='illo-ferry' />
+        <img src={ Plane } className='illo-plane' />
+        <img src={ Cloud } className='illo-cloud cloud-1' />
+        <img src={ Cloud } className='illo-cloud cloud-2' />
+        <img src={ Bird } className='illo-bird bird-1' />
+        <img src={ Bird } className='illo-bird bird-2' />
       </div>
     )
   }
@@ -36,8 +38,17 @@ class Home extends React.Component {
   renderHeader() {
     return(
       <Header title='Hello'>
-        I'm Dora. I live and work in San Francisco. My background is in visual
-        graphics, user experience, front-end development and systems design.
+        <p>
+          I'm glad you're here! My name is Dora.
+        </p>
+        <p>
+          I'm a product designer with a background in visual graphics, user
+          experience, front-end development and systems design.
+        </p>
+        <p>
+          Interested in what I'm tinkering around with? Feel free to look
+          around.
+        </p>
       </Header>
     );
   }
