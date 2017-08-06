@@ -1,3 +1,5 @@
+@import '../../stylesheets/mixins.scss';
+
 // Home Style
 
 .illo-group {
@@ -13,8 +15,10 @@
 }
 
 .illo-ferry {
+  display: none;
 
   @media (min-width: 768px) {
+    display: block;
     position: absolute;
     right: 50px;
     width: 60vw;
@@ -55,10 +59,11 @@
   display: none;
 
   @media (min-width: 768px) {
+    animation: fly-right 28s infinite;
+    animation-delay: 2s;
+    opacity: 0;
     display: block;
     position: absolute;
-    top: 120px;
-    left: 50px;
     width: 6vw;
   }
 
@@ -68,23 +73,80 @@
 
 }
 
-.illo-bird {
+.illo-bus {
   display: none;
 
   @media (min-width: 768px) {
     display: block;
     position: absolute;
+    bottom: 60px;
+    width: 4vw;
+
+    &.bus-1 {
+      animation: drive-left 14s 1;
+      transform: scaleX(-1);
+      right: 300px;
+    }
+
+    &.bus-2 {
+      left: 200px;
+    }
+
+    &.bus-3 {
+      left: 400px;
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+    bottom: 100px;
+  }
+
+}
+
+.illo-circle {
+  position: absolute;
+  &.path-1 {
+    animation: fly-clockwise 5s infinite;
+    height: 40px;
+    width: 40px;
+    top: 300px;
+    right: 320px;
+  }
+  &.path-2 {
+    animation: fly-counterclockwise 50s infinite;
+    height: 240px;
+    width: 240px;
+    top: 100px;
+    right: 100px;
+  }
+}
+
+.illo-bird {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
 
     &.bird-1 {
-      top: 160px;
-      right: 100px;
       width: 1vw;
     }
 
     &.bird-2 {
-      top: 130px;
-      right: 120px;
+      transform: rotate(180deg);
       width: 2vw;
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+
+    &.bird-1 {
+      width: 0.5vw;
+    }
+
+    &.bird-2 {
+      width: 1vw;
     }
 
   }

@@ -6,6 +6,7 @@ import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
 
 import Ferry from '../../assets/illustrations/illo-ferry.svg';
+import Bus from '../../assets/illustrations/illo-bus.svg';
 import Cloud from '../../assets/illustrations/illo-cloud.svg';
 import Plane from '../../assets/illustrations/illo-plane.svg';
 import Bird from '../../assets/illustrations/illo-bird.svg';
@@ -27,10 +28,17 @@ class Home extends React.Component {
       <div className='illo-group'>
         <img src={ Ferry } className='illo-ferry' />
         <img src={ Plane } className='illo-plane' />
+        <img src={ Bus } className='illo-bus bus-1' />
+        <img src={ Bus } className='illo-bus bus-2' />
+        <img src={ Bus } className='illo-bus bus-3' />
         <img src={ Cloud } className='illo-cloud cloud-1' />
         <img src={ Cloud } className='illo-cloud cloud-2' />
-        <img src={ Bird } className='illo-bird bird-1' />
-        <img src={ Bird } className='illo-bird bird-2' />
+        <div className='illo-circle path-1'>
+          <img src={ Bird } className='illo-bird bird-1' />
+        </div>
+        <div className='illo-circle path-2'>
+          <img src={ Bird } className='illo-bird bird-2' />
+        </div>
       </div>
     )
   }

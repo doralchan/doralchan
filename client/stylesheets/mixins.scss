@@ -1,12 +1,45 @@
 // Animation Mixins
 
-// @keyframes glide {
-//   from { }
-//   to { }
-// }
-//
-// @keyframes bounce {
-//   0% { top: 0 }
-//   50% { bottom: 0}
-//   100% { top: 0 }
-// }
+@keyframes fly-clockwise {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly-counterclockwise {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fly-right {
+  0% {
+    opacity: 0;
+    top: 150px;
+    left: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 120px;
+    left: 90vw;
+  }
+}
+
+@keyframes drive-left {
+  0% {
+    opacity: 0;
+    right: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    right: 300px;
+  }
+}

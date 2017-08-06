@@ -16,5 +16,9 @@
 }
 
 .header-description {
-  min-height: 200px;
+  margin-bottom: 40px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    min-height: 200px;
+  }
 }
