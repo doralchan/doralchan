@@ -1,0 +1,55 @@
+// Home Style
+
+.illustration-ferry {
+  position: absolute;
+  right: 0;
+
+  @media (min-width: 768px) {
+    bottom: 40px;
+  }
+
+  @media (min-width: 992px) {
+    bottom: 50px;
+    width: 70vw;
+  }
+
+}
+
+.illustration-cloud {
+  position: absolute;
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 992px) {
+    width: 6vw;
+  }
+
+}
+
+.illustration-plane {
+  position: absolute;
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 992px) {
+    width: 8vw;
+  }
+
+}
+
+.illustration-bird {
+  position: absolute;
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 992px) {
+    width: 2vw;
+  }
+
+}

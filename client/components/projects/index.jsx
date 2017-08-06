@@ -10,7 +10,7 @@ import './styles.scss';
 class Projects extends React.Component {
   renderButtons() {
     return (
-      <div>
+      <div className='btn-group'>
         <Button toLink='link-processes' className='btn-primary'>Processes</Button>
         <Button toLink='link-contact' className='btn-secondary'>Let's Chat</Button>
       </div>
@@ -21,7 +21,7 @@ class Projects extends React.Component {
     return (
       <Header title='Projects'>
         Here are a few projects I’ve worked on over the past couple of years.
-        Each reflects a different 
+        Each reflects a different
       </Header>
     )
   }

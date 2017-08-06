@@ -10,7 +10,7 @@ import './styles.scss';
 class Processes extends React.Component {
   renderButtons() {
     return(
-      <div>
+      <div className='btn-group'>
         <Button toLink='link-projects' className='btn-primary'>In Action</Button>
         <Button toLink='link-contact' className='btn-secondary'>Meet Me</Button>
       </div>

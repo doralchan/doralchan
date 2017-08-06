@@ -10,7 +10,7 @@ import './styles.scss';
 class Skillset extends React.Component {
   renderButtons() {
     return(
-      <div>
+      <div className='btn-group'>
         <Button toLink='link-projects' className='btn-primary'>A Few Projects</Button>
         <Button toLink='link-processes' className='btn-secondary'>Processes</Button>
       </div>

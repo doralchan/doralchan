@@ -10,7 +10,7 @@ import './styles.scss';
 class Contact extends React.Component {
   renderButtons() {
     return(
-      <div>
+      <div className='btn-group'>
         <Button toLink='link-projects' className='btn-primary'>Show Me Again</Button>
         <Button toLink='/' className='btn-secondary'>Start Over</Button>
       </div>
