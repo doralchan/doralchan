@@ -20,8 +20,10 @@ class Projects extends React.Component {
   renderHeader() {
     return (
       <Header title='Projects'>
-        Here are a few projects I’ve worked on over the past couple of years.
-        Each reflects a different
+        <p>
+          Here are a few projects I’ve worked on over the past couple of years.
+          Each reflects a different
+        </p>
       </Header>
     )
   }

@@ -10,19 +10,19 @@
   box-sizing: border-box;
   padding: 30px;
   position: relative;
+  min-height: 700px;
 
   @media (min-width: 768px) {
+    justify-content: center;
     padding: 50px;
   }
 
   @media (min-width: 992px) {
-    justify-content: center;
     padding: 100px 50px;
   }
 
   @media (min-width: 1200px) {
-    justify-content: flex-end;
-    padding: 160px 50px;
+    padding: 160px 100px;
   }
 
 }

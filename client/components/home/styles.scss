@@ -1,9 +1,11 @@
 // Home Style
 
 .illo-group {
+  margin-top: 40px;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     position: absolute;
+    margin-top: 0;
     top: 0;
     left: 0;
     bottom: 0;
@@ -14,49 +16,36 @@
 
 .illo-ferry {
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     position: absolute;
-    right: 30px;
-    width: 55vw;
+    right: 50px;
+    width: 60vw;
     bottom: 100px;
   }
 
   @media (min-width: 1200px) {
-    bottom: 160px;
+    right: 100px;
   }
 
 }
 
 .illo-cloud {
+  display: none;
 
-
-
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
+    display: block;
     position: absolute;
-    width: 6vw;
 
     &.cloud-1 {
-      bottom: 200px;
-      right: 600px;
+      bottom: 350px;
+      right: 250px;
+      width: 3vw;
+    }
+
+    &.cloud-2 {
+      bottom: 400px;
+      right: 150px;
       width: 4vw;
-    }
-
-    &.cloud-2 {
-      top: 400px;
-      right: 100px;
-      width: 6vw;
-    }
-
-  }
-
-  @media (min-width: 1200px) {
-
-    &.cloud-1 {
-      bottom: 300px;
-    }
-
-    &.cloud-2 {
-      right: 300px;
     }
 
   }
@@ -64,35 +53,38 @@
 }
 
 .illo-plane {
+  display: none;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
+    display: block;
     position: absolute;
     top: 120px;
     left: 140px;
     width: 6vw;
   }
 
-  @media (min-width: 1200px) {
-    top: 200px;
+  @media (min-width: 992px) {
+    width: 4vw;
   }
-
 
 }
 
 .illo-bird {
+  display: none;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
+    display: block;
     position: absolute;
 
     &.bird-1 {
-      top: 200px;
+      top: 180px;
       right: 100px;
       width: 1vw;
     }
 
     &.bird-2 {
-      top: 180px;
-      right: 80px;
+      top: 150px;
+      right: 120px;
       width: 2vw;
     }
 

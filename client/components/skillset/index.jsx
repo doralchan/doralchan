@@ -20,8 +20,10 @@ class Skillset extends React.Component {
   renderHeader() {
     return(
       <Header title='Skillset'>
-        I’ve built up some pretty decent experience from my broad design
-        background. It's neat to use test out new mediums
+        <p>
+          I’ve built up some pretty decent experience from my broad design
+          background. It's neat to use test out new mediums
+        </p>
       </Header>
     )
   }

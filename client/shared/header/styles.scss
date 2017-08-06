@@ -5,12 +5,8 @@
 .header {
   display: block;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     max-width: 500px;
-  }
-
-  @media (min-width: 1200px) {
-    max-width: 550px;
   }
 
 }

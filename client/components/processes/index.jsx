@@ -20,7 +20,7 @@ class Processes extends React.Component {
   renderHeader() {
     return(
       <Header title='Process'>
-        TBD
+        <p>First things first.</p>
       </Header>
     )
   }

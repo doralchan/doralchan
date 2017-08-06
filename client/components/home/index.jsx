@@ -46,8 +46,8 @@ class Home extends React.Component {
           experience, front-end development and systems design.
         </p>
         <p>
-          Interested in what I'm tinkering around with? Feel free to look
-          around.
+          Interested in what I'm tinkering around with? Feel free to take
+          a look around.
         </p>
       </Header>
     );
