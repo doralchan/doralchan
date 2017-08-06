@@ -11,15 +11,15 @@ class Skillset extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='link-projects' className='btn-primary'>A Few Projects</Button>
-        <Button toLink='link-processes' className='btn-secondary'>Processes</Button>
+        <Button toLink='link-processes' className='btn-primary'>Process</Button>
+        <Button toLink='link-projects' className='btn-secondary'>A Few Projects</Button>
       </div>
     )
   }
 
   renderHeader() {
     return(
-      <Header title='Skillset'>
+      <Header title='Toolkit'>
         <p>
           I’ve built up some pretty decent experience from my broad design
           background. It's neat to use test out new mediums

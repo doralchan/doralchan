@@ -21,11 +21,13 @@
     top: 150px;
     left: 0;
   }
-  40% {
+  20% {
     opacity: 1;
   }
-  100% {
+  80% {
     opacity: 0;
+  }
+  100% {
     top: 120px;
     left: 90vw;
   }

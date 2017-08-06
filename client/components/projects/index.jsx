@@ -11,8 +11,8 @@ class Projects extends React.Component {
   renderButtons() {
     return (
       <div className='btn-group'>
-        <Button toLink='link-processes' className='btn-primary'>Processes</Button>
-        <Button toLink='link-contact' className='btn-secondary'>Let's Chat</Button>
+        <Button toLink='link-contact' className='btn-primary'>Let's Chat</Button>
+        <Button toLink='link-processes' className='btn-secondary'>Processes</Button>
       </div>
     )
   }

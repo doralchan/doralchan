@@ -59,7 +59,7 @@
   display: none;
 
   @media (min-width: 768px) {
-    animation: fly-right 28s infinite;
+    animation: fly-right 40s infinite;
     animation-delay: 2s;
     opacity: 0;
     display: block;
@@ -107,14 +107,14 @@
 .illo-circle {
   position: absolute;
   &.path-1 {
-    animation: fly-clockwise 5s infinite;
+    animation: fly-clockwise 10s infinite;
     height: 40px;
     width: 40px;
     top: 300px;
     right: 320px;
   }
   &.path-2 {
-    animation: fly-counterclockwise 50s infinite;
+    animation: fly-counterclockwise 70s infinite;
     height: 240px;
     width: 240px;
     top: 100px;
