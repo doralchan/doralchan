@@ -1,11 +1,9 @@
 // Home Style
 
 .illo-group {
-  margin-top: 40px;
 
   @media (min-width: 768px) {
     position: absolute;
-    margin-top: 0;
     top: 0;
     left: 0;
     bottom: 0;
@@ -20,11 +18,12 @@
     position: absolute;
     right: 50px;
     width: 60vw;
-    bottom: 100px;
+    bottom: 60px;
   }
 
   @media (min-width: 1200px) {
     right: 100px;
+    bottom: 100px;
   }
 
 }
@@ -59,7 +58,7 @@
     display: block;
     position: absolute;
     top: 120px;
-    left: 140px;
+    left: 50px;
     width: 6vw;
   }
 
@@ -77,13 +76,13 @@
     position: absolute;
 
     &.bird-1 {
-      top: 180px;
+      top: 160px;
       right: 100px;
       width: 1vw;
     }
 
     &.bird-2 {
-      top: 150px;
+      top: 130px;
       right: 120px;
       width: 2vw;
     }
