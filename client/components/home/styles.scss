@@ -60,7 +60,7 @@
 
   @media (min-width: 768px) {
     animation: fly-right 40s infinite;
-    animation-delay: 2s;
+    animation-delay: 3s;
     opacity: 0;
     display: block;
     position: absolute;
@@ -90,10 +90,6 @@
 
     &.bus-2 {
       left: 200px;
-    }
-
-    &.bus-3 {
-      left: 400px;
     }
 
   }

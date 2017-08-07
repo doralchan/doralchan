@@ -17,7 +17,7 @@ class Home extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='link-skillset' className='btn-primary'>Tell Me More</Button>
+        <Button toLink='link-toolkit' className='btn-primary'>Tell Me More</Button>
         <Button toLink='link-projects' className='btn-secondary'>Show Me More</Button>
       </div>
     );
@@ -30,7 +30,6 @@ class Home extends React.Component {
         <img src={ Plane } className='illo-plane' />
         <img src={ Bus } className='illo-bus bus-1' />
         <img src={ Bus } className='illo-bus bus-2' />
-        <img src={ Bus } className='illo-bus bus-3' />
         <img src={ Cloud } className='illo-cloud cloud-1' />
         <img src={ Cloud } className='illo-cloud cloud-2' />
         <div className='illo-circle path-1'>

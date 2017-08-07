@@ -7,7 +7,7 @@ import Header from '../../shared/header/index.jsx';
 
 import './styles.scss';
 
-class Skillset extends React.Component {
+class Toolkit extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
@@ -19,10 +19,9 @@ class Skillset extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Toolkit'>
+      <Header title='Toolkits'>
         <p>
-          I’ve built up some pretty decent experience from my broad design
-          background. It's neat to use test out new mediums
+          Experimenting with different mediums is necessary for
         </p>
       </Header>
     )
@@ -30,7 +29,7 @@ class Skillset extends React.Component {
 
   render() {
     return (
-      <Container idName='skillset'>
+      <Container idName='toolkit'>
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }
@@ -40,4 +39,4 @@ class Skillset extends React.Component {
   }
 }
 
-export default Skillset
+export default Toolkit
