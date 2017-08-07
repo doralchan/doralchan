@@ -1,0 +1,24 @@
+@import '../../stylesheets/variables.scss';
+
+// Header Style
+
+.header {
+  display: block;
+
+  @media (min-width: 768px) {
+    max-width: 500px;
+  }
+
+}
+
+.header-title {
+  color: $primary-default;
+}
+
+.header-description {
+  margin-bottom: 40px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    min-height: 180px;
+  }
+}

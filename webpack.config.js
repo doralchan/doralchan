@@ -3,29 +3,25 @@ const webpack = require('webpack');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './index.html',
+  template: './client/index.html',
   filename: 'index.html',
   inject: 'body'
 })
 
 module.exports = {
-  entry: './src/index.jsx',
-
-  output: {
-    path: path.resolve('dist'),
-    filename: 'index_bundle.js'
-  },
-
-  resolve: {
-    extensions: ['.js', '.jsx']
-  },
+  entry: './client/index.js',
 
   module: {
     loaders: [
       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      },
+      {
         test: /\.jsx$/,
         loader: 'babel-loader',
-        exclude: /(node_modules)/
+        exclude: /node_modules/
       },
       {
         test: /\.(ttf|eot|woff|woff|png|svg)$/,
@@ -44,6 +40,11 @@ module.exports = {
     ]
   },
 
+  output: {
+    path: path.resolve(__dirname),
+    filename: 'index_bundle.js'
+  },
+
   plugins: [HtmlWebpackPluginConfig]
 
-}
+};

@@ -1,0 +1,19 @@
+@import '../../stylesheets/variables.scss';
+
+// Container Style
+
+.container {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 10px;
+
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+    padding: 25px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 40px;
+  }
+
+}

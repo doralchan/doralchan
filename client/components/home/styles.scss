@@ -1,0 +1,150 @@
+@import '../../stylesheets/mixins.scss';
+
+// Home Style
+
+.illo-group {
+
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+}
+
+.illo-ferry {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    right: 50px;
+    width: 60vw;
+    bottom: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 100px;
+    bottom: 100px;
+  }
+
+}
+
+.illo-cloud {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+
+    &.cloud-1 {
+      bottom: 350px;
+      right: 250px;
+      width: 3vw;
+    }
+
+    &.cloud-2 {
+      bottom: 400px;
+      right: 150px;
+      width: 4vw;
+    }
+
+  }
+
+}
+
+.illo-plane {
+  display: none;
+
+  @media (min-width: 768px) {
+    animation: fly-right 40s infinite;
+    animation-delay: 3s;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    width: 6vw;
+  }
+
+  @media (min-width: 992px) {
+    width: 4vw;
+  }
+
+}
+
+.illo-bus {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    width: 4vw;
+
+    &.bus-1 {
+      animation: drive-left 14s 1;
+      transform: scaleX(-1);
+      right: 300px;
+    }
+
+    &.bus-2 {
+      left: 200px;
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+    bottom: 100px;
+  }
+
+}
+
+.illo-circle {
+  position: absolute;
+  &.path-1 {
+    animation: fly-clockwise 10s infinite;
+    height: 40px;
+    width: 40px;
+    top: 300px;
+    right: 320px;
+  }
+  &.path-2 {
+    animation: fly-counterclockwise 70s infinite;
+    height: 240px;
+    width: 240px;
+    top: 100px;
+    right: 100px;
+  }
+}
+
+.illo-bird {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+
+    &.bird-1 {
+      width: 1vw;
+    }
+
+    &.bird-2 {
+      transform: rotate(180deg);
+      width: 2vw;
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+
+    &.bird-1 {
+      width: 0.5vw;
+    }
+
+    &.bird-2 {
+      width: 1vw;
+    }
+
+  }
+
+}
