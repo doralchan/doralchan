@@ -1,25 +1,29 @@
 @import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/assets.scss';
 
 // Home Style
 
-.illo-group {
+.illo-circle {
 
-  @media (min-width: 768px) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  &.path-1 {
+    animation: fly-clockwise 10s infinite;
+    height: 40px;
+    width: 40px;
+    top: 300px;
+    right: 320px;
   }
-
+  &.path-2 {
+    animation: fly-counterclockwise 70s infinite;
+    height: 240px;
+    width: 240px;
+    top: 100px;
+    right: 100px;
+  }
 }
 
-.illo-ferry {
-  display: none;
+.ferry {
 
   @media (min-width: 768px) {
-    display: block;
-    position: absolute;
     right: 50px;
     width: 60vw;
     bottom: 60px;
@@ -32,12 +36,9 @@
 
 }
 
-.illo-cloud {
-  display: none;
+.cloud {
 
   @media (min-width: 768px) {
-    display: block;
-    position: absolute;
 
     &.cloud-1 {
       bottom: 350px;
@@ -55,15 +56,12 @@
 
 }
 
-.illo-plane {
-  display: none;
+.plane {
 
   @media (min-width: 768px) {
     animation: fly-right 40s infinite;
     animation-delay: 3s;
     opacity: 0;
-    display: block;
-    position: absolute;
     width: 6vw;
   }
 
@@ -73,12 +71,9 @@
 
 }
 
-.illo-bus {
-  display: none;
+.bus {
 
   @media (min-width: 768px) {
-    display: block;
-    position: absolute;
     bottom: 60px;
     width: 4vw;
 
@@ -100,29 +95,9 @@
 
 }
 
-.illo-circle {
-  position: absolute;
-  &.path-1 {
-    animation: fly-clockwise 10s infinite;
-    height: 40px;
-    width: 40px;
-    top: 300px;
-    right: 320px;
-  }
-  &.path-2 {
-    animation: fly-counterclockwise 70s infinite;
-    height: 240px;
-    width: 240px;
-    top: 100px;
-    right: 100px;
-  }
-}
-
-.illo-bird {
-  display: none;
+.bird {
 
   @media (min-width: 768px) {
-    display: block;
 
     &.bird-1 {
       width: 1vw;
