@@ -1,0 +1,19 @@
+@import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/assets.scss';
+
+// Toolkit Style
+
+.illo-ship {
+
+  @media (min-width: 768px) {
+    right: 50px;
+    width: 50vw;
+    bottom: 50px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 100px;
+    bottom: 90px;
+  }
+
+}

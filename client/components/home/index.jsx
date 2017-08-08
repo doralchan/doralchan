@@ -17,8 +17,8 @@ class Home extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='link-toolkit' className='btn-primary'>Tell Me More</Button>
-        <Button toLink='link-projects' className='btn-secondary'>Show Me More</Button>
+        <Button toLink='/link-toolkit' className='btn-primary'>Tell Me More</Button>
+        <Button toLink='/link-projects' className='btn-secondary'>Show Me More</Button>
       </div>
     );
   }
@@ -26,17 +26,17 @@ class Home extends React.Component {
   renderIllo() {
     return(
       <div className='illo-group'>
-        <img src={ Ferry } className='illo-ferry' />
-        <img src={ Plane } className='illo-plane' />
-        <img src={ Bus } className='illo-bus bus-1' />
-        <img src={ Bus } className='illo-bus bus-2' />
-        <img src={ Cloud } className='illo-cloud cloud-1' />
-        <img src={ Cloud } className='illo-cloud cloud-2' />
-        <div className='illo-circle path-1'>
-          <img src={ Bird } className='illo-bird bird-1' />
+        <img src={ Ferry } className='illo-item ferry' />
+        <img src={ Plane } className='illo-item plane' />
+        <img src={ Bus } className='illo-item bus bus-1' />
+        <img src={ Bus } className='illo-item bus bus-2' />
+        <img src={ Cloud } className='illo-item cloud cloud-1' />
+        <img src={ Cloud } className='illo-item cloud cloud-2' />
+        <div className='circle illo-item path-1'>
+          <img src={ Bird } className='bird bird-1' />
         </div>
-        <div className='illo-circle path-2'>
-          <img src={ Bird } className='illo-bird bird-2' />
+        <div className='circle illo-item path-2'>
+          <img src={ Bird } className='bird bird-2' />
         </div>
       </div>
     )
