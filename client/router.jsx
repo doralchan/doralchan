@@ -12,10 +12,10 @@ export default (
   <Router history={ browserHistory }>
     <Route path='/' component={ App }>
       <IndexRoute component={ Home } />
-      <Route path='link-toolkit' component={ Toolkit } />
-      <Route path='link-projects' component={ Projects } />
-      <Route path='link-processes' component={ Processes } />
-      <Route path='link-contact' component={ Contact } />
+      <Route path='/link-toolkit' component={ Toolkit } />
+      <Route path='/link-projects' component={ Projects } />
+      <Route path='/link-processes' component={ Processes } />
+      <Route path='/link-contact' component={ Contact } />
     </Route>
   </Router>
 );

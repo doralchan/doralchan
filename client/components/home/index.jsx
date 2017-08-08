@@ -32,10 +32,10 @@ class Home extends React.Component {
         <img src={ Bus } className='illo-item bus bus-2' />
         <img src={ Cloud } className='illo-item cloud cloud-1' />
         <img src={ Cloud } className='illo-item cloud cloud-2' />
-        <div className='illo-circle illo-item path-1'>
+        <div className='circle illo-item path-1'>
           <img src={ Bird } className='bird bird-1' />
         </div>
-        <div className='illo-circle illo-item path-2'>
+        <div className='circle illo-item path-2'>
           <img src={ Bird } className='bird bird-2' />
         </div>
       </div>
