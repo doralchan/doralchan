@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Container from '../../shared/container/index.jsx';
+import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
@@ -21,9 +22,9 @@ class Toolkit extends React.Component {
 
   renderIllo() {
     return(
-      <div className='illo-group'>
+      <Illustration>
         <img src={ CargoShip } className='illo-item illo-ship' />
-      </div>
+      </Illustration>
     )
   }
 

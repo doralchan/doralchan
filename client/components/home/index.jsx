@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Container from '../../shared/container/index.jsx';
+import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
@@ -25,7 +26,7 @@ class Home extends React.Component {
 
   renderIllo() {
     return(
-      <div className='illo-group'>
+      <Illustration>
         <img src={ Ferry } className='illo-item ferry' />
         <img src={ Plane } className='illo-item plane' />
         <img src={ Bus } className='illo-item bus bus-1' />
@@ -38,7 +39,7 @@ class Home extends React.Component {
         <div className='circle illo-item path-2'>
           <img src={ Bird } className='bird bird-2' />
         </div>
-      </div>
+      </Illustration>
     )
   }
 

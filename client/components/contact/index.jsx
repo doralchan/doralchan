@@ -1,9 +1,12 @@
 import React from 'react';
 
 import Container from '../../shared/container/index.jsx';
+import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+
+import DeYoung from '../../assets/illustrations/illo-deyoung.svg';
 
 import './styles.scss';
 
@@ -14,6 +17,14 @@ class Contact extends React.Component {
         <Button toLink='/' className='btn-primary'>Show Me Again</Button>
         <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-secondary'>Send A Message</a>
       </div>
+    )
+  }
+
+  renderIllo() {
+    return(
+      <Illustration>
+        <img src={ DeYoung } className='illo-item deyoung' />
+      </Illustration>
     )
   }
 
@@ -34,6 +45,7 @@ class Contact extends React.Component {
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }
+          { this.renderIllo() }
         </Panel>
       </Container>
     );
