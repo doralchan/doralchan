@@ -42,7 +42,12 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname),
-    filename: 'index_bundle.js'
+    filename: 'index_bundle.js',
+    publicPath: '/'
+  },
+
+  devServer: {
+    historyApiFallback: true,
   },
 
   plugins: [HtmlWebpackPluginConfig]

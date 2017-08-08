@@ -17,8 +17,8 @@ class Home extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='link-toolkit' className='btn-primary'>Tell Me More</Button>
-        <Button toLink='link-projects' className='btn-secondary'>Show Me More</Button>
+        <Button toLink='/link-toolkit' className='btn-primary'>Tell Me More</Button>
+        <Button toLink='/link-projects' className='btn-secondary'>Show Me More</Button>
       </div>
     );
   }
