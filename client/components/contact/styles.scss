@@ -3,5 +3,16 @@
 // Contact Style
 
 .deyoung {
-  
+
+  @media (min-width: 768px) {
+    right: 50px;
+    width: 50vw;
+    bottom: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 100px;
+    bottom: 100px;
+  }
+
 }

@@ -23,7 +23,7 @@ class Toolkit extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <img src={ CargoShip } className='illo-item illo-ship' />
+        <img src={ CargoShip } className='illo-item ship' />
       </Illustration>
     )
   }

@@ -15081,7 +15081,7 @@ var Toolkit = function (_React$Component) {
       return _react2.default.createElement(
         _index4.default,
         null,
-        _react2.default.createElement('img', { src: _illoShip2.default, className: 'illo-item illo-ship' })
+        _react2.default.createElement('img', { src: _illoShip2.default, className: 'illo-item ship' })
       );
     }
   }, {
@@ -16027,7 +16027,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n", ""]);
+exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .deyoung {\n    right: 50px;\n    width: 50vw;\n    bottom: 60px; } }\n\n@media (min-width: 1200px) {\n  .deyoung {\n    right: 100px;\n    bottom: 100px; } }\n", ""]);
 
 // exports
 
@@ -16055,7 +16055,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n", ""]);
+exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .fortmason {\n    right: 50px;\n    width: 50vw;\n    bottom: 60px; } }\n\n@media (min-width: 1200px) {\n  .fortmason {\n    right: 100px;\n    bottom: 100px; } }\n", ""]);
 
 // exports
 
@@ -16069,7 +16069,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .sf-moma {\n    width: 40vw;\n    right: 100px;\n    bottom: 60px; } }\n\n@media (min-width: 1200px) {\n  .sf-moma {\n    right: 140px;\n    bottom: 100px; } }\n", ""]);
+exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .sf-moma {\n    width: 38vw;\n    right: 100px;\n    bottom: 60px; } }\n\n@media (min-width: 1200px) {\n  .sf-moma {\n    right: 140px;\n    bottom: 100px; } }\n", ""]);
 
 // exports
 
@@ -16083,7 +16083,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .illo-ship {\n    right: 50px;\n    width: 50vw;\n    bottom: 50px; } }\n\n@media (min-width: 1200px) {\n  .illo-ship {\n    right: 100px;\n    bottom: 90px; } }\n", ""]);
+exports.push([module.i, "@keyframes fly-clockwise {\n  100% {\n    transform: rotate(360deg); } }\n\n@keyframes fly-counterclockwise {\n  0% {\n    transform: rotate(360deg); }\n  100% {\n    transform: rotate(0deg); } }\n\n@keyframes fly-right {\n  0% {\n    opacity: 0;\n    top: 150px;\n    left: 0; }\n  20% {\n    opacity: 1; }\n  80% {\n    opacity: 0; }\n  100% {\n    top: 120px;\n    left: 90vw; } }\n\n@keyframes drive-left {\n  0% {\n    opacity: 0;\n    right: 0; }\n  20% {\n    opacity: 1; }\n  100% {\n    right: 300px; } }\n\n@media (min-width: 768px) {\n  .ship {\n    right: 50px;\n    width: 50vw;\n    bottom: 50px; } }\n\n@media (min-width: 1200px) {\n  .ship {\n    right: 100px;\n    bottom: 90px; } }\n", ""]);
 
 // exports
 
@@ -16125,7 +16125,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".header {\n  display: block; }\n  @media (min-width: 768px) {\n    .header {\n      max-width: 500px; } }\n\n.header-title {\n  color: #F27E5F; }\n\n.header-description {\n  margin-bottom: 40px; }\n  @media (min-width: 768px) {\n    .header-description {\n      margin-bottom: 0;\n      min-height: 180px; } }\n", ""]);
+exports.push([module.i, ".header {\n  display: block; }\n  @media (min-width: 768px) {\n    .header {\n      max-width: 500px; } }\n\n.header-title {\n  color: #F27E5F; }\n\n.header-description {\n  margin-bottom: 40px; }\n  @media (min-width: 768px) {\n    .header-description {\n      margin-bottom: 0;\n      min-height: 150px; } }\n", ""]);
 
 // exports
 
