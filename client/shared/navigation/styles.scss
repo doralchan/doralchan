@@ -1,1 +1,26 @@
 @import '../../stylesheets/variables.scss';
+
+.nav {
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  z-index: 1;
+}
+
+.nav-menu {
+  position: absolute;
+
+  .nav-open {
+    display: block;
+  }
+
+  .nav-menu-close {
+    display: none;
+  }
+
+}
+
+.nav-link-icon {
+  width: 30px;
+  height: 30px;
+}

@@ -14,8 +14,8 @@ class Processes extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='/link-projects' className='btn-primary'>A Few Projects</Button>
-        <Button toLink='/link-contact' className='btn-secondary'>Meet Me</Button>
+        <Button toLink='/projects' className='btn-primary'>A Few Projects</Button>
+        <Button toLink='/contact' className='btn-secondary'>Meet Me</Button>
       </div>
     )
   }
@@ -31,7 +31,10 @@ class Processes extends React.Component {
   renderHeader() {
     return(
       <Header title='Process'>
-        <p>First things first.</p>
+        <p>
+          It's important to me to experiment with different mediums. Design can
+          be inspired by
+        </p>
       </Header>
     )
   }

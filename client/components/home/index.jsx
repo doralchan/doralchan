@@ -18,8 +18,8 @@ class Home extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='/link-toolkit' className='btn-primary'>Tell Me More</Button>
-        <Button toLink='/link-projects' className='btn-secondary'>Show Me More</Button>
+        <Button toLink='/toolkit' className='btn-primary'>Tell Me More</Button>
+        <Button toLink='/projects' className='btn-secondary'>Show Me More</Button>
       </div>
     );
   }
@@ -50,12 +50,13 @@ class Home extends React.Component {
           I'm glad you're here! My name is Dora.
         </p>
         <p>
-          I'm a product designer with a background in visual graphics, user
-          experience, front-end development and systems design.
+          I'm a product designer with a background in user experience,
+          front-end development and systems design. I also like to dabble in
+          illustration sometimes.
         </p>
         <p>
           Interested in what I'm tinkering around with? Feel free to take
-          a look around.
+          a look around!
         </p>
       </Header>
     );

@@ -14,8 +14,8 @@ class Toolkit extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='/link-processes' className='btn-primary'>Process</Button>
-        <Button toLink='/link-projects' className='btn-secondary'>A Few Projects</Button>
+        <Button toLink='/processes' className='btn-primary'>Process</Button>
+        <Button toLink='/projects' className='btn-secondary'>A Few Projects</Button>
       </div>
     )
   }
@@ -32,7 +32,9 @@ class Toolkit extends React.Component {
     return(
       <Header title='Toolkits'>
         <p>
-          Experimenting with different mediums
+          I've had the luck of getting access to a lot of spectacular tools out
+          there. By working in both design and development, I've been able to
+          link and utilize both
         </p>
       </Header>
     )

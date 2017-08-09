@@ -14722,7 +14722,7 @@ var Home = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'I\'m a product designer with a background in visual graphics, user experience, front-end development and systems design.'
+          'I\'m a product designer with a background in user experience, front-end development and systems design. I also dabble in a little bit of illustration as well.'
         ),
         _react2.default.createElement(
           'p',
@@ -14849,7 +14849,7 @@ var Processes = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'First things first.'
+          'It\'s important to me to experiment with different mediums. Design can be inspired by'
         )
       );
     }
@@ -15093,7 +15093,7 @@ var Toolkit = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'Experimenting with different mediums'
+          'After'
         )
       );
     }
