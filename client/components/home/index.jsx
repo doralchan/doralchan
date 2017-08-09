@@ -5,6 +5,7 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import Ferry from '../../assets/illustrations/illo-ferry.svg';
 import Bus from '../../assets/illustrations/illo-bus.svg';
@@ -65,6 +66,7 @@ class Home extends React.Component {
   render() {
     return(
      <Container idName='home'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }

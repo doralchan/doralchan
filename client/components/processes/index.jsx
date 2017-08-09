@@ -5,6 +5,7 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import FortMason from '../../assets/illustrations/illo-fortmason.svg';
 
@@ -41,6 +42,7 @@ class Processes extends React.Component {
   render() {
     return (
       <Container idName='processes'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }

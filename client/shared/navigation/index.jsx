@@ -26,6 +26,7 @@ class Navigation extends React.Component {
 
   menuClasses() {
     const activeClass = this.state.openMenu ? 'nav-menu-open' : 'nav-menu-close';
+
     return classNames(
       'nav-menu',
       `${ activeClass}`,

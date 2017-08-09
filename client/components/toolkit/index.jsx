@@ -5,6 +5,7 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import CargoShip from '../../assets/illustrations/illo-ship.svg';
 
@@ -43,6 +44,7 @@ class Toolkit extends React.Component {
   render() {
     return (
       <Container idName='toolkit'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }
