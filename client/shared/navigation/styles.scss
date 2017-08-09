@@ -1,6 +1,7 @@
 @import '../../stylesheets/variables.scss';
 
 .nav {
+  display: flex;
   position: absolute;
   right: 30px;
   top: 30px;
@@ -11,6 +12,10 @@
     top: 80px;
   }
 
+}
+
+.nav-link {
+  display: flex;
 }
 
 .nav-link-icon {
@@ -25,14 +30,20 @@
 }
 
 .nav-menu {
-  position: absolute;
-  right: 0;
+
 }
 
 .nav-menu-open {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .nav-menu-close {
   display: none;
+}
+
+.nav-menu-item {
+  color: $secondary-default;
+  text-decoration: none;
+  padding-right: 40px;
 }
