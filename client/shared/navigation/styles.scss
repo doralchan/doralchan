@@ -8,7 +8,7 @@
   position: absolute;
   right: 40px;
   top: 40px;
-  z-index: 1;
+  z-index: 2;
 
   @media (min-width: 768px) {
     right: 90px;
@@ -60,22 +60,39 @@
 // Navigation Menu
 
 .nav-menu {
+  display: flex;
+  flex-direction: column;
   transition: opacity 100ms;
+  border-radius: 5px;
   opacity: 0;
   visibility: hidden;
   position: absolute;
   right: 80px;
+  top: 0;
+  background-color: $primary-default;
+
+  @media (min-width: 768px) {
+    background-color: transparent;
+    flex-direction: row;
+  }
+
 }
 
 .nav-menu-item {
-  color: $secondary-dark;
+  color: $white;
   text-transform: uppercase;
   text-decoration: none;
   transition: all .2s;
   padding: 10px;
 
-  &:hover {
-    color: $secondary-default;
+  @media (min-width: 768px) {
+    color: $primary-default;
+
+    &:hover {
+      transition: all 50ms ease-in-out;
+      color: $primary-light;
+    }
+
   }
 
 }
