@@ -15,7 +15,7 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.toggleMenu = this.toggleMenu.bind(this);
-    this.state = { openMenu: false };
+    this.state = { openMenu: true };
   }
 
   toggleMenu() {
@@ -25,27 +25,18 @@ class Navigation extends React.Component {
   }
 
   menuClasses() {
-    const activeClass = this.state.openMenu ? 'nav-menu-open' : 'nav-menu-close';
+    const activeClass = this.state.openMenu ? 'nav-close' : 'nav-open';
 
     return classNames(
-      'nav-menu',
+      'nav',
       `${ activeClass}`,
       this.props.className
     )
   }
 
-  linkClasses() {
-    const activeClass = this.state.openMenu ? 'close' : '';
-
-    return classNames(
-      'nav-link',
-      `${ activeClass}`
-    )
-  }
-
   menuList() {
     return (
-      <div className={ this.menuClasses() }>
+      <div className='nav-menu'>
         <Link to='/' className='nav-menu-item'>Home</Link>
         <Link to='/toolkit' className='nav-menu-item'>Toolkit</Link>
         <Link to='/projects' className='nav-menu-item'>Projects</Link>
@@ -57,11 +48,11 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className='nav' onClick={ this.toggleMenu }>
-        { this.menuList() }
-        <a href='#' className={ this.linkClasses() }>
+      <div className={ this.menuClasses() } onClick={ this.toggleMenu }>
+        <a href='#' className='nav-link'>
           <span className='nav-link-icon' />
         </a>
+        { this.menuList() }
       </div>
     )
   }
