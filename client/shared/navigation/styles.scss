@@ -3,14 +3,16 @@
 // Navigation Wrapper
 
 .nav {
+  display: flex;
+  align-items: center;
   position: absolute;
-  right: 30px;
-  top: 45px;
+  right: 40px;
+  top: 40px;
   z-index: 1;
 
   @media (min-width: 768px) {
-    right: 80px;
-    top: 95px;
+    right: 90px;
+    top: 90px;
   }
 
 }
@@ -19,8 +21,9 @@
 
 .nav-link {
   display: block;
+  padding-top: 10px;
+  padding-bottom: 15px;
   width: 50px;
-  height: 50px;
 }
 
 .nav-link-icon {
@@ -51,24 +54,30 @@
   background-color: $secondary-default;
   transition: all 0.2s;
   backface-visibility: hidden;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 // Navigation Menu
 
 .nav-menu {
-  display: flex;
-  flex-direction: column;
   transition: opacity 100ms;
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  right: 80px;
 }
 
 .nav-menu-item {
   color: $secondary-dark;
+  text-transform: uppercase;
   text-decoration: none;
   transition: all .2s;
+  padding: 10px;
+
+  &:hover {
+    color: $secondary-default;
+  }
+
 }
 
 // Closed Navigation
