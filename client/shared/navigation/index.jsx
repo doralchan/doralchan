@@ -34,6 +34,15 @@ class Navigation extends React.Component {
     )
   }
 
+  linkClasses() {
+    const activeClass = this.state.openMenu ? 'close' : '';
+
+    return classNames(
+      'nav-link',
+      `${ activeClass}`
+    )
+  }
+
   menuList() {
     return (
       <div className={ this.menuClasses() }>
@@ -50,8 +59,8 @@ class Navigation extends React.Component {
     return (
       <div className='nav' onClick={ this.toggleMenu }>
         { this.menuList() }
-        <a href='#' className='nav-link'>
-          <img src={ IconMenu } className='nav-link-icon'/>
+        <a href='#' className={ this.linkClasses() }>
+          <span className='nav-link-icon' />
         </a>
       </div>
     )
