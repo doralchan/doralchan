@@ -34,7 +34,7 @@ class Contact extends React.Component {
       <Header title='Contact'>
         <p>
           If you'd like to chat over a cup o' Philz, let me know. I'm always
-          ready for some caffeination.
+          ready for caffeination.
         </p>
       </Header>
     )

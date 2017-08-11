@@ -14697,7 +14697,7 @@ var Contact = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'If you\'d like to chat over a cup o\' Philz, let me know. I\'m always ready for some caffeination.'
+          'If you\'d like to chat over a cup o\' Philz, let me know. I\'m always ready for caffeination.'
         )
       );
     }
@@ -14978,7 +14978,7 @@ var Processes = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'It\'s important to me to experiment with different mediums. Without this, it\'s impossible to know if the design created is the best'
+          'When persuing design at the University of California (Berkeley), and University of Michigan (Ann Arbor), design did not start with an interface. It began with questions, hypotheses, and prototyping. This process led to qualitative discovery. The same applies for user research today. It is first and foremost, the most critical step to any project.'
         )
       );
     }
@@ -15110,7 +15110,7 @@ var Projects = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'Here are a few projects I\u2019ve worked on over the past couple of years. Each reflects a different'
+          'Coming Soon'
         )
       );
     }
@@ -15251,7 +15251,7 @@ var Toolkit = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'I\'ve had the luck of getting access to a lot of spectacular tools out there. With work in both design and development, I\'ve been able to link and utilize'
+          'I\'ve had the amazing luck of getting access to a lot of powerful tools in tech. At this point, there are no boundaries to imagination or implementation. It\'s more a matter of continual experimentation, ongoing exposure to the resources actively being developed in the community and recontributing to this effort.'
         )
       );
     }
