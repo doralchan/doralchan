@@ -1,1 +1,121 @@
 @import '../../stylesheets/variables.scss';
+
+// Navigation Wrapper
+
+.nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  z-index: 2;
+
+  @media (min-width: 768px) {
+    right: 90px;
+    top: 90px;
+  }
+
+}
+
+// Navigation Icon
+
+.nav-link {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 50px;
+}
+
+.nav-link-icon {
+  position: relative;
+  display: block;
+}
+
+.nav-link-icon:after,
+.nav-link-icon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.nav-link-icon:before {
+  top: -15px;
+}
+
+.nav-link-icon:after{
+  top: 15px;
+}
+
+.nav-link-icon,
+.nav-link-icon:after,
+.nav-link-icon:before {
+  width: 100%;
+  height: 5px;
+  background-color: $secondary-default;
+  transition: all 0.2s;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+// Navigation Menu
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 100ms;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 80px;
+  top: 0;
+  background-color: $primary-default;
+
+  @media (min-width: 768px) {
+    background-color: transparent;
+    flex-direction: row;
+  }
+
+}
+
+.nav-menu-item {
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .2s;
+  padding: 10px;
+
+  @media (min-width: 768px) {
+    color: $primary-default;
+
+    &:hover {
+      transition: all 50ms ease-in-out;
+      color: $primary-light;
+    }
+
+  }
+
+}
+
+// Closed Navigation
+
+.nav-close {
+
+  .nav-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-link-icon {
+    background-color: transparent;
+  }
+
+  .nav-link-icon:before {
+    transform: rotate(45deg) translate(14px, 14px);
+  }
+
+  .nav-link-icon:after {
+    transform: rotate(-45deg) translate(8px, -8px);
+  }
+
+}

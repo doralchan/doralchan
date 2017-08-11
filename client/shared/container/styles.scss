@@ -6,6 +6,7 @@
   height: 100vh;
   box-sizing: border-box;
   padding: 10px;
+  position: relative;
 
   @media (min-width: 768px) {
     justify-content: flex-end;

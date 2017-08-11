@@ -5,6 +5,7 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import DeYoung from '../../assets/illustrations/illo-deyoung.svg';
 
@@ -42,6 +43,7 @@ class Contact extends React.Component {
   render() {
     return (
       <Container className='contact'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }

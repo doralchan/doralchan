@@ -5,8 +5,10 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import SFMoma from '../../assets/illustrations/illo-sfmoma.svg';
+import Bus from '../../assets/illustrations/illo-bus.svg';
 
 import './styles.scss';
 
@@ -14,8 +16,8 @@ class Projects extends React.Component {
   renderButtons() {
     return (
       <div className='btn-group'>
-        <Button toLink='/link-contact' className='btn-primary'>Let's Chat</Button>
-        <Button toLink='/link-processes' className='btn-secondary'>Processes</Button>
+        <Button toLink='/contact' className='btn-primary'>Let's Chat</Button>
+        <Button toLink='/processes' className='btn-secondary'>Processes</Button>
       </div>
     )
   }
@@ -24,6 +26,7 @@ class Projects extends React.Component {
     return(
       <Illustration>
         <img src={ SFMoma } className='illo-item sf-moma' />
+        <img src={ Bus } className='illo-item bus bus-3' />
       </Illustration>
     )
   }
@@ -42,6 +45,7 @@ class Projects extends React.Component {
   render() {
     return (
       <Container idName='projects'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }

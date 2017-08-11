@@ -5,6 +5,7 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
+import Navigation from '../../shared/navigation/index.jsx';
 
 import FortMason from '../../assets/illustrations/illo-fortmason.svg';
 
@@ -14,8 +15,8 @@ class Processes extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='/link-projects' className='btn-primary'>A Few Projects</Button>
-        <Button toLink='/link-contact' className='btn-secondary'>Meet Me</Button>
+        <Button toLink='/projects' className='btn-primary'>A Few Projects</Button>
+        <Button toLink='/contact' className='btn-secondary'>Meet Me</Button>
       </div>
     )
   }
@@ -31,13 +32,17 @@ class Processes extends React.Component {
   renderHeader() {
     return(
       <Header title='Process'>
-        <p>First things first.</p>
+        <p>
+          It's important to me to experiment with different mediums. Without
+          this, it's impossible to know if the design created is the best
+        </p>
       </Header>
     )
   }
   render() {
     return (
       <Container idName='processes'>
+        <Navigation />
         <Panel>
           { this.renderHeader() }
           { this.renderButtons() }
