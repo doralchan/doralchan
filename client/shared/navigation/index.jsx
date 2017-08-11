@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router';
 
-import IconMenu from '../../assets/icons/icon-menu.svg';
-
 import './styles.scss';
 
 class Navigation extends React.Component {
@@ -15,7 +13,7 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.toggleMenu = this.toggleMenu.bind(this);
-    this.state = { openMenu: true };
+    this.state = { openMenu: false };
   }
 
   toggleMenu() {
