@@ -33,8 +33,12 @@ class Processes extends React.Component {
     return(
       <Header title='Process'>
         <p>
-          It's important to me to experiment with different mediums. Without
-          this, it's impossible to know if the design created is the best
+          When persuing design at the University of California (Berkeley), and
+          University of Michigan (Ann Arbor), design did not start with an
+          interface. It began with questions, hypotheses, and prototyping.
+          This process led to qualitative discovery. The same applies for user
+          research today. It is first and foremost, the most critical step to
+          any project.
         </p>
       </Header>
     )
