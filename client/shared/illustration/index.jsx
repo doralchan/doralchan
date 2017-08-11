@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import './styles.scss';
+import '../../stylesheets/animations.scss';
 
 class Illustration extends React.Component {
   static propTypes = {

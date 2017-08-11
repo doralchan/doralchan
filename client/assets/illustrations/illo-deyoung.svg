@@ -23,12 +23,12 @@
 	    transform: scale(1, 1) rotate(0deg);
 	  }
 	}
-	.delay {
-		animation-delay: 0.2s;
-	}
 	.trees {
 		animation: trees 3s infinite;
 		transform-origin: 50% 50%;
+	}
+	.delay {
+		animation-delay: 1s;
 	}
 </style>
 <g id="trees2">

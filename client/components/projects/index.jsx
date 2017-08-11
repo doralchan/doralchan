@@ -8,6 +8,7 @@ import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
 import SFMoma from '../../assets/illustrations/illo-sfmoma.svg';
+import Bus from '../../assets/illustrations/illo-bus.svg';
 
 import './styles.scss';
 
@@ -25,6 +26,7 @@ class Projects extends React.Component {
     return(
       <Illustration>
         <img src={ SFMoma } className='illo-item sf-moma' />
+        <img src={ Bus } className='illo-item bus bus-3' />
       </Illustration>
     )
   }

@@ -8,6 +8,7 @@ import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
 import CargoShip from '../../assets/illustrations/illo-ship.svg';
+import Bird from '../../assets/illustrations/illo-bird.svg';
 
 import './styles.scss';
 
@@ -25,6 +26,12 @@ class Toolkit extends React.Component {
     return(
       <Illustration>
         <img src={ CargoShip } className='illo-item ship' />
+        <div className='illo-item bird-path-1'>
+          <img src={ Bird } className='bird' />
+        </div>
+        <div className='illo-item bird-path-2'>
+          <img src={ Bird } className='bird' />
+        </div>
       </Illustration>
     )
   }
@@ -34,8 +41,8 @@ class Toolkit extends React.Component {
       <Header title='Toolkits'>
         <p>
           I've had the luck of getting access to a lot of spectacular tools out
-          there. By working in both design and development, I've been able to
-          link and utilize both
+          there. With work in both design and development, I've been able to
+          link and utilize
         </p>
       </Header>
     )

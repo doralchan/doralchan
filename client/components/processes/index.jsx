@@ -33,8 +33,8 @@ class Processes extends React.Component {
     return(
       <Header title='Process'>
         <p>
-          It's important to me to experiment with different mediums. Design can
-          be inspired by
+          It's important to me to experiment with different mediums. Without
+          this, it's impossible to know if the design created is the best
         </p>
       </Header>
     )

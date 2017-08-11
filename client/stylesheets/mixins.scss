@@ -1,20 +1,5 @@
 // Animation Mixins
 
-@keyframes fly-clockwise {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes fly-counterclockwise {
-  0% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 @keyframes fly-right {
   0% {
     opacity: 0;
@@ -33,6 +18,39 @@
   }
 }
 
+@keyframes fly-left {
+  0% {
+    opacity: 0;
+    top: 150px;
+    right: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    top: 120px;
+    right: 90vw;
+  }
+}
+
+@keyframes fly-clockwise {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly-counterclockwise {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes drive-left {
   0% {
     opacity: 0;
@@ -43,5 +61,18 @@
   }
   100% {
     right: 300px;
+  }
+}
+
+@keyframes drive-right {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    left: 500px;
   }
 }

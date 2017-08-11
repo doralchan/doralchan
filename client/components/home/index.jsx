@@ -11,7 +11,6 @@ import Ferry from '../../assets/illustrations/illo-ferry.svg';
 import Bus from '../../assets/illustrations/illo-bus.svg';
 import Cloud from '../../assets/illustrations/illo-cloud.svg';
 import Plane from '../../assets/illustrations/illo-plane.svg';
-import Bird from '../../assets/illustrations/illo-bird.svg';
 
 import './styles.scss'
 
@@ -34,12 +33,6 @@ class Home extends React.Component {
         <img src={ Bus } className='illo-item bus bus-2' />
         <img src={ Cloud } className='illo-item cloud cloud-1' />
         <img src={ Cloud } className='illo-item cloud cloud-2' />
-        <div className='circle illo-item path-1'>
-          <img src={ Bird } className='bird bird-1' />
-        </div>
-        <div className='circle illo-item path-2'>
-          <img src={ Bird } className='bird bird-2' />
-        </div>
       </Illustration>
     )
   }
