@@ -42,9 +42,8 @@
     width: 2vw;
 
     &.bus-1 {
-      animation: drive-left 14s 1;
+      animation: drive-left 14s forwards;
       transform: scaleX(-1);
-      right: 300px;
     }
 
     &.bus-2 {

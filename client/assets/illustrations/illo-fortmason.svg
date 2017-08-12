@@ -1,65 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 335.7 53.5" style="enable-background:new 0 0 335.7 53.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#77BCB8;}
 	.st2{fill:#EAEAEA;}
 	.st3{fill:#D3D4CF;}
-	.st4{fill:#F8AD8F;}
-	.st5{fill:#F27E5F;}
+	.st4{fill:#F27E5F;}
+	.st5{fill:#283B48;}
+	.st6{fill:#F8AD8F;}
+	@keyframes open-door {
+		0% {
+			transform: scaleY(1);
+		}
+		100% {
+			transform: scaleY(0);
+		}
+	}
+	.door {
+		animation: open-door 5s linear forwards;
+		transform-origin: 50% 0%;
+		animation-delay: 1s;
+	}
+	.door-2 {
+		animation-delay: 3s;
+	}
+	.door-3 {
+		animation-delay: 5s;
+	}
+	.door-4 {
+		animation-delay: 7s;
+	}
 </style>
-<polygon class="st0" points="144.1,53.5 144.1,22.4 136.8,22.4 89.3,9.6 89.3,4.1 67.9,4.1 67.9,9.6 20.4,22.4 13.1,22.4 13.1,53.5 
-	"/>
-<polyline class="st1" points="78.6,0 70.7,2.7 70.7,4.1 86.5,4.1 86.5,2.7 78.6,0 "/>
-<polygon class="st1" points="95.8,9.1 89.3,7.3 89.3,9.6 95.8,11.3 "/>
-<polygon class="st1" points="61.5,9.1 67.9,7.3 67.9,9.6 61.5,11.3 "/>
-<rect x="70.9" y="15.4" class="st2" width="5.4" height="6.5"/>
-<polygon class="st2" points="66.4,21.8 54.4,21.8 54.4,18.5 66.4,15.4 "/>
-<polygon class="st2" points="50.2,21.8 47.1,21.8 47.1,20.4 50.2,19.6 "/>
-<rect x="19" y="32.2" class="st2" width="12.3" height="4.8"/>
-<rect x="19" y="42.3" class="st3" width="7.4" height="11.2"/>
-<rect x="36.4" y="32.2" class="st2" width="12.3" height="4.8"/>
-<rect x="36.4" y="42.2" class="st2" width="12.3" height="5.8"/>
-<rect x="80.9" y="15.4" transform="matrix(-1 -4.490065e-11 4.490065e-11 -1 167.231 37.2038)" class="st2" width="5.4" height="6.5"/>
-<polygon class="st2" points="90.9,21.8 102.9,21.8 102.9,18.5 90.9,15.4 "/>
-<polygon class="st2" points="107.1,21.8 110.1,21.8 110.1,20.4 107.1,19.6 "/>
-<rect x="125.9" y="32.2" transform="matrix(-1 -4.496637e-11 4.496637e-11 -1 264.1096 69.1769)" class="st2" width="12.3" height="4.8"/>
-<rect x="130.8" y="42.3" transform="matrix(-1 -4.523460e-11 4.523460e-11 -1 269.0078 95.7606)" class="st3" width="7.4" height="11.2"/>
-<rect x="108.6" y="32.2" transform="matrix(-1 -4.496637e-11 4.496637e-11 -1 229.426 69.1769)" class="st2" width="12.3" height="4.8"/>
-<rect x="108.6" y="42.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 229.426 90.3192)" class="st2" width="12.3" height="5.8"/>
-<rect x="55.9" y="37" class="st4" width="20.6" height="16.5"/>
-<rect x="80.6" y="37" class="st4" width="20.6" height="16.5"/>
-<path class="st5" d="M4.2,53.5H1.8v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
-<path class="st5" d="M155.1,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
-<rect x="8.5" y="3.3" class="st3" width="0.7" height="50.2"/>
-<rect y="3.3" class="st5" width="8.5" height="3.8"/>
-<polygon class="st0" points="324.7,53.5 324.7,22.4 317.4,22.4 269.9,9.6 269.9,4.1 248.5,4.1 248.5,9.6 201,22.4 193.7,22.4 
-	193.7,53.5 "/>
-<polyline class="st1" points="259.2,0 251.3,2.7 251.3,4.1 267.1,4.1 267.1,2.7 259.2,0 "/>
-<polygon class="st1" points="276.4,9.1 269.9,7.3 269.9,9.6 276.4,11.3 "/>
-<polygon class="st1" points="242.1,9.1 248.5,7.3 248.5,9.6 242.1,11.3 "/>
-<rect x="251.5" y="15.4" class="st2" width="5.4" height="6.5"/>
-<polygon class="st2" points="247,21.8 235,21.8 235,18.5 247,15.4 "/>
-<polygon class="st2" points="230.8,21.8 227.7,21.8 227.7,20.4 230.8,19.6 "/>
-<rect x="199.6" y="32.2" class="st2" width="12.3" height="4.8"/>
-<rect x="199.6" y="42.3" class="st3" width="7.4" height="11.2"/>
-<rect x="217" y="32.2" class="st2" width="12.3" height="4.8"/>
-<rect x="217" y="42.2" class="st2" width="12.3" height="5.8"/>
-<rect x="261.5" y="15.4" transform="matrix(-1 -4.490065e-11 4.490065e-11 -1 528.4293 37.2038)" class="st2" width="5.4" height="6.5"/>
-<polygon class="st2" points="271.5,21.8 283.5,21.8 283.5,18.5 271.5,15.4 "/>
-<polygon class="st2" points="287.7,21.8 290.7,21.8 290.7,20.4 287.7,19.6 "/>
-<rect x="306.5" y="32.2" transform="matrix(-1 -4.496637e-11 4.496637e-11 -1 625.308 69.1769)" class="st2" width="12.3" height="4.8"/>
-<rect x="311.4" y="42.3" transform="matrix(-1 -4.523460e-11 4.523460e-11 -1 630.2062 95.7606)" class="st3" width="7.4" height="11.2"/>
-<rect x="289.2" y="32.2" transform="matrix(-1 -4.496637e-11 4.496637e-11 -1 590.6243 69.1769)" class="st2" width="12.3" height="4.8"/>
-<rect x="289.2" y="42.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 590.6243 90.3192)" class="st2" width="12.3" height="5.8"/>
-<rect x="236.5" y="37" class="st4" width="20.6" height="16.5"/>
-<rect x="261.2" y="37" class="st4" width="20.6" height="16.5"/>
-<rect x="55.9" y="32.2" class="st5" width="20.6" height="4.8"/>
-<rect x="80.6" y="32.2" class="st5" width="20.6" height="4.8"/>
-<rect x="236.5" y="32.2" class="st5" width="20.6" height="4.8"/>
-<rect x="261.2" y="32.2" class="st5" width="20.6" height="4.8"/>
-<path class="st5" d="M184.8,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2V53.5z"/>
-<path class="st5" d="M335.7,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
+<g id="background">
+	<polygon class="st0" points="144.1,53.5 144.1,22.4 136.8,22.4 89.3,9.6 89.3,4.1 67.9,4.1 67.9,9.6 20.4,22.4 13.1,22.4
+		13.1,53.5 	"/>
+	<polyline class="st1" points="78.6,0 70.7,2.7 70.7,4.1 86.5,4.1 86.5,2.7 78.6,0 	"/>
+	<polygon class="st1" points="95.8,9.1 89.3,7.3 89.3,9.6 95.8,11.3 	"/>
+	<polygon class="st1" points="61.5,9.1 67.9,7.3 67.9,9.6 61.5,11.3 	"/>
+	<rect x="70.9" y="15.4" class="st2" width="5.4" height="6.5"/>
+	<polygon class="st2" points="66.4,21.8 54.4,21.8 54.4,18.5 66.4,15.4 	"/>
+	<polygon class="st2" points="50.2,21.8 47.1,21.8 47.1,20.4 50.2,19.6 	"/>
+	<rect x="19" y="32.2" class="st2" width="12.3" height="4.8"/>
+	<rect x="19" y="42.3" class="st3" width="7.4" height="11.2"/>
+	<rect x="36.4" y="32.2" class="st2" width="12.3" height="4.8"/>
+	<rect x="36.4" y="42.2" class="st2" width="12.3" height="5.8"/>
+
+		<rect x="80.9" y="15.4" transform="matrix(-1 -4.490065e-11 4.490065e-11 -1 167.231 37.2038)" class="st2" width="5.4" height="6.5"/>
+	<polygon class="st2" points="90.9,21.8 102.9,21.8 102.9,18.5 90.9,15.4 	"/>
+	<polygon class="st2" points="107.1,21.8 110.1,21.8 110.1,20.4 107.1,19.6 	"/>
+
+		<rect x="125.9" y="32.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 264.1096 69.1769)" class="st2" width="12.3" height="4.8"/>
+
+		<rect x="130.8" y="42.3" transform="matrix(-1 -4.548152e-11 4.548152e-11 -1 269.0078 95.7606)" class="st3" width="7.4" height="11.2"/>
+
+		<rect x="108.6" y="32.2" transform="matrix(-1 -4.511470e-11 4.511470e-11 -1 229.426 69.1769)" class="st2" width="12.3" height="4.8"/>
+
+		<rect x="108.6" y="42.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 229.426 90.3192)" class="st2" width="12.3" height="5.8"/>
+	<path class="st4" d="M4.2,53.5H1.8v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
+	<path class="st4" d="M155.1,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
+	<rect x="8.5" y="3.3" class="st3" width="0.7" height="50.2"/>
+	<rect y="3.3" class="st4" width="8.5" height="3.8"/>
+	<polygon class="st0" points="324.7,53.5 324.7,22.4 317.4,22.4 269.9,9.6 269.9,4.1 248.5,4.1 248.5,9.6 201,22.4 193.7,22.4
+		193.7,53.5 	"/>
+	<polyline class="st1" points="259.2,0 251.3,2.7 251.3,4.1 267.1,4.1 267.1,2.7 259.2,0 	"/>
+	<polygon class="st1" points="276.4,9.1 269.9,7.3 269.9,9.6 276.4,11.3 	"/>
+	<polygon class="st1" points="242.1,9.1 248.5,7.3 248.5,9.6 242.1,11.3 	"/>
+	<rect x="251.5" y="15.4" class="st2" width="5.4" height="6.5"/>
+	<polygon class="st2" points="247,21.8 235,21.8 235,18.5 247,15.4 	"/>
+	<polygon class="st2" points="230.8,21.8 227.7,21.8 227.7,20.4 230.8,19.6 	"/>
+	<rect x="199.6" y="32.2" class="st2" width="12.3" height="4.8"/>
+	<rect x="199.6" y="42.3" class="st3" width="7.4" height="11.2"/>
+	<rect x="217" y="32.2" class="st2" width="12.3" height="4.8"/>
+	<rect x="217" y="42.2" class="st2" width="12.3" height="5.8"/>
+
+		<rect x="261.5" y="15.4" transform="matrix(-1 -4.490065e-11 4.490065e-11 -1 528.4293 37.2038)" class="st2" width="5.4" height="6.5"/>
+	<polygon class="st2" points="271.5,21.8 283.5,21.8 283.5,18.5 271.5,15.4 	"/>
+	<polygon class="st2" points="287.7,21.8 290.7,21.8 290.7,20.4 287.7,19.6 	"/>
+
+		<rect x="306.5" y="32.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 625.308 69.1769)" class="st2" width="12.3" height="4.8"/>
+
+		<rect x="311.4" y="42.3" transform="matrix(-1 -4.548152e-11 4.548152e-11 -1 630.2062 95.7606)" class="st3" width="7.4" height="11.2"/>
+
+		<rect x="289.2" y="32.2" transform="matrix(-1 -4.511470e-11 4.511470e-11 -1 590.6243 69.1769)" class="st2" width="12.3" height="4.8"/>
+
+		<rect x="289.2" y="42.2" transform="matrix(-1 -4.481760e-11 4.481760e-11 -1 590.6243 90.3192)" class="st2" width="12.3" height="5.8"/>
+	<rect x="55.9" y="32.2" class="st4" width="20.6" height="4.8"/>
+	<rect x="80.6" y="32.2" class="st4" width="20.6" height="4.8"/>
+	<rect x="236.5" y="32.2" class="st4" width="20.6" height="4.8"/>
+	<rect x="261.2" y="32.2" class="st4" width="20.6" height="4.8"/>
+	<path class="st4" d="M184.8,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2V53.5z"/>
+	<path class="st4" d="M335.7,53.5h-2.4v-4.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2V53.5z"/>
+	<rect x="55.9" y="37" class="st5" width="20.6" height="16.5"/>
+	<rect x="80.6" y="37" class="st5" width="20.6" height="16.5"/>
+	<rect x="236.5" y="37" class="st5" width="20.6" height="16.5"/>
+	<rect x="261.2" y="37" class="st5" width="20.6" height="16.5"/>
+</g>
+<g id="door_4" class="door door-4">
+	<rect x="261.2" y="37" class="st6" width="20.6" height="16.5"/>
+</g>
+<g id="door_3" class="door door-3">
+	<rect x="236.5" y="37" class="st6" width="20.6" height="16.5"/>
+</g>
+<g id="door_2" class="door door-2">
+	<rect x="80.6" y="37" class="st6" width="20.6" height="16.5"/>
+</g>
+<g id="door_1" class="door door-1">
+	<rect x="55.9" y="37" class="st6" width="20.6" height="16.5"/>
+</g>
 </svg>
