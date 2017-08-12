@@ -5,14 +5,15 @@
 .panel {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: $background;
   height: 100%;
   box-sizing: border-box;
   padding: 30px;
   position: relative;
-  min-height: 700px;
 
   @media (min-width: 768px) {
+    min-height: 700px;
     justify-content: center;
     padding: 50px;
   }

@@ -40,11 +40,13 @@ class Toolkit extends React.Component {
     return(
       <Header title='Toolkits'>
         <p>
-          I've had the amazing luck of getting access to a lot of powerful tools
-          in tech. At this point, there are no boundaries to imagination or
-          implementation. It's more a matter of continual experimentation,
-          ongoing exposure to the resources actively being developed in the
-          community and recontributing to this effort.
+          I've had the amazing luck of getting access to a lot of different
+          tools over the years.
+        </p>
+        <p>
+          At this point, I believe there are no boundaries to imagination or
+          implementation. It's a matter of continual experimentation and ongoing
+          exposure to the resources actively being developed in the community.
         </p>
       </Header>
     )

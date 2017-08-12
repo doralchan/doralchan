@@ -33,12 +33,14 @@ class Processes extends React.Component {
     return(
       <Header title='Process'>
         <p>
-          When persuing design at the University of California (Berkeley), and
-          University of Michigan (Ann Arbor), design did not start with an
-          interface. It began with questions, hypotheses, and prototyping.
-          This process led to qualitative discovery. The same applies for user
-          research today. It is first and foremost, the most critical step to
-          any project.
+          When persuing design at the UC Berkeley, UM Ann Arbor, design did not
+          start with an interface. It began with questions, hypotheses,
+          prototypes and testing.
+        </p>
+        <p>
+          These processes pave the way for qualitative discovery. The more user
+          research I do, the more convinced I am design is a distinct methodology
+          of pursuit.
         </p>
       </Header>
     )

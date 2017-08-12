@@ -3,13 +3,14 @@
 .ferry {
 
   @media (min-width: 768px) {
-    right: 50px;
-    width: 60vw;
+    right: 30px;
+    width: 55vw;
     bottom: 60px;
   }
 
   @media (min-width: 1200px) {
     right: 100px;
+    width: 60vw;
     bottom: 100px;
   }
 

@@ -39,7 +39,7 @@
 
   @media (min-width: 768px) {
     bottom: 60px;
-    width: 4vw;
+    width: 2vw;
 
     &.bus-1 {
       animation: drive-left 14s 1;
@@ -51,15 +51,11 @@
       left: 200px;
     }
 
-    &.bus-3 {
-      animation: drive-right 14s 1;
-      left: 500px;
-    }
-
   }
 
   @media (min-width: 1200px) {
     bottom: 100px;
+    width: 3vw;
   }
 
 }
@@ -72,12 +68,15 @@
   right: 320px;
 
   .bird {
+
     @media (min-width: 768px) {
       width: 1vw;
     }
+
     @media (min-width: 1200px) {
       width: 0.5vw;
     }
+
   }
 
 }
@@ -90,13 +89,16 @@
   right: 100px;
 
   .bird {
+
     @media (min-width: 768px) {
       transform: rotate(180deg);
       width: 2vw;
     }
+
     @media (min-width: 1200px) {
       width: 1vw;
     }
+
   }
 
 }

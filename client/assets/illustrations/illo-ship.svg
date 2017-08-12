@@ -19,6 +19,35 @@
 	.st13{fill:#EAEAEA;}
 	.st14{fill:#283B48;}
 	.st15{fill:none;stroke:#283B48;stroke-width:0.1;stroke-miterlimit:10;}
+	@keyframes pull-release {
+		0% {
+			transform: scaleY(1);
+		}
+		50% {
+			transform: scaleY(0.5);
+		}
+		100% {
+			transform: scaleY(1);
+		}
+	}
+	@keyframes up-down {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-20px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	.rope {
+		animation: pull-release 6s infinite;
+		transform-origin: 50% 0%;
+	}
+	.cargo {
+		animation: up-down 6s infinite;
+	}
 </style>
 <g id="background">
 	<g id="Layer_1_1_">
@@ -175,14 +204,14 @@
 		<rect x="263.6" y="65.8" class="st0" width="11" height="2.6"/>
 	</g>
 </g>
-<g id="rope_1_">
+<g id="rope_1_" class="rope">
 	<g id="rope">
 		<g>
 			<polyline class="st15" points="194,66.3 196.6,29.9 199.3,66.3 			"/>
 		</g>
 	</g>
 </g>
-<g id="cargo">
+<g id="cargo" class="cargo">
 	<g id="container">
 		<g>
 			<rect x="180" y="66.3" class="st3" width="33.2" height="11.2"/>
