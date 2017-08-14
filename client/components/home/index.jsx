@@ -27,12 +27,12 @@ class Home extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <img src={ Ferry } className='illo-item ferry' />
-        <img src={ Plane } className='illo-item plane' />
-        <img src={ Bus } className='illo-item bus bus-1' />
-        <img src={ Bus } className='illo-item bus bus-2' />
-        <img src={ Cloud } className='illo-item cloud cloud-1' />
-        <img src={ Cloud } className='illo-item cloud cloud-2' />
+        <Illustration.Item imageLink={ Plane } className='plane' type='plane'/>
+        <Illustration.Item imageLink={ Cloud } className='cloud-1' type='cloud' />
+        <Illustration.Item imageLink={ Cloud } className='cloud-2' type='cloud'/>
+        <Illustration.Item imageLink={ Bus } className='bus-1' type='vehicle' />
+        <Illustration.Item imageLink={ Bus } className='bus-2' type='vehicle' />
+        <Illustration.Item imageLink={ Ferry } className='ferry' />
       </Illustration>
     )
   }

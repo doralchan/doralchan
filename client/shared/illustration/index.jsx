@@ -11,7 +11,7 @@ class Illustration extends React.Component {
     className: PropTypes.string
   };
 
-  renderIlloClasses() {
+  renderIlloGroupClasses() {
     return classNames(
       'illo-group',
       this.props.className
@@ -20,11 +20,39 @@ class Illustration extends React.Component {
 
   render() {
     return(
-      <div className={ this.renderIlloClasses() }>
+      <div className={ this.renderIlloGroupClasses() }>
         { this.props.children }
       </div>
     );
   }
+}
+
+Illustration.Item = class Illutration extends React.Component {
+  static propTypes = {
+    imageLink: PropTypes.string.isRequired,
+    className: PropTypes.string,
+    type: PropTypes.oneOf([
+      'vehicle',
+      'cloud',
+      'plane',
+      'bird'
+    ])
+  };
+
+  renderIlloItemClasses() {
+    return classNames(
+      'illo-item',
+      this.props.type,
+      this.props.className
+    )
+  }
+
+  render() {
+    return (
+      <img src={ this.props.imageLink } className={ this.renderIlloItemClasses() } />
+    )
+  }
+
 }
 
 export default Illustration

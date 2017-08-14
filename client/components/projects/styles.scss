@@ -5,7 +5,7 @@
   @media (min-width: 768px) {
     width: 38vw;
     right: 100px;
-    bottom: 60px;
+    bottom: 50px;
   }
 
   @media (min-width: 1200px) {
@@ -13,4 +13,36 @@
     bottom: 100px;
   }
 
+}
+
+.truck {
+  left: 30vw;
+}
+
+.van {
+  left: 20vw;
+}
+
+.bus {
+  left: 35vw;
+}
+
+.car-1 {
+  left: 60vw;
+  transform: scaleX(-1);
+}
+
+.car-2 {
+  left: 40vw;
+}
+
+
+.cloud-3 {
+  bottom: 350px;
+  right: 200px;
+}
+
+.cloud-4 {
+  bottom: 300px;
+  right: 250px;
 }

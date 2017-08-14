@@ -5,12 +5,23 @@
   @media (min-width: 768px) {
     right: 50px;
     width: 50vw;
-    bottom: 30px;
+    bottom: 40px;
   }
 
   @media (min-width: 1200px) {
     right: 100px;
     bottom: 70px;
+  }
+
+}
+
+.circle {
+
+  &.small,
+  &.medium,
+  &.large {
+    top: 200px;
+    right: 200px;
   }
 
 }

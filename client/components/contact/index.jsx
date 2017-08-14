@@ -24,7 +24,7 @@ class Contact extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <img src={ DeYoung } className='illo-item deyoung' />
+        <Illustration.Item imageLink={ DeYoung } className='deyoung' />
       </Illustration>
     )
   }

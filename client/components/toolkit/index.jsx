@@ -25,12 +25,12 @@ class Toolkit extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <img src={ CargoShip } className='illo-item ship' />
-        <div className='illo-item bird-path-1'>
-          <img src={ Bird } className='bird' />
+        <Illustration.Item imageLink={ CargoShip } className='ship' />
+        <div className='circle clockwise large'>
+          <Illustration.Item imageLink={ Bird } className='bird-1' />
         </div>
-        <div className='illo-item bird-path-2'>
-          <img src={ Bird } className='bird' />
+        <div className='circle counterclockwise small'>
+          <Illustration.Item imageLink={ Bird } className='bird-2' />
         </div>
       </Illustration>
     )

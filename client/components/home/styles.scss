@@ -5,7 +5,7 @@
   @media (min-width: 768px) {
     right: 30px;
     width: 55vw;
-    bottom: 60px;
+    bottom: 50px;
   }
 
   @media (min-width: 1200px) {
@@ -14,4 +14,32 @@
     bottom: 100px;
   }
 
+}
+
+.bus-1 {
+  animation: drive-left 14s forwards;
+  transform: scaleX(-1);
+}
+
+.bus-2 {
+  left: 200px;
+}
+
+.plane {
+
+  @media (min-width: 768px) {
+    animation: fly-right 40s forwards;
+    animation-delay: 2s;
+  }
+
+}
+
+.cloud-1 {
+  bottom: 350px;
+  right: 250px;
+}
+
+.cloud-2 {
+  bottom: 400px;
+  right: 150px;
 }

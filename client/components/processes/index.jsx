@@ -24,7 +24,7 @@ class Processes extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <img src={ FortMason } className='illo-item fortmason' />
+        <Illustration.Item imageLink={ FortMason } className='fortmason' />
       </Illustration>
     )
   }
