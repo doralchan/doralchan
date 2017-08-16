@@ -16,24 +16,25 @@
 }
 
 .truck {
-  left: 30vw;
+  left: 32vw;
 }
 
 .van {
-  left: 20vw;
+  left: 45vw;
 }
 
 .bus {
-  left: 35vw;
+  left: 60vw;
 }
 
 .car-1 {
-  left: 60vw;
-  transform: scaleX(-1);
+  left: 30vw;
+  transform: scale(-0.8, 0.8);
 }
 
 .car-2 {
   left: 40vw;
+  transform: scale(0.8);
 }
 
 

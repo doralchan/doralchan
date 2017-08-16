@@ -28,6 +28,7 @@
 // Vehicle
 
 .vehicle {
+  transform-origin: bottom;
   z-index: 1;
 
   @media (min-width: 768px) {
