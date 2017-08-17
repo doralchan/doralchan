@@ -16,11 +16,12 @@
 }
 
 .truck {
-  left: 32vw;
+  animation: drive-left 14s forwards;
+  animation-delay: 1s;
 }
 
 .van {
-  left: 45vw;
+  animation: drive-right 24s forwards;
 }
 
 .bus {
@@ -28,12 +29,12 @@
 }
 
 .car-1 {
-  left: 30vw;
   transform: scale(-0.8, 0.8);
 }
 
 .car-2 {
-  left: 40vw;
+  animation: drive-right 24s forwards;
+  animation-delay: 2s;
   transform: scale(0.8);
 }
 
