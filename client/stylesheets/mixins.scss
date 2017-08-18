@@ -85,3 +85,19 @@
     left: 500px;
   }
 }
+
+@keyframes traffic {
+  0% {
+    opacity: 0;
+    left: 45vw;
+  }
+  15% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    left: 75vw;
+  }
+}
