@@ -15179,7 +15179,7 @@ var Projects = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'These are a few recent projects that I\'ve been working on'
+          'Coming soon!'
         )
       );
     }

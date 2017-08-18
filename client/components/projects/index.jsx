@@ -46,7 +46,7 @@ class Projects extends React.Component {
     return (
       <Header title='Projects'>
         <p>
-          These are a few recent projects that I've been working on
+          Coming soon!
         </p>
       </Header>
     )
