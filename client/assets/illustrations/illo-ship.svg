@@ -42,11 +42,11 @@
 		}
 	}
 	.rope {
-		animation: pull-release 6s infinite;
+		animation: pull-release 6s infinite ease-in-out;
 		transform-origin: 50% 0%;
 	}
 	.cargo {
-		animation: up-down 6s infinite;
+		animation: up-down 6s infinite ease-in-out;
 	}
 </style>
 <g id="background">

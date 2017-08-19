@@ -15,24 +15,25 @@
 
 }
 
-$time: 20s;
-$delay: 9;
+$time: 8s;
+$delay: 5;
 
 .truck,
 .van,
 .bus,
 .car-1,
 .car-2 {
-  animation: traffic $time infinite;
+  animation: park $time linear infinite;
+  left: 50vw;
   opacity: 0;
 }
 
 .truck {
-  transform: scaleX(-1);
+  animation-delay: $time/$delay * 1;
 }
 
 .van {
-  animation-delay: $time/$delay * 1;
+  animation-delay: $time/$delay * 2;
 }
 
 .bus {
@@ -45,7 +46,7 @@ $delay: 9;
 }
 
 .car-2 {
-  animation-delay: $time/$delay * 2;
+  animation-delay: $time/$delay * 5;
   transform: scale(0.8);
 }
 

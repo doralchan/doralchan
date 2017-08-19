@@ -1,38 +1,44 @@
 // Animation Mixins
 
-@keyframes fly-right {
+@keyframes fly {
   0% {
     opacity: 0;
     top: 120px;
-    left: 0;
+    transform: translate(0);
   }
-  20% {
+  50%{
     opacity: 1;
-  }
-  80% {
-    opacity: 0;
   }
   100% {
     top: 90px;
-    left: 90vw;
+    opacity: 0;
+    transform: translateX(90vw);
   }
 }
 
-@keyframes fly-left {
+@keyframes drive {
   0% {
     opacity: 0;
-    top: 150px;
-    right: 0;
+    transform: translateX(0);
   }
   20% {
     opacity: 1;
   }
-  80% {
+  100% {
+    transform: translateX(-20vw);
+  }
+}
+
+@keyframes park {
+  0% {
     opacity: 0;
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
   }
   100% {
-    top: 120px;
-    right: 90vw;
+    transform: translateX(20vw);
   }
 }
 
@@ -57,47 +63,5 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-
-@keyframes drive-left {
-  0% {
-    opacity: 0;
-    right: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    right: 300px;
-  }
-}
-
-@keyframes drive-right {
-  0% {
-    opacity: 0;
-    left: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    left: 500px;
-  }
-}
-
-@keyframes traffic {
-  0% {
-    opacity: 0;
-    left: 45vw;
-  }
-  15% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 0;
-  }
-  100% {
-    left: 75vw;
   }
 }
