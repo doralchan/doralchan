@@ -1,31 +1,49 @@
 // Project Style
 
+.project {
+  display: flex;
+}
+
+// Background
+
 .sf-moma {
 
   @media (min-width: 768px) {
-    left: 400px;
     width: 38vw;
-    bottom: 50px;
   }
 
   @media (min-width: 1200px) {
-    left: 450px;
     width: 28vw;
-    bottom: 100px;
   }
 
 }
 
+// Vehicles
+
 $time: 20s;
 $delay: 5;
+
+@keyframes vehicles-traffic {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(40vw);
+  }
+}
 
 .truck,
 .van,
 .bus,
 .car-1,
 .car-2 {
-  animation: park $time linear infinite;
+  animation: vehicles-traffic $time linear infinite;
   left: 20vw;
+  width: 2vw;
   opacity: 0;
 }
 

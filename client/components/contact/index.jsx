@@ -33,7 +33,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <Container className='contact'>
+      <Container idName='contact'>
         <Navigation />
         <Panel className='contact'>
           { this.renderHeader() }

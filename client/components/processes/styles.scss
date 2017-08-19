@@ -1,28 +1,101 @@
-// Process Style
+// Process Styles
+
+.process {
+  display: flex;
+}
+
+// Background
 
 .fortmason {
 
   @media (min-width: 768px) {
-    right: 20px;
     width: 50vw;
-    bottom: 50px;
   }
 
   @media (min-width: 1200px) {
-    right: 50px;
     width: 40vw;
-    bottom: 100px;
+  }
+
+}
+
+// Birds
+
+@keyframes fly-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes fly-counterclockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(130deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bird-1 {
+
+  @media (min-width: 768px) {
+    width: 1.6vw;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1.2vw;
+  }
+
+}
+
+.bird-2 {
+
+  @media (min-width: 768px) {
+    width: 1.2vw;
+  }
+
+  @media (min-width: 1200px) {
+    width: 0.8vw;
   }
 
 }
 
 .circle {
+  position: absolute;
+
+  &.clockwise {
+    animation: fly-clockwise 45s linear infinite;
+  }
+
+  &.counterclockwise {
+    animation: fly-counterclockwise 14s linear infinite;
+  }
 
   &.small,
   &.medium,
   &.large {
     top: 200px;
     right: 200px;
+  }
+
+  &.small {
+    height: 40px;
+    width: 40px;
+  }
+
+  &.medium {
+    height: 100px;
+    width: 100px;
+  }
+
+  &.large {
+    height: 240px;
+    width: 240px;
   }
 
 }

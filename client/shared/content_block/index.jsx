@@ -12,10 +12,10 @@ class ContentBlock extends React.Component {
   };
 
   contentBlockClasses() {
-    return classNames() {
+    return classNames(
       'content-block',
       this.props.className
-    }
+    )
   };
 
   render() {

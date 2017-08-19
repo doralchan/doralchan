@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import './styles.scss';
-import '../../stylesheets/animations.scss';
 
 class Illustration extends React.Component {
   static propTypes = {
@@ -30,19 +29,12 @@ class Illustration extends React.Component {
 Illustration.Item = class Illutration extends React.Component {
   static propTypes = {
     imageLink: PropTypes.string.isRequired,
-    className: PropTypes.string,
-    type: PropTypes.oneOf([
-      'vehicle',
-      'cloud',
-      'plane',
-      'bird'
-    ])
+    className: PropTypes.string
   };
 
   renderIlloItemClasses() {
     return classNames(
       'illo-item',
-      this.props.type,
       this.props.className
     )
   }

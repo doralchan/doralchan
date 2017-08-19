@@ -1,27 +1,64 @@
-// Home Style
+// Home Styles
 
 .home {
   display: flex;
+  align-items: center;
+  background-image: url('../../assets/illustrations/illo-bg-contact.svg');
 }
+
+.home-header {
+  max-width: 500px;
+}
+
+// Background
 
 .ferry {
 
   @media (min-width: 768px) {
-    right: 30px;
     width: 50vw;
-    bottom: 70px;
   }
 
   @media (min-width: 1200px) {
-    right: 100px;
     width: 45vw;
-    bottom: 120px;
+  }
+
+}
+
+// Buses
+
+@keyframes bus-drive {
+  0% {
+    opacity: 0;
+    transform: translateX(0) scaleX(-1);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20vw) scaleX(-1);
+  }
+}
+
+.bus {
+  transform-origin: bottom;
+  z-index: 1;
+
+  @media (min-width: 768px) {
+    width: 2vw;
+  }
+
+  @media (min-width: 992px) {
+    width: 2.5vw;
+  }
+
+  @media (min-width: 1200px) {
+    width: 3vw;
   }
 
 }
 
 .bus-1 {
-  animation: drive 14s 1 linear forwards;
+  animation: bus-drive 14s 1 linear forwards;
   right: 5vw;
 }
 
@@ -29,20 +66,37 @@
   left: 40vw;
 }
 
+// Plane
+
+@keyframes plane-fly {
+  0% {
+    opacity: 0;
+    top: 120px;
+    transform: translate(0);
+  }
+  10%{
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 90px;
+    opacity: 0;
+    transform: translateX(90vw);
+  }
+}
+
 .plane {
 
   @media (min-width: 768px) {
-    animation: fly 40s infinite linear;
+    opacity: 0;
+    width: 5vw;
+    animation: plane-fly 40s infinite linear;
   }
 
-}
+  @media (min-width: 992px) {
+    width: 3vw;
+  }
 
-.cloud-1 {
-  bottom: 350px;
-  right: 250px;
-}
-
-.cloud-2 {
-  bottom: 400px;
-  right: 150px;
 }

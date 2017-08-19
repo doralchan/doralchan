@@ -17,9 +17,9 @@ class Home extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <Illustration.Item imageLink={ Plane } className='plane' type='plane'/>
-        <Illustration.Item imageLink={ Bus } className='bus-1' type='vehicle' />
-        <Illustration.Item imageLink={ Bus } className='bus-2' type='vehicle' />
+        <Illustration.Item imageLink={ Plane } className='plane' />
+        <Illustration.Item imageLink={ Bus } className='bus bus-1' />
+        <Illustration.Item imageLink={ Bus } className='bus bus-2' />
         <Illustration.Item imageLink={ Ferry } className='ferry' />
       </Illustration>
     )
@@ -27,7 +27,7 @@ class Home extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Why, Hello'>
+      <Header title='Why, Hello' className='home-header'>
         <p>
           I'm glad you're here! My name is Dora. I'm a product designer with a
           background in user experience, front-end development and systems

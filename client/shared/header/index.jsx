@@ -14,7 +14,7 @@ class Header extends React.Component {
   headerClasses() {
     return classNames(
       'header',
-      this.props.className
+      this.props.className  
     )
   };
 

@@ -1,17 +1,19 @@
-// Contact Style
+// Contact Styles
+
+.contact {
+  display: flex;
+}
+
+// Background
 
 .deyoung {
 
   @media (min-width: 768px) {
-    right: 50px;
     width: 50vw;
-    bottom: 50px;
   }
 
   @media (min-width: 1200px) {
-    right: 100px;
     width: 40vw;
-    bottom: 100px;
   }
 
 }

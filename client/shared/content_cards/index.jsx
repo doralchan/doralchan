@@ -4,7 +4,28 @@ import classNames from 'classnames';
 
 import './styles.scss';
 
-class ContentCard extends React.Component {
+class ContentCards extends React.Component {
+  static propTypes = {
+    children: PropTypes.node.isRequired
+  };
+
+  cardGroupClasses() {
+    return classNames(
+      'content-card-group',
+      this.props.className
+    )
+  };
+
+  render() {
+    return (
+      <div className={ this.cardGroupClasses() }>
+        { this.props.children }
+      </div>
+    )
+  };
+};
+
+ContentCards.Item = class ContentCards extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
@@ -12,16 +33,16 @@ class ContentCard extends React.Component {
     img: PropTypes.string,
   };
 
-  contentCardClasses() {
-    return classNames() {
+  cardClasses() {
+    return classNames(
       'content-card',
       this.props.className
-    }
+    )
   };
 
   render() {
     return(
-      <div className={ this.contentCardClasses() }>
+      <div className={ this.cardClasses() }>
         <img src={ this.props.img } className='content-card-img' />
         <div className='content-card-title'>
           { this.props.title }
@@ -31,7 +52,7 @@ class ContentCard extends React.Component {
         </div>
       </div>
     );
-  }
+  };
 }
 
-export default ContentCard
+export default ContentCards

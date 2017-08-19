@@ -2,6 +2,10 @@
 
 // Content Block Style
 
+.content-card-group {
+  display: flex;
+}
+
 .content-card {
   background-color: $white;
 }

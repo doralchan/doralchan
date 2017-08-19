@@ -1,17 +1,19 @@
 // Toolkit Style
 
+.toolkit {
+  display: flex;
+}
+
+// Background
+
 .ship {
 
   @media (min-width: 768px) {
-    right: 50px;
     width: 50vw;
-    bottom: 40px;
   }
 
   @media (min-width: 1200px) {
-    right: 100px;
     width: 40vw;
-    bottom: 70px;
   }
 
 }
