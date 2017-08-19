@@ -3,19 +3,20 @@
 .sf-moma {
 
   @media (min-width: 768px) {
+    left: 400px;
     width: 38vw;
-    right: 100px;
     bottom: 50px;
   }
 
   @media (min-width: 1200px) {
-    right: 200px;
+    left: 450px;
+    width: 28vw;
     bottom: 100px;
   }
 
 }
 
-$time: 12s;
+$time: 20s;
 $delay: 5;
 
 .truck,
@@ -24,12 +25,8 @@ $delay: 5;
 .car-1,
 .car-2 {
   animation: park $time linear infinite;
-  left: 40vw;
+  left: 20vw;
   opacity: 0;
-}
-
-.truck {
-
 }
 
 .van {
@@ -48,15 +45,4 @@ $delay: 5;
 .car-2 {
   animation-delay: $time/$delay * 4;
   transform: scale(0.8);
-}
-
-
-.cloud-3 {
-  bottom: 350px;
-  right: 200px;
-}
-
-.cloud-4 {
-  bottom: 300px;
-  right: 250px;
 }

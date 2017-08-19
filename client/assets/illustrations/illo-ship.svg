@@ -23,30 +23,25 @@
 		0% {
 			transform: scaleY(1);
 		}
-		50% {
-			transform: scaleY(0.5);
-		}
 		100% {
-			transform: scaleY(1);
+			transform: scaleY(0.5);
 		}
 	}
 	@keyframes up-down {
 		0% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-20px);
+			transform: translateY(0) rotate(-2deg);
 		}
 		100% {
-			transform: translateY(0);
+			transform: translateY(-20px) rotate(2deg);
 		}
 	}
 	.rope {
-		animation: pull-release 6s infinite ease-in-out;
+		animation: pull-release 5s alternate infinite ease-in-out;
 		transform-origin: 50% 0%;
 	}
 	.cargo {
-		animation: up-down 6s infinite ease-in-out;
+		animation: up-down 5s alternate infinite ease-in-out;
+		transform-origin: top center;
 	}
 </style>
 <g id="background">

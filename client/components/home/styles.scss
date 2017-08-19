@@ -4,12 +4,13 @@
 
   @media (min-width: 768px) {
     right: 30px;
-    width: 55vw;
+    width: 50vw;
     bottom: 50px;
   }
 
   @media (min-width: 1200px) {
     right: 100px;
+    width: 45vw;
     bottom: 100px;
   }
 
@@ -17,19 +18,17 @@
 
 .bus-1 {
   animation: drive 14s 1 linear forwards;
-  transform: scaleX(-1);
-  right: 0;
+  right: 5vw;
 }
 
 .bus-2 {
-  left: 200px;
+  left: 40vw;
 }
 
 .plane {
 
   @media (min-width: 768px) {
-    animation: fly 30s infinite ease-in-out;
-    animation-delay: 2s;
+    animation: fly 40s infinite linear;
   }
 
 }

@@ -6,7 +6,10 @@
     top: 120px;
     transform: translate(0);
   }
-  50%{
+  10%{
+    opacity: 1;
+  }
+  90% {
     opacity: 1;
   }
   100% {
@@ -19,13 +22,13 @@
 @keyframes drive {
   0% {
     opacity: 0;
-    transform: translateX(0);
+    transform: translateX(0) scaleX(-1);
   }
   20% {
     opacity: 1;
   }
   100% {
-    transform: translateX(-20vw);
+    transform: translateX(-20vw) scaleX(-1);
   }
 }
 
@@ -38,19 +41,16 @@
     opacity: 1;
   }
   100% {
-    transform: translateX(30vw);
+    transform: translateX(40vw);
   }
 }
 
 @keyframes fly-clockwise {
   0% {
-    transform: rotate(360deg);
-  }
-  50% {
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
@@ -59,9 +59,9 @@
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(360deg);
+    transform: rotate(130deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }

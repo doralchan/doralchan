@@ -8,7 +8,6 @@ import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
 import CargoShip from '../../assets/illustrations/illo-ship.svg';
-import Bird from '../../assets/illustrations/illo-bird.svg';
 
 import './styles.scss';
 
@@ -17,7 +16,6 @@ class Toolkit extends React.Component {
     return(
       <div className='btn-group'>
         <Button toLink='/processes' className='btn-primary'>Process</Button>
-        <Button toLink='/projects' className='btn-secondary'>A Few Projects</Button>
       </div>
     )
   }
@@ -26,12 +24,6 @@ class Toolkit extends React.Component {
     return(
       <Illustration>
         <Illustration.Item imageLink={ CargoShip } className='ship' />
-        <div className='circle clockwise large'>
-          <Illustration.Item imageLink={ Bird } className='bird-1' />
-        </div>
-        <div className='circle counterclockwise small'>
-          <Illustration.Item imageLink={ Bird } className='bird-2' />
-        </div>
       </Illustration>
     )
   }

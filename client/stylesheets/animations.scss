@@ -4,11 +4,11 @@
   position: absolute;
 
   &.clockwise {
-    animation: fly-clockwise 70s infinite;
+    animation: fly-clockwise 45s linear infinite;
   }
 
   &.counterclockwise {
-    animation: fly-counterclockwise 15s infinite;
+    animation: fly-counterclockwise 14s linear infinite;
   }
 
   &.small {

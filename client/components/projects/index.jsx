@@ -8,7 +8,6 @@ import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
 import SFMoma from '../../assets/illustrations/illo-sfmoma.svg';
-import Cloud from '../../assets/illustrations/illo-cloud.svg';
 import Truck from '../../assets/illustrations/illo-truck.svg';
 import Van from '../../assets/illustrations/illo-van.svg';
 import Car1 from '../../assets/illustrations/illo-car-blue.svg';
@@ -22,7 +21,6 @@ class Projects extends React.Component {
     return (
       <div className='btn-group'>
         <Button toLink='/contact' className='btn-primary'>Let's Chat</Button>
-        <Button toLink='/processes' className='btn-secondary'>Processes</Button>
       </div>
     )
   }
@@ -30,8 +28,6 @@ class Projects extends React.Component {
   renderIllo() {
     return(
       <Illustration>
-        <Illustration.Item imageLink={ Cloud } className='cloud-3' type='cloud' />
-        <Illustration.Item imageLink={ Cloud } className='cloud-4' type='cloud'/>
         <Illustration.Item imageLink={ Truck } className='truck' type='vehicle' />
         <Illustration.Item imageLink={ Van } className='van' type='vehicle' />
         <Illustration.Item imageLink={ Bus } className='bus' type='vehicle' />

@@ -8,6 +8,7 @@ import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
 import FortMason from '../../assets/illustrations/illo-fortmason.svg';
+import Bird from '../../assets/illustrations/illo-bird.svg';
 
 import './styles.scss';
 
@@ -16,7 +17,6 @@ class Processes extends React.Component {
     return(
       <div className='btn-group'>
         <Button toLink='/projects' className='btn-primary'>A Few Projects</Button>
-        <Button toLink='/contact' className='btn-secondary'>Meet Me</Button>
       </div>
     )
   }
@@ -25,6 +25,12 @@ class Processes extends React.Component {
     return(
       <Illustration>
         <Illustration.Item imageLink={ FortMason } className='fortmason' />
+        <div className='circle clockwise large'>
+          <Illustration.Item imageLink={ Bird } className='bird-1' />
+        </div>
+        <div className='circle counterclockwise small'>
+          <Illustration.Item imageLink={ Bird } className='bird-2' />
+        </div>
       </Illustration>
     )
   }

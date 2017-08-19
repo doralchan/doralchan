@@ -15,8 +15,7 @@ class Contact extends React.Component {
   renderButtons() {
     return(
       <div className='btn-group'>
-        <Button toLink='/' className='btn-primary'>Show Me Again</Button>
-        <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-secondary'>Send A Message</a>
+        <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-primary'>Send A Message</a>
       </div>
     )
   }
@@ -36,6 +35,9 @@ class Contact extends React.Component {
           If you'd like to chat about design systems, economics, data science
           or board games, let me know. I have a strong interest in these
           topics.
+        </p>
+        <p>
+
         </p>
       </Header>
     )
