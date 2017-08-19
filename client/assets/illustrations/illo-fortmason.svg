@@ -19,18 +19,18 @@
 		}
 	}
 	.door {
-		animation: open-door 5s linear forwards;
+		animation: open-door 10s alternate infinite forwards;
 		transform-origin: 50% 0%;
-		animation-delay: 1s;
+		animation-delay: 2s;
 	}
 	.door-2 {
-		animation-delay: 3s;
+		animation-delay: 4s;
 	}
 	.door-3 {
-		animation-delay: 5s;
+		animation-delay: 6s;
 	}
 	.door-4 {
-		animation-delay: 7s;
+		animation-delay: 8s;
 	}
 </style>
 <g id="background">

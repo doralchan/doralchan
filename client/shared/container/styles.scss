@@ -9,6 +9,7 @@
   position: relative;
 
   @media (min-width: 768px) {
+    min-height: 700px;
     justify-content: flex-end;
     padding: 25px;
   }
