@@ -13,14 +13,6 @@ import Bird from '../../assets/illustrations/illo-bird.svg';
 import './styles.scss';
 
 class Processes extends React.Component {
-  renderButtons() {
-    return(
-      <div className='btn-group'>
-        <Button toLink='/projects' className='btn-primary'>A Few Projects</Button>
-      </div>
-    )
-  }
-
   renderIllo() {
     return(
       <Illustration>
@@ -53,13 +45,15 @@ class Processes extends React.Component {
   }
   render() {
     return (
-      <Container idName='processes'>
+      <Container idName='process'>
         <Navigation />
-        <Panel>
+        <Panel className='process'>
           { this.renderHeader() }
-          { this.renderButtons() }
           { this.renderIllo() }
         </Panel>
+        <Button toLink='/projects' className='btn-primary btn-next'>
+          A Few Projects
+        </Button>
       </Container>
    );
   }

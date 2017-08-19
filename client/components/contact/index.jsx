@@ -3,7 +3,6 @@ import React from 'react';
 import Container from '../../shared/container/index.jsx';
 import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
-import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
 
@@ -12,14 +11,6 @@ import DeYoung from '../../assets/illustrations/illo-deyoung.svg';
 import './styles.scss';
 
 class Contact extends React.Component {
-  renderButtons() {
-    return(
-      <div className='btn-group'>
-        <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-primary'>Send A Message</a>
-      </div>
-    )
-  }
-
   renderIllo() {
     return(
       <Illustration>
@@ -36,9 +27,6 @@ class Contact extends React.Component {
           or board games, let me know. I have a strong interest in these
           topics.
         </p>
-        <p>
-
-        </p>
       </Header>
     )
   }
@@ -47,11 +35,13 @@ class Contact extends React.Component {
     return (
       <Container className='contact'>
         <Navigation />
-        <Panel>
+        <Panel className='contact'>
           { this.renderHeader() }
-          { this.renderButtons() }
           { this.renderIllo() }
         </Panel>
+        <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-primary btn-next'>
+          Send A Message
+        </a>
       </Container>
     );
   }

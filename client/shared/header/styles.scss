@@ -4,24 +4,12 @@
 
 .header {
   display: block;
-
-  @media (min-width: 768px) {
-    max-width: 480px;
-  }
-
 }
 
 .header-title {
   color: $primary-default;
-  margin-bottom: 10px;
 }
 
-.header-description {
-  margin-bottom: 40px;
-
-  @media (min-width: 768px) {
-    margin-bottom: 0;
-    min-height: 280px;
-  }
+.header-content {
 
 }

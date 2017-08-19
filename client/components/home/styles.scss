@@ -1,17 +1,21 @@
 // Home Style
 
+.home {
+  display: flex;
+}
+
 .ferry {
 
   @media (min-width: 768px) {
     right: 30px;
     width: 50vw;
-    bottom: 50px;
+    bottom: 70px;
   }
 
   @media (min-width: 1200px) {
     right: 100px;
     width: 45vw;
-    bottom: 100px;
+    bottom: 120px;
   }
 
 }

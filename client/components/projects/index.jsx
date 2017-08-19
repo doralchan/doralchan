@@ -17,14 +17,6 @@ import Bus from '../../assets/illustrations/illo-bus.svg';
 import './styles.scss';
 
 class Projects extends React.Component {
-  renderButtons() {
-    return (
-      <div className='btn-group'>
-        <Button toLink='/contact' className='btn-primary'>Let's Chat</Button>
-      </div>
-    )
-  }
-
   renderIllo() {
     return(
       <Illustration>
@@ -52,11 +44,13 @@ class Projects extends React.Component {
     return (
       <Container idName='projects'>
         <Navigation />
-        <Panel>
+        <Panel className='projects'>
           { this.renderHeader() }
-          { this.renderButtons() }
           { this.renderIllo() }
         </Panel>
+        <Button toLink='/contact' className='btn-primary btn-next'>
+          Let's Chat
+        </Button>
       </Container>
     );
   }

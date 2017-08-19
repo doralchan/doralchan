@@ -10,9 +10,16 @@ class Panel extends React.Component {
     className: PropTypes.string
   };
 
+  panelClasses() {
+    return classNames(
+      'panel',
+      this.props.className
+    )
+  };
+
   render() {
     return(
-      <div className='panel'>
+      <div className={ this.panelClasses() }>
         { this.props.children }
       </div>
     );

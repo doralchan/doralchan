@@ -4,6 +4,7 @@
 
 .container {
   height: 100vh;
+  min-height: 500px;
   box-sizing: border-box;
   padding: 10px;
   position: relative;
@@ -15,7 +16,7 @@
   }
 
   @media (min-width: 992px) {
-    padding: 40px;
+    padding: 30px;
   }
 
 }

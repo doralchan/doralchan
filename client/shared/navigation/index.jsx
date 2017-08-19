@@ -38,7 +38,7 @@ class Navigation extends React.Component {
         <Link to='/' className='nav-menu-item'>Home</Link>
         <Link to='/toolkit' className='nav-menu-item'>Toolkit</Link>
         <Link to='/projects' className='nav-menu-item'>Projects</Link>
-        <Link to='/processes' className='nav-menu-item'>Processes</Link>
+        <Link to='/processes' className='nav-menu-item'>Process</Link>
         <Link to='/contact' className='nav-menu-item'>Contact</Link>
       </div>
     )
@@ -47,10 +47,10 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className={ this.menuClasses() } onClick={ this.toggleMenu }>
-        { this.menuList() }
         <a href='#' className='nav-link'>
           <span className='nav-link-icon' />
         </a>
+        { this.menuList() }
       </div>
     )
   }

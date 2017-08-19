@@ -8,13 +8,8 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 80px;
+    left: 80px;
     top: 80px;
-  }
-
-  @media (min-width: 1200px) {
-    right: 90px;
-    top: 90px;
   }
 
 }
@@ -27,7 +22,7 @@
   padding-bottom: 15px;
   position: absolute;
   top: 30px;
-  right: 30px;
+  left: 30px;
   width: 30px;
   z-index: 2;
 
@@ -123,12 +118,12 @@
     left: auto;
     top: auto;
     text-align: left;
-    right: 60px;
+    left: 60px;
     padding: 0;
   }
 
   @media (min-width: 1200px) {
-    right: 80px;
+    left: 80px;
   }
 
 }

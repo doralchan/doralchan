@@ -3,10 +3,6 @@
 
 // Button Style
 
-.btn-group {
-  z-index: 1;
-}
-
 .btn {
   display: block;
   white-space: nowrap;
@@ -16,9 +12,8 @@
   font-weight: 400;
   text-decoration: none;
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px 20px;
   text-align: center;
-  margin-bottom: 10px;
   cursor: pointer;
   transition: all 100ms ease-in-out;
 
@@ -29,8 +24,7 @@
 
   @media (min-width: 576px) {
     display: inline-block;
-    margin-right: 15px;
-    padding: 12px 50px;
+    padding: 12px 40px;
   }
 
 }
@@ -47,12 +41,17 @@
 
 }
 
-.btn-secondary {
-  color: $secondary-default;
+.btn-next {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 1;
 
-  &:hover,
-  &:focus {
-
+  @media (min-width: 576px) {
+    left: auto;
+    right: 90px;
+    bottom: 90px;
   }
 
 }

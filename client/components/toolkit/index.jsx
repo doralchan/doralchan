@@ -12,14 +12,6 @@ import CargoShip from '../../assets/illustrations/illo-ship.svg';
 import './styles.scss';
 
 class Toolkit extends React.Component {
-  renderButtons() {
-    return(
-      <div className='btn-group'>
-        <Button toLink='/processes' className='btn-primary'>Process</Button>
-      </div>
-    )
-  }
-
   renderIllo() {
     return(
       <Illustration>
@@ -48,11 +40,11 @@ class Toolkit extends React.Component {
     return (
       <Container idName='toolkit'>
         <Navigation />
-        <Panel>
+        <Panel className='toolkit'>
           { this.renderHeader() }
-          { this.renderButtons() }
           { this.renderIllo() }
         </Panel>
+        <Button toLink='/processes' className='btn-primary btn-next'>Process</Button>
       </Container>
    );
   }

@@ -11,13 +11,20 @@ class Header extends React.Component {
     title: PropTypes.string
   };
 
+  headerClasses() {
+    return classNames(
+      'header',
+      this.props.className
+    )
+  };
+
   render() {
     return(
-      <div className='header'>
+      <div className={ this.headerClasses() }>
         <h2 className='header-title'>
           { this.props.title }
         </h2>
-        <div className='header-description'>
+        <div className='header-content'>
           { this.props.children }
         </div>
       </div>

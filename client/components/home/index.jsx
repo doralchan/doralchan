@@ -14,14 +14,6 @@ import Plane from '../../assets/illustrations/illo-plane.svg';
 import './styles.scss'
 
 class Home extends React.Component {
-  renderButtons() {
-    return(
-      <div className='btn-group'>
-        <Button toLink='/toolkit' className='btn-primary'>Tell Me More</Button>
-      </div>
-    );
-  }
-
   renderIllo() {
     return(
       <Illustration>
@@ -35,18 +27,11 @@ class Home extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Hello'>
+      <Header title='Why, Hello'>
         <p>
-          I'm glad you're here! My name is Dora.
-        </p>
-        <p>
-          I'm a product designer with a background in user experience,
-          front-end development and systems design. I also like to dabble in
-          illustration sometimes.
-        </p>
-        <p>
-          Interested in what I'm tinkering around with? Feel free to take
-          a look around!
+          I'm glad you're here! My name is Dora. I'm a product designer with a
+          background in user experience, front-end development and systems
+          design. I also like to dabble in illustration sometimes.
         </p>
       </Header>
     );
@@ -56,11 +41,13 @@ class Home extends React.Component {
     return(
      <Container idName='home'>
         <Navigation />
-        <Panel>
+        <Panel className='home'>
           { this.renderHeader() }
-          { this.renderButtons() }
           { this.renderIllo() }
         </Panel>
+        <Button toLink='/toolkit' className='btn-primary btn-next'>
+          Tell Me More
+        </Button>
      </Container>
     );
   }
