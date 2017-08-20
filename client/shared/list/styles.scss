@@ -5,24 +5,68 @@
 .list {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 20px;
 }
 
 .list-item {
+  color: $primary-dark;
   display: flex;
   align-items: center;
   font-weight: 300;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-.list-item-dots {
+$dot-color: $primary-default;
+
+.dot-set {
   display: flex;
   margin-right: 10px;
 }
 
 .dot {
-  border: 1px solid $font-color;
+  border: 1px solid $dot-color;
   border-radius: 50%;
   margin: 2px;
   width: 5px;
   height: 5px;
+}
+
+.dot-set-1 {
+  .dot:nth-child(1) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-2 {
+  .dot:nth-child(1),
+  .dot:nth-child(2) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-3 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-4 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3),
+  .dot:nth-child(4) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-5 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3),
+  .dot:nth-child(4),
+  .dot:nth-child(5) {
+    background-color: $dot-color;
+  }
 }

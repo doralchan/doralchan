@@ -39,16 +39,16 @@ List.Item = class List extends React.Component {
     )
   }
 
-  listDotClasses() {
+  dotClasses() {
     return classNames(
-      'list-item-dots',
-      this.props.fill
+      'dot-set',
+      `dot-set-${this.props.fill}`
     )
   }
 
   renderDots() {
     return (
-      <div className={ this.listDotClasses() }>
+      <div className={ this.dotClasses() }>
         <div className='dot' />
         <div className='dot' />
         <div className='dot' />
