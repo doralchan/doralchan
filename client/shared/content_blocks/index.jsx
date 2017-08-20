@@ -45,9 +45,9 @@ ContentBlocks.Item = class ContentBlocks extends React.Component {
         <h5 className='content-block-title'>
           { this.props.title }
         </h5>
-        <p className='content-block-description'>
+        <div className='content-block-description'>
           { this.props.children }
-        </p>
+        </div>
       </div>
     );
   }

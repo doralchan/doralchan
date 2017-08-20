@@ -33,14 +33,18 @@ class Processes extends React.Component {
       <Header title='Process' className='process-header'>
         <ContentBlocks>
           <ContentBlocks.Item className='content-block-2'>
-            When persuing design at the UC Berkeley, UM Ann Arbor, design did not
-            start with an interface. It began with questions, hypotheses,
-            prototypes and testing.
+            <p>
+              When persuing design at the UC Berkeley, UM Ann Arbor, design did not
+              start with an interface. It began with questions, hypotheses,
+              prototypes and testing.
+            </p>
           </ContentBlocks.Item>
           <ContentBlocks.Item className='content-block-2'>
-            These processes pave the way for qualitative discovery. The more user
-            research I do, the more convinced I am design is a distinct methodology
-            of pursuit.
+            <p>
+              These processes pave the way for qualitative discovery. The more user
+              research I do, the more convinced I am design is a distinct methodology
+              of pursuit.
+            </p>
           </ContentBlocks.Item>
         </ContentBlocks>
       </Header>
