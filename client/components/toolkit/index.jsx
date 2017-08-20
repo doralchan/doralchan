@@ -44,10 +44,10 @@ class Toolkit extends React.Component {
           </ContentBlocks.Item>
           <ContentBlocks.Item title='Development' className='content-block-3'>
             <List>
-              <List.Item fill={ 1 }>React</List.Item>
-              <List.Item fill={ 1 }>Vue</List.Item>
-              <List.Item fill={ 1 }>CSS Modules</List.Item>
-              <List.Item fill={ 1 }>SCSS</List.Item>
+              <List.Item fill={ 4 }>React</List.Item>
+              <List.Item fill={ 2 }>Vue</List.Item>
+              <List.Item fill={ 4 }>CSS Modules</List.Item>
+              <List.Item fill={ 5 }>SCSS</List.Item>
             </List>
           </ContentBlocks.Item>
         </ContentBlocks>
