@@ -1,7 +1,38 @@
+@import '../../stylesheets/variables.scss';
+
 // Toolkit Style
 
 .toolkit {
   display: flex;
+
+  @media (min-width: 992px) {
+    align-items: flex-end;
+  }
+
+  .panel-bg {
+
+    @media (min-width: 768px) {
+      height: 215px;
+    }
+
+    @media (min-width: 992px) {
+      height: 420px;
+    }
+
+  }
+
+}
+
+.toolkit-header {
+
+  @media (min-width: 992px) {
+    height: 380px;
+  }
+
+  @media (min-width: 1200px) {
+    height: 400px;
+  }
+
 }
 
 // Background
@@ -9,11 +40,13 @@
 .ship {
 
   @media (min-width: 768px) {
-    width: 50vw;
+    width: 40vw;
+    right: 5vw;
+    bottom: 200px;
   }
 
-  @media (min-width: 1200px) {
-    width: 40vw;
+  @media (min-width: 992px) {
+    bottom: 402px;
   }
 
 }

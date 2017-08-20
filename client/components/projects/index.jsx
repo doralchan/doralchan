@@ -5,8 +5,8 @@ import Illustration from '../../shared/illustration/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
-import ContentCards from '../../shared/content_cards/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
+import ContentCards from '../../shared/content_cards/index.jsx';
 
 import SFMoma from '../../assets/illustrations/illo-sfmoma.svg';
 import Truck from '../../assets/illustrations/illo-truck.svg';
@@ -23,7 +23,7 @@ class Projects extends React.Component {
       <Illustration>
         <Illustration.Item imageLink={ Truck } className='truck' />
         <Illustration.Item imageLink={ Van } className='van' />
-        <Illustration.Item imageLink={ Bus } className='bus' />
+        <Illustration.Item imageLink={ Bus } className='bus bus-3' />
         <Illustration.Item imageLink={ Car1 } className='car car-1' />
         <Illustration.Item imageLink={ Car2 } className='car car-2' />
         <Illustration.Item imageLink={ SFMoma } className='sf-moma' />
@@ -33,7 +33,7 @@ class Projects extends React.Component {
 
   renderHeader() {
     return (
-      <Header title='Projects'>
+      <Header title='Projects' className='projects-header'>
         <ContentCards>
           <ContentCards.Item title='Project A'>This is a description</ContentCards.Item>
           <ContentCards.Item title='Project B'>This is a description</ContentCards.Item>

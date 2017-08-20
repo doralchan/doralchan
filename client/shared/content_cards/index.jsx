@@ -47,9 +47,9 @@ ContentCards.Item = class ContentCards extends React.Component {
         <div className='content-card-title'>
           { this.props.title }
         </div>
-        <div className='content-card-description'>
+        <p className='content-card-description'>
           { this.props.description }
-        </div>
+        </p>
       </div>
     );
   };

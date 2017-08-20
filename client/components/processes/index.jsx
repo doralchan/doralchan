@@ -29,7 +29,7 @@ class Processes extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Process'>
+      <Header title='Process' className='process-header'>
         <p>
           When persuing design at the UC Berkeley, UM Ann Arbor, design did not
           start with an interface. It began with questions, hypotheses,

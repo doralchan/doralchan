@@ -21,7 +21,7 @@ class Contact extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Contact'>
+      <Header title='Contact' className='contact-header'>
         <p>
           If you'd like to chat about design systems, economics, data science
           or board games, let me know. I have a strong interest in these

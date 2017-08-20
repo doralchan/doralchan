@@ -2,12 +2,36 @@
 
 .home {
   display: flex;
-  align-items: center;
-  background-image: url('../../assets/illustrations/illo-bg-contact.svg');
+
+  @media (min-width: 992px) {
+    align-items: center;
+  }
+
+  .panel-bg {
+    height: 150px;
+  }
+
 }
 
 .home-header {
-  max-width: 500px;
+
+  @media (min-width: 576px) {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 100px;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+    max-width: 420px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 500px;
+  }
+
 }
 
 // Background
@@ -16,9 +40,11 @@
 
   @media (min-width: 768px) {
     width: 50vw;
+    right: 80px;
+    bottom: 150px;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     width: 45vw;
   }
 
@@ -40,19 +66,17 @@
 }
 
 .bus {
+  position: absolute;
   transform-origin: bottom;
   z-index: 1;
 
   @media (min-width: 768px) {
     width: 2vw;
+    bottom: 150px;
   }
 
   @media (min-width: 992px) {
     width: 2.5vw;
-  }
-
-  @media (min-width: 1200px) {
-    width: 3vw;
   }
 
 }

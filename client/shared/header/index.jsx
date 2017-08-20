@@ -14,7 +14,7 @@ class Header extends React.Component {
   headerClasses() {
     return classNames(
       'header',
-      this.props.className  
+      this.props.className
     )
   };
 
@@ -24,9 +24,7 @@ class Header extends React.Component {
         <h2 className='header-title'>
           { this.props.title }
         </h2>
-        <div className='header-content'>
-          { this.props.children }
-        </div>
+        { this.props.children }
       </div>
     );
   }

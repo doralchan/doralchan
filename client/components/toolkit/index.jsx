@@ -6,6 +6,7 @@ import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
+import ContentBlocks from '../../shared/content_blocks/index.jsx';
 
 import CargoShip from '../../assets/illustrations/illo-ship.svg';
 
@@ -22,16 +23,19 @@ class Toolkit extends React.Component {
 
   renderHeader() {
     return(
-      <Header title='Toolkits'>
-        <p>
-          I've had the amazing luck of getting access to a lot of different
-          tools over the years.
-        </p>
-        <p>
-          At this point, I believe there are no boundaries to imagination or
-          implementation. It's a matter of continual experimentation and ongoing
-          exposure to the resources actively being developed in the community.
-        </p>
+      <Header title='Toolkits' className='toolkit-header'>
+        <ContentBlocks>
+          <ContentBlocks.Item title='Visual Graphics'>
+            Enhancing designs through color and composition is important to me.
+            It supplements the overall experience.
+          </ContentBlocks.Item>
+          <ContentBlocks.Item title='User Experience'>
+            This is what enables me to be a product designer. 
+          </ContentBlocks.Item>
+          <ContentBlocks.Item title='Development'>
+            TBD
+          </ContentBlocks.Item>
+        </ContentBlocks>
       </Header>
     )
   }

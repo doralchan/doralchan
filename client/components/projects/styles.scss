@@ -38,7 +38,7 @@ $delay: 5;
 
 .truck,
 .van,
-.bus,
+.bus-3,
 .car-1,
 .car-2 {
   animation: vehicles-traffic $time linear infinite;
@@ -51,7 +51,7 @@ $delay: 5;
   animation-delay: $time/$delay * 1;
 }
 
-.bus {
+.bus-3 {
   animation-delay: $time/$delay * 2;
 }
 

@@ -3,7 +3,7 @@
 // Panel Style
 
 .panel {
-  background-color: $background;
+  background-color: $background-light;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100%;
@@ -13,6 +13,18 @@
 
   @media (min-width: 768px) {
     padding: 100px;
+  }
+
+}
+
+.panel-bg {
+
+  @media (min-width: 768px) {
+    position: absolute;
+    background-color: $background-default;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
 }
