@@ -6,6 +6,7 @@ import Panel from '../../shared/panel/index.jsx';
 import Button from '../../shared/button/index.jsx';
 import Header from '../../shared/header/index.jsx';
 import Navigation from '../../shared/navigation/index.jsx';
+import ContentBlocks from '../../shared/content_blocks/index.jsx';
 
 import FortMason from '../../assets/illustrations/illo-fortmason.svg';
 import Bird from '../../assets/illustrations/illo-bird.svg';
@@ -30,16 +31,18 @@ class Processes extends React.Component {
   renderHeader() {
     return(
       <Header title='Process' className='process-header'>
-        <p>
-          When persuing design at the UC Berkeley, UM Ann Arbor, design did not
-          start with an interface. It began with questions, hypotheses,
-          prototypes and testing.
-        </p>
-        <p>
-          These processes pave the way for qualitative discovery. The more user
-          research I do, the more convinced I am design is a distinct methodology
-          of pursuit.
-        </p>
+        <ContentBlocks>
+          <ContentBlocks.Item className='content-block-2'>
+            When persuing design at the UC Berkeley, UM Ann Arbor, design did not
+            start with an interface. It began with questions, hypotheses,
+            prototypes and testing.
+          </ContentBlocks.Item>
+          <ContentBlocks.Item className='content-block-2'>
+            These processes pave the way for qualitative discovery. The more user
+            research I do, the more convinced I am design is a distinct methodology
+            of pursuit.
+          </ContentBlocks.Item>
+        </ContentBlocks>
       </Header>
     )
   }
@@ -50,6 +53,7 @@ class Processes extends React.Component {
         <Panel className='process'>
           { this.renderHeader() }
           { this.renderIllo() }
+          <Panel.Background className='process-background' />
         </Panel>
         <Button toLink='/projects' className='btn-primary btn-next'>
           A Few Projects

@@ -21,9 +21,27 @@ class Panel extends React.Component {
     return(
       <div className={ this.panelClasses() }>
         { this.props.children }
-        <div className='panel-bg' />
       </div>
     );
+  }
+}
+
+Panel.Background = class Panel extends React.Component {
+  static propTypes = {
+    className: PropTypes.string
+  }
+
+  backgroundClasses() {
+    return classNames(
+      'panel-bg',
+      this.props.className
+    )
+  }
+
+  render() {
+    return(
+      <div className={ this.backgroundClasses() } />
+    )
   }
 }
 

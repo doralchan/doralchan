@@ -25,15 +25,18 @@ class Toolkit extends React.Component {
     return(
       <Header title='Toolkits' className='toolkit-header'>
         <ContentBlocks>
-          <ContentBlocks.Item title='Visual Graphics'>
-            Enhancing designs through color and composition is important to me.
-            It supplements the overall experience.
+          <ContentBlocks.Item title='Visual Graphics' className='content-block-3'>
+            Enhancing designs through color, images and composition is important
+            to me. It establishes the overall feel and is what makes a design
+            memorable.
           </ContentBlocks.Item>
-          <ContentBlocks.Item title='User Experience'>
-            This is what enables me to be a product designer. 
+          <ContentBlocks.Item title='User Experience' className='content-block-3'>
+            This is what helps me identify as a product designer. By the end of
+            the day, my goal is to ensure flows are clear with concise messaging
+            and goals.
           </ContentBlocks.Item>
-          <ContentBlocks.Item title='Development'>
-            TBD
+          <ContentBlocks.Item title='Development' className='content-block-3'>
+
           </ContentBlocks.Item>
         </ContentBlocks>
       </Header>
@@ -47,6 +50,7 @@ class Toolkit extends React.Component {
         <Panel className='toolkit'>
           { this.renderHeader() }
           { this.renderIllo() }
+          <Panel.Background className='toolkit-background' />
         </Panel>
         <Button toLink='/processes' className='btn-primary btn-next'>Process</Button>
       </Container>

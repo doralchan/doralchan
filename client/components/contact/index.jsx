@@ -38,6 +38,7 @@ class Contact extends React.Component {
         <Panel className='contact'>
           { this.renderHeader() }
           { this.renderIllo() }
+          <Panel.Background className='contact-background' />
         </Panel>
         <a href='https://www.linkedin.com/in/doralchan/' target='_blank' className='btn btn-primary btn-next'>
           Send A Message

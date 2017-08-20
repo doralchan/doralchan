@@ -50,6 +50,7 @@ class Projects extends React.Component {
         <Panel className='projects'>
           { this.renderHeader() }
           { this.renderIllo() }
+          <Panel.Background className='projects-background' />
         </Panel>
         <Button toLink='/contact' className='btn-primary btn-next'>
           Let's Chat

@@ -44,6 +44,7 @@ class Home extends React.Component {
         <Panel className='home'>
           { this.renderHeader() }
           { this.renderIllo() }
+          <Panel.Background className='home-background' />
         </Panel>
         <Button toLink='/toolkit' className='btn-primary btn-next'>
           Tell Me More
