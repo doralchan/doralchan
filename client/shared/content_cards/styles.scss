@@ -30,7 +30,12 @@
 }
 
 .content-card-img {
-  min-height: 100px;
+  display: none;
+
+  @media (min-width: 576px) {
+    display: block;
+  }
+  
 }
 
 .content-card-title {

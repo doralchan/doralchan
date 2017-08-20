@@ -26,17 +26,13 @@ class Toolkit extends React.Component {
       <Header title='Toolkits' className='toolkit-header'>
         <ContentBlocks>
           <ContentBlocks.Item title='Visual Graphics' className='content-block-3'>
-            Enhancing designs through color, images and composition is important
-            to me. It establishes the overall feel and is what makes a design
-            memorable.
+            The tools that help me envision
           </ContentBlocks.Item>
           <ContentBlocks.Item title='User Experience' className='content-block-3'>
-            This is what helps me identify as a product designer. By the end of
-            the day, my goal is to ensure flows are clear with concise messaging
-            and goals.
+            The tools that help me plan
           </ContentBlocks.Item>
           <ContentBlocks.Item title='Development' className='content-block-3'>
-
+           The tools that help me build
           </ContentBlocks.Item>
         </ContentBlocks>
       </Header>
