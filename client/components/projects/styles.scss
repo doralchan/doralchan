@@ -2,13 +2,29 @@
 
 .projects {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: center;
+  }
+
 }
 
 .projects-header {
 
+  @media (min-width: 992px) {
+    max-width: 55vw;
+    z-index: 2;
+  }
+
 }
 
 .projects-background {
+
+  @media (min-width: 576px) {
+    height: 300px;
+  }
 
 }
 
@@ -17,11 +33,9 @@
 .sf-moma {
 
   @media (min-width: 768px) {
-    width: 38vw;
-  }
-
-  @media (min-width: 1200px) {
-    width: 28vw;
+    width: 26vw;
+    bottom: 300px;
+    left: 65vw;
   }
 
 }
@@ -40,7 +54,7 @@ $delay: 5;
     opacity: 1;
   }
   100% {
-    transform: translateX(40vw);
+    transform: translateX(20vw);
   }
 }
 
@@ -50,9 +64,11 @@ $delay: 5;
 .car-1,
 .car-2 {
   animation: vehicles-traffic $time linear infinite;
-  left: 20vw;
+  right: 30vw;
   width: 2vw;
+  bottom: 300px;
   opacity: 0;
+  z-index: 1;
 }
 
 .van {

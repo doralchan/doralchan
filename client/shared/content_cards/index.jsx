@@ -44,12 +44,14 @@ ContentCards.Item = class ContentCards extends React.Component {
     return(
       <div className={ this.cardClasses() }>
         <img src={ this.props.img } className='content-card-img' />
-        <div className='content-card-title'>
-          { this.props.title }
+        <div className='content-card-tag'>
+          <div className='content-card-title'>
+            { this.props.title }
+          </div>
+          <p className='content-card-description'>
+            { this.props.children }
+          </p>
         </div>
-        <p className='content-card-description'>
-          { this.props.description }
-        </p>
       </div>
     );
   };

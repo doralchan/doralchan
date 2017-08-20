@@ -23,7 +23,7 @@ class Projects extends React.Component {
       <Illustration>
         <Illustration.Item imageLink={ Truck } className='truck' />
         <Illustration.Item imageLink={ Van } className='van' />
-        <Illustration.Item imageLink={ Bus } className='bus bus-3' />
+        <Illustration.Item imageLink={ Bus } className='bus-3' />
         <Illustration.Item imageLink={ Car1 } className='car car-1' />
         <Illustration.Item imageLink={ Car2 } className='car car-2' />
         <Illustration.Item imageLink={ SFMoma } className='sf-moma' />
@@ -31,14 +31,44 @@ class Projects extends React.Component {
     )
   }
 
+  renderGallery() {
+    return (
+      <ContentCards>
+        <ContentCards.Item title='Project A'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project B'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project C'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project D'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project E'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project F'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project G'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project H'>
+          This is a description
+        </ContentCards.Item>
+        <ContentCards.Item title='Project I'>
+          This is a description
+        </ContentCards.Item>
+      </ContentCards>
+    )
+  }
+
   renderHeader() {
     return (
       <Header title='Projects' className='projects-header'>
-        <ContentCards>
-          <ContentCards.Item title='Project A'>This is a description</ContentCards.Item>
-          <ContentCards.Item title='Project B'>This is a description</ContentCards.Item>
-          <ContentCards.Item title='Project C'>This is a description</ContentCards.Item>
-        </ContentCards>
+        { this.renderGallery() }
       </Header>
     )
   }
