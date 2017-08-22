@@ -18,7 +18,7 @@ class Panel extends React.Component {
   };
 
   render() {
-    return(
+    return (
       <div className={ this.panelClasses() }>
         { this.props.children }
       </div>
@@ -39,7 +39,7 @@ Panel.Background = class Panel extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <div className={ this.backgroundClasses() } />
     )
   }

@@ -15,7 +15,7 @@ import './styles.scss';
 
 class Toolkit extends React.Component {
   renderIllo() {
-    return(
+    return (
       <Illustration>
         <Illustration.Item imageLink={ CargoShip } className='ship' />
       </Illustration>
@@ -23,7 +23,7 @@ class Toolkit extends React.Component {
   }
 
   renderHeader() {
-    return(
+    return (
       <Header title='Toolkits' className='toolkit-header'>
         <ContentBlocks>
           <ContentBlocks.Item title='Visual Graphics' className='content-block-3'>
@@ -55,6 +55,15 @@ class Toolkit extends React.Component {
     )
   }
 
+  renderActions() {
+    return (
+      <div className='btn-next'>
+        <Button toLink='/' className='btn-secondary'>Back</Button>
+        <Button toLink='/processes' className='btn-primary'>Process</Button>
+      </div>
+    )
+  }
+
   render() {
     return (
       <Container idName='toolkit'>
@@ -64,7 +73,7 @@ class Toolkit extends React.Component {
           { this.renderIllo() }
           <Panel.Background className='toolkit-background' />
         </Panel>
-        <Button toLink='/processes' className='btn-primary btn-next'>Process</Button>
+        { this.renderActions() }
       </Container>
    );
   }

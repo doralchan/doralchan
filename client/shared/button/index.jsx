@@ -21,7 +21,7 @@ class Button extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <Link to={ this.props.toLink } className={ this.btnClasses() }>
         { this.props.children }
       </Link>

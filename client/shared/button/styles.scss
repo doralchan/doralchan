@@ -40,6 +40,17 @@
 
 }
 
+.btn-secondary {
+  background-color: transparent;
+  color: $secondary-default;
+
+  &:hover,
+  &:focus {
+    color: darken($secondary-default, 5%);
+  }
+
+}
+
 .btn-next {
   position: absolute;
   left: 40px;

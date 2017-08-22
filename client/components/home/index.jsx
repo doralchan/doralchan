@@ -15,7 +15,7 @@ import './styles.scss'
 
 class Home extends React.Component {
   renderIllo() {
-    return(
+    return (
       <Illustration>
         <Illustration.Item imageLink={ Plane } className='plane' />
         <Illustration.Item imageLink={ Bus } className='bus bus-1' />
@@ -26,7 +26,7 @@ class Home extends React.Component {
   }
 
   renderHeader() {
-    return(
+    return (
       <Header title='Why, Hello' className='home-header'>
         <p>
           I'm glad you're here! My name is Dora. I'm a product designer with a
@@ -37,8 +37,18 @@ class Home extends React.Component {
     );
   }
 
+  renderActions() {
+    return (
+      <div className='btn-next'>
+        <Button toLink='/toolkit' className='btn-primary'>
+          Tell Me More
+        </Button>
+      </div>
+    )
+  }
+
   render() {
-    return(
+    return (
      <Container idName='home'>
         <Navigation />
         <Panel className='home'>
@@ -46,9 +56,7 @@ class Home extends React.Component {
           { this.renderIllo() }
           <Panel.Background className='home-background' />
         </Panel>
-        <Button toLink='/toolkit' className='btn-primary btn-next'>
-          Tell Me More
-        </Button>
+        { this.renderActions() }
      </Container>
     );
   }

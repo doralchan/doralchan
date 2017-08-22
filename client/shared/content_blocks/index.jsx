@@ -40,7 +40,7 @@ ContentBlocks.Item = class ContentBlocks extends React.Component {
   };
 
   render() {
-    return(
+    return (
       <div className={ this.contentBlockClasses() }>
         <h5 className='content-block-title'>
           { this.props.title }

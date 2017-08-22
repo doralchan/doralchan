@@ -41,7 +41,7 @@ ContentCards.Item = class ContentCards extends React.Component {
   };
 
   render() {
-    return(
+    return (
       <div className={ this.cardClasses() }>
         <img src={ this.props.img } className='content-card-img' />
         <div className='content-card-tag'>

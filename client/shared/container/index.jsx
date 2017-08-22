@@ -19,7 +19,7 @@ class Container extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <div id={ this.props.idName } className={ this.containerClasses() }>
         { this.props.children }
       </div>

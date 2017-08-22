@@ -4137,6 +4137,78 @@ var _classnames = __webpack_require__(19);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+var _reactRouter = __webpack_require__(78);
+
+__webpack_require__(288);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Button = function (_React$Component) {
+  _inherits(Button, _React$Component);
+
+  function Button() {
+    _classCallCheck(this, Button);
+
+    return _possibleConstructorReturn(this, (Button.__proto__ || Object.getPrototypeOf(Button)).apply(this, arguments));
+  }
+
+  _createClass(Button, [{
+    key: 'btnClasses',
+    value: function btnClasses() {
+      return (0, _classnames2.default)('btn', this.props.className);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        _reactRouter.Link,
+        { to: this.props.toLink, className: this.btnClasses() },
+        this.props.children
+      );
+    }
+  }]);
+
+  return Button;
+}(_react2.default.Component);
+
+Button.propTypes = {
+  children: _propTypes2.default.node.isRequired,
+  className: _propTypes2.default.string,
+  toLink: _propTypes2.default.string
+};
+exports.default = Button;
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(16);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _classnames = __webpack_require__(19);
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
 __webpack_require__(289);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -4183,7 +4255,7 @@ Container.propTypes = {
 exports.default = Container;
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4258,7 +4330,7 @@ Header.propTypes = {
 exports.default = Header;
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4358,7 +4430,7 @@ Illustration.Item = (_temp = _class = function (_React$Component2) {
 exports.default = Illustration;
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4479,7 +4551,7 @@ Navigation.propTypes = {
 exports.default = Navigation;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4578,7 +4650,7 @@ Panel.Background = (_temp = _class = function (_React$Component2) {
 exports.default = Panel;
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4858,7 +4930,7 @@ module.exports = EventPluginHub;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4874,7 +4946,7 @@ module.exports = EventPluginHub;
 
 
 
-var EventPluginHub = __webpack_require__(38);
+var EventPluginHub = __webpack_require__(39);
 var EventPluginUtils = __webpack_require__(62);
 
 var accumulateInto = __webpack_require__(104);
@@ -4998,7 +5070,7 @@ module.exports = EventPropagators;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5049,7 +5121,7 @@ var ReactInstanceMap = {
 module.exports = ReactInstanceMap;
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5111,78 +5183,6 @@ function SyntheticUIEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEve
 SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(16);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _classnames = __webpack_require__(19);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _reactRouter = __webpack_require__(78);
-
-__webpack_require__(288);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Button = function (_React$Component) {
-  _inherits(Button, _React$Component);
-
-  function Button() {
-    _classCallCheck(this, Button);
-
-    return _possibleConstructorReturn(this, (Button.__proto__ || Object.getPrototypeOf(Button)).apply(this, arguments));
-  }
-
-  _createClass(Button, [{
-    key: 'btnClasses',
-    value: function btnClasses() {
-      return (0, _classnames2.default)('btn', this.props.className);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        _reactRouter.Link,
-        { to: this.props.toLink, className: this.btnClasses() },
-        this.props.children
-      );
-    }
-  }]);
-
-  return Button;
-}(_react2.default.Component);
-
-Button.propTypes = {
-  children: _propTypes2.default.node.isRequired,
-  className: _propTypes2.default.string,
-  toLink: _propTypes2.default.string
-};
-exports.default = Button;
 
 /***/ }),
 /* 43 */
@@ -6009,7 +6009,7 @@ module.exports = ReactBrowserEventEmitter;
 
 
 
-var SyntheticUIEvent = __webpack_require__(41);
+var SyntheticUIEvent = __webpack_require__(42);
 var ViewportMetrics = __webpack_require__(103);
 
 var getEventModifierState = __webpack_require__(70);
@@ -7891,7 +7891,7 @@ module.exports = ReactErrorUtils;
 var _prodInvariant = __webpack_require__(4);
 
 var ReactCurrentOwner = __webpack_require__(18);
-var ReactInstanceMap = __webpack_require__(40);
+var ReactInstanceMap = __webpack_require__(41);
 var ReactInstrumentation = __webpack_require__(14);
 var ReactUpdates = __webpack_require__(17);
 
@@ -12237,7 +12237,7 @@ var ReactDOMComponentTree = __webpack_require__(6);
 var ReactDOMContainerInfo = __webpack_require__(193);
 var ReactDOMFeatureFlags = __webpack_require__(195);
 var ReactFeatureFlags = __webpack_require__(97);
-var ReactInstanceMap = __webpack_require__(40);
+var ReactInstanceMap = __webpack_require__(41);
 var ReactInstrumentation = __webpack_require__(14);
 var ReactMarkupChecksum = __webpack_require__(215);
 var ReactReconciler = __webpack_require__(29);
@@ -14792,25 +14792,29 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(33);
+var _index = __webpack_require__(34);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(35);
+var _index3 = __webpack_require__(36);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _index5 = __webpack_require__(37);
+var _index5 = __webpack_require__(38);
 
 var _index6 = _interopRequireDefault(_index5);
 
-var _index7 = __webpack_require__(34);
+var _index7 = __webpack_require__(33);
 
 var _index8 = _interopRequireDefault(_index7);
 
-var _index9 = __webpack_require__(36);
+var _index9 = __webpack_require__(35);
 
 var _index10 = _interopRequireDefault(_index9);
+
+var _index11 = __webpack_require__(37);
+
+var _index12 = _interopRequireDefault(_index11);
 
 var _illoDeyoung = __webpack_require__(302);
 
@@ -14848,7 +14852,7 @@ var Contact = function (_React$Component) {
     key: 'renderHeader',
     value: function renderHeader() {
       return _react2.default.createElement(
-        _index8.default,
+        _index10.default,
         { title: 'Contact', className: 'contact-header' },
         _react2.default.createElement(
           'p',
@@ -14858,12 +14862,30 @@ var Contact = function (_React$Component) {
       );
     }
   }, {
+    key: 'renderActions',
+    value: function renderActions() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'btn-next' },
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/projects', className: 'btn-secondary' },
+          'Back'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.linkedin.com/in/doralchan/', target: '_blank', className: 'btn btn-primary' },
+          'Send A Message'
+        )
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         _index2.default,
         { idName: 'contact' },
-        _react2.default.createElement(_index10.default, null),
+        _react2.default.createElement(_index12.default, null),
         _react2.default.createElement(
           _index6.default,
           { className: 'contact' },
@@ -14871,11 +14893,7 @@ var Contact = function (_React$Component) {
           this.renderIllo(),
           _react2.default.createElement(_index6.default.Background, { className: 'contact-background' })
         ),
-        _react2.default.createElement(
-          'a',
-          { href: 'https://www.linkedin.com/in/doralchan/', target: '_blank', className: 'btn btn-primary btn-next' },
-          'Send A Message'
-        )
+        this.renderActions()
       );
     }
   }]);
@@ -14902,27 +14920,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(33);
+var _index = __webpack_require__(34);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(35);
+var _index3 = __webpack_require__(36);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _index5 = __webpack_require__(37);
+var _index5 = __webpack_require__(38);
 
 var _index6 = _interopRequireDefault(_index5);
 
-var _index7 = __webpack_require__(42);
+var _index7 = __webpack_require__(33);
 
 var _index8 = _interopRequireDefault(_index7);
 
-var _index9 = __webpack_require__(34);
+var _index9 = __webpack_require__(35);
 
 var _index10 = _interopRequireDefault(_index9);
 
-var _index11 = __webpack_require__(36);
+var _index11 = __webpack_require__(37);
 
 var _index12 = _interopRequireDefault(_index11);
 
@@ -14983,6 +15001,19 @@ var Home = function (_React$Component) {
       );
     }
   }, {
+    key: 'renderActions',
+    value: function renderActions() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'btn-next' },
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/toolkit', className: 'btn-primary' },
+          'Tell Me More'
+        )
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -14996,11 +15027,7 @@ var Home = function (_React$Component) {
           this.renderIllo(),
           _react2.default.createElement(_index6.default.Background, { className: 'home-background' })
         ),
-        _react2.default.createElement(
-          _index8.default,
-          { toLink: '/toolkit', className: 'btn-primary btn-next' },
-          'Tell Me More'
-        )
+        this.renderActions()
       );
     }
   }]);
@@ -15027,27 +15054,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(33);
+var _index = __webpack_require__(34);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(35);
+var _index3 = __webpack_require__(36);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _index5 = __webpack_require__(37);
+var _index5 = __webpack_require__(38);
 
 var _index6 = _interopRequireDefault(_index5);
 
-var _index7 = __webpack_require__(42);
+var _index7 = __webpack_require__(33);
 
 var _index8 = _interopRequireDefault(_index7);
 
-var _index9 = __webpack_require__(34);
+var _index9 = __webpack_require__(35);
 
 var _index10 = _interopRequireDefault(_index9);
 
-var _index11 = __webpack_require__(36);
+var _index11 = __webpack_require__(37);
 
 var _index12 = _interopRequireDefault(_index11);
 
@@ -15132,6 +15159,24 @@ var Processes = function (_React$Component) {
       );
     }
   }, {
+    key: 'renderActions',
+    value: function renderActions() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'btn-next' },
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/toolkit', className: 'btn-secondary' },
+          'Back'
+        ),
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/projects', className: 'btn-primary' },
+          'A Few Projects'
+        )
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -15145,11 +15190,7 @@ var Processes = function (_React$Component) {
           this.renderIllo(),
           _react2.default.createElement(_index6.default.Background, { className: 'process-background' })
         ),
-        _react2.default.createElement(
-          _index8.default,
-          { toLink: '/projects', className: 'btn-primary btn-next' },
-          'A Few Projects'
-        )
+        this.renderActions()
       );
     }
   }]);
@@ -15176,27 +15217,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(33);
+var _index = __webpack_require__(34);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(35);
+var _index3 = __webpack_require__(36);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _index5 = __webpack_require__(37);
+var _index5 = __webpack_require__(38);
 
 var _index6 = _interopRequireDefault(_index5);
 
-var _index7 = __webpack_require__(42);
+var _index7 = __webpack_require__(33);
 
 var _index8 = _interopRequireDefault(_index7);
 
-var _index9 = __webpack_require__(34);
+var _index9 = __webpack_require__(35);
 
 var _index10 = _interopRequireDefault(_index9);
 
-var _index11 = __webpack_require__(36);
+var _index11 = __webpack_require__(37);
 
 var _index12 = _interopRequireDefault(_index11);
 
@@ -15324,6 +15365,24 @@ var Projects = function (_React$Component) {
       );
     }
   }, {
+    key: 'renderActions',
+    value: function renderActions() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'btn-next' },
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/processes', className: 'btn-secondary' },
+          'Back'
+        ),
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/contact', className: 'btn-primary' },
+          'Let\'s Chat'
+        )
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -15337,11 +15396,7 @@ var Projects = function (_React$Component) {
           this.renderIllo(),
           _react2.default.createElement(_index6.default.Background, { className: 'projects-background' })
         ),
-        _react2.default.createElement(
-          _index8.default,
-          { toLink: '/contact', className: 'btn-primary btn-next' },
-          'Let\'s Chat'
-        )
+        this.renderActions()
       );
     }
   }]);
@@ -15368,27 +15423,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(33);
+var _index = __webpack_require__(34);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(35);
+var _index3 = __webpack_require__(36);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _index5 = __webpack_require__(37);
+var _index5 = __webpack_require__(38);
 
 var _index6 = _interopRequireDefault(_index5);
 
-var _index7 = __webpack_require__(42);
+var _index7 = __webpack_require__(33);
 
 var _index8 = _interopRequireDefault(_index7);
 
-var _index9 = __webpack_require__(34);
+var _index9 = __webpack_require__(35);
 
 var _index10 = _interopRequireDefault(_index9);
 
-var _index11 = __webpack_require__(36);
+var _index11 = __webpack_require__(37);
 
 var _index12 = _interopRequireDefault(_index11);
 
@@ -15529,6 +15584,24 @@ var Toolkit = function (_React$Component) {
       );
     }
   }, {
+    key: 'renderActions',
+    value: function renderActions() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'btn-next' },
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/', className: 'btn-secondary' },
+          'Back'
+        ),
+        _react2.default.createElement(
+          _index8.default,
+          { toLink: '/processes', className: 'btn-primary' },
+          'Process'
+        )
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -15542,11 +15615,7 @@ var Toolkit = function (_React$Component) {
           this.renderIllo(),
           _react2.default.createElement(_index6.default.Background, { className: 'toolkit-background' })
         ),
-        _react2.default.createElement(
-          _index8.default,
-          { toLink: '/processes', className: 'btn-primary btn-next' },
-          'Process'
-        )
+        this.renderActions()
       );
     }
   }]);
@@ -16776,7 +16845,7 @@ exports = module.exports = __webpack_require__(9)(undefined);
 
 
 // module
-exports.push([module.i, ".btn {\n  display: block;\n  white-space: nowrap;\n  vertical-align: middle;\n  user-select: none;\n  border-radius: 40px;\n  font-weight: 400;\n  text-decoration: none;\n  text-align: center;\n  padding: 10px 20px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 100ms ease-in-out; }\n  .btn:hover {\n    transform: scale(1.02);\n    transition: all 300ms ease-in-out; }\n  @media (min-width: 576px) {\n    .btn {\n      display: inline-block;\n      padding: 12px 40px; } }\n\n.btn-primary {\n  background-color: #77BCB8;\n  color: #FFFFFF; }\n  .btn-primary:hover, .btn-primary:focus {\n    background-color: #66b4af;\n    border-color: #66b4af; }\n\n.btn-next {\n  position: absolute;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  z-index: 1; }\n  @media (min-width: 768px) {\n    .btn-next {\n      left: auto;\n      right: 80px;\n      bottom: 80px; } }\n", ""]);
+exports.push([module.i, ".btn {\n  display: block;\n  white-space: nowrap;\n  vertical-align: middle;\n  user-select: none;\n  border-radius: 40px;\n  font-weight: 400;\n  text-decoration: none;\n  text-align: center;\n  padding: 10px 20px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 100ms ease-in-out; }\n  .btn:hover {\n    transform: scale(1.02);\n    transition: all 300ms ease-in-out; }\n  @media (min-width: 576px) {\n    .btn {\n      display: inline-block;\n      padding: 12px 40px; } }\n\n.btn-primary {\n  background-color: #77BCB8;\n  color: #FFFFFF; }\n  .btn-primary:hover, .btn-primary:focus {\n    background-color: #66b4af;\n    border-color: #66b4af; }\n\n.btn-secondary {\n  background-color: transparent;\n  color: #77BCB8; }\n  .btn-secondary:hover, .btn-secondary:focus {\n    color: #66b4af; }\n\n.btn-next {\n  position: absolute;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  z-index: 1; }\n  @media (min-width: 768px) {\n    .btn-next {\n      left: auto;\n      right: 80px;\n      bottom: 80px; } }\n", ""]);
 
 // exports
 
@@ -16888,7 +16957,7 @@ exports = module.exports = __webpack_require__(9)(undefined);
 
 
 // module
-exports.push([module.i, ".panel {\n  background-color: #F9F6ED;\n  background-repeat: no-repeat;\n  background-position: bottom;\n  height: 100%;\n  box-sizing: border-box;\n  padding: 80px 30px;\n  position: relative; }\n  @media (min-width: 768px) {\n    .panel {\n      padding: 100px; } }\n\n@media (min-width: 768px) {\n  .panel-bg {\n    position: absolute;\n    background-color: #F2ECDD;\n    left: 0;\n    right: 0;\n    bottom: 0; } }\n", ""]);
+exports.push([module.i, ".panel {\n  background-color: #F9F6ED;\n  background-repeat: no-repeat;\n  background-position: bottom;\n  height: 100%;\n  box-sizing: border-box;\n  padding: 80px 30px;\n  position: relative; }\n  @media (min-width: 768px) {\n    .panel {\n      padding: 100px; } }\n\n@media (min-width: 768px) {\n  .panel-bg {\n    position: absolute;\n    background-color: #F6F1E6;\n    background-image: url(\"data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f2ecdd' fill-opacity='1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n    left: 0;\n    right: 0;\n    bottom: 0; } }\n", ""]);
 
 // exports
 
@@ -18647,7 +18716,7 @@ module.exports = AutoFocusUtils;
 
 
 
-var EventPropagators = __webpack_require__(39);
+var EventPropagators = __webpack_require__(40);
 var ExecutionEnvironment = __webpack_require__(7);
 var FallbackCompositionState = __webpack_require__(186);
 var SyntheticCompositionEvent = __webpack_require__(229);
@@ -19257,8 +19326,8 @@ module.exports = CSSPropertyOperations;
 
 
 
-var EventPluginHub = __webpack_require__(38);
-var EventPropagators = __webpack_require__(39);
+var EventPluginHub = __webpack_require__(39);
+var EventPropagators = __webpack_require__(40);
 var ExecutionEnvironment = __webpack_require__(7);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactUpdates = __webpack_require__(17);
@@ -19657,7 +19726,7 @@ module.exports = DefaultEventPluginOrder;
 
 
 
-var EventPropagators = __webpack_require__(39);
+var EventPropagators = __webpack_require__(40);
 var ReactDOMComponentTree = __webpack_require__(6);
 var SyntheticMouseEvent = __webpack_require__(48);
 
@@ -20300,7 +20369,7 @@ var React = __webpack_require__(31);
 var ReactComponentEnvironment = __webpack_require__(65);
 var ReactCurrentOwner = __webpack_require__(18);
 var ReactErrorUtils = __webpack_require__(66);
-var ReactInstanceMap = __webpack_require__(40);
+var ReactInstanceMap = __webpack_require__(41);
 var ReactInstrumentation = __webpack_require__(14);
 var ReactNodeTypes = __webpack_require__(101);
 var ReactReconciler = __webpack_require__(29);
@@ -21327,7 +21396,7 @@ var DOMLazyTree = __webpack_require__(28);
 var DOMNamespaces = __webpack_require__(61);
 var DOMProperty = __webpack_require__(21);
 var DOMPropertyOperations = __webpack_require__(93);
-var EventPluginHub = __webpack_require__(38);
+var EventPluginHub = __webpack_require__(39);
 var EventPluginRegistry = __webpack_require__(46);
 var ReactBrowserEventEmitter = __webpack_require__(47);
 var ReactDOMComponentFlags = __webpack_require__(94);
@@ -24434,7 +24503,7 @@ module.exports = REACT_ELEMENT_TYPE;
 
 
 
-var EventPluginHub = __webpack_require__(38);
+var EventPluginHub = __webpack_require__(39);
 
 function runEventQueueInBatch(events) {
   EventPluginHub.enqueueEvents(events);
@@ -24671,7 +24740,7 @@ module.exports = ReactHostOperationHistoryHook;
 
 
 var DOMProperty = __webpack_require__(21);
-var EventPluginHub = __webpack_require__(38);
+var EventPluginHub = __webpack_require__(39);
 var EventPluginUtils = __webpack_require__(62);
 var ReactComponentEnvironment = __webpack_require__(65);
 var ReactEmptyComponent = __webpack_require__(96);
@@ -24810,7 +24879,7 @@ module.exports = ReactMarkupChecksum;
 var _prodInvariant = __webpack_require__(4);
 
 var ReactComponentEnvironment = __webpack_require__(65);
-var ReactInstanceMap = __webpack_require__(40);
+var ReactInstanceMap = __webpack_require__(41);
 var ReactInstrumentation = __webpack_require__(14);
 
 var ReactCurrentOwner = __webpack_require__(18);
@@ -26234,7 +26303,7 @@ module.exports = SVGDOMPropertyConfig;
 
 
 
-var EventPropagators = __webpack_require__(39);
+var EventPropagators = __webpack_require__(40);
 var ExecutionEnvironment = __webpack_require__(7);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInputSelection = __webpack_require__(99);
@@ -26431,7 +26500,7 @@ module.exports = SelectEventPlugin;
 var _prodInvariant = __webpack_require__(4);
 
 var EventListener = __webpack_require__(81);
-var EventPropagators = __webpack_require__(39);
+var EventPropagators = __webpack_require__(40);
 var ReactDOMComponentTree = __webpack_require__(6);
 var SyntheticAnimationEvent = __webpack_require__(227);
 var SyntheticClipboardEvent = __webpack_require__(228);
@@ -26442,7 +26511,7 @@ var SyntheticMouseEvent = __webpack_require__(48);
 var SyntheticDragEvent = __webpack_require__(230);
 var SyntheticTouchEvent = __webpack_require__(234);
 var SyntheticTransitionEvent = __webpack_require__(235);
-var SyntheticUIEvent = __webpack_require__(41);
+var SyntheticUIEvent = __webpack_require__(42);
 var SyntheticWheelEvent = __webpack_require__(236);
 
 var emptyFunction = __webpack_require__(13);
@@ -26828,7 +26897,7 @@ module.exports = SyntheticDragEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(41);
+var SyntheticUIEvent = __webpack_require__(42);
 
 /**
  * @interface FocusEvent
@@ -26911,7 +26980,7 @@ module.exports = SyntheticInputEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(41);
+var SyntheticUIEvent = __webpack_require__(42);
 
 var getEventCharCode = __webpack_require__(69);
 var getEventKey = __webpack_require__(242);
@@ -27000,7 +27069,7 @@ module.exports = SyntheticKeyboardEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(41);
+var SyntheticUIEvent = __webpack_require__(42);
 
 var getEventModifierState = __webpack_require__(70);
 
@@ -27381,7 +27450,7 @@ var _prodInvariant = __webpack_require__(4);
 
 var ReactCurrentOwner = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactInstanceMap = __webpack_require__(40);
+var ReactInstanceMap = __webpack_require__(41);
 
 var getHostComponentFromComposite = __webpack_require__(106);
 var invariant = __webpack_require__(1);

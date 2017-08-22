@@ -18,7 +18,7 @@ class Illustration extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <div className={ this.renderIlloGroupClasses() }>
         { this.props.children }
       </div>

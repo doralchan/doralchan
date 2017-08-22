@@ -19,7 +19,7 @@ import './styles.scss';
 
 class Projects extends React.Component {
   renderIllo() {
-    return(
+    return (
       <Illustration>
         <Illustration.Item imageLink={ Truck } className='truck' />
         <Illustration.Item imageLink={ Van } className='van' />
@@ -73,6 +73,19 @@ class Projects extends React.Component {
     )
   }
 
+  renderActions() {
+    return (
+      <div className='btn-next'>
+        <Button toLink='/processes' className='btn-secondary'>
+          Back
+        </Button>
+        <Button toLink='/contact' className='btn-primary'>
+          Let's Chat
+        </Button>
+      </div>
+    )
+  }
+
   render() {
     return (
       <Container idName='projects'>
@@ -82,9 +95,7 @@ class Projects extends React.Component {
           { this.renderIllo() }
           <Panel.Background className='projects-background' />
         </Panel>
-        <Button toLink='/contact' className='btn-primary btn-next'>
-          Let's Chat
-        </Button>
+        { this.renderActions() }
       </Container>
     );
   }

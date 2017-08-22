@@ -15,7 +15,7 @@ import './styles.scss';
 
 class Processes extends React.Component {
   renderIllo() {
-    return(
+    return (
       <Illustration>
         <Illustration.Item imageLink={ FortMason } className='fortmason' />
         <div className='circle clockwise large'>
@@ -29,7 +29,7 @@ class Processes extends React.Component {
   }
 
   renderHeader() {
-    return(
+    return (
       <Header title='Process' className='process-header'>
         <ContentBlocks>
           <ContentBlocks.Item className='content-block-2'>
@@ -50,6 +50,20 @@ class Processes extends React.Component {
       </Header>
     )
   }
+
+  renderActions() {
+    return (
+      <div className='btn-next'>
+        <Button toLink='/toolkit' className='btn-secondary'>
+          Back
+        </Button>
+        <Button toLink='/projects' className='btn-primary'>
+          A Few Projects
+        </Button>
+      </div>
+    )
+  }
+
   render() {
     return (
       <Container idName='process'>
@@ -59,9 +73,7 @@ class Processes extends React.Component {
           { this.renderIllo() }
           <Panel.Background className='process-background' />
         </Panel>
-        <Button toLink='/projects' className='btn-primary btn-next'>
-          A Few Projects
-        </Button>
+        { this.renderActions() }
       </Container>
    );
   }

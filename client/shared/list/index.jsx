@@ -18,7 +18,7 @@ class List extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <ul className={ this.listClasses() }>
         { this.props.children }
       </ul>
