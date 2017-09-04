@@ -28,7 +28,8 @@ class Panel extends React.Component {
 
 Panel.Background = class Panel extends React.Component {
   static propTypes = {
-    className: PropTypes.string
+    className: PropTypes.string,
+    imageLink: PropTypes.string
   }
 
   backgroundClasses() {
@@ -40,7 +41,10 @@ Panel.Background = class Panel extends React.Component {
 
   render() {
     return (
-      <div className={ this.backgroundClasses() } />
+      <div>
+        <img src={ this.props.imageLink } className='panel-bg-detail'/>
+        <div className={ this.backgroundClasses() } />
+      </div>
     )
   }
 }
