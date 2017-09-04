@@ -34,14 +34,14 @@ Panel.Background = class Panel extends React.Component {
 
   backgroundClasses() {
     return classNames(
-      'panel-bg',
+      'panel-bg-block',
       this.props.className
     )
   }
 
   render() {
     return (
-      <div>
+      <div className='panel-bg'>
         <img src={ this.props.imageLink } className='panel-bg-detail'/>
         <div className={ this.backgroundClasses() } />
       </div>
