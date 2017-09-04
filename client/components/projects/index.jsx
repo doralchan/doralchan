@@ -35,31 +35,31 @@ class Projects extends React.Component {
     return (
       <ContentCards>
         <ContentCards.Item title='Project A'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project B'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project C'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project D'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project E'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project F'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project G'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project H'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
         <ContentCards.Item title='Project I'>
-          This is a description
+          This is a description. Lorem ipsums. Coming soon.
         </ContentCards.Item>
       </ContentCards>
     )
