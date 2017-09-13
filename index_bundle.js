@@ -14701,15 +14701,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _react2.default.createElement(
   _reactRouter.Router,
   { history: _reactRouter.browserHistory },
-  _react2.default.createElement(
-    _reactRouter.Route,
-    { path: '/', component: _app2.default },
-    _react2.default.createElement(_reactRouter.IndexRoute, { component: _index2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/toolkit', component: _index4.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _index6.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/processes', component: _index8.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _index10.default })
-  )
+  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _app2.default })
 );
 
 /***/ }),

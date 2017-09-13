@@ -11,11 +11,11 @@ import Contact from './components/contact/index.jsx';
 export default (
   <Router history={ browserHistory }>
     <Route path='/' component={ App }>
-      <IndexRoute component={ Home } />
+      {/* <IndexRoute component={ Home } />
       <Route path='/toolkit' component={ Toolkit } />
       <Route path='/projects' component={ Projects } />
       <Route path='/processes' component={ Processes } />
-      <Route path='/contact' component={ Contact } />
+      <Route path='/contact' component={ Contact } /> */}
     </Route>
   </Router>
 );
