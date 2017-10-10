@@ -6,42 +6,23 @@ import './styles.scss';
 
 class Illustration extends React.Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
-    className: PropTypes.string
-  };
-
-  renderIlloGroupClasses() {
-    return classNames(
-      'illo-group',
-      this.props.className
-    )
-  }
-
-  render() {
-    return (
-      <div className={ this.renderIlloGroupClasses() }>
-        { this.props.children }
-      </div>
-    );
-  }
-}
-
-Illustration.Item = class Illutration extends React.Component {
-  static propTypes = {
     imageLink: PropTypes.string.isRequired,
     className: PropTypes.string
   };
 
-  renderIlloItemClasses() {
+  renderIlloClasses() {
     return classNames(
-      'illo-item',
+      'illo',
       this.props.className
     )
   }
 
   render() {
     return (
-      <img src={ this.props.imageLink } className={ this.renderIlloItemClasses() } />
+      <img
+        src={ this.props.imageLink }
+        className={ this.renderIlloClasses() }
+      />
     )
   }
 

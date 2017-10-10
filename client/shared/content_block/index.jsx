@@ -4,28 +4,7 @@ import classNames from 'classnames';
 
 import './styles.scss';
 
-class ContentBlocks extends React.Component {
-  static propTypes = {
-    children: PropTypes.node.isRequired
-  };
-
-  cardBlockClasses() {
-    return classNames(
-      'content-block-group',
-      this.props.className
-    )
-  };
-
-  render() {
-    return (
-      <div className={ this.cardBlockClasses() }>
-        { this.props.children }
-      </div>
-    )
-  };
-}
-
-ContentBlocks.Item = class ContentBlocks extends React.Component {
+class ContentBlock extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
@@ -42,9 +21,9 @@ ContentBlocks.Item = class ContentBlocks extends React.Component {
   render() {
     return (
       <div className={ this.contentBlockClasses() }>
-        <h5 className='content-block-title'>
+        <h4 className='content-block-title'>
           { this.props.title }
-        </h5>
+        </h4>
         <div className='content-block-description'>
           { this.props.children }
         </div>
@@ -53,4 +32,4 @@ ContentBlocks.Item = class ContentBlocks extends React.Component {
   }
 }
 
-export default ContentBlocks
+export default ContentBlock

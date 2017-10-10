@@ -3,20 +3,5 @@
 // Container Style
 
 .container {
-  height: 100vh;
-  box-sizing: border-box;
-  padding: 10px;
-  position: relative;
-
-  @media (min-width: 768px) {
-    min-height: 700px;
-    justify-content: flex-end;
-    padding: 25px;
-  }
-
-  @media (min-width: 992px) {
-    min-height: 800px;
-    padding: 30px;
-  }
 
 }

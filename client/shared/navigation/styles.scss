@@ -3,13 +3,12 @@
 // Navigation Wrapper
 
 .nav {
-
   @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 80px;
-    top: 80px;
+    right: 40px;
+    top: 40px;
   }
 
 }
@@ -108,7 +107,7 @@
   left: 0;
   top: 0;
   text-align: center;
-  background-color: $primary-default;
+  background-color: $secondary-default;
   padding: 40px;
   z-index: 3;
 
@@ -129,23 +128,23 @@
 }
 
 .nav-menu-item {
-  color: $white;
+  color: $light-default;
   font-size: 18px;
   text-decoration: none;
   transition: all .2s;
   padding: 5px 10px;
 
   &:hover {
-    color: $primary-light;
+    color: $secondary-default;
   }
 
   @media (min-width: 768px) {
-    color: $primary-default;
+    color: $font-color;
     font-size: inherit;
 
     &:hover {
       transition: all 50ms ease-in-out;
-      color: $primary-light;
+      color: darken($font-color, 5%);
     }
 
   }
@@ -171,7 +170,7 @@
 
   .nav-link-icon:before,
   .nav-link-icon:after {
-    background-color: $white;
+    background-color: $light-default;
 
     @media (min-width: 768px) {
       background-color: $secondary-default;

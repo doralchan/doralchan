@@ -5,14 +5,13 @@
 .list {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .list-item {
-  color: $primary-dark;
   display: flex;
   align-items: center;
-  font-weight: 300;
+  font-weight: 400;
   padding-bottom: 10px;
 }
 
@@ -24,11 +23,11 @@ $dot-color: $primary-default;
 }
 
 .dot {
-  border: 1px solid $dot-color;
+  background-color: $dark-default;
   border-radius: 50%;
   margin: 2px;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
 }
 
 .dot-set-1 {

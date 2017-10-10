@@ -1,22 +1,13 @@
 
 // Color Variables
 
-$font-color: #898684;
-
-$primary-default: #F27E5F;
-$primary-dark: #843F2C;
-$primary-light: #F8AD8F;
-
-$secondary-default: #77BCB8;
-$secondary-dark: #4C827F;
-$secondary-light: #ADDEE0;
-
-$tertiary-default:#D3D4CF;
-$tertiary-dark: #283B48;
-$tertiary-light: #16333D;
-
 $white: #FFFFFF;
 
-$background-default: #F6F1E6;
-$background-dark: #F2ECDD;
-$background-light: #F9F6ED;
+$light-default: #F9F9F9;
+$dark-default: #2B2D42;
+
+$primary-default: #EF5D60;
+$secondary-default: #820263;
+$tertiary-default: #26CDD1;
+
+$font-color: $dark-default;

@@ -3,15 +3,14 @@
 // Button Style
 
 .btn {
+  border: 2px solid transparent;
+  border-radius: 50px;
   display: block;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border-radius: 40px;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
-  text-align: center;
-  padding: 10px 20px;
   text-align: center;
   cursor: pointer;
   transition: all 100ms ease-in-out;
@@ -23,45 +22,19 @@
 
   @media (min-width: 576px) {
     display: inline-block;
-    padding: 12px 40px;
+    padding: 10px 30px;
   }
 
 }
 
 .btn-primary {
   background-color: $secondary-default;
-  color: $white;
+  color: $light-default;
 
   &:hover,
   &:focus {
     background-color: darken($secondary-default, 5%);
     border-color: darken($secondary-default, 5%);
-  }
-
-}
-
-.btn-secondary {
-  background-color: transparent;
-  color: $secondary-default;
-
-  &:hover,
-  &:focus {
-    color: darken($secondary-default, 5%);
-  }
-
-}
-
-.btn-next {
-  position: absolute;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
-  z-index: 1;
-
-  @media (min-width: 768px) {
-    left: auto;
-    right: 80px;
-    bottom: 80px;
   }
 
 }

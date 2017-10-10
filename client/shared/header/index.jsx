@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import Navigation from '../../shared/navigation/index.jsx';
+
 import './styles.scss';
 
 class Header extends React.Component {
   static propTypes = {
-    children: PropTypes.node,
-    className: PropTypes.string,
-    title: PropTypes.string
+    className: PropTypes.string
   };
 
   headerClasses() {
@@ -20,12 +20,9 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className={ this.headerClasses() }>
-        <h2 className='header-title'>
-          { this.props.title }
-        </h2>
-        { this.props.children }
-      </div>
+      <header className={ this.headerClasses() }>
+        <Navigation />
+      </header>
     );
   }
 }

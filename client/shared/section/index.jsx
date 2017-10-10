@@ -2,33 +2,30 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { Link } from 'react-router';
-
 import './styles.scss';
 
-class Button extends React.Component {
+class Section extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
-    type: PropTypes.oneOf(['primary', 'secondary']),
-    toLink: PropTypes.string
+    idName: PropTypes.string
   };
 
-  btnClasses() {
+  sectionClasses() {
     return classNames(
-      'btn',
-      `btn-${ this.props.type }`,
+      'section',
+      `section-${ this.props.idName }`,
       this.props.className
-    )
+    );
   }
 
   render() {
     return (
-      <Link to={ this.props.toLink } className={ this.btnClasses() }>
+      <section id={ this.props.idName } className={ this.sectionClasses() }>
         { this.props.children }
-      </Link>
+      </section>
     );
   }
 }
 
-export default Button
+export default Section
