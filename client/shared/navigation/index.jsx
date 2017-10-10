@@ -47,12 +47,12 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className={ this.menuClasses() } onClick={ this.toggleMenu }>
+      <nav className={ this.menuClasses() } onClick={ this.toggleMenu }>
         <a href='#' className='nav-link'>
           <span className='nav-link-icon' />
         </a>
         { this.menuList() }
-      </div>
+      </nav>
     )
   }
 

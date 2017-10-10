@@ -3,12 +3,11 @@ import React from 'react';
 import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
 
-class Projects extends React.Component {
-  render
+class Process extends React.Component {
   render() {
     return (
-      <Section idName='projects'>
-        <ContentBlock title="a few things i've done">
+      <Section idName='process'>
+        <ContentBlock title='how i work'>
           TBD
         </ContentBlock>
       </Section>
@@ -16,4 +15,4 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects
+export default Process

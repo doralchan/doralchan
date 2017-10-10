@@ -4,7 +4,6 @@ import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
 
 class About extends React.Component {
-  render
   render() {
     return (
       <Section idName='about'>

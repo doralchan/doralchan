@@ -1,16 +1,12 @@
 @import '../../stylesheets/variables.scss';
 
-// Navigation Wrapper
+// Navigation Style
 
 .nav {
-  @media (min-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    right: 40px;
-    top: 40px;
-  }
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px 30px;
 }
 
 // Navigation Icon
@@ -20,8 +16,6 @@
   padding-top: 15px;
   padding-bottom: 15px;
   position: absolute;
-  top: 40px;
-  right: 40px;
   width: 30px;
   z-index: 4;
 
@@ -117,7 +111,7 @@
     left: auto;
     top: auto;
     text-align: left;
-    right: 60px;
+    right: 100px;
     padding: 0;
   }
 
@@ -135,7 +129,7 @@
   padding: 5px 10px;
 
   &:hover {
-    color: $secondary-default;
+    color: darken($secondary-default, 5%);
   }
 
   @media (min-width: 768px) {
@@ -144,7 +138,6 @@
 
     &:hover {
       transition: all 50ms ease-in-out;
-      color: darken($font-color, 5%);
     }
 
   }
