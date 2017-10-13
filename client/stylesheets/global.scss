@@ -16,57 +16,57 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 
 h1 {
-  font-size: 3.157em;
+  font-size: 2.986em;
   @media (min-width: 992px) {
-    font-size: 4.209em;
+    font-size: 3.583em;
   }
   @media (min-width: 1200px) {
-    font-size: 4.4em;
+    font-size: 4.3em;
   }
 }
 
 h2 {
-  font-size: 2.369em;
+  font-size: 2.074em;
   @media (min-width: 992px) {
-    font-size: 3.157em;
+    font-size: 2.488em;
   }
   @media (min-width: 1200px) {
-    font-size: 4.209em;
+    font-size: 2.986em;
   }
 }
 
 h3 {
-  font-size: 1.777em;
+  font-size: 1.728em;
   @media (min-width: 992px) {
-    font-size: 2.369em;
+    font-size: 2.074em;
   }
   @media (min-width: 1200px) {
-    font-size: 3.157em;
+    font-size: 2.488em;
   }
 }
 
 h4 {
-  font-size: 1.333em;
+  font-size: 1.44em;
   @media (min-width: 992px) {
-    font-size: 1.777em;
+    font-size: 1.728em;
   }
   @media (min-width: 1200px) {
-    font-size: 2.369em;
+    font-size: 2.074em;
   }
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.2em;
   @media (min-width: 992px) {
-    font-size: 1.155em;
+    font-size: 1.44em;
   }
   @media (min-width: 1200px) {
-    font-size: 1.333em;
+    font-size: 1.728em;
   }
 }
 

@@ -7,8 +7,9 @@ import './styles.scss';
 class ContentBlock extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    className: PropTypes.string,
-    title: PropTypes.string
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    className: PropTypes.string
   };
 
   contentBlockClasses() {
@@ -21,9 +22,12 @@ class ContentBlock extends React.Component {
   render() {
     return (
       <div className={ this.contentBlockClasses() }>
-        <h4 className='content-block-title'>
+        <h5 className='content-block-title'>
           { this.props.title }
-        </h4>
+        </h5>
+        <div className='content-block-subtitle'>
+          { this.props.subtitle }
+        </div>
         <div className='content-block-description'>
           { this.props.children }
         </div>
