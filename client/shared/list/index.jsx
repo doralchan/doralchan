@@ -61,7 +61,7 @@ List.Item = class List extends React.Component {
   render() {
     return (
       <li className={ this.listItemClasses() }>
-        { this.renderDots() }
+        {/* { this.renderDots() } */}
         { this.props.children }
       </li>
     )

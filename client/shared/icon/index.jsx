@@ -7,12 +7,18 @@ import './styles.scss';
 class Icon extends React.Component {
   static propTypes = {
     imageLink: PropTypes.string.isRequired,
+    size: PropTypes.oneOf(['large', 'small']),
     className: PropTypes.string
+  };
+
+  static defaultProps = {
+    size: 'large'
   };
 
   renderIconClasses() {
     return classNames(
       'icon',
+      `icon-${ this.props.size }`,
       this.props.className
     )
   }

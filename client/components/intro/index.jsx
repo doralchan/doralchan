@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import Section from '../../shared/section/index.jsx';
 import Button from '../../shared/button/index.jsx';
 
+import './styles.scss';
+
 class NavLink extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
@@ -13,10 +15,10 @@ class NavLink extends React.Component {
 
   render() {
     return (
-      <a href={ this.props.sectionLink } className={ this.props.className }>
-        <h1>{ this.props.children }</h1>
+      <a href={ this.props.sectionLink } className='intro-nav-link'>
+        { this.props.children }
       </a>
-    )
+    );
   }
 }
 
@@ -24,7 +26,7 @@ class Intro extends React.Component {
   renderContent() {
     return (
       <div className='intro-content'>
-        <h4 className='intro-content-subtitle'>dora chan</h4>
+        <h5 className='intro-content-subtitle'>dora chan</h5>
         <h1 className='intro-content-title'>designer & developer</h1>
         <div className='intro-content-grid' />
       </div>

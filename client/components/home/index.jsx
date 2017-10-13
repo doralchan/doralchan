@@ -10,7 +10,7 @@ import Process from '../process/index.jsx';
 import Projects from '../projects/index.jsx';
 import Contact from '../contact/index.jsx';
 
-import './styles.scss'
+import './styles.scss';
 
 class Home extends React.Component {
 
