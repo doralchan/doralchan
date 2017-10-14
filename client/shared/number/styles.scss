@@ -1,0 +1,21 @@
+@import '../../stylesheets/variables.scss';
+
+// Number Style
+
+
+.id-number {
+  color: $light-default;
+  font-size: 10em;
+  font-weight: 800;
+  line-height: 0.7em;
+  z-index: -1;
+
+  @media (min-width: 992px) {
+    font-size: 14em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 18em;
+  }
+
+
+}

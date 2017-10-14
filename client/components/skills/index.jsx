@@ -15,14 +15,14 @@ import './styles.scss';
 class Skills extends React.Component {
   renderUX () {
     return (
-      <div>
-        <Card>
+      <div className='skills-card'>
+        <Card className='skills-card-area'>
           <Icon imageLink={ IconCircle } />
           <ContentBlock title='user experience'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List>
+        <List className='skills-card-area'>
           <List.Item>
             <Icon imageLink={ IconCircle } size='small' /> User Research
           </List.Item>
@@ -42,14 +42,14 @@ class Skills extends React.Component {
 
   renderFrontEnd () {
     return (
-      <div>
-        <Card>
+      <div className='skills-card'>
+        <Card className='skills-card-area'>
           <Icon imageLink={ IconTriangle } />
           <ContentBlock title='front-end'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List>
+        <List className='skills-card-area'>
           <List.Item>
             <Icon imageLink={ IconTriangle } size='small' /> HTML
           </List.Item>
@@ -66,14 +66,14 @@ class Skills extends React.Component {
 
   renderSystems () {
     return (
-      <div>
-        <Card>
+      <div className='skills-card'>
+        <Card className='skills-card-area'>
           <Icon imageLink={ IconSquare } />
           <ContentBlock title='systems'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List>
+        <List className='skills-card-area'>
           <List.Item>
             <Icon imageLink={ IconSquare } size='small' /> Identifying Patterns
           </List.Item>
@@ -93,7 +93,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <Section idName='skills' idNumber={ 2 }>
+      <Section idName='skills'>
         { this.renderUX() }
         { this.renderFrontEnd() }
         { this.renderSystems() }

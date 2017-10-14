@@ -2,8 +2,24 @@
 
 // About Style
 
-.section-about {
-  
+.section-content-about {
+  display: flex;
+}
+
+.section-content-number {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.section-content-area {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.content-area-experience {
+  display: flex;
 }
 
 .blob-group {
@@ -13,17 +29,18 @@
 
 .blob {
   border: 4px solid $secondary-default;
-  border-radius: 30px;
-  height: 30px;
-  margin-right: 15px;
+  border-radius: 25px;
+  height: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
   @media (min-width: 992px) {
-    border-radius: 35px;
-    height: 35px
+    border-radius: 30px;
+    height: 30px
   }
   @media (min-width: 1200px) {
-    border-radius: 40px;
-    height: 40px;
+    border-radius: 35px;
+    height: 35px;
   }
 }
 

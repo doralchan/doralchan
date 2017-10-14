@@ -7,6 +7,11 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 20px 30px;
+
+  @media (min-width: 768px) {
+    padding: 50px 60px;
+  }
+
 }
 
 // Navigation Icon

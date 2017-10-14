@@ -69,7 +69,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <Section idName='projects' idNumber={ 4 }>
+      <Section idName='projects'>
         <ContentBlock title="a few things i've done" />
         { this.renderGusto() }
         { this.renderAuditFile() }

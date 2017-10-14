@@ -26,7 +26,7 @@ class QuoteBlock extends React.Component {
 class Process extends React.Component {
   render() {
     return (
-      <Section idName='process' idNumber={ 3 }>
+      <Section idName='process'>
         <ContentBlock title='how i work'>
           This is how I work.
         </ContentBlock>

@@ -9,21 +9,24 @@
 }
 
 .section-content {
-  padding: 2em;
+  margin: 1em;
   width: 100%;
 
-  @media (min-width: 992px) {
-    padding: 4em;
+  @media (min-width: 576px) {
+    margin: 2em;
   }
+
+  @media (min-width: 768px) {
+    margin: 3em;
+  }
+
+  @media (min-width: 992px) {
+    margin: 4em;
+  }
+
   @media (min-width: 1200px) {
     max-width: 1200px;
   }
 
-}
 
-.section-number {
-  position: absolute;
-  color: $light-default;
-  font-size: 15em;
-  z-index: -1;
 }
