@@ -6,6 +6,11 @@
 
 }
 
+.section-content-intro {
+  display: flex;
+  justify-content: center;
+}
+
 .intro-content-subtitle {
   color: $secondary-default;
 }

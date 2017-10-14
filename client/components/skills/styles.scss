@@ -3,8 +3,23 @@
 // Skills Style
 
 .section-content-skills {
+
+}
+
+
+.skills-number {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+.skills-area {
   display: flex;
   flex-direction: column;
+  padding-top: 8em;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -12,7 +27,7 @@
 
 }
 
-.skills-card {
+.skill {
   flex-grow: 1;
   flex-basis: 0;
 
@@ -22,6 +37,6 @@
 
 }
 
-.skills-card-area {
+.skill-block {
   padding: 30px;
 }

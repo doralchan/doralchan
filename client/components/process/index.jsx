@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
+import Number from '../../shared/number/index.jsx';
 
 import './styles.scss';
 
@@ -27,11 +28,18 @@ class Process extends React.Component {
   render() {
     return (
       <Section idName='process'>
-        <ContentBlock title='how i work'>
-          This is how I work.
-        </ContentBlock>
-        <QuoteBlock>TBD quote</QuoteBlock>
-        <QuoteBlock>TBD quote</QuoteBlock>
+        <div className='process-number'>
+          <Number idNumber={ 3 } />
+        </div>
+        <div className='process-area'>
+          <ContentBlock title='how i work'>
+            This is how I work.
+          </ContentBlock>
+          <div className='quotes'>
+            <QuoteBlock>TBD quote</QuoteBlock>
+            <QuoteBlock>TBD quote</QuoteBlock>
+          </div>
+        </div>
       </Section>
     );
   }

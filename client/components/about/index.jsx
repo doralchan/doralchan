@@ -21,20 +21,20 @@ class About extends React.Component {
   render() {
     return (
       <Section idName='about'>
-        <div className='section-content-number'>
+        <div className='about-number'>
           <Number idNumber={ 1 } />
         </div>
-        <div className='section-content-area'>
+        <div className='about-area'>
           <ContentBlock title='a little bout me' className='content-area-description'>
-            I'm a product designer with an interest in solving complex problems.
+            I'm a product designer with an interest in diving into complex problems.
             { this.renderBlobs() }
           </ContentBlock>
-          <div className='content-area-experience'>
-            <ContentBlock subtitle='~8 years of education'>
-              I have a bachelors degree of arts from the University of California, Berkeley and
+          <div className='experience'>
+            <ContentBlock subtitle='~8 years of education' className='experience-block'>
+              I have a bachelors of arts from the University of California, Berkeley and
               a masters from the University of Michigan, Ann Arbor.
             </ContentBlock>
-            <ContentBlock subtitle='~15 years of design experience'>
+            <ContentBlock subtitle='~15 years of design experience' className='experience-block'>
               I've had the fortunate luck of having experienced different fields of design,
               ranging everywhere from interactive design to city planning.
             </ContentBlock>

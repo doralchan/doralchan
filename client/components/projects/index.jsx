@@ -3,6 +3,7 @@ import React from 'react';
 import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
 import PanelGroup from '../../shared/panel_group/index.jsx';
+import Number from '../../shared/number/index.jsx';
 
 import './styles.scss';
 

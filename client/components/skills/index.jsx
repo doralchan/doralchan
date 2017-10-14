@@ -5,6 +5,7 @@ import ContentBlock from '../../shared/content_block/index.jsx';
 import Card from '../../shared/card/index.jsx';
 import List from '../../shared/list/index.jsx';
 import Icon from '../../shared/icon/index.jsx';
+import Number from '../../shared/number/index.jsx';
 
 import IconCircle from '../../assets/icons/icon-circle.svg';
 import IconTriangle from '../../assets/icons/icon-triangle.svg';
@@ -15,14 +16,14 @@ import './styles.scss';
 class Skills extends React.Component {
   renderUX () {
     return (
-      <div className='skills-card'>
-        <Card className='skills-card-area'>
+      <div className='skill'>
+        <Card className='skill-block'>
           <Icon imageLink={ IconCircle } size='large' />
           <ContentBlock title='user experience'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List className='skills-card-area'>
+        <List className='skill-block'>
           <List.Item>
             <Icon imageLink={ IconCircle } /> User Research
           </List.Item>
@@ -42,14 +43,14 @@ class Skills extends React.Component {
 
   renderFrontEnd () {
     return (
-      <div className='skills-card'>
-        <Card className='skills-card-area'>
+      <div className='skill'>
+        <Card className='skill-block'>
           <Icon imageLink={ IconTriangle } size='large' />
           <ContentBlock title='front-end'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List className='skills-card-area'>
+        <List className='skill-block'>
           <List.Item>
             <Icon imageLink={ IconTriangle } /> HTML
           </List.Item>
@@ -66,14 +67,14 @@ class Skills extends React.Component {
 
   renderSystems () {
     return (
-      <div className='skills-card'>
-        <Card className='skills-card-area'>
+      <div className='skill'>
+        <Card className='skill-block'>
           <Icon imageLink={ IconSquare } size='large'/>
           <ContentBlock title='systems'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List className='skills-card-area'>
+        <List className='skill-block'>
           <List.Item>
             <Icon imageLink={ IconSquare } /> Identifying Patterns
           </List.Item>
@@ -94,9 +95,14 @@ class Skills extends React.Component {
   render() {
     return (
       <Section idName='skills'>
-        { this.renderUX() }
-        { this.renderFrontEnd() }
-        { this.renderSystems() }
+        <div className='skills-number'>
+          <Number idNumber={ 2 } />
+        </div>
+        <div className='skills-area'>
+          { this.renderUX() }
+          { this.renderFrontEnd() }
+          { this.renderSystems() }
+        </div>
       </Section>
     );
   }
