@@ -7,6 +7,11 @@ import './styles.scss';
 class Section extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
+    position: PropTypes.oneOf([
+      'top-left', 'top-center', 'top-right',
+      'center-left', 'center-center', 'center-right',
+      'bottom-left', 'bottom-center', 'bottom-right'
+    ]),
     className: PropTypes.string,
     idName: PropTypes.string,
     idNumber: PropTypes.number
@@ -17,6 +22,13 @@ class Section extends React.Component {
       'section',
       `section-${ this.props.idName }`,
       this.props.className
+    );
+  }
+
+  numberClasses() {
+    return classNames(
+      'section-number',
+      `section-number-${ this.props.position }`,
     );
   }
 

@@ -9,8 +9,16 @@
 }
 
 .section-content {
-  max-width: 1200px;
+  padding: 2em;
   width: 100%;
+
+  @media (min-width: 992px) {
+    padding: 4em;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
 }
 
 .section-number {
