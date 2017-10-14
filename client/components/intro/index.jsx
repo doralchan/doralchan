@@ -16,7 +16,7 @@ class NavLink extends React.Component {
   render() {
     return (
       <a href={ this.props.sectionLink } className='intro-nav-link'>
-        { this.props.children }
+        <h1>{ this.props.children }</h1>
       </a>
     );
   }
@@ -27,7 +27,7 @@ class Intro extends React.Component {
     return (
       <div className='intro-content'>
         <h5 className='intro-content-subtitle'>dora chan</h5>
-        <h1 className='intro-content-title'>designer & developer</h1>
+        <h2 className='intro-content-title'>designer & developer</h2>
         <div className='intro-content-grid' />
       </div>
     );

@@ -3,13 +3,17 @@
 // Panel Style
 
 .panel {
-
+  display: block;
+  text-decoration: none;
 }
 
 .panel-name {
   background-color: $secondary-default;
+  color: $white;
+  font-weight: 800;
 }
 
 .panel-item {
   background-color: $light-default;
+  color: $font-color;
 }

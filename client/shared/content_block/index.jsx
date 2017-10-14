@@ -6,7 +6,7 @@ import './styles.scss';
 
 class ContentBlock extends React.Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node,
     title: PropTypes.string,
     subtitle: PropTypes.string,
     className: PropTypes.string
@@ -19,15 +19,28 @@ class ContentBlock extends React.Component {
     )
   };
 
+  renderTitle() {
+    return (
+      <h4 className='content-block-title'>
+        { this.props.title }
+      </h4>
+    );
+  }
+
+  renderSubtitle() {
+    return (
+      <div className='content-block-subtitle'>
+        { this.props.subtitle }
+      </div>
+    )
+  }
+
   render() {
+    const headerBlock = this.props.title ? this.renderTitle() : this.renderSubtitle();
+
     return (
       <div className={ this.contentBlockClasses() }>
-        <h5 className='content-block-title'>
-          { this.props.title }
-        </h5>
-        <div className='content-block-subtitle'>
-          { this.props.subtitle }
-        </div>
+        { headerBlock }
         <div className='content-block-description'>
           { this.props.children }
         </div>

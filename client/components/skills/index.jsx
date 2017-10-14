@@ -51,7 +51,7 @@ class Skills extends React.Component {
         </Card>
         <List>
           <List.Item>
-            <Icon imageLink={ IconTriangle } size='small' /> HTML / HAML / HRB
+            <Icon imageLink={ IconTriangle } size='small' /> HTML
           </List.Item>
           <List.Item>
             <Icon imageLink={ IconTriangle } size='small' /> CSS / SCSS
@@ -69,22 +69,22 @@ class Skills extends React.Component {
       <div>
         <Card>
           <Icon imageLink={ IconSquare } />
-          <ContentBlock title='front-end'>
+          <ContentBlock title='systems'>
             Description Insert
           </ContentBlock>
         </Card>
         <List>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> User Research
+            <Icon imageLink={ IconSquare } size='small' /> Identifying Patterns
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> User Research
+            <Icon imageLink={ IconSquare } size='small' /> Abstracting
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> User Research
+            <Icon imageLink={ IconSquare } size='small' /> Modeling
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> User Research
+            <Icon imageLink={ IconSquare } size='small' /> Documentation
           </List.Item>
         </List>
       </div>

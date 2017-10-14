@@ -31,6 +31,7 @@ PanelGroup.Item = class PanelGroup extends React.Component {
     children: PropTypes.node,
     panelType: PropTypes.oneOf(['name','item']),
     panelName: PropTypes.string,
+    panelLink: PropTypes.string,
     className: PropTypes.string
   };
 
@@ -45,10 +46,14 @@ PanelGroup.Item = class PanelGroup extends React.Component {
   }
 
   render() {
+    const panelName = <h5>{ this.props.panelName }</h5>
+
     return (
-      <div className={ this.panelItemClasses() }>
-        { this.props.panelName }
-        { this.props.children }
+      <div>
+        <a href={ this.props.panelLink } className={ this.panelItemClasses() }>
+          { panelName }
+          { this.props.children }
+        </a>
       </div>
     );
   }

@@ -2,10 +2,16 @@
 
 // Intro Style
 
+.intro-content-subtitle {
+  color: $secondary-default;
+}
+
 .intro-nav-numbers {
 
 }
 
 .intro-nav-link {
+  color: $secondary-default;
+  display: block;
   text-decoration: none;
 }

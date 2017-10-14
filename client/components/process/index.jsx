@@ -14,7 +14,7 @@ class QuoteBlock extends React.Component {
   render() {
     return (
       <div className='quote-block'>
-        <div className='quote-block-header' />
+        <h1 className='quote-block-header' />
         <div className='quote-block-description'>
           { this.props.children }
         </div>
@@ -28,10 +28,10 @@ class Process extends React.Component {
     return (
       <Section idName='process'>
         <ContentBlock title='how i work'>
-          TBD
+          This is how I work.
         </ContentBlock>
-        <QuoteBlock>TBD</QuoteBlock>
-        <QuoteBlock>TBD</QuoteBlock>
+        <QuoteBlock>TBD quote</QuoteBlock>
+        <QuoteBlock>TBD quote</QuoteBlock>
       </Section>
     );
   }
