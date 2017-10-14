@@ -4,12 +4,22 @@
 
 .section-content-skills {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
 }
 
 .skills-card {
   flex-grow: 1;
   flex-basis: 0;
-  margin: 15px;
+
+  @media (min-width: 768px) {
+    margin: 15px;
+  }
+
 }
 
 .skills-card-area {

@@ -4,6 +4,12 @@
 
 .section-content-about {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
 }
 
 .section-content-number {
@@ -20,6 +26,21 @@
 
 .content-area-experience {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+}
+
+.content-block {
+  padding-bottom: 15px;
+
+  @media (min-width: 768px) {
+    padding-right: 15px;
+  }
+
 }
 
 .blob-group {

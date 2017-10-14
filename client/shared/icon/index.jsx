@@ -12,7 +12,7 @@ class Icon extends React.Component {
   };
 
   static defaultProps = {
-    size: 'large'
+    size: 'small'
   };
 
   renderIconClasses() {

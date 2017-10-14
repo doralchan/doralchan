@@ -17,23 +17,23 @@ class Skills extends React.Component {
     return (
       <div className='skills-card'>
         <Card className='skills-card-area'>
-          <Icon imageLink={ IconCircle } />
+          <Icon imageLink={ IconCircle } size='large' />
           <ContentBlock title='user experience'>
             Description Insert
           </ContentBlock>
         </Card>
         <List className='skills-card-area'>
           <List.Item>
-            <Icon imageLink={ IconCircle } size='small' /> User Research
+            <Icon imageLink={ IconCircle } /> User Research
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconCircle } size='small' /> User Testing
+            <Icon imageLink={ IconCircle } /> User Testing
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconCircle } size='small' /> Wireframing
+            <Icon imageLink={ IconCircle } /> Wireframing
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconCircle } size='small' /> Interaction
+            <Icon imageLink={ IconCircle } /> Interaction
           </List.Item>
         </List>
       </div>
@@ -44,20 +44,20 @@ class Skills extends React.Component {
     return (
       <div className='skills-card'>
         <Card className='skills-card-area'>
-          <Icon imageLink={ IconTriangle } />
+          <Icon imageLink={ IconTriangle } size='large' />
           <ContentBlock title='front-end'>
             Description Insert
           </ContentBlock>
         </Card>
         <List className='skills-card-area'>
           <List.Item>
-            <Icon imageLink={ IconTriangle } size='small' /> HTML
+            <Icon imageLink={ IconTriangle } /> HTML
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconTriangle } size='small' /> CSS / SCSS
+            <Icon imageLink={ IconTriangle } /> CSS / SCSS
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconTriangle } size='small' /> JSX / CJSX
+            <Icon imageLink={ IconTriangle } /> JSX / CJSX
           </List.Item>
         </List>
       </div>
@@ -68,23 +68,23 @@ class Skills extends React.Component {
     return (
       <div className='skills-card'>
         <Card className='skills-card-area'>
-          <Icon imageLink={ IconSquare } />
+          <Icon imageLink={ IconSquare } size='large'/>
           <ContentBlock title='systems'>
             Description Insert
           </ContentBlock>
         </Card>
         <List className='skills-card-area'>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> Identifying Patterns
+            <Icon imageLink={ IconSquare } /> Identifying Patterns
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> Abstracting
+            <Icon imageLink={ IconSquare } /> Abstracting
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> Modeling
+            <Icon imageLink={ IconSquare } /> Modeling
           </List.Item>
           <List.Item>
-            <Icon imageLink={ IconSquare } size='small' /> Documentation
+            <Icon imageLink={ IconSquare } /> Documentation
           </List.Item>
         </List>
       </div>
