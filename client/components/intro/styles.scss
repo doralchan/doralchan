@@ -15,33 +15,44 @@
   @media (min-width: 768px) {
     flex-direction: row;
     max-width: 700px;
+    min-height: 40vh;
   }
 
   @media (min-width: 992px) {
-    padding-top: 0;
     max-width: 850px;
+    min-height: 45vh;
   }
 
   @media (min-width: 1200px) {
     max-width: 1000px;
+    min-height: 50vh;
   }
 
 }
 
 .intro-content {
-  padding-bottom: 20px;
+  position: relative;
   width: 100%;
 
-  @media (min-width: 992px) {
-    border-left: 6px solid $secondary-default;
+  @media (min-width: 768px) {
     padding-left: 50px;
-    padding-bottom: 0;
+    margin-top: 30px;
+
+    &:before {
+      position: absolute;
+      display: block;
+      background-color: $secondary-default;
+      content: '';
+      width: 5px;
+      height: 75%;
+      left: 0;
+    }
+
   }
 
   @media (min-width: 1200px) {
     margin-top: 50px;
   }
-
 
 }
 
@@ -57,6 +68,7 @@
       opacity: 0;
       overflow: hidden;
       position: absolute;
+      bottom: 0;
 
       &:nth-child(2) {
         animation-delay: 4s;

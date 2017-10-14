@@ -28,8 +28,8 @@ class Intro extends React.Component {
     return (
       <div className='intro-content-title'>
         <h1 className='content-title'>
-          <div className='title'>user experience</div>
-          <div className='title'>user interface</div>
+          <div className='title'>experience</div>
+          <div className='title'>interface</div>
           <div className='title'>front-end</div>
           <div className='title'>systems</div>
         </h1>
