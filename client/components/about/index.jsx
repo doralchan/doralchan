@@ -19,7 +19,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <Section idName='about'>
+      <Section idName='about' idNumber={ 1 }>
         <ContentBlock title='a little bout me'>
           I'm a product designer with an interest in complex problems.
         </ContentBlock>

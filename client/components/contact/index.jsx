@@ -8,7 +8,7 @@ import './styles.scss';
 class Contact extends React.Component {
   render() {
     return (
-      <Section idName='contact'>
+      <Section idName='contact' idNumber={ 5 }>
         <ContentBlock title='contact me'>
           TBD
         </ContentBlock>

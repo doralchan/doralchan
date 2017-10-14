@@ -93,7 +93,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <Section idName='skills'>
+      <Section idName='skills' idNumber={ 2 }>
         { this.renderUX() }
         { this.renderFrontEnd() }
         { this.renderSystems() }

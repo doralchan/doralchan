@@ -8,7 +8,8 @@ class Section extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
-    idName: PropTypes.string
+    idName: PropTypes.string,
+    idNumber: PropTypes.number
   };
 
   sectionClasses() {
@@ -22,7 +23,8 @@ class Section extends React.Component {
   render() {
     return (
       <section id={ this.props.idName } className={ this.sectionClasses() }>
-        { this.props.children }
+        <div className='section-content'>{ this.props.children }</div>
+        <h1 className='section-number'>{ this.props.idNumber }</h1>
       </section>
     );
   }

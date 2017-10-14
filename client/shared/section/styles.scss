@@ -4,5 +4,18 @@
 
 .section {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.section-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.section-number {
+  position: absolute;
+  color: $light-default;
+  font-size: 15em;
+  z-index: -1;
 }
