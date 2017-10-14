@@ -4,6 +4,7 @@ import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
 import Number from '../../shared/number/index.jsx';
 
+import '../../stylesheets/helpers.scss';
 import './styles.scss';
 
 class About extends React.Component {
