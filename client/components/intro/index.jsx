@@ -43,7 +43,7 @@ class Intro extends React.Component {
         <h5 className='intro-content-subtitle'>dora chan</h5>
         { this.renderTitle() }
         <h1 className='intr-content-title'>designer</h1>
-        <div className='intro-content-grid' />
+        {/* <div className='intro-content-grid' /> */}
       </div>
     );
   }

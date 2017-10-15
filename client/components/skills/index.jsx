@@ -17,13 +17,15 @@ class Skills extends React.Component {
   renderUX () {
     return (
       <div className='skill'>
-        <Card className='skill-block'>
-          <Icon imageLink={ IconCircle } size='large' />
-          <ContentBlock title='user experience'>
-            Description Insert
+        <Card>
+          <div className='content-icon'>
+            <Icon imageLink={ IconCircle } size='large' />
+          </div>
+          <ContentBlock title='ux & ui'>
+            User experiences and interactions are
           </ContentBlock>
         </Card>
-        <List className='skill-block'>
+        <List>
           <List.Item>
             <Icon imageLink={ IconCircle } /> User Research
           </List.Item>
@@ -44,13 +46,18 @@ class Skills extends React.Component {
   renderFrontEnd () {
     return (
       <div className='skill'>
-        <Card className='skill-block'>
-          <Icon imageLink={ IconTriangle } size='large' />
+        <Card>
+          <div className='content-icon'>
+            <Icon imageLink={ IconTriangle } size='large' />
+          </div>
           <ContentBlock title='front-end'>
-            Description Insert
+            Understanding the fundamentals of front-end development has helped
+            me get sense of of how things can come together. This skill has
+            added another dimension of possibility in product design, enabling
+            me to build rapid prototypes for testing.
           </ContentBlock>
         </Card>
-        <List className='skill-block'>
+        <List>
           <List.Item>
             <Icon imageLink={ IconTriangle } /> HTML
           </List.Item>
@@ -68,13 +75,15 @@ class Skills extends React.Component {
   renderSystems () {
     return (
       <div className='skill'>
-        <Card className='skill-block'>
-          <Icon imageLink={ IconSquare } size='large'/>
+        <Card>
+          <div className='content-icon'>
+            <Icon imageLink={ IconSquare } size='large' />
+          </div>
           <ContentBlock title='systems'>
             Description Insert
           </ContentBlock>
         </Card>
-        <List className='skill-block'>
+        <List>
           <List.Item>
             <Icon imageLink={ IconSquare } /> Identifying Patterns
           </List.Item>
@@ -98,6 +107,7 @@ class Skills extends React.Component {
         <div className='skills-number'>
           <Number idNumber={ 2 } />
         </div>
+        <div className='skills-background' />
         <div className='skills-area'>
           { this.renderUX() }
           { this.renderFrontEnd() }
