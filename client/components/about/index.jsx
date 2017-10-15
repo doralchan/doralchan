@@ -27,7 +27,7 @@ class About extends React.Component {
         </div>
         <div className='about-area'>
           <ContentBlock title='a little bout me' className='content-area-description'>
-            I'm a product designer with an interest in diving into complex problems.
+            Why, hello there. I'm Dora. I'm a bay area native in San Francisco. 
             { this.renderBlobs() }
           </ContentBlock>
           <div className='experience'>

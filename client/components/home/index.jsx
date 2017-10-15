@@ -7,6 +7,7 @@ import Intro from '../intro/index.jsx';
 import About from '../about/index.jsx';
 import Skills from '../skills/index.jsx';
 import Process from '../process/index.jsx';
+import Quotes from '../quotes/index.jsx';
 import Projects from '../projects/index.jsx';
 import Contact from '../contact/index.jsx';
 
@@ -22,6 +23,7 @@ class Home extends React.Component {
         <About />
         <Skills />
         <Process />
+        <Quotes />
         <Projects />
         <Contact />
       </Container>
