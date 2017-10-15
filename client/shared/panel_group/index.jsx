@@ -51,7 +51,7 @@ PanelGroup.Item = class PanelGroup extends React.Component {
     return (
       <div className={ this.panelItemClasses() }>
         <a href={ this.props.panelLink } className='panel-content'>
-          { panelName }
+          { this.props.panelName ? panelName : null }
           { this.props.children }
         </a>
       </div>

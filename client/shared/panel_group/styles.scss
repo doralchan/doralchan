@@ -4,9 +4,18 @@
 
 .panel-group {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 20px;
-  margin-bottom: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  margin-bottom: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-bottom: 40px;
+  }
+
 }
 
 .panel {
@@ -18,25 +27,31 @@
     padding-bottom: 100%;
   }
 
+  &:hover {
+    border: 4px solid $secondary-default;
+    z-index: 1;
+  }
+
+  &.panel-name {
+    background-color: $secondary-default;
+    color: $white;
+    font-weight: 800;
+  }
+
+  &.panel-item {
+    background-color: $light-default;
+    color: $font-color;
+  }
+
 }
 
 .panel-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   position: absolute;
+  text-decoration: none;
+  color: inherit;
   width: 100%;
   height: 100%;
-}
-
-.panel-name {
-  background-color: $secondary-default;
-  color: $white;
-  font-weight: 800;
-}
-
-.panel-item {
-  background-color: $light-default;
-  color: $font-color;
 }

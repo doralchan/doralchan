@@ -13,16 +13,31 @@ class Projects extends React.Component {
       <PanelGroup>
         <PanelGroup.Item panelName='gusto' />
         <PanelGroup.Item panelLink='open'>
-          Project Icon 1
+          Design Guide
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 2
+          Onboarding
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 3
+          Payroll Preview
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 4
+          Chat
+        </PanelGroup.Item>
+        <PanelGroup.Item panelLink='open'>
+          Garnishments
+        </PanelGroup.Item>
+        <PanelGroup.Item panelLink='open'>
+          Previous Payrolls
+        </PanelGroup.Item>
+        <PanelGroup.Item panelLink='open'>
+          Dashboard
+        </PanelGroup.Item>
+        <PanelGroup.Item panelLink='open'>
+          TBD
+        </PanelGroup.Item>
+        <PanelGroup.Item panelLink='open'>
+          TBD
         </PanelGroup.Item>
       </PanelGroup>
     );
@@ -33,16 +48,16 @@ class Projects extends React.Component {
       <PanelGroup>
         <PanelGroup.Item panelName='auditfile' />
         <PanelGroup.Item panelLink='open'>
-          Project Icon 1
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 2
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 3
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 4
+          TBD
         </PanelGroup.Item>
       </PanelGroup>
     );
@@ -53,16 +68,16 @@ class Projects extends React.Component {
       <PanelGroup>
         <PanelGroup.Item panelName='freelance' />
         <PanelGroup.Item panelLink='open'>
-          Project Icon 1
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 2
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 3
+          TBD
         </PanelGroup.Item>
         <PanelGroup.Item panelLink='open'>
-          Project Icon 4
+          TBD
         </PanelGroup.Item>
       </PanelGroup>
     );
@@ -72,8 +87,8 @@ class Projects extends React.Component {
     return (
       <Section idName='projects'>
         <div className='projects-area'>
-          <Number idNumber={ 4 } />
-          <ContentBlock title="a few things i've done" />
+          <Number idNumber={ 4 } className='projects-area-number' />
+          <ContentBlock title="a few things i've done" className='projects-area-block'/>
         </div>
         <div className='panel-wrapper'>
           { this.renderGusto() }
