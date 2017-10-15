@@ -11,9 +11,9 @@ class Process extends React.Component {
     return (
       <Section idName='process'>
         <ContentBlock title='how i work' className='process-area'>
-          Context is really key. Understanding the goals and underlying
-          motivations are key to any project. To do so, questions are
-          critical. 
+          Context is really critical. Understanding the goals and underlying
+          motivations are key to any project. To do so, questions must be front
+          loaded.
         </ContentBlock>
         <div className='process-number'>
           <Number idNumber={ 3 } />
