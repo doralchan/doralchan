@@ -71,10 +71,15 @@ class Projects extends React.Component {
   render() {
     return (
       <Section idName='projects'>
-        <ContentBlock title="a few things i've done" />
-        { this.renderGusto() }
-        { this.renderAuditFile() }
-        { this.renderFreelance() }
+        <div className='projects-area'>
+          <Number idNumber={ 4 } />
+          <ContentBlock title="a few things i've done" />
+        </div>
+        <div className='panel-wrapper'>
+          { this.renderGusto() }
+          { this.renderAuditFile() }
+          { this.renderFreelance() }
+        </div>
       </Section>
     );
   }

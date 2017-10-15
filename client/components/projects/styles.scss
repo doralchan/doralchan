@@ -5,3 +5,18 @@
 .section-projects {
 
 }
+
+.projects-area {
+  position: relative;
+  padding: 2em;
+  text-align: center;
+  overflow: hidden;
+
+  .content-block {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+  }
+
+}

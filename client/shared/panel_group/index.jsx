@@ -49,8 +49,8 @@ PanelGroup.Item = class PanelGroup extends React.Component {
     const panelName = <h5>{ this.props.panelName }</h5>
 
     return (
-      <div>
-        <a href={ this.props.panelLink } className={ this.panelItemClasses() }>
+      <div className={ this.panelItemClasses() }>
+        <a href={ this.props.panelLink } className='panel-content'>
           { panelName }
           { this.props.children }
         </a>

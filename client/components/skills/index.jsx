@@ -51,10 +51,10 @@ class Skills extends React.Component {
             <Icon imageLink={ IconTriangle } size='large' />
           </div>
           <ContentBlock title='front-end'>
-            Understanding the fundamentals of front-end development has helped
-            me get sense of of how things can come together. This skill has
-            added another dimension of possibility in product design, enabling
-            me to build rapid prototypes for testing.
+            Front-end development has helped me grow a strong sense of
+            how things can come together. This skill has added another
+            dimension of possibility in product design, enabling me to
+            build rapid prototypes for design techniques and user testing.
           </ContentBlock>
         </Card>
         <List>
