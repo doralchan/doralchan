@@ -1,5 +1,6 @@
 import React from 'react';
 import Panel from '../../shared/panel/index.jsx';
+import Carousel from '../../shared/carousel/index.jsx';
 
 import './styles.scss';
 
@@ -11,7 +12,13 @@ class Gusto extends React.Component {
           TBD
         </Panel>
         <Panel panelProject='design guide'>
-          TBD
+          <Carousel>
+            <div className='slide slide-1'>Slide 1</div>
+            <div className='slide slide-2'>Slide 2</div>
+            <div className='slide slide-3'>Slide 3</div>
+            <div className='slide slide-4'>Slide 4</div>
+            <div className='slide slide-5'>Slide 5</div>
+          </Carousel>
         </Panel>
         <Panel panelProject='onboarding'>
           TBD

@@ -1,0 +1,68 @@
+@import '../../stylesheets/variables.scss';
+
+// Carousel Style
+
+.carousel {
+  position: relative;
+  direction: ltr;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+
+  .carousel-slides {
+    transition: margin-left 300ms linear;
+
+    .carousel-slide {
+      display: inline-block;
+      position: relative;
+      vertical-align: top;
+    }
+
+  }
+
+  .carousel-nav {
+    .carousel-nav-arrow {
+      cursor: pointer;
+      display: block;
+      height: 100px;
+      margin-top: -50px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 50px;
+    }
+
+    .carousel-nav-prev {
+      left: 0;
+    }
+
+    .carousel-nav-next {
+      right: 0;
+    }
+  }
+
+  .carousel-pagination {
+    bottom: 20px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+
+    .carousel-page {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+      height: 10px;
+      margin: 0 5px;
+      transition: background-color 200ms linear;
+      vertical-align: middle;
+      width: 10px;
+    }
+
+    .carousel-page-active {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+  }
+}
