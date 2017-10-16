@@ -2,84 +2,71 @@ import React from 'react';
 
 import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
-import PanelGroup from '../../shared/panel_group/index.jsx';
+import Panel from '../../shared/panel/index.jsx';
 import Number from '../../shared/number/index.jsx';
+
+import IconTriangle from '../../assets/icons/icon-triangle.svg';
 
 import './styles.scss';
 
 class Projects extends React.Component {
   renderGusto() {
     return (
-      <PanelGroup>
-        <PanelGroup.Item panelName='gusto' />
-        <PanelGroup.Item panelLink='open'>
-          Design Guide
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Onboarding
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Payroll Preview
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Chat
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Garnishments
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Previous Payrolls
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
-          Dashboard
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+      <div className='panel-group'>
+        <Panel panelName='gusto' />
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='onboarding'>
           TBD
-        </PanelGroup.Item>
-      </PanelGroup>
+        </Panel>
+        <Panel panelProject='chat'>
+          TBD
+        </Panel>
+        <Panel panelProject='garnishments'>
+          TBD
+        </Panel>
+      </div>
     );
   }
 
   renderAuditFile() {
     return (
-      <PanelGroup>
-        <PanelGroup.Item panelName='auditfile' />
-        <PanelGroup.Item panelLink='open'>
+      <div className='panel-group'>
+        <Panel panelName='auditfile' />
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-      </PanelGroup>
+        </Panel>
+      </div>
     );
   }
 
   renderFreelance() {
     return (
-      <PanelGroup>
-        <PanelGroup.Item panelName='freelance' />
-        <PanelGroup.Item panelLink='open'>
+      <div className='panel-group'>
+        <Panel panelName='freelance' />
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-        <PanelGroup.Item panelLink='open'>
+        </Panel>
+        <Panel panelProject='design guide'>
           TBD
-        </PanelGroup.Item>
-      </PanelGroup>
+        </Panel>
+      </div>
     );
   }
 

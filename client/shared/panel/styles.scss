@@ -20,16 +20,12 @@
 
 .panel {
   position: relative;
+  display: flex;
 
   &:after {
     content: '';
     display: block;
     padding-bottom: 100%;
-  }
-
-  &:hover {
-    border: 4px solid $secondary-default;
-    z-index: 1;
   }
 
   &.panel-name {
@@ -40,18 +36,17 @@
 
   &.panel-item {
     background-color: $light-default;
-    color: $font-color;
+    cursor: pointer;
   }
 
 }
 
 .panel-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  text-decoration: none;
-  color: inherit;
   width: 100%;
   height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }

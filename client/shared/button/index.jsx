@@ -2,17 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { Link } from 'react-router';
-
 import './styles.scss';
 
 class Button extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
-    type: PropTypes.oneOf(['primary', 'secondary']),
-    toLink: PropTypes.string
+    type: PropTypes.oneOf(['primary', 'secondary'])
   };
+
+  static defaultProps = {
+    type: 'primary'
+  }
 
   btnClasses() {
     return classNames(
@@ -24,9 +25,9 @@ class Button extends React.Component {
 
   render() {
     return (
-      <Link to={ this.props.toLink } className={ this.btnClasses() }>
+      <button className={ this.btnClasses() }>
         { this.props.children }
-      </Link>
+      </button>
     );
   }
 }
