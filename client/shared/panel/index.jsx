@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import Modal from '../modal/index.jsx';
-import Button from '../button/index.jsx';
+import Icon from '../icon/index.jsx';
+
+import IconClose from '../../assets/icons/icon-close.svg';
 
 import './styles.scss';
 
@@ -52,6 +54,14 @@ class Panel extends React.Component {
     );
   }
 
+  renderClose() {
+    return (
+      <div className='modal-wrapper-close' onClick={this.closeModal}>
+        <Icon imageLink={ IconClose } size='large'/>
+      </div>
+    )
+  }
+
   render() {
     const panelName = <h5>{ this.props.panelName }</h5>
     const panelProject = <div>{ this.props.panelProject }</div>
@@ -63,8 +73,8 @@ class Panel extends React.Component {
           { this.props.panelProject ? panelProject : null }
         </div>
         <Modal isModalOpen={this.state.isModalOpen} closeModal={this.closeModal}>
+          { this.renderClose() }
           { this.props.children }
-          <div className='btn btn-primary' onClick={this.closeModal}>Close</div>
         </Modal>
       </div>
     );

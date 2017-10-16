@@ -5,71 +5,13 @@ import ContentBlock from '../../shared/content_block/index.jsx';
 import Panel from '../../shared/panel/index.jsx';
 import Number from '../../shared/number/index.jsx';
 
-import IconTriangle from '../../assets/icons/icon-triangle.svg';
+import Auditfile from './auditfile.jsx';
+import Gusto from './gusto.jsx';
+import Freelance from './freelance.jsx';
 
 import './styles.scss';
 
 class Projects extends React.Component {
-  renderGusto() {
-    return (
-      <div className='panel-group'>
-        <Panel panelName='gusto' />
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='onboarding'>
-          TBD
-        </Panel>
-        <Panel panelProject='chat'>
-          TBD
-        </Panel>
-        <Panel panelProject='garnishments'>
-          TBD
-        </Panel>
-      </div>
-    );
-  }
-
-  renderAuditFile() {
-    return (
-      <div className='panel-group'>
-        <Panel panelName='auditfile' />
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-      </div>
-    );
-  }
-
-  renderFreelance() {
-    return (
-      <div className='panel-group'>
-        <Panel panelName='freelance' />
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-        <Panel panelProject='design guide'>
-          TBD
-        </Panel>
-      </div>
-    );
-  }
-
   render() {
     return (
       <Section idName='projects'>
@@ -78,9 +20,9 @@ class Projects extends React.Component {
           <ContentBlock title="a few things i've done" className='projects-area-block'/>
         </div>
         <div className='panel-wrapper'>
-          { this.renderGusto() }
-          { this.renderAuditFile() }
-          { this.renderFreelance() }
+          <Gusto />
+          <Auditfile />
+          <Freelance />
         </div>
       </Section>
     );
