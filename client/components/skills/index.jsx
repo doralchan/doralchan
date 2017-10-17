@@ -22,7 +22,9 @@ class Skills extends React.Component {
             <Icon imageLink={ IconCircle } size='large' />
           </div>
           <ContentBlock title='ux & ui'>
-            Approaching UX & UI problems is like
+            The first time I heard about user experience, I was told it's like
+            a joke - if you have to explain it, it's not that good. Still holds
+            true. 
           </ContentBlock>
         </Card>
         <List>
@@ -52,7 +54,7 @@ class Skills extends React.Component {
           </div>
           <ContentBlock title='front-end'>
             This is a skill I use to both enhance design visions while also
-            clarifying any kooky, undeveloped theories I might have. To me,
+            stabilizing any kooky, undeveloped theories I might have. To me,
             understanding how things work is part of the process.
           </ContentBlock>
         </Card>
@@ -80,8 +82,8 @@ class Skills extends React.Component {
           </div>
           <ContentBlock title='systems'>
             I have three C's that I repeatedly emphasize ad nauseam for
-            developing and maintaining a design system - consolidation,
-            consistency and clarity.
+            developing and maintaining design systems - consolidation,
+            consistency and clarity. This could be a 6 hour rant.
           </ContentBlock>
         </Card>
         <List>
