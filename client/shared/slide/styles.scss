@@ -3,7 +3,11 @@
 // Slide Style
 
 .slide {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .slide-intro {
@@ -21,7 +25,6 @@
 
 .slide-block {
   padding-top: 30px;
-  max-width: 500px;
 }
 
 .slide-image {

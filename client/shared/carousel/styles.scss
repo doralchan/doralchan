@@ -4,18 +4,20 @@
 
 .carousel {
   position: relative;
+  overflow-x: hidden;
   height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
 
   .carousel-slides {
     transition: margin-left 300ms linear;
     height: 100%;
+    overflow-y: scroll;
 
     .carousel-slide {
       display: inline-block;
       position: relative;
-      height: 100%;
       vertical-align: top;
+      height: 100%;
       width: 100%;
     }
 
