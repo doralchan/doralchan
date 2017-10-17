@@ -5,29 +5,31 @@
 .carousel {
   position: relative;
   overflow-x: hidden;
-  height: 100%;
-  overflow-y: scroll;
+  background-color: $white;
+  min-height: 100%;
 
+  @media (min-width: 576px) {
+    max-width: 900px;
+  }
+
+  // Carousel Slides
   .carousel-slides {
     transition: margin-left 300ms linear;
-    height: 100%;
-    overflow-y: scroll;
 
     .carousel-slide {
-      display: inline-block;
       position: relative;
+      display: inline-block;
       vertical-align: top;
-      height: 100%;
-      width: 100%;
     }
 
   }
 
+  // Carousel Navigation
   .carousel-nav {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -40,6 +42,7 @@
     }
   }
 
+  // Carousel Pagination
   .carousel-pagination {
     position: absolute;
     bottom: 0;

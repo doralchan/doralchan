@@ -57,7 +57,7 @@ class Panel extends React.Component {
   renderClose() {
     return (
       <div className='modal-wrapper-close' onClick={this.closeModal}>
-        <Icon imageLink={ IconClose } size='large'/>
+        <Icon imageLink={ IconClose } size='medium'/>
       </div>
     )
   }

@@ -27,6 +27,12 @@ class Gusto extends React.Component {
         <Slide>
           This is an image slide
         </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
       </Carousel>
     );
   }

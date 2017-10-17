@@ -3,28 +3,24 @@
 // Slide Style
 
 .slide {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  padding: 4em;
+
+  @media (min-width: 576px) {
+    padding: 5em;
+  }
+
+  @media (min-width: 768px) {
+    padding: 6em;
+  }
+
 }
 
 .slide-intro {
-  padding: 4em 5em;
 
-  @media (min-width: 768px) {
-    padding: 5em 6em;
+  .slide-intro-block {
+    padding-top: 30px;
   }
 
-  @media (min-width: 992px) {
-    padding: 6em 7em;
-  }
-
-}
-
-.slide-block {
-  padding-top: 30px;
 }
 
 .slide-image {

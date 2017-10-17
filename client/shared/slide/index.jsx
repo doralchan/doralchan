@@ -43,7 +43,7 @@ Slide.Block = class Slide extends React.Component {
 
   render() {
     return (
-      <ContentBlock className='slide-block' subtitle={ this.props.subtitle }>
+      <ContentBlock className='slide-intro-block' subtitle={ this.props.subtitle }>
         { this.props.children }
       </ContentBlock>
     )
