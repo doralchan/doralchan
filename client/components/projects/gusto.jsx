@@ -1,10 +1,75 @@
 import React from 'react';
 import Panel from '../../shared/panel/index.jsx';
+import Slide from '../../shared/slide/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
 import './styles.scss';
 
 class Gusto extends React.Component {
+  renderGuide() {
+    return (
+      <Carousel>
+        <Slide title='intro'>
+          This is the intro slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+      </Carousel>
+    );
+  }
+
+  renderOnboarding() {
+    return (
+      <Carousel>
+        <Slide>
+          This is the intro slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+      </Carousel>
+    );
+  }
+
+  renderChat() {
+    return (
+      <Carousel>
+        <Slide>
+          This is the intro slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+      </Carousel>
+    );
+  }
+
+  renderGarnishments() {
+    return (
+      <Carousel>
+        <Slide>
+          This is the intro slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+      </Carousel>
+    );
+  }
+
   render() {
     return (
       <div className='panel-group'>
@@ -12,22 +77,16 @@ class Gusto extends React.Component {
           TBD
         </Panel>
         <Panel panelProject='design guide'>
-          <Carousel>
-            <div className='slide slide-1'>Slide 1</div>
-            <div className='slide slide-2'>Slide 2</div>
-            <div className='slide slide-3'>Slide 3</div>
-            <div className='slide slide-4'>Slide 4</div>
-            <div className='slide slide-5'>Slide 5</div>
-          </Carousel>
+          { this.renderGuide() }
         </Panel>
         <Panel panelProject='onboarding'>
-          TBD
+          { this.renderOnboarding() }
         </Panel>
         <Panel panelProject='chat'>
-          TBD
+          { this.renderChat() }
         </Panel>
         <Panel panelProject='garnishments'>
-          TBD
+          { this.renderGarnishments() }
         </Panel>
       </div>
     );

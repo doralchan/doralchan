@@ -15,10 +15,7 @@ class Carousel extends React.Component {
     interval: PropTypes.number,
     showNav: PropTypes.bool,
     showPagination: PropTypes.bool,
-    ratio: PropTypes.shape({
-      width: PropTypes.number,
-      height: PropTypes.number
-    })
+    ratio: PropTypes.shape({width: PropTypes.number, height: PropTypes.number})
   };
 
   static defaultProps = {
@@ -49,9 +46,7 @@ class Carousel extends React.Component {
     }
 
     if (this.props.children.length !== nextProps.children) {
-      this.setState({
-        activeItem: 0
-      });
+      this.setState({activeItem: 0});
     }
 
     if (!this.props.ratio && nextProps.ratio) {
@@ -77,10 +72,17 @@ class Carousel extends React.Component {
 
   calculateSlidesHeight = () => {
     if (this.props.ratio && this.carouselRef) {
-      const { ratio: { width, height } } = this.props;
+      const {
+        ratio: {
+          width,
+          height
+        }
+      } = this.props;
       const carousel = this.carouselRef.getBoundingClientRect();
-      const slidesHeight = carousel.width ? (carousel.width * height / width) : null;
-      this.setState({ slidesHeight });
+      const slidesHeight = carousel.width
+        ? (carousel.width * height / width)
+        : null;
+      this.setState({slidesHeight});
     }
   };
 
@@ -95,29 +97,33 @@ class Carousel extends React.Component {
   };
 
   next = () => {
-    const activeIndex = (this.state.activeIndex < this.props.children.length - 1) ? (this.state.activeIndex + 1) : 0;
-    this.setState({ activeIndex });
+    const activeIndex = (this.state.activeIndex < this.props.children.length - 1)
+      ? (this.state.activeIndex + 1)
+      : 0;
+    this.setState({activeIndex});
   };
 
   prev = () => {
-    const activeIndex = (this.state.activeIndex > 0) ? (this.state.activeIndex - 1) : this.props.children.length - 1;
-    this.setState({ activeIndex });
+    const activeIndex = (this.state.activeIndex > 0)
+      ? (this.state.activeIndex - 1)
+      : this.props.children.length - 1;
+    this.setState({activeIndex});
   };
 
   goTo = (activeIndex) => {
     if (activeIndex >= 0 && activeIndex < this.props.children.length) {
-      this.setState({ activeIndex });
+      this.setState({activeIndex});
     }
   };
 
   renderNav() {
     return (
       <div className='carousel-nav'>
-        <div className='carousel-nav-arrow carousel-nav-next' onClick={ this.next }>
-          <Icon imageLink={ IconRight } size='large' />
+        <div className='carousel-nav-icon' onClick={this.prev}>
+          <Icon imageLink={IconLeft} size='medium'/>
         </div>
-        <div className='carousel-nav-arrow carousel-nav-prev' onClick={ this.prev }>
-          <Icon imageLink={ IconLeft } size='large' />
+        <div className='carousel-nav-icon' onClick={this.next}>
+          <Icon imageLink={IconRight} size='medium'/>
         </div>
       </div>
     );
@@ -128,24 +134,19 @@ class Carousel extends React.Component {
 
     return (
       <div className='carousel-pagination'>
-        {
-          pages.map((page) => (
-            <div
-              key={page}
-              className={`carousel-page ${page === this.state.activeIndex ? 'e-carousel-page-active' : ''}`}
-              onClick={() => {
-                this.goTo(page);
-              }}
-            />
-          ))
-        }
+        {pages.map((page) => (<div key={page} className={`carousel-page ${page === this.state.activeIndex
+          ? 'carousel-page-active'
+          : ''}`} onClick={() => {
+          this.goTo(page);
+        }}/>))
+}
       </div>
     );
   }
 
   render() {
-    const { activeIndex, slidesHeight } = this.state;
-    const { children, showNav, showPagination } = this.props;
+    const {activeIndex, slidesHeight} = this.state;
+    const {children, showNav, showPagination} = this.props;
     const slidesCount = children.length;
 
     const carouselSlidesStyles = {
@@ -154,24 +155,24 @@ class Carousel extends React.Component {
     };
 
     const carouselSlideStyles = {
-      position: 'relative',
-      width: `${100 / slidesCount}%`
+      width: `${ 100 / slidesCount}%`
     };
 
     return (
       <div className='carousel' ref={this.setCarouselRef}>
         <div className='carousel-slides' style={carouselSlidesStyles}>
-          {
-            children.map((slide, key) => (
-              <div key={key} className='carousel-slide' style={carouselSlideStyles}>
-                { slide }
-              </div>
-            ))
-          }
+          {children.map((slide, key) => (
+            <div key={key} className='carousel-slide' style={carouselSlideStyles}>
+              {slide}
+            </div>
+          ))}
         </div>
-
-        { showNav && slidesCount > 1 ? this.renderNav() : null }
-        { showPagination && slidesCount > 1 ? this.renderPagination() : null }
+        {showNav && slidesCount > 1
+          ? this.renderNav()
+          : null}
+        {showPagination && slidesCount > 1
+          ? this.renderPagination()
+          : null}
       </div>
     );
   }

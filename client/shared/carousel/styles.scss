@@ -4,53 +4,50 @@
 
 .carousel {
   position: relative;
-  direction: ltr;
   height: 100%;
   overflow: hidden;
-  text-align: left;
 
   .carousel-slides {
     transition: margin-left 300ms linear;
+    height: 100%;
 
     .carousel-slide {
       display: inline-block;
       position: relative;
+      height: 100%;
       vertical-align: top;
+      width: 100%;
     }
 
   }
 
   .carousel-nav {
-    .carousel-nav-arrow {
-      cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .carousel-nav-icon {
       display: block;
-      height: 100px;
-      margin-top: -50px;
-      position: absolute;
-      text-align: center;
-      top: 50%;
-      width: 50px;
-    }
-
-    .carousel-nav-prev {
-      left: 0;
-    }
-
-    .carousel-nav-next {
-      right: 0;
+      padding: 1em;
+      cursor: pointer;
     }
   }
 
   .carousel-pagination {
-    bottom: 20px;
-    height: 10px;
-    left: 0;
     position: absolute;
+    bottom: 0;
+    left: 0;
     right: 0;
     text-align: center;
+    margin-bottom: 20px;
 
     .carousel-page {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: lighten($dark-default, 70%);
       border-radius: 5px;
       cursor: pointer;
       display: inline-block;
@@ -62,7 +59,8 @@
     }
 
     .carousel-page-active {
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: $dark-default;
     }
   }
+
 }

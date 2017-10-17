@@ -7,7 +7,7 @@ import './styles.scss';
 class Icon extends React.Component {
   static propTypes = {
     imageLink: PropTypes.string,
-    size: PropTypes.oneOf(['large', 'small']),
+    size: PropTypes.oneOf(['large', 'medium', 'small']),
     className: PropTypes.string
   };
 

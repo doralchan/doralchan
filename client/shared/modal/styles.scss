@@ -36,7 +36,7 @@
   width: 100vw;
 	height: 100vh;
   background-color: $white;
-  z-index: 2;
+  z-index: 1;
 
 	@media (min-width: 768px) {
 		width: 80vw;
@@ -50,4 +50,5 @@
 	position: absolute;
 	right: 20px;
 	top: 20px;
+	z-index: 1;
 }

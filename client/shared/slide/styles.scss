@@ -1,0 +1,30 @@
+@import '../../stylesheets/variables.scss';
+
+// Slide Style
+
+.slide {
+  background-color: $primary-default;
+  height: 100%;
+  padding: 3em;
+
+  @media (min-width: 768px) {
+    padding: 4em;
+  }
+
+  @media (min-width: 992px) {
+    padding: 5em;
+  }
+
+}
+
+.slide-title {
+
+}
+
+.slide-intro {
+
+}
+
+.slide-image {
+
+}
