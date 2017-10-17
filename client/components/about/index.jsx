@@ -27,11 +27,14 @@ class About extends React.Component {
         </div>
         <div className='about-area'>
           <ContentBlock title='a little bout me' className='content-area-description'>
-            Why, hello there. I'm Dora. I'm a bay area native in San Francisco. 
+            Hi. I'm Dora. First off, I want to be pretty straight forward about something -
+            I'm a tinkerer. I wouldn't consider myself an expert in any one particular
+            area.
             { this.renderBlobs() }
           </ContentBlock>
           <div className='experience'>
             <ContentBlock subtitle='~8 years of education' className='experience-block'>
+              Education is never over but tuition? Thank
               I have a bachelors of arts from the University of California, Berkeley and
               a masters from the University of Michigan, Ann Arbor.
             </ContentBlock>

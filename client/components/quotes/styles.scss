@@ -9,3 +9,39 @@
 .section-content-quotes {
   margin-top: 2em;
 }
+
+.quote-block {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2em;
+
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+  }
+
+}
+
+.quote-block-header {
+
+  &:before {
+    color: $secondary-default;
+    font-family: 'Helvetica', sans-serif;
+    display: block;
+    content: '"';
+    margin-right: 10px;
+  }
+
+}
+
+.quote-block-description {
+
+  &:before {
+    background-color: $secondary-default;
+    content: '';
+    display: block;
+    height: 5px;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+}

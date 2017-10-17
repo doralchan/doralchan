@@ -27,10 +27,10 @@ class Quotes extends React.Component {
     return (
       <Section idName='quotes'>
         <QuoteBlock>
-          Something something something about design
+          If I had asked people what they wanted, they would have said faster horses. - Henry Ford
         </QuoteBlock>
         <QuoteBlock>
-          TBD quote
+          Styles come and go. Good design is a language, not a style. – Massimo Vignelli
         </QuoteBlock>
       </Section>
     );

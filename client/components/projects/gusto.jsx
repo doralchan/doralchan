@@ -10,15 +10,20 @@ class Gusto extends React.Component {
     return (
       <Carousel>
         <Slide title='design guide'>
+          <Slide.Block subtitle='project problem'>
+            With the rapid growth of the company, large inconsistencies were
+            developing between mission teams. There was uncertainty in what
+            UI was available, what paradigms were available, and where assets
+            were stored.
+          </Slide.Block>
           <Slide.Block subtitle='project goal'>
-            With the growing number of teams in the company,
-            I wanted to provide a clear way
+            The motivation was to fill these knowledge gaps not only for
+            designers and developers, but for the rest of the company as well.
+            I wanted to create a long term solution that could evolve as the
+            company evolves.
           </Slide.Block>
-          <Slide.Block subtitle='project context'>
-            TBD
-          </Slide.Block>
-          <Slide.Block subtitle='project status'>
-            TBD
+          <Slide.Block subtitle='project resolution'>
+            After researching the biggest internal pain points, I recognized
           </Slide.Block>
         </Slide>
         <Slide>

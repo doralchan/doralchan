@@ -22,7 +22,7 @@ class Skills extends React.Component {
             <Icon imageLink={ IconCircle } size='large' />
           </div>
           <ContentBlock title='ux & ui'>
-            User experiences and interactions are
+            Approaching UX & UI problems is like
           </ContentBlock>
         </Card>
         <List>
@@ -51,10 +51,9 @@ class Skills extends React.Component {
             <Icon imageLink={ IconTriangle } size='large' />
           </div>
           <ContentBlock title='front-end'>
-            Front-end development has helped me grow a strong sense of
-            how things can come together. This skill has added another
-            dimension of possibility in product design, enabling me to
-            build rapid prototypes for design techniques and user testing.
+            This is a skill I use to both enhance design visions while also
+            clarifying any kooky, undeveloped theories I might have. To me,
+            understanding how things work is part of the process.
           </ContentBlock>
         </Card>
         <List>
@@ -80,7 +79,9 @@ class Skills extends React.Component {
             <Icon imageLink={ IconSquare } size='large' />
           </div>
           <ContentBlock title='systems'>
-            Description Insert
+            I have three C's that I repeatedly emphasize ad nauseam for
+            developing and maintaining a design system - consolidation,
+            consistency and clarity.
           </ContentBlock>
         </Card>
         <List>
