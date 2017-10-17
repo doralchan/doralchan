@@ -9,8 +9,17 @@ class Gusto extends React.Component {
   renderGuide() {
     return (
       <Carousel>
-        <Slide title='intro'>
-          This is the intro slide
+        <Slide title='design guide'>
+          <Slide.Block subtitle='project goal'>
+            With the growing number of teams in the company,
+            I wanted to provide a clear way
+          </Slide.Block>
+          <Slide.Block subtitle='project context'>
+            TBD
+          </Slide.Block>
+          <Slide.Block subtitle='project status'>
+            TBD
+          </Slide.Block>
         </Slide>
         <Slide>
           This is an image slide

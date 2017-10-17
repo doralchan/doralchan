@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import ContentBlock from '../content_block/index.jsx';
+
 import './styles.scss';
 
 class Slide extends React.Component {
@@ -21,7 +23,7 @@ class Slide extends React.Component {
   }
 
   render() {
-    const title = <h2 className='slide-title'>{ this.props.title }</h2>
+    const title = <h3 className='slide-title'>{ this.props.title }</h3>
 
     return (
       <div className={ this.slideClasses() }>
@@ -32,11 +34,21 @@ class Slide extends React.Component {
   }
 }
 
-Slide.ContentBlock = class Slide extends React.Component {
+Slide.Block = class Slide extends React.Component {
   static propTypes = {
+    children: PropTypes.node.isRequired,
+    subtitle: PropTypes.string,
     className: PropTypes.string
-    
+  };
+
+  render() {
+    return (
+      <ContentBlock className='slide-block' subtitle={ this.props.subtitle }>
+        { this.props.children }
+      </ContentBlock>
+    )
   }
+
 }
 
 export default Slide

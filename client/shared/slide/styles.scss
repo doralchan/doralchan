@@ -3,26 +3,25 @@
 // Slide Style
 
 .slide {
-  background-color: $primary-default;
   height: 100%;
-  padding: 3em;
-
-  @media (min-width: 768px) {
-    padding: 4em;
-  }
-
-  @media (min-width: 992px) {
-    padding: 5em;
-  }
-
-}
-
-.slide-title {
-
 }
 
 .slide-intro {
+  padding: 4em 5em;
 
+  @media (min-width: 768px) {
+    padding: 5em 6em;
+  }
+
+  @media (min-width: 992px) {
+    padding: 6em 7em;
+  }
+
+}
+
+.slide-block {
+  padding-top: 30px;
+  max-width: 500px;
 }
 
 .slide-image {

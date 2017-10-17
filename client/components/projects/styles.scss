@@ -8,16 +8,15 @@
 
 .projects-area {
   position: relative;
-  padding: 2em;
-  text-align: center;
-  overflow: hidden;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .content-block {
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    right: 0;
-  }
-
+.projects-area-block {
+  position: absolute;
+  text-align: right;
+  bottom: 60px;
+  left: 0;
+  right: 0;
 }
