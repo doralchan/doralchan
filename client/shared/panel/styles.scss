@@ -21,6 +21,7 @@
 .panel {
   position: relative;
   display: flex;
+  transition: all 0.2s ease-in;
 
   &:after {
     content: '';
@@ -35,7 +36,15 @@
   }
 
   &.panel-item {
-    background-color: $light-default;
+    border: 4px solid $light-default;
+
+    &:hover {
+      transition: all 0.8s ease-out;
+      background-color: $light-default;
+      border-color: $secondary-default;
+      z-index: 1;
+    }
+
   }
 
 }

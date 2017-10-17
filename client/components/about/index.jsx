@@ -38,7 +38,7 @@ class About extends React.Component {
               from the University of Michigan, Ann Arbor.
             </ContentBlock>
             <ContentBlock subtitle='~15 years of design experience' className='experience-block'>
-              I've designed a whole lotta stuff.
+              I've designed a whole lotta
             </ContentBlock>
           </div>
         </div>

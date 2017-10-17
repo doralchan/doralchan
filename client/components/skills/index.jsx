@@ -22,9 +22,7 @@ class Skills extends React.Component {
             <Icon imageLink={ IconCircle } size='large' />
           </div>
           <ContentBlock title='ux & ui'>
-            The first time I heard about user experience, I was told it's like
-            a joke - if you have to explain it, it's not that good. Still holds
-            true. 
+            User experience and interfaces are 
           </ContentBlock>
         </Card>
         <List>
