@@ -89,7 +89,7 @@ class Gusto extends React.Component {
     return (
       <div className='panel-group'>
         <Panel panelName='gusto'>
-          TBD
+          Ok
         </Panel>
         <Panel panelProject='design guide'>
           { this.renderGuide() }
