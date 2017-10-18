@@ -79,6 +79,7 @@
 
 .blob-medium {
   flex-grow: 2;
+  animation: 1.6s shove 6s 1 ease-in-out;
 
   &:hover {
     flex-grow: 2.5;
@@ -91,4 +92,14 @@
   &:hover {
     flex-grow: 3.2;
   }
+}
+
+@-webkit-keyframes shove {
+  0% { flex-grow: 2; }
+  30% { flex-grow: 2.5; }
+  60% { flex-grow: 2; }
+  70% { flex-grow: 2; }
+  80% { flex-grow: 2; }
+  90% { flex-grow: 2; }
+  100% { flex-grow: 2; }
 }

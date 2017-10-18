@@ -27,18 +27,22 @@ class About extends React.Component {
         </div>
         <div className='about-area'>
           <ContentBlock title='a little bout me' className='content-area-description'>
-            Hi. I'm Dora. First off, I want to be pretty straight forward about something -
-            I'm a tinkerer. I wouldn't consider myself an expert in any one particular
-            thing. In tech, it seems like everyone is constantly learning more.
+            Hi. I'm Dora. First off, I want to let you know I wouldn't consider
+            myself an expert in anything besides drinking coffee. What I am is an
+            enthusiastic tinkerer with a good chunk of design experience. I experiment
+            with kooky theories and obsessively commit to projects to a point of
+            success or failure. I learn quickly and love to get at the root of any
+            problem.
             { this.renderBlobs() }
           </ContentBlock>
           <div className='experience'>
             <ContentBlock subtitle='~8 years of education' className='experience-block'>
-              I have a B.A from the University of California, Berkeley and an M.Arch
-              from the University of Michigan, Ann Arbor.
+              Officially, I have a B.A from the University of California, Berkeley and an M.Arch
+              from the University of Michigan, Ann Arbor. Unofficially, I learn via the internets.
             </ContentBlock>
             <ContentBlock subtitle='~15 years of design experience' className='experience-block'>
-              I've designed a whole lotta
+              TLDR; I've been part of a number of design-build initiatives, ranging anywhere
+              from parametric modeling to hackathon prototyping. My curriculum vitae and resume
             </ContentBlock>
           </div>
         </div>

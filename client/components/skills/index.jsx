@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Fade } from 'react-reveal';
+
 import Section from '../../shared/section/index.jsx';
 import ContentBlock from '../../shared/content_block/index.jsx';
 import Card from '../../shared/card/index.jsx';
@@ -111,11 +113,11 @@ class Skills extends React.Component {
           <Number idNumber={ 2 } />
         </div>
         <div className='skills-background' />
-        <div className='skills-area'>
+        <Fade top wave className='skills-area'>
           { this.renderUX() }
           { this.renderFrontEnd() }
           { this.renderSystems() }
-        </div>
+        </Fade>
       </Section>
     );
   }
