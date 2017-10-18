@@ -67,6 +67,7 @@ class Intro extends React.Component {
       <Section idName='intro'>
         { this.renderContent() }
         { this.renderNav() }
+        <div className='intro-background' />
       </Section>
     );
   }

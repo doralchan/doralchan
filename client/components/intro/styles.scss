@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 650px;
+  position: relative;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -119,4 +120,26 @@
   color: $secondary-default;
   display: block;
   text-decoration: none;
+}
+
+.intro-background {
+  position: absolute;
+  background-color: $light-default;
+  height: 250px;
+  width: 350px;
+  top: 220px;
+  right: 0;
+  z-index: -1;
+
+  @media (min-width: 768px) {
+    top: 75px;
+  }
+
+  @media (min-width: 992px) {
+    top: 100px;
+    right: 50px;
+    height: 400px;
+    width: 600px;
+  }
+
 }
