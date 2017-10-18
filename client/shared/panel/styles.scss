@@ -41,6 +41,7 @@
 .panel-content-name,
 .panel-content-item {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
@@ -53,7 +54,7 @@
 
 .panel-content-item {
   border: 4px solid transparent;
-  transition: all 100ms ease-in;
+  transition: all 100ms ease-in-out;
   cursor: pointer;
   color: darken($light-default, 20%);
 

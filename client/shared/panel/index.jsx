@@ -14,6 +14,7 @@ class Panel extends React.Component {
     children: PropTypes.node,
     panelType: PropTypes.oneOf(['name','item']),
     panelName: PropTypes.string,
+    panelIcon: PropTypes.string,
     panelProject: PropTypes.string,
     className: PropTypes.string
   };
