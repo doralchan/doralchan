@@ -64,7 +64,10 @@ class Panel extends React.Component {
 
   render() {
     const panelName = <div className='panel-content-name'><h5>{ this.props.panelName }</h5></div>
-    const panelProject = <div onClick={this.openModal} className='panel-content-item'>{ this.props.panelProject }</div>
+    const panelProject =
+      <div onClick={this.openModal} className='panel-content-item'>
+        <span>{ this.props.panelProject }</span>
+      </div>
 
     return (
       <div className={ this.panelClasses() }>

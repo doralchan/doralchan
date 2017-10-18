@@ -22,7 +22,7 @@ class Skills extends React.Component {
             <Icon imageLink={ IconCircle } size='large' />
           </div>
           <ContentBlock title='ux & ui'>
-            User experience and interfaces are 
+            User experience and interface design are the reasons why
           </ContentBlock>
         </Card>
         <List>
@@ -51,9 +51,10 @@ class Skills extends React.Component {
             <Icon imageLink={ IconTriangle } size='large' />
           </div>
           <ContentBlock title='front-end'>
-            This is a skill I use to both enhance design visions while also
+            This is a skill I use to enhance design visions while also
             stabilizing any kooky, undeveloped theories I might have. To me,
-            understanding how things work is part of the process.
+            understanding how things work is part of the process. It enables
+            prototyping and
           </ContentBlock>
         </Card>
         <List>
@@ -81,7 +82,8 @@ class Skills extends React.Component {
           <ContentBlock title='systems'>
             I have three C's that I repeatedly emphasize ad nauseam for
             developing and maintaining design systems - consolidation,
-            consistency and clarity. This could be a 6 hour rant.
+            consistency and clarity. This could be a 6 hour, enthusiastic
+            rant.
           </ContentBlock>
         </Card>
         <List>

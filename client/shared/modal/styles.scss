@@ -40,8 +40,15 @@
 
 .modal-wrapper-close {
 	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	opacity: 0.1;
 	position: absolute;
 	right: 30px;
 	top: 30px;
 	z-index: 1;
+
+	&:hover {
+		opacity: 1;
+	}
+
 }

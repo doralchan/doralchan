@@ -35,9 +35,6 @@ class Gusto extends React.Component {
         <Slide>
           This is an image slide
         </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
       </Carousel>
     );
   }
@@ -45,8 +42,25 @@ class Gusto extends React.Component {
   renderOnboarding() {
     return (
       <Carousel>
+        <Slide title='onboarding'>
+          <Slide.Block subtitle='project problem'>
+            With the rapid growth of the company, large inconsistencies were
+            developing between mission teams. There was uncertainty in what
+            UI was available, what paradigms were available, and where assets
+            were stored.
+          </Slide.Block>
+          <Slide.Block subtitle='project goal'>
+            The motivation was to fill these knowledge gaps not only for
+            designers and developers, but for the rest of the company as well.
+            I wanted to create a long term solution that could evolve as the
+            company evolves.
+          </Slide.Block>
+          <Slide.Block subtitle='project resolution'>
+            After researching the biggest internal pain points, I recognized
+          </Slide.Block>
+        </Slide>
         <Slide>
-          This is the intro slide
+          This is an image slide
         </Slide>
         <Slide>
           This is an image slide
@@ -61,8 +75,25 @@ class Gusto extends React.Component {
   renderChat() {
     return (
       <Carousel>
+        <Slide title='chat'>
+          <Slide.Block subtitle='project problem'>
+            With the rapid growth of the company, large inconsistencies were
+            developing between mission teams. There was uncertainty in what
+            UI was available, what paradigms were available, and where assets
+            were stored.
+          </Slide.Block>
+          <Slide.Block subtitle='project goal'>
+            The motivation was to fill these knowledge gaps not only for
+            designers and developers, but for the rest of the company as well.
+            I wanted to create a long term solution that could evolve as the
+            company evolves.
+          </Slide.Block>
+          <Slide.Block subtitle='project resolution'>
+            After researching the biggest internal pain points, I recognized
+          </Slide.Block>
+        </Slide>
         <Slide>
-          This is the intro slide
+          This is an image slide
         </Slide>
         <Slide>
           This is an image slide
@@ -77,8 +108,25 @@ class Gusto extends React.Component {
   renderGarnishments() {
     return (
       <Carousel>
+        <Slide title='garnishments'>
+          <Slide.Block subtitle='project problem'>
+            With the rapid growth of the company, large inconsistencies were
+            developing between mission teams. There was uncertainty in what
+            UI was available, what paradigms were available, and where assets
+            were stored.
+          </Slide.Block>
+          <Slide.Block subtitle='project goal'>
+            The motivation was to fill these knowledge gaps not only for
+            designers and developers, but for the rest of the company as well.
+            I wanted to create a long term solution that could evolve as the
+            company evolves.
+          </Slide.Block>
+          <Slide.Block subtitle='project resolution'>
+            After researching the biggest internal pain points, I recognized
+          </Slide.Block>
+        </Slide>
         <Slide>
-          This is the intro slide
+          This is an image slide
         </Slide>
         <Slide>
           This is an image slide

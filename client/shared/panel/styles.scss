@@ -21,7 +21,6 @@
 .panel {
   position: relative;
   display: flex;
-  transition: all 0.2s ease-in;
 
   &:after {
     content: '';
@@ -29,38 +28,42 @@
     padding-bottom: 100%;
   }
 
-  &.panel-name {
-    background-color: $secondary-default;
-    color: $white;
-    font-weight: 800;
-  }
+}
 
-  &.panel-item {
-    border: 4px solid $light-default;
+.panel-name {
+  background-color: $secondary-default;
+}
 
-    &:hover {
-      transition: all 0.8s ease-out;
-      background-color: $light-default;
-      border-color: $secondary-default;
-      z-index: 1;
-    }
-
-  }
-
+.panel-item {
+  background-color: $light-default;
 }
 
 .panel-content-name,
 .panel-content-item {
-  position: absolute;
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+}
+
+.panel-content-name {
+  color: $white;
+  font-weight: 800;
 }
 
 .panel-content-item {
+  border: 4px solid transparent;
+  transition: all 100ms ease-in;
   cursor: pointer;
+  color: darken($light-default, 20%);
+
+  &:hover {
+    border-color: $secondary-default;
+    color: $secondary-default;
+    font-weight: 600;
+    margin: 10px;
+  }
+
 }
 
 .overflow-hidden {

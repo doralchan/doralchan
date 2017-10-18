@@ -30,7 +30,8 @@ class Contact extends React.Component {
           <ContentBlock title='contact me'>
             If you'd like to chat or ask me about anything above, feel free
             to contact me through { this.renderLinkedIn() } or DM me at my
-            Twitter handle { this.renderTwitter() }.
+            Twitter handle { this.renderTwitter() }. I'm usually available
+            for coffee or tacos.
           </ContentBlock>
         </div>
         <div className='contact-number'>
