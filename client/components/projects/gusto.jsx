@@ -1,7 +1,11 @@
 import React from 'react';
+
 import Panel from '../../shared/panel/index.jsx';
 import Slide from '../../shared/slide/index.jsx';
+import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
+
+import GuideImage2 from '../../assets/images/gusto_guide_2.png';
 
 import './styles.scss';
 
@@ -22,14 +26,13 @@ class Gusto extends React.Component {
             and sales. I wanted to create a long term solution that would
             constantly reflect the evolving state of the company.
           </Slide.Block>
-          <Slide.Block subtitle='project solution'>
+          <Slide.Block subtitle='project direction'>
             To further investigate painpoints beyond those of my own team, I sent
             out surveys to
-
           </Slide.Block>
         </Slide>
         <Slide>
-          This is an image slide
+          <Image imageLink={ GuideImage2 } />
         </Slide>
         <Slide>
           This is an image slide
@@ -45,7 +48,7 @@ class Gusto extends React.Component {
     return (
       <Carousel>
         <Slide title='onboarding'>
-          <Slide.Block subtitle='project problem'>
+          <Slide.Block subtitle='project context'>
 
           </Slide.Block>
           <Slide.Block subtitle='project goal'>
@@ -54,7 +57,7 @@ class Gusto extends React.Component {
             I wanted to create a long term solution that could evolve as the
             company evolves.
           </Slide.Block>
-          <Slide.Block subtitle='project resolution'>
+          <Slide.Block subtitle='project direction'>
             After researching the biggest internal pain points, I recognized
           </Slide.Block>
         </Slide>
@@ -75,7 +78,7 @@ class Gusto extends React.Component {
     return (
       <Carousel>
         <Slide title='chat'>
-          <Slide.Block subtitle='project problem'>
+          <Slide.Block subtitle='project context'>
             With the rapid growth of the company, large inconsistencies were
             developing between mission teams. There was uncertainty in what
             UI was available, what paradigms were available, and where assets
@@ -87,7 +90,7 @@ class Gusto extends React.Component {
             I wanted to create a long term solution that could evolve as the
             company evolves.
           </Slide.Block>
-          <Slide.Block subtitle='project resolution'>
+          <Slide.Block subtitle='project direction'>
             After researching the biggest internal pain points, I recognized
           </Slide.Block>
         </Slide>
@@ -108,7 +111,7 @@ class Gusto extends React.Component {
     return (
       <Carousel>
         <Slide title='garnishments'>
-          <Slide.Block subtitle='project problem'>
+          <Slide.Block subtitle='project context'>
             With the rapid growth of the company, large inconsistencies were
             developing between mission teams. There was uncertainty in what
             UI was available, what paradigms were available, and where assets
@@ -120,7 +123,7 @@ class Gusto extends React.Component {
             I wanted to create a long term solution that could evolve as the
             company evolves.
           </Slide.Block>
-          <Slide.Block subtitle='project resolution'>
+          <Slide.Block subtitle='project direction'>
             After researching the biggest internal pain points, I recognized
           </Slide.Block>
         </Slide>
@@ -140,9 +143,7 @@ class Gusto extends React.Component {
   render() {
     return (
       <div className='panel-group'>
-        <Panel panelName='gusto'>
-          Ok
-        </Panel>
+        <Panel panelName='gusto' />
         <Panel panelProject='design guide'>
           { this.renderGuide() }
         </Panel>

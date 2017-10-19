@@ -8,7 +8,7 @@ import './styles.scss';
 
 class Slide extends React.Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node,
     className: PropTypes.string,
     title: PropTypes.string,
     imageLink: PropTypes.string
