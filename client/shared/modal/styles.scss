@@ -33,7 +33,6 @@
 	@media (min-width: 576px) {
 		margin-top: 4em;
 		margin-bottom: 4em;
-		min-height: 600px;
   }
 
 }
@@ -43,8 +42,8 @@
 	transition: all 0.2s ease-in-out;
 	opacity: 0.1;
 	position: absolute;
-	right: 30px;
-	top: 30px;
+	right: 25px;
+	top: 25px;
 	z-index: 1;
 
 	&:hover {

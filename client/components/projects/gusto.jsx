@@ -5,7 +5,7 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-import GuideImage2 from '../../assets/images/gusto_guide_2.png';
+import GuideImage1 from '../../assets/images/gusto_guide_1.png';
 
 import './styles.scss';
 
@@ -32,7 +32,7 @@ class Gusto extends React.Component {
           </Slide.Block>
         </Slide>
         <Slide>
-          <Image imageLink={ GuideImage2 } />
+          <Image imageLink={ GuideImage1 } />
         </Slide>
         <Slide>
           This is an image slide
