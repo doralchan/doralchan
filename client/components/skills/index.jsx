@@ -27,7 +27,7 @@ class Skills extends React.Component {
             The further I dive into user experience and interfaces, the more
             I recognize information architecture as the groundwork of design.
             Content is contained and delivered when applicable. Too much of it
-            at once and it becomes indecipherable, unusable.
+            at once and it becomes indecipherable.
           </ContentBlock>
         </Card>
         <List>
@@ -58,8 +58,8 @@ class Skills extends React.Component {
           <ContentBlock title='front-end'>
             Front-end development helps me enhance design visions while
             stabilizing any kooky, undeveloped theories I might have.
-            Understanding how things work is part of the process. It enables
-            interactive prototyping to properly conduct user testing.
+            Understanding how things work is part of the process.
+            Interactive prototypes help build the story of the user.
           </ContentBlock>
         </Card>
         <List>
@@ -86,9 +86,9 @@ class Skills extends React.Component {
           </div>
           <ContentBlock title='systems'>
             Systems enable efficiency and provide a platform for others to
-            design off of. A good one maintains what works, helps discourage
+            design off of. A good one helps maintain what works, discourages
             repeat failures, and remains flexible enough to respond to changing
-            environments. It is a source of truth.
+            environments. It is a single source of truth.
           </ContentBlock>
         </Card>
         <List>
