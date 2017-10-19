@@ -24,7 +24,10 @@ class Skills extends React.Component {
             <Icon imageLink={ IconCircle } size='large' />
           </div>
           <ContentBlock title='ux & ui'>
-            User experience and interface design are the reasons why
+            The further I dive into user experience and interfaces, the more
+            I recognize information architecture as the groundwork of design.
+            Content is contained and delivered when applicable. Too much of it
+            at once and it becomes indecipherable, unusable.
           </ContentBlock>
         </Card>
         <List>
@@ -53,10 +56,10 @@ class Skills extends React.Component {
             <Icon imageLink={ IconTriangle } size='large' />
           </div>
           <ContentBlock title='front-end'>
-            This is a skill I use to enhance design visions while also
-            stabilizing any kooky, undeveloped theories I might have. To me,
-            understanding how things work is part of the process. It enables
-            prototyping and
+            Front-end development helps me enhance design visions while
+            stabilizing any kooky, undeveloped theories I might have.
+            Understanding how things work is part of the process. It enables
+            interactive prototyping to properly conduct user testing.
           </ContentBlock>
         </Card>
         <List>
@@ -82,10 +85,10 @@ class Skills extends React.Component {
             <Icon imageLink={ IconSquare } size='large' />
           </div>
           <ContentBlock title='systems'>
-            I have three C's that I repeatedly emphasize ad nauseam for
-            developing and maintaining design systems - consolidation,
-            consistency and clarity. This could be a 6 hour, enthusiastic
-            rant.
+            Systems enable efficiency and provide a platform for others to
+            design off of. A good one maintains what works, helps discourage
+            repeat failures, and remains flexible enough to respond to changing
+            environments. It is a source of truth.
           </ContentBlock>
         </Card>
         <List>

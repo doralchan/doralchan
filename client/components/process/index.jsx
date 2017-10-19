@@ -12,9 +12,9 @@ class Process extends React.Component {
       <Section idName='process'>
         <ContentBlock title='how i work' className='process-area'>
           Understanding the goals and underlying motivations to each project is
-          a fundamental. To do so, questions need to be front-loaded to extract
-          as much context as possible. The wrong questions can easily derail a
-          project. I've found this to be the most pivotal step before any
+          fundamental. To do so, the right questions need to be asked to gather
+          as much relevant context as possible. The wrong questions can easily
+          derail a project. Problem statements are rarely ever enough.
         </ContentBlock>
         <div className='process-number'>
           <Number idNumber={ 3 } />

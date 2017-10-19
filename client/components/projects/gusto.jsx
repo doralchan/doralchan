@@ -10,20 +10,22 @@ class Gusto extends React.Component {
     return (
       <Carousel>
         <Slide title='design guide'>
-          <Slide.Block subtitle='project problem'>
-            With the rapid growth of the company, large inconsistencies were
-            developing between mission teams. There was uncertainty in what
-            UI was available, what paradigms were available, and where assets
-            were stored.
+          <Slide.Block subtitle='project context'>
+            With the rapid growth and rebranding of the company, large
+            inconsistencies were developing between teams. There was uncertainty
+            about what UI components, UX paradigms, and assets were available to
+            product and marketing. Undocumented, tribal knowledge became the norm.
           </Slide.Block>
           <Slide.Block subtitle='project goal'>
-            The motivation was to fill these knowledge gaps not only for
-            designers and developers, but for the rest of the company as well.
-            I wanted to create a long term solution that could evolve as the
-            company evolves.
+            The motivation was to fill these knowledge gaps for a majority of
+            the teams including designers, developers, product managers, marketing,
+            and sales. I wanted to create a long term solution that would
+            constantly reflect the evolving state of the company.
           </Slide.Block>
-          <Slide.Block subtitle='project resolution'>
-            After researching the biggest internal pain points, I recognized
+          <Slide.Block subtitle='project solution'>
+            To further investigate painpoints beyond those of my own team, I sent
+            out surveys to
+
           </Slide.Block>
         </Slide>
         <Slide>
@@ -44,10 +46,7 @@ class Gusto extends React.Component {
       <Carousel>
         <Slide title='onboarding'>
           <Slide.Block subtitle='project problem'>
-            With the rapid growth of the company, large inconsistencies were
-            developing between mission teams. There was uncertainty in what
-            UI was available, what paradigms were available, and where assets
-            were stored.
+
           </Slide.Block>
           <Slide.Block subtitle='project goal'>
             The motivation was to fill these knowledge gaps not only for

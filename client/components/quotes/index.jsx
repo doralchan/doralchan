@@ -27,7 +27,7 @@ class Quotes extends React.Component {
     return (
       <Section idName='quotes'>
         <QuoteBlock>
-          If I had asked people what they wanted, they would have said faster horses. - Henry Ford
+          If at first the idea is not absurd, then there is no hope for it. - Albert Einstein
         </QuoteBlock>
         <QuoteBlock>
           Styles come and go. Good design is a language, not a style. – Massimo Vignelli

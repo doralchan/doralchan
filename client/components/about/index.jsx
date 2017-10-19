@@ -19,6 +19,14 @@ class About extends React.Component {
     );
   }
 
+  renderLinkedIn() {
+    return (
+      <span>
+        <a href="https://www.linkedin.com/in/doralchan" target='blank' className='contact-area-link'>LinkedIn</a>
+      </span>
+    );
+  }
+
   render() {
     return (
       <Section idName='about'>
@@ -30,9 +38,8 @@ class About extends React.Component {
             Hi. I'm Dora. First off, I want to let you know I wouldn't consider
             myself an expert in anything besides drinking coffee. What I am is an
             enthusiastic tinkerer with a good chunk of design experience. I experiment
-            with kooky theories and obsessively commit to projects to a point of
-            success or failure. I learn quickly and love to get at the root of any
-            problem.
+            with kooky theories and obsessively commit to projects. I succeed. I fail.
+            The point is, I learn, and learn quickly.
             { this.renderBlobs() }
           </ContentBlock>
           <div className='experience'>
@@ -41,8 +48,9 @@ class About extends React.Component {
               from the University of Michigan, Ann Arbor. Unofficially, I learn via the internets.
             </ContentBlock>
             <ContentBlock subtitle='~15 years of design experience' className='experience-block'>
-              TLDR; I've been part of a number of design-build initiatives, ranging anywhere
-              from parametric modeling to hackathon prototyping. My curriculum vitae and resume
+              I'm often in design-build roles, work ranging everywhere from parametric
+              modeling to hackathons. See my curriculum vitae / resume via&nbsp;
+              { this.renderLinkedIn() }.
             </ContentBlock>
           </div>
         </div>
