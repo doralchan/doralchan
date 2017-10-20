@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 
 import Panel from '../../shared/panel/index.jsx';
 import Slide from '../../shared/slide/index.jsx';
@@ -16,6 +17,36 @@ import GuideWorkflows from '../../assets/images/guide_usability_workflows.png';
 import './styles.scss';
 
 class Gusto extends React.Component {
+  renderOnboarding() {
+    return (
+      <Carousel>
+        <Slide title='onboarding'>
+          <Slide.Block subtitle='project context'>
+
+          </Slide.Block>
+          <Slide.Block subtitle='project goal'>
+            The motivation was to fill these knowledge gaps not only for
+            designers and developers, but for the rest of the company as well.
+            I wanted to create a long term solution that could evolve as the
+            company evolves.
+          </Slide.Block>
+          <Slide.Block subtitle='project direction'>
+            After researching the biggest internal pain points, I recognized
+          </Slide.Block>
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+        <Slide>
+          This is an image slide
+        </Slide>
+      </Carousel>
+    );
+  }
+
   renderGuide() {
     return (
       <Carousel>
@@ -44,36 +75,6 @@ class Gusto extends React.Component {
         <Slide><Image imageLink={ GuideResearch } /></Slide>
         <Slide><Image imageLink={ GuideActions } /></Slide>
         <Slide><Image imageLink={ GuideWorkflows } /></Slide>
-      </Carousel>
-    );
-  }
-
-  renderOnboarding() {
-    return (
-      <Carousel>
-        <Slide title='onboarding'>
-          <Slide.Block subtitle='project context'>
-
-          </Slide.Block>
-          <Slide.Block subtitle='project goal'>
-            The motivation was to fill these knowledge gaps not only for
-            designers and developers, but for the rest of the company as well.
-            I wanted to create a long term solution that could evolve as the
-            company evolves.
-          </Slide.Block>
-          <Slide.Block subtitle='project direction'>
-            After researching the biggest internal pain points, I recognized
-          </Slide.Block>
-        </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
       </Carousel>
     );
   }
@@ -146,21 +147,23 @@ class Gusto extends React.Component {
 
   render() {
     return (
-      <div className='panel-group'>
-        <Panel panelName='gusto' />
-        <Panel panelProject='the guide'>
-          { this.renderGuide() }
-        </Panel>
-        <Panel panelProject='onboarding'>
-          { this.renderOnboarding() }
-        </Panel>
-        <Panel panelProject='chat'>
-          { this.renderChat() }
-        </Panel>
-        <Panel panelProject='garnishments'>
-          { this.renderGarnishments() }
-        </Panel>
-      </div>
+      <Fade top>
+        <div className='panel-group'>
+          <Panel panelName='gusto' />
+          <Panel panelProject='onboarding'>
+            { this.renderOnboarding() }
+          </Panel>
+          <Panel panelProject='the guide'>
+            { this.renderGuide() }
+          </Panel>
+          <Panel panelProject='chat'>
+            { this.renderChat() }
+          </Panel>
+          <Panel panelProject='garnishments'>
+            { this.renderGarnishments() }
+          </Panel>
+        </div>
+      </Fade>
     );
   }
 }
