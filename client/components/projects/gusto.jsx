@@ -19,7 +19,7 @@ class Gusto extends React.Component {
   renderGuide() {
     return (
       <Carousel>
-        <Slide title='design guide'>
+        <Slide title='the guide'>
           <Slide.Block subtitle='project context'>
             With the rapid growth and rebranding of the company, large
             inconsistencies were developing between teams. There was uncertainty
@@ -148,7 +148,7 @@ class Gusto extends React.Component {
     return (
       <div className='panel-group'>
         <Panel panelName='gusto' />
-        <Panel panelProject='design guide'>
+        <Panel panelProject='the guide'>
           { this.renderGuide() }
         </Panel>
         <Panel panelProject='onboarding'>
