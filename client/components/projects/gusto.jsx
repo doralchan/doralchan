@@ -5,7 +5,13 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-import GuideImage1 from '../../assets/images/gusto_guide_1.png';
+import GuideHome from '../../assets/images/guide_home.png';
+import GuideBrand from '../../assets/images/guide_brand_identity.png';
+import GuideElements from '../../assets/images/guide_product_elements.png';
+import GuideHelpers from '../../assets/images/guide_product_helpers.png';
+import GuideResearch from '../../assets/images/guide_research_interviews.png';
+import GuideActions from '../../assets/images/guide_usability_actions.png';
+import GuideWorkflows from '../../assets/images/guide_usability_workflows.png';
 
 import './styles.scss';
 
@@ -31,15 +37,13 @@ class Gusto extends React.Component {
             out surveys to
           </Slide.Block>
         </Slide>
-        <Slide>
-          <Image imageLink={ GuideImage1 } />
-        </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
-        <Slide>
-          This is an image slide
-        </Slide>
+        <Slide><Image imageLink={ GuideHome } /></Slide>
+        <Slide><Image imageLink={ GuideBrand } /></Slide>
+        <Slide><Image imageLink={ GuideElements } /></Slide>
+        <Slide><Image imageLink={ GuideHelpers } /></Slide>
+        <Slide><Image imageLink={ GuideResearch } /></Slide>
+        <Slide><Image imageLink={ GuideActions } /></Slide>
+        <Slide><Image imageLink={ GuideWorkflows } /></Slide>
       </Carousel>
     );
   }
