@@ -31,14 +31,11 @@ class GustoGuide extends React.Component {
           constantly reflect the evolving state of the company.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          To investigate issues beyond those of my own, I sent out surveys to
-          further understand the needs of product. Two of the most common
-          issues reported was not knowing what components already existed, and
-          how to properly use the ones they already knew about. I sought to design
-          and develop a guide that would directly connect to the UI codebase in
-          an effort to reduce future maintenance. This required the additional
-          step of generating a component library for consumption by multiple
-          sources.
+          This became a two part project, where part one required the migration
+          of our basic UI codebase to a component-library (consumed by both
+          product and the guide as a node module). Part two was preparing the
+          guide itself as a visual repository for documentation and testing ground
+          for modularizing the UI.
         </Slide.Block>
       </Slide>
     );

@@ -17,7 +17,8 @@ class GustoIntegrations extends React.Component {
     return (
       <Slide title='Integrations'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          This was a project that required a thorough exploration of how
+          co-branding would potentially work. Integrations 
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
           TBD

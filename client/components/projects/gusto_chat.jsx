@@ -14,16 +14,23 @@ class GustoChat extends React.Component {
     return (
       <Slide title='Chat'>
         <Slide.Block subtitle='Project Context'>
-          Previous to the company offering of benefits, chat was not required
-          to meet HIPPAA compliance. With this new release,  
-
+          Previous to Gusto offering benefits, chat was not required to comply
+          with the Health Insurance Portability and Accountability Act (HIPAA).
+          With the new release of this product, we needed to immediately switch
+          vendors while taking into account our existing care ticketing system.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          Design and build chat utilizing the Zendesk API, while reinforcing
-          the brand.
+          The goal was to design and implement a customer facing chat tool to
+          be used by both product and sales. This needed to address future
+          scaling needs and reinforce branding attributes.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          TBD
+          Major considerations in this project was internal team availability
+          and the desire for automation. In a matrix, we were looking at online
+          v. offline hours and proactive v. reactive interactions. Customers
+          facing issues off hours were the most vulnerable. We wanted to try to
+          anticipate and address their needs by proactively engaging with them
+          through Gus, the bot.
         </Slide.Block>
       </Slide>
     );
@@ -35,8 +42,8 @@ class GustoChat extends React.Component {
         <Carousel>
           { this.renderIntro() }
           <Slide><Image imageLink={ ChatOnRea } /></Slide>
-          <Slide><Image imageLink={ ChatOnPro } /></Slide>
           <Slide><Image imageLink={ ChatOff } /></Slide>
+          <Slide><Image imageLink={ ChatOnPro } /></Slide>
         </Carousel>
       </Panel>
     );
