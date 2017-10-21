@@ -28,7 +28,7 @@ class Contact extends React.Component {
       <Section idName='contact'>
         <div className='contact-area'>
           <ContentBlock title='contact me'>
-            If you'd like to chat or ask me about anything above, feel free
+            If you'd like to chat or see more projects I've done, feel free
             to contact me through { this.renderLinkedIn() } or DM me at my
             Twitter handle { this.renderTwitter() }. I'm usually available
             for coffee or tacos.

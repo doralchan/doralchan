@@ -119,10 +119,10 @@ class Carousel extends React.Component {
   renderNav() {
     return (
       <div className='carousel-nav'>
-        <div className='carousel-nav-icon' onClick={this.prev}>
+        <div className='carousel-nav-icon left' onClick={this.prev}>
           <Icon imageLink={IconLeft} size='medium'/>
         </div>
-        <div className='carousel-nav-icon' onClick={this.next}>
+        <div className='carousel-nav-icon right' onClick={this.next}>
           <Icon imageLink={IconRight} size='medium'/>
         </div>
       </div>
