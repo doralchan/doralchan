@@ -7,14 +7,9 @@ import Panel from '../../shared/panel/index.jsx';
 import Number from '../../shared/number/index.jsx';
 
 import GustoGuide from './gusto_guide.jsx';
-import GustoChat from './gusto_chat.jsx';
-import GustoGarn from './gusto_garn.jsx';
 import GustoOnboard from './gusto_onboard.jsx';
-import GustoLogin from './gusto_login.jsx';
-import GustoKoala from './gusto_koala.jsx';
+import GustoChat from './gusto_chat.jsx';
 import GustoIntegrations from './gusto_integrations.jsx';
-import GustoPreview from './gusto_preview.jsx';
-import GustoDashboard from './gusto_dashboard.jsx';
 
 import AuditfileDashboard from './auditfile_dashboard.jsx';
 import AuditfileRepositories from './auditfile_repositories.jsx';
@@ -35,14 +30,9 @@ class Projects extends React.Component {
         <div className='panel-group'>
           <Panel panelName='gusto' />
           <GustoGuide />
+          <GustoOnboard />
           <GustoChat />
           <GustoIntegrations />
-          <GustoOnboard />
-          {/* <GustoLogin />
-          <GustoKoala />
-          <GustoGarn />
-          <GustoPreview />
-          <GustoDashboard /> */}
         </div>
       </Fade>
     )

@@ -5,22 +5,22 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-import ChatOffPro from '../../assets/images/gusto/chat_offline_proactive.png';
-import ChatOffRea from '../../assets/images/gusto/chat_offline_reactive.png';
+import ChatOff from '../../assets/images/gusto/chat_offline.png';
+import ChatOnRea from '../../assets/images/gusto/chat_online_reactive.png';
 import ChatOnPro from '../../assets/images/gusto/chat_online_proactive.png';
-import ChatOnReaA from '../../assets/images/gusto/chat_online_reactive_a.png';
-import ChatOnReaB from '../../assets/images/gusto/chat_online_reactive_b.png';
-import ChatPhone from '../../assets/images/gusto/chat_phone_services.png';
 
 class GustoChat extends React.Component {
   renderIntro() {
     return (
       <Slide title='Chat'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          Previous to the company offering of benefits, chat was not required
+          to meet HIPPAA compliance. With this new release,  
+
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          TBD
+          Design and build chat utilizing the Zendesk API, while reinforcing
+          the brand.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
           TBD
@@ -34,12 +34,9 @@ class GustoChat extends React.Component {
       <Panel panelProject='chat'>
         <Carousel>
           { this.renderIntro() }
-          <Slide><Image imageLink={ ChatOnReaA } /></Slide>
-          <Slide><Image imageLink={ ChatOnReaB } /></Slide>
+          <Slide><Image imageLink={ ChatOnRea } /></Slide>
           <Slide><Image imageLink={ ChatOnPro } /></Slide>
-          <Slide><Image imageLink={ ChatOffPro } /></Slide>
-          <Slide><Image imageLink={ ChatOffRea } /></Slide>
-          <Slide><Image imageLink={ ChatPhone } /></Slide>
+          <Slide><Image imageLink={ ChatOff } /></Slide>
         </Carousel>
       </Panel>
     );

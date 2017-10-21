@@ -17,7 +17,7 @@ import GuideWorkflows from '../../assets/images/gusto/guide_usability_workflows.
 class GustoGuide extends React.Component {
   renderIntro() {
     return (
-      <Slide title='The Guide'>
+      <Slide title='Guide'>
         <Slide.Block subtitle='Project Context'>
           With the rapid growth and rebranding of the company, large
           inconsistencies were developing between teams. There was uncertainty
@@ -31,8 +31,14 @@ class GustoGuide extends React.Component {
           constantly reflect the evolving state of the company.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          To further investigate issues beyond those of my own team, I sent
-          out surveys to understand the needs of the company.
+          To investigate issues beyond those of my own, I sent out surveys to
+          further understand the needs of product. Two of the most common
+          issues reported was not knowing what components already existed, and
+          how to properly use the ones they already knew about. I sought to design
+          and develop a guide that would directly connect to the UI codebase in
+          an effort to reduce future maintenance. This required the additional
+          step of generating a component library for consumption by multiple
+          sources.
         </Slide.Block>
       </Slide>
     );
@@ -40,7 +46,7 @@ class GustoGuide extends React.Component {
 
   render() {
     return (
-      <Panel panelProject='the guide'>
+      <Panel panelProject='guide'>
         <Carousel>
           { this.renderIntro() }
           <Slide><Image imageLink={ GuideHome } /></Slide>
