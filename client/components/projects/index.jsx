@@ -30,8 +30,8 @@ class Projects extends React.Component {
         <div className='panel-group'>
           <Panel panelName='gusto' />
           <GustoGuide />
-          <GustoOnboard />
           <GustoChat />
+          <GustoOnboard />          
           <GustoIntegrations />
         </div>
       </Fade>
