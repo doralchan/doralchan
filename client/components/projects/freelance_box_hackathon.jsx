@@ -5,10 +5,15 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-class FreelanceBox extends React.Component {
+import Box1 from '../../assets/images/freelance/box_hackathon1.png';
+import Box2 from '../../assets/images/freelance/box_hackathon2.png';
+import Box3 from '../../assets/images/freelance/box_hackathon3.png';
+import Box4 from '../../assets/images/freelance/box_hackathon4.png';
+
+class FreelanceBoxHackathon extends React.Component {
   renderIntro() {
     return (
-      <Slide title='Box'>
+      <Slide title='Box Hackathon'>
         <Slide.Block subtitle='Project Context'>
           TBD
         </Slide.Block>
@@ -24,10 +29,13 @@ class FreelanceBox extends React.Component {
 
   render() {
     return (
-      <Panel panelProject='box'>
+      <Panel panelProject='box hackathon'>
         <Carousel>
           { this.renderIntro() }
-          <Slide>TBD</Slide>
+          <Slide><Image imageLink={ Box1 } /></Slide>
+          <Slide><Image imageLink={ Box2 } /></Slide>
+          <Slide><Image imageLink={ Box3 } /></Slide>
+          <Slide><Image imageLink={ Box4 } /></Slide>
         </Carousel>
       </Panel>
     );
@@ -35,4 +43,4 @@ class FreelanceBox extends React.Component {
 
 }
 
-export default FreelanceBox
+export default FreelanceBoxHackathon

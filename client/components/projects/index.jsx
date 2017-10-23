@@ -16,8 +16,8 @@ import AuditfileRepositories from './auditfile_repositories.jsx';
 import AuditfileProcedures from './auditfile_procedures.jsx';
 import AuditfilePortal from './auditfile_portal.jsx';
 
-import FreelanceBox from './freelance_box.jsx';
-import FreelanceChase from './freelance_chase.jsx';
+import FreelanceBoxWorks from './freelance_box_works.jsx';
+import FreelanceBoxHackathon from './freelance_box_hackathon.jsx';
 import FreelanceJungle from './freelance_jungle.jsx';
 import FreelanceDinobi from './freelance_dinobi.jsx';
 
@@ -31,7 +31,7 @@ class Projects extends React.Component {
           <Panel panelName='gusto' />
           <GustoGuide />
           <GustoChat />
-          <GustoOnboard />          
+          <GustoOnboard />
           <GustoIntegrations />
         </div>
       </Fade>
@@ -57,8 +57,8 @@ class Projects extends React.Component {
       <Fade top delay={ 400 }>
         <div className='panel-group'>
           <Panel panelName='freelance' />
-          <FreelanceBox />
-          <FreelanceChase />
+          <FreelanceBoxWorks />
+          <FreelanceBoxHackathon />
           <FreelanceJungle />
           <FreelanceDinobi />
         </div>

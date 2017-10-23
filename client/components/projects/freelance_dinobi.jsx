@@ -5,6 +5,8 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
+import Dinobi from '../../assets/images/freelance/dinobi.png';
+
 class FreelanceDinobi extends React.Component {
   renderIntro() {
     return (
@@ -27,7 +29,7 @@ class FreelanceDinobi extends React.Component {
       <Panel panelProject='dinobi'>
         <Carousel>
           { this.renderIntro() }
-          <Slide>TBD</Slide>
+          <Slide><Image imageLink={ Dinobi } /></Slide>
         </Carousel>
       </Panel>
     );
