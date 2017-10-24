@@ -5,10 +5,10 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-class AuditfileRepositories extends React.Component {
+class AuditfileSections extends React.Component {
   renderIntro() {
     return (
-      <Slide title='Repositories'>
+      <Slide title='Sections'>
         <Slide.Block subtitle='Project Context'>
           TBD
         </Slide.Block>
@@ -24,7 +24,7 @@ class AuditfileRepositories extends React.Component {
 
   render() {
     return (
-      <Panel panelProject='repositories'>
+      <Panel panelProject='sections'>
         <Carousel>
           { this.renderIntro() }
           <Slide>TBD</Slide>
@@ -35,4 +35,4 @@ class AuditfileRepositories extends React.Component {
 
 }
 
-export default AuditfileRepositories
+export default AuditfileSections
