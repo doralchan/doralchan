@@ -5,6 +5,9 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
+import DashboardMain from '../../assets/images/auditfile/dashboard_main.png';
+import DashboardList from '../../assets/images/auditfile/dashboard_list.png';
+
 class AuditfileDashboard extends React.Component {
   renderIntro() {
     return (
@@ -27,7 +30,8 @@ class AuditfileDashboard extends React.Component {
       <Panel panelProject='dashboard'>
         <Carousel>
           { this.renderIntro() }
-          <Slide>TBD</Slide>
+          <Slide><Image imageLink={ DashboardMain } /></Slide>
+          <Slide><Image imageLink={ DashboardList } /></Slide>
         </Carousel>
       </Panel>
     );

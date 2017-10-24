@@ -5,6 +5,9 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
+import EngOverview from '../../assets/images/auditfile/engagement_overview.png';
+import EngPlanning from '../../assets/images/auditfile/engagement_planning.png';
+
 class AuditfileEngagements extends React.Component {
   renderIntro() {
     return (
@@ -27,7 +30,8 @@ class AuditfileEngagements extends React.Component {
       <Panel panelProject='engagements'>
         <Carousel>
           { this.renderIntro() }
-          <Slide>TBD</Slide>
+          <Slide><Image imageLink={ EngOverview } /></Slide>
+          <Slide><Image imageLink={ EngPlanning } /></Slide>
         </Carousel>
       </Panel>
     );
