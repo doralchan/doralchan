@@ -3,6 +3,8 @@ const webpack = require('webpack');
 
 let FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
@@ -54,7 +56,8 @@ module.exports = {
 
   plugins: [
     HtmlWebpackPluginConfig,
-    new FaviconsWebpackPlugin('./favicon.png')
+    new FaviconsWebpackPlugin('./favicon.png'),
+    new UglifyJSPlugin()
   ]
 
 };
