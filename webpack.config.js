@@ -1,14 +1,14 @@
 const path = require('path');
 const webpack = require('webpack');
-
-let FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
   filename: 'index.html',
   inject: 'body'
-})
+});
+
+let FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: './client/index.js',
@@ -60,7 +60,13 @@ module.exports = {
   },
 
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    }),
     HtmlWebpackPluginConfig,
+    new UglifyJSPlugin(),
     new FaviconsWebpackPlugin('./favicon.png')
   ]
 
