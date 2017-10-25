@@ -29,13 +29,6 @@ module.exports = {
         loader: 'url-loader'
       },
       {
-        test: /\.(png|svg)$/i,
-        use: [{
-          loader: 'url-loader?limit=10000',
-          loader: 'img-loader'
-        }]
-      },
-      {
         test: /(\.scss|\.css)$/,
         use: [{
           loader: 'style-loader'
