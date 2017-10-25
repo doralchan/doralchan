@@ -13,10 +13,13 @@ class AuditfileDashboard extends React.Component {
     return (
       <Slide title='Dashboard'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          Certified public accountants perform engagements every year for clients.
+          These could either be audits or reviews.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          TBD
+          Provide a method to navigate to individual engagements per client,
+          whether if active, pending, or inactive. Engagements are also privately
+          assigned to specific CPAs, so ensuring
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
           TBD

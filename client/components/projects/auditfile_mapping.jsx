@@ -18,7 +18,7 @@ class AuditfileMapping extends React.Component {
           TBD
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          TBD
+          Get a broad overview of the
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
           TBD

@@ -12,7 +12,7 @@ import GustoChat from './gusto_chat.jsx';
 import GustoIntegrations from './gusto_integrations.jsx';
 
 import AuditfileDashboard from './auditfile_dashboard.jsx';
-import AuditfileEngagements from './auditfile_engagements.jsx';
+import AuditfileTrialbalance from './auditfile_trialbalance.jsx';
 import AuditfileSections from './auditfile_sections.jsx';
 import AuditfileMapping from './auditfile_mapping.jsx';
 
@@ -44,9 +44,9 @@ class Projects extends React.Component {
         <div className='panel-group'>
           <Panel panelName='auditfile' />
           <AuditfileDashboard />
-          <AuditfileEngagements />
           <AuditfileSections />
           <AuditfileMapping />
+          <AuditfileTrialbalance />
         </div>
       </Fade>
     )

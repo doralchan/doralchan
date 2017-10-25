@@ -8,10 +8,10 @@ import Carousel from '../../shared/carousel/index.jsx';
 import EngOverview from '../../assets/images/auditfile/engagement_overview.png';
 import EngPlanning from '../../assets/images/auditfile/engagement_planning.png';
 
-class AuditfileEngagements extends React.Component {
+class AuditfileTrialbalance extends React.Component {
   renderIntro() {
     return (
-      <Slide title='Engagements'>
+      <Slide title='Trial Balance'>
         <Slide.Block subtitle='Project Context'>
           TBD
         </Slide.Block>
@@ -27,7 +27,7 @@ class AuditfileEngagements extends React.Component {
 
   render() {
     return (
-      <Panel panelProject='engagements'>
+      <Panel panelProject='trial balance'>
         <Carousel>
           { this.renderIntro() }
           <Slide><Image imageLink={ EngOverview } /></Slide>
@@ -39,4 +39,4 @@ class AuditfileEngagements extends React.Component {
 
 }
 
-export default AuditfileEngagements
+export default AuditfileTrialbalance
