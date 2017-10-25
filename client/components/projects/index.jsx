@@ -12,9 +12,9 @@ import GustoChat from './gusto_chat.jsx';
 import GustoIntegrations from './gusto_integrations.jsx';
 
 import AuditfileDashboard from './auditfile_dashboard.jsx';
-import AuditfileTrialbalance from './auditfile_trialbalance.jsx';
 import AuditfileSections from './auditfile_sections.jsx';
 import AuditfileMapping from './auditfile_mapping.jsx';
+import AuditfileTrialbalance from './auditfile_trialbalance.jsx';
 
 import FreelanceBoxWorks from './freelance_box_works.jsx';
 import FreelanceBoxHackathon from './freelance_box_hackathon.jsx';

@@ -7,6 +7,8 @@ import Carousel from '../../shared/carousel/index.jsx';
 
 import DashboardMain from '../../assets/images/auditfile/dashboard_main.png';
 import DashboardList from '../../assets/images/auditfile/dashboard_list.png';
+import DashboardEng from '../../assets/images/auditfile/dashboard_engagement.png';
+import DashboardPlan from '../../assets/images/auditfile/dashboard_planning.png';
 
 class AuditfileDashboard extends React.Component {
   renderIntro() {
@@ -35,6 +37,8 @@ class AuditfileDashboard extends React.Component {
           { this.renderIntro() }
           <Slide><Image imageLink={ DashboardMain } /></Slide>
           <Slide><Image imageLink={ DashboardList } /></Slide>
+          <Slide><Image imageLink={ DashboardEng } /></Slide>
+          <Slide><Image imageLink={ DashboardPlan } /></Slide>
         </Carousel>
       </Panel>
     );

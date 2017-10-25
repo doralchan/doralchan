@@ -5,8 +5,8 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
-import EngOverview from '../../assets/images/auditfile/engagement_overview.png';
-import EngPlanning from '../../assets/images/auditfile/engagement_planning.png';
+import Trial1 from '../../assets/images/auditfile/trialbalance_1.png';
+import Trial2 from '../../assets/images/auditfile/trialbalance_2.png';
 
 class AuditfileTrialbalance extends React.Component {
   renderIntro() {
@@ -30,8 +30,8 @@ class AuditfileTrialbalance extends React.Component {
       <Panel panelProject='trial balance'>
         <Carousel>
           { this.renderIntro() }
-          <Slide><Image imageLink={ EngOverview } /></Slide>
-          <Slide><Image imageLink={ EngPlanning } /></Slide>
+          <Slide><Image imageLink={ Trial1 } /></Slide>
+          <Slide><Image imageLink={ Trial2 } /></Slide>
         </Carousel>
       </Panel>
     );

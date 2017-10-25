@@ -5,10 +5,12 @@ import Slide from '../../shared/slide/index.jsx';
 import Image from '../../shared/image/index.jsx';
 import Carousel from '../../shared/carousel/index.jsx';
 
+import MapAdjustments from '../../assets/images/auditfile/mapping_adjustments.png';
 import MapFinancial from '../../assets/images/auditfile/mapping_financial.png';
 import MapLeadsheets from '../../assets/images/auditfile/mapping_leadsheets.png';
 import MapPortal from '../../assets/images/auditfile/mapping_portal.png';
-import MapTrial from '../../assets/images/auditfile/mapping_trialbalance.png';
+import MapTeam from '../../assets/images/auditfile/mapping_team.png';
+import MapTrial from '../../assets/images/auditfile/mapping_trial.png';
 
 class AuditfileMapping extends React.Component {
   renderIntro() {
@@ -33,8 +35,10 @@ class AuditfileMapping extends React.Component {
         <Carousel>
           { this.renderIntro() }
           <Slide><Image imageLink={ MapFinancial } /></Slide>
+          <Slide><Image imageLink={ MapAdjustments } /></Slide>
           <Slide><Image imageLink={ MapLeadsheets } /></Slide>
           <Slide><Image imageLink={ MapPortal } /></Slide>
+          <Slide><Image imageLink={ MapTeam } /></Slide>
           <Slide><Image imageLink={ MapTrial } /></Slide>
         </Carousel>
       </Panel>
