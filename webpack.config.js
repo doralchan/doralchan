@@ -9,6 +9,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject: 'body'
 });
 
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
 module.exports = {
   entry: './client/index.js',
 
@@ -53,6 +55,7 @@ module.exports = {
 
   plugins: [
     new FaviconsWebpackPlugin('./favicon.png'),
+    new UglifyJSPlugin(),
     HtmlWebpackPluginConfig
   ]
 
