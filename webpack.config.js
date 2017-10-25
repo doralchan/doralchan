@@ -50,8 +50,8 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname),
-    publicPath: '/',
-    filename: 'index_bundle.js'
+    filename: 'index_bundle.js',
+    publicPath: '/'
   },
 
   devServer: {
@@ -59,11 +59,11 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
-    }),
+    // new webpack.DefinePlugin({
+    //   'process.env': {
+    //     NODE_ENV: JSON.stringify('production')
+    //   }
+    // }),
     new FaviconsWebpackPlugin('./favicon.png'),
     HtmlWebpackPluginConfig
   ]
