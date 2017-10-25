@@ -15,12 +15,12 @@ class FreelanceBoxHackathon extends React.Component {
     return (
       <Slide title='Box Hackathon'>
         <Slide.Block subtitle='Project Context'>
-          Every year, Box holds a hackathon with the prospect of winning
-          prizes for hacks within a 24 hour period. There are multiple
-          categories that each entry can fall into.
+          Every year, Box holds a 24 hour hackathon with the prospect of winning
+          prizes and recognition. There is a popular vote and a panel vote. Anyone
+          can submit and vote. 
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          The goal is to provide a method for
+          TBD
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
           TBD

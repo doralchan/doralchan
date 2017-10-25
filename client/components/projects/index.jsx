@@ -45,8 +45,8 @@ class Projects extends React.Component {
           <Panel panelName='auditfile' />
           <AuditfileDashboard />
           <AuditfileSections />
-          <AuditfileMapping />
           <AuditfileTrialbalance />
+          <AuditfileMapping />
         </div>
       </Fade>
     )

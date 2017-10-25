@@ -17,13 +17,22 @@ class AuditfileMapping extends React.Component {
     return (
       <Slide title='Mapping'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          Auditors have a lot of expertise. They know exactly what their
+          procedures are and can give a general gist of what they need to do per
+          section but a lot of it is repetitive. All they need to do is ensure
+          they are completing the massive list of to do's per engagement.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          Get a broad overview of the
+          Get a broad overview of UX consistency and see if any of these actions
+          can be optimized. For the most complex sections, document the types of
+          actions performed such as adding, creating, removing, verifying,
+          uploading, downloading, editing, deleting, approving, rejecting, etc.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          TBD
+          Action mapping helped us understand the frequency of each action. More
+          often than not, we recognized the most common actiona was to verify
+          calculations. If these calculations were off, it was a matter of
+          contacting the person responsible for this section to recalculate. 
         </Slide.Block>
       </Slide>
     );

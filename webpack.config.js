@@ -1,14 +1,13 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
   filename: 'index.html',
   inject: 'body'
 });
-
-let FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: './client/index.js',
@@ -26,7 +25,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(ttf|eot|woff|woff|png|svg)$/,
+        test: /\.(png|svg)$/,
         loader: 'url-loader'
       },
       {
@@ -51,8 +50,8 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname),
-    filename: 'index_bundle.js',
-    publicPath: '/'
+    publicPath: '/',
+    filename: 'index_bundle.js'
   },
 
   devServer: {
@@ -65,9 +64,8 @@ module.exports = {
         NODE_ENV: JSON.stringify('production')
       }
     }),
-    HtmlWebpackPluginConfig,
-    new UglifyJSPlugin(),
-    new FaviconsWebpackPlugin('./favicon.png')
+    new FaviconsWebpackPlugin('./favicon.png'),
+    HtmlWebpackPluginConfig
   ]
 
 };
