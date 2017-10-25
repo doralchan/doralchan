@@ -15,13 +15,15 @@ class AuditfileDashboard extends React.Component {
     return (
       <Slide title='Dashboard'>
         <Slide.Block subtitle='Project Context'>
-          Certified public accountants perform engagements every year for clients.
-          These could either be audits or reviews.
+          Certified public accountants perform multiple engagements every year
+          for clients. These could either be in the form of audits or reviews
+          depending on the size of the client. The larger the client, the more
+          complex the engagement.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
           Provide a method to navigate to individual engagements per client,
           whether if active, pending, or inactive. Engagements are also privately
-          assigned to specific CPAs, so ensuring
+          assigned to CPAs within the firm, so their home is meant
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
           TBD

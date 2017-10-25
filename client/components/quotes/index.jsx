@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Fade } from 'react-reveal';
 
 import Section from '../../shared/section/index.jsx';
 
@@ -26,12 +27,16 @@ class Quotes extends React.Component {
   render() {
     return (
       <Section idName='quotes'>
-        <QuoteBlock>
-          If at first the idea is not absurd, then there is no hope for it. - Albert Einstein
-        </QuoteBlock>
-        <QuoteBlock>
-          Styles come and go. Good design is a language, not a style. – Massimo Vignelli
-        </QuoteBlock>
+        <Fade left>
+          <QuoteBlock>
+            If at first the idea is not absurd, then there is no hope for it. - Albert Einstein
+          </QuoteBlock>
+        </Fade>
+        <Fade left delay={ 200 }>
+          <QuoteBlock>
+            Styles come and go. Good design is a language, not a style. – Massimo Vignelli
+          </QuoteBlock>
+        </Fade>
       </Section>
     );
   }

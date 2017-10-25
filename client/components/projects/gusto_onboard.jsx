@@ -16,6 +16,8 @@ import OnboardDash from '../../assets/images/gusto/onboarding_dash.png';
 import OnboardTourIntro from '../../assets/images/gusto/onboarding_tour_intro.png';
 import OnboardTourPeople from '../../assets/images/gusto/onboarding_tour_people.png';
 import OnboardPayroll from '../../assets/images/gusto/onboarding_payroll.png';
+import OnboardSchedule from '../../assets/images/gusto/onboarding_schedule.png';
+import OnboardDirectory from '../../assets/images/gusto/onboarding_directory.png';
 
 class GustoOnboard extends React.Component {
   renderIntro() {
@@ -64,6 +66,8 @@ class GustoOnboard extends React.Component {
           <Slide><Image imageLink={ OnboardTourPeople } /></Slide>
           <Slide><Image imageLink={ OnboardDash } /></Slide>
           <Slide><Image imageLink={ OnboardPayroll } /></Slide>
+          <Slide><Image imageLink={ OnboardSchedule } /></Slide>
+          <Slide><Image imageLink={ OnboardDirectory } /></Slide>
         </Carousel>
       </Panel>
     );

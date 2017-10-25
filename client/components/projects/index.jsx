@@ -40,7 +40,7 @@ class Projects extends React.Component {
 
   renderAuditfile() {
     return (
-      <Fade top delay={ 200 }>
+      <Fade top delay={ 150 }>
         <div className='panel-group'>
           <Panel panelName='auditfile' />
           <AuditfileDashboard />
@@ -54,7 +54,7 @@ class Projects extends React.Component {
 
   renderFreelance() {
     return (
-      <Fade top delay={ 400 }>
+      <Fade top delay={ 300 }>
         <div className='panel-group'>
           <Panel panelName='freelance' />
           <FreelanceBoxHackathon />
