@@ -35,7 +35,6 @@
     "webpack-dev-server": "^2.4.5"
   },
   "devDependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "uglify-js-brunch": "^2.10.0"
+    "babel-plugin-transform-class-properties": "^6.24.1"
   }
 }
