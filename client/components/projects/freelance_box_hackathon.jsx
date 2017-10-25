@@ -17,13 +17,21 @@ class FreelanceBoxHackathon extends React.Component {
         <Slide.Block subtitle='Project Context'>
           Every year, Box holds a 24 hour hackathon with the prospect of winning
           prizes and recognition. There is a popular vote and a panel vote. Anyone
-          can submit and vote.
+          can submit and vote. The idea was to have a big reveal at the end,
+          concluding the event.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          Box needed a method to publish videos and vote.
+          Box needed a method to publish videos and vote. By that time, they had
+          already decided to theme it based off of the Lego Movie.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          TBD
+          There were two user types in this case - the typical voter (boxers) and
+          panel voter. The votes were weighted differently. Boxers could generally
+          vote and determine which ones they liked with a simple upvote or like whereas
+          panel voters were required to vote per prize category. This broke down into
+          3 steps for panel voters: selecting the category, highlighting the entries
+          they liked per category, and then ranking them accordingly. This would
+          allow runner ups to emerge from the tally. 
         </Slide.Block>
       </Slide>
     );

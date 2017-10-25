@@ -17,13 +17,26 @@ class FreelanceJungle extends React.Component {
     return (
       <Slide title='Jungle'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          This project was more for fun than anything else. I had just started
+          playing a game on Steam called Shipwrecked, a version of Don't Starve.
+          The game can be played collaboratively with other players and the
+          objective is to survive as long as possible, continuously collecting
+          resources to do so. You can construct a boat to travel between different
+          deserted islands and in the meawhile, everything is working against
+          you.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          TBD
+          While the graphics were Tim Burton-esque, I wanted to recreate aspects
+          of the gaming experience and have them in a print-friendly form. Many
+          of the concepts depicted in the game are intriguing and I wanted to
+          represent them in a fun light hearted manner, the opposite of what it
+          feels in the game.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          TBD
+          The most common scenes are represented in these illustrations. Our
+          protagonist yields a torch and enters a number of scenes. I'm planning
+          on spontaneously sending out some of these postcards to those
+          collaborative players from the game.
         </Slide.Block>
       </Slide>
     );

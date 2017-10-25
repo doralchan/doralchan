@@ -17,13 +17,20 @@ class FreelanceBoxWorks extends React.Component {
     return (
       <Slide title='Box Works'>
         <Slide.Block subtitle='Project Context'>
-          TBD
+          Box Works is an event held every year for the public. Engineers hold
+          small workshops for new product, tool and library releases to explain
+          what makes them theoretically tick.
         </Slide.Block>
         <Slide.Block subtitle='Project Goal'>
-          TBD
+          The goal was to provide a simple visualization for a front-end engineer
+          who wanted help explaining viewer.js - an image viewer.
         </Slide.Block>
         <Slide.Block subtitle='Project Direction'>
-          TBD
+          It was critical for me to understand how this image viewer worked before
+          initating this exercise. I worked closely with the engineer on this
+          to understand what he wanted to communicate and when. This prompted me
+          to provide a series of slides for this presentation instead of a GIF
+          because a slower, technical breakdown was needed.
         </Slide.Block>
       </Slide>
     );
