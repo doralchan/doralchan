@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import { Fade } from 'react-reveal';
 
 import Section from '../../shared/section/index.jsx';
@@ -29,10 +30,10 @@ class Projects extends React.Component {
       <Fade top>
         <div className='panel-group'>
           <Panel panelName='gusto' />
-          <GustoGuide />
-          <GustoChat />
-          <GustoOnboard />
-          <GustoIntegrations />
+          <LazyLoad><GustoGuide /></LazyLoad>
+          <LazyLoad><GustoChat /></LazyLoad>
+          <LazyLoad><GustoOnboard /></LazyLoad>
+          <LazyLoad><GustoIntegrations /></LazyLoad>
         </div>
       </Fade>
     )
@@ -40,13 +41,13 @@ class Projects extends React.Component {
 
   renderAuditfile() {
     return (
-      <Fade top delay={ 150 }>
+      <Fade top delay={ 100 }>
         <div className='panel-group'>
           <Panel panelName='auditfile' />
-          <AuditfileDashboard />
-          <AuditfileSections />
-          <AuditfileTrialbalance />
-          <AuditfileMapping />
+          <LazyLoad><AuditfileDashboard /></LazyLoad>
+          <LazyLoad><AuditfileSections /></LazyLoad>
+          <LazyLoad><AuditfileTrialbalance /></LazyLoad>
+          <LazyLoad><AuditfileMapping /></LazyLoad>
         </div>
       </Fade>
     )
@@ -54,13 +55,13 @@ class Projects extends React.Component {
 
   renderFreelance() {
     return (
-      <Fade top delay={ 300 }>
+      <Fade top delay={ 200 }>
         <div className='panel-group'>
           <Panel panelName='freelance' />
-          <FreelanceBoxHackathon />
-          <FreelanceBoxWorks />
-          <FreelanceJungle />
-          <FreelanceDinobi />
+          <LazyLoad><FreelanceBoxHackathon /></LazyLoad>
+          <LazyLoad><FreelanceBoxWorks /></LazyLoad>
+          <LazyLoad><FreelanceJungle /></LazyLoad>
+          <LazyLoad><FreelanceDinobi /></LazyLoad>
         </div>
       </Fade>
     )
