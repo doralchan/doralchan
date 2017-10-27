@@ -32,9 +32,14 @@ class Quotes extends React.Component {
             If at first the idea is not absurd, then there is no hope for it. - Albert Einstein
           </QuoteBlock>
         </Fade>
-        <Fade left delay={ 200 }>
+        <Fade left delay={ 100 }>
           <QuoteBlock>
             Styles come and go. Good design is a language, not a style. – Massimo Vignelli
+          </QuoteBlock>
+        </Fade>
+        <Fade left delay={ 200 }>
+          <QuoteBlock>
+            Talk is cheap. Show me the code. - Linus Torvalds
           </QuoteBlock>
         </Fade>
       </Section>

@@ -24,7 +24,7 @@
 .quote-block-header {
 
   &:before {
-    color: $secondary-default;
+    color: $primary-default;
     font-family: 'Helvetica', sans-serif;
     display: block;
     content: '"';
@@ -36,7 +36,7 @@
 .quote-block-description {
 
   &:before {
-    background-color: $secondary-default;
+    background-color: $primary-default;
     content: '';
     display: block;
     height: 5px;

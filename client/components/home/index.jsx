@@ -10,6 +10,7 @@ import Process from '../process/index.jsx';
 import Quotes from '../quotes/index.jsx';
 import Projects from '../projects/index.jsx';
 import Contact from '../contact/index.jsx';
+import Recommendations from '../recommendations/index.jsx';
 
 import './styles.scss';
 
@@ -26,6 +27,7 @@ class Home extends React.Component {
         <Quotes />
         <Projects />
         <Contact />
+        <Recommendations />
       </Container>
     );
   }

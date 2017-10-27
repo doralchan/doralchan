@@ -3,7 +3,7 @@
 // Intro Style
 
 .section-intro {
-  min-height: 70vh;
+
 }
 
 .section-content-intro {
@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 650px;
+  max-height: 700px;
   position: relative;
 
   @media (min-width: 768px) {
@@ -138,7 +139,7 @@
   @media (min-width: 992px) {
     top: 100px;
     right: 50px;
-    height: 400px;
+    height: 350px;
     width: 600px;
   }
 
