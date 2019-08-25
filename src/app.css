@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+.app-greeting {
+  position: relative;
+  width: 700px;
+  margin: 20px 20px 50px 20px;
+}
+
+.app-greeting-text {
+  color: #0D2837;
+  font-size: 5em;
+  font-weight: normal;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+
+.app-greeting-image {
+  width: 100%;
+}

@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap);body{margin:0;padding:0;font-family:"DM Serif Display",serif}.app{display:flex;justify-content:center;align-items:center;flex-direction:column;flex-grow:1;min-height:100vh}.app-greeting{position:relative;width:700px;margin:20px 20px 50px}.app-greeting-text{color:#0d2837;font-size:5em;font-weight:400;position:absolute;bottom:50px;right:20px}.app-greeting-image{width:100%}
+/*# sourceMappingURL=main.5c76f9db.chunk.css.map */
